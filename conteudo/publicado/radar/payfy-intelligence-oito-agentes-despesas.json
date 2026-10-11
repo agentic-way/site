@@ -1,0 +1,58 @@
+{
+  "id": "payfy-intelligence-oito-agentes-despesas",
+  "publicado_em": "2026-10-11T07:15:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Payfy diz que agentes de IA já fazem 87% dos lançamentos de despesa chegarem ao gestor sem correção; oito agentes até dezembro",
+  "linha": "A fintech catarinense de gestão de despesas, investida pelo Banco do Brasil, organiza oito agentes em três modos (Scan, Audit e Review). Só o primeiro está no ar, e os números de resultado são da própria empresa.",
+  "linhaFina": "Os resultados citados vêm do Scan Mode, que lê comprovantes. A auditoria de política e a recomendação de aprovação ainda estão em implantação, e a Payfy não informa amostra nem período das medições.",
+  "fontePrimaria": "Payfy, via Exame",
+  "leitura": 3,
+  "resumo": [
+    "A Payfy, plataforma de gestão de despesas corporativas investida pelo Banco do Brasil, diz que a base passou de 500 empresas em 2023 para 1.700 neste ano e que processa 250 mil prestações de contas por mês.",
+    "A Payfy Intelligence reúne oito agentes em três modos: Scan (leitura de comprovantes, já no ar), Audit (conferência de cada despesa contra a política de gastos) e Review (recomendação de aprovar, recusar ou encaminhar).",
+    "Segundo a empresa, no Scan Mode 87% dos lançamentos chegam ao gestor sem correção manual e 93% dos comprovantes são conciliados em até 2 dias."
+  ],
+  "corpo": [
+    "A Payfy publicou em 9 de outubro, no próprio blog, e deu entrevista à Exame sobre a expansão da Payfy Intelligence, camada de IA da plataforma. A empresa projeta movimentar R$ 1 bilhão até o fim de 2026; a Payfy e a Exame esclarecem que o valor é o volume transacionado na plataforma, não faturamento.",
+    "Os agentes atuam em três etapas. No Scan Mode, o colaborador fotografa o comprovante e os agentes leem o documento, encontram a despesa correspondente e preenchem os dados. No Audit Mode, cada despesa é conferida contra a política de gastos da empresa assim que entra no sistema, e o agente sugere novas regras a partir do histórico. No Review Mode, o sistema recomenda aprovar, recusar ou encaminhar a despesa a outra instância, considerando orçamento e histórico. Só o Scan Mode está em operação; a empresa prevê os oito agentes para todos os usuários até o fim de 2026.",
+    "Os resultados informados são do Scan Mode: 87% dos lançamentos chegam ao gestor sem correção manual, 93% dos comprovantes são conciliados em até 2 dias, o fechamento mensal fica 5 vezes mais rápido e as equipes contábeis economizam até 2 dias de trabalho por semana. A Exame registra que o material divulgado não detalha a amostra de clientes nem o período usado para medir esses resultados.",
+    "A Payfy diz manter o suporte 100% humano. Segundo a empresa, entre julho e agosto de 2026 o volume de chamados caiu 29,6% e a satisfação no atendimento passou de 97,1% para 98,2%."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · REGRA",
+      "titulo": "O agente de despesa depende de política escrita",
+      "texto": "O Audit Mode confere cada gasto contra a política da empresa. Sem limites, categorias e exceções definidos, não há contra o que conferir. A Exame observa que a automação exige regras definidas."
+    },
+    {
+      "rotulo": "02 · DECISÃO",
+      "titulo": "A recomendação de aprovação é o ponto sensível",
+      "texto": "Ler comprovante é tarefa de baixo risco; recomendar aprovar ou recusar gasto muda quem decide. A Payfy descreve o Review como apoio ao aprovador, e esse modo ainda não está disponível para todos."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Os números são do fornecedor",
+      "texto": "Nenhum dos percentuais foi confirmado por cliente ou por terceiro, e a amostra e o período não foram informados. Servem como referência do que a empresa promete, não como resultado esperado."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem avalia ferramentas de despesa com IA, vale pedir ao fornecedor a amostra e o período por trás de cada percentual, e testar com um mês real de comprovantes da própria empresa antes de contar com a economia anunciada."
+  ],
+  "fontes": [
+    {
+      "titulo": "payfy cresce 240% e aposta em 8 agentes de IA para movimentar R$ 1 bilhão",
+      "origem": "Payfy · blog · 9 out 2026",
+      "url": "https://payfy.io/blog/payfy-cresce-240-aposta-ia-movimentar-1-bilhao"
+    },
+    {
+      "titulo": "Apoiada pelo Banco do Brasil, Payfy cresce 240% e aposta em IA para movimentar R$ 1 bilhão",
+      "origem": "Exame · 9 out 2026",
+      "url": "https://exame.com/tecnologia/apoiada-pelo-banco-do-brasil-payfy-cresce-240-e-aposta-em-ia-para-movimentar-r-1-bilhao/"
+    }
+  ],
+  "ficha": [
+    {"rotulo": "Quem mediu", "valor": "Payfy (não informou amostra nem período)"},
+    {"rotulo": "Confirmação", "valor": "não confirmada pelo cliente"},
+    {"rotulo": "Divulgação", "valor": "9 out 2026"}
+  ]
+}
