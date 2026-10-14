@@ -1,0 +1,62 @@
+{
+  "id": "totvs-corten-lynn-agentes-sistema-operacional",
+  "publicado_em": "2026-10-14T07:10:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Totvs apresenta o Corten, que reúne ERP, CRM, serviços financeiros e agentes de IA numa única área de trabalho",
+  "linha": "No Universo Totvs 2026, a empresa disse que os agentes do Corten rodam sobre a plataforma LYNN e terão supervisão humana conforme a criticidade do processo. Não há prazo único de entrega.",
+  "linhaFina": "A Totvs chama o Corten de sistema operacional de gestão. Cada produto da empresa receberá os recursos no próprio calendário, segundo o vice-presidente de plataformas.",
+  "fontePrimaria": "Totvs, via IT Forum",
+  "leitura": 3,
+  "resumo": [
+    "A Totvs anunciou em 13 de outubro, no Universo Totvs 2026, o Corten, plataforma que reúne sistemas empresariais, serviços financeiros, nuvem e agentes de IA.",
+    "Os agentes serão criados e controlados no LYNN, plataforma de IA corporativa anunciada em fevereiro de 2026, com regras de segurança e conexão aos sistemas da empresa.",
+    "A empresa não apresentou prazo único: cada produto incorporará o Corten conforme seu roadmap."
+  ],
+  "corpo": [
+    "Segundo o IT Forum, que cobriu o Universo Totvs 2026 em São Paulo, a Totvs apresentou em 13 de outubro o Corten, descrito pela empresa como um sistema operacional de gestão. A proposta é reunir em um só ambiente os sistemas de gestão, os produtos de relacionamento com clientes da RD Station, os serviços financeiros da Techfin e agentes de IA, em vez de o funcionário alternar entre programas. Também deverão entrar aplicações de parceiros homologados.",
+    "Os agentes serão construídos sobre o LYNN, plataforma de IA corporativa que a Totvs anunciou em fevereiro de 2026. De acordo com a reportagem, ele tem três componentes: desenvolvimento de agentes com diferentes modelos de IA, regras de segurança e controle sobre o que cada agente pode fazer, e conexão com os sistemas corporativos.",
+    "Gustavo Bastos, vice-presidente de plataformas da Totvs, disse que os processos podem ser autônomos, mas que, \"dependendo da criticidade\", sempre haverá a autorização de alguém para chancelar o trabalho do agente. O exemplo dado foi o de compras: o agente reúne fornecedores, compara propostas e prepara a solicitação, e a aprovação final fica com um funcionário, conforme as regras da empresa.",
+    "Sobre prazo, Bastos afirmou que \"cada um dos produtos tem seu roadmap\" e que a apresentação mostrou a diretriz, não uma data de entrega. A Totvs também reformulou os pacotes Intera (Financeiro, RH, Marketing Contínuo e 360) e citou o conceito de Task as a Service, em que agentes executam parte das tarefas, sem detalhar na apresentação o que cada pacote inclui."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ERP",
+      "titulo": "O fornecedor do sistema passa a ser também o fornecedor dos agentes",
+      "texto": "Para quem já usa Totvs, o caminho natural de agentes passa a ser o do próprio ERP. Vale perguntar ao fornecedor quais processos terão agente, em qual versão e com que permissões."
+    },
+    {
+      "rotulo": "02 · APROVAÇÃO",
+      "titulo": "A regra de quem autoriza fica por conta da empresa",
+      "texto": "A Totvs diz que o nível de supervisão depende da criticidade e das regras definidas pelo cliente. Definir quais ações o agente faz sozinho, e quais exigem aprovação, será tarefa de quem implanta."
+    },
+    {
+      "rotulo": "03 · PRAZO",
+      "titulo": "Anúncio de direção não é produto disponível",
+      "texto": "Sem prazo único e sem detalhamento dos pacotes, o Corten ainda é, na prática, um roadmap. Preço e disponibilidade por produto não foram informados na cobertura."
+    }
+  ],
+  "oQueFazer": [
+    "Quem usa sistemas Totvs pode pedir ao gerente de conta o calendário do Corten e do LYNN para os módulos que a empresa tem, e perguntar como são registradas as ações dos agentes."
+  ],
+  "fontes": [
+    {
+      "titulo": "Com Corten, Totvs aposta em \"sistema operacional de gestão\" para ir além do ERP",
+      "origem": "IT Forum · reportagem · 13 out 2026",
+      "url": "https://itforum.com.br/noticias/totvs-corten-agentes-ia-erp/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "Totvs, em apresentação no Universo Totvs 2026"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "13 out 2026"
+    },
+    {
+      "rotulo": "Disponibilidade",
+      "valor": "sem prazo único; por roadmap de cada produto"
+    }
+  ]
+}
