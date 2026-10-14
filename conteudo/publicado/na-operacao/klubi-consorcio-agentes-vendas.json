@@ -1,0 +1,70 @@
+{
+  "id": "klubi-consorcio-agentes-vendas",
+  "publicado_em": "2026-10-12T08:30:00-03:00",
+  "setor": "FINANÇAS",
+  "processo": "COMERCIAL",
+  "status": "em-operacao",
+  "empresa": "Klubi",
+  "titulo": "Klubi diz, em evento, que 96% das vendas de consórcio já são feitas de forma autônoma por mais de 500 agentes de IA",
+  "linhaFina": "O COO da fintech descreve a jornada do consórcio de celular, da análise de crédito à cobrança até 90 dias. Os números vêm de uma apresentação, sem período de medição nem custo.",
+  "resumo": "A Klubi afirma que 96% das vendas de consórcio são autônomas e que um profissional supervisiona cerca de 30 agentes. Os números são do COO, em palestra.",
+  "leitura": 6,
+  "abertura": "A Klubi é uma fintech de consórcio digital. Segundo o co-fundador e COO Anderson Silva, a empresa intensificou o uso de inteligência artificial em 2023 e hoje tem cerca de 130 funcionários, número parecido com o de 2022, enquanto a carteira passou de aproximadamente R$ 120 milhões para R$ 2 bilhões em ativos sob gestão.",
+  "problema": "O modelo de consórcio de bens de menor valor, como celulares, tem pouca margem para estrutura humana dedicada a cada operação. Segundo Silva, automatizar análise, atendimento e pagamento é o que permite criar produtos cujo custo operacional, de outro modo, atrapalharia o negócio. A fonte também aponta que 33% das compras de eletrônicos ocorrem entre 22h e 6h, fora do horário comercial.",
+  "solucao": "A empresa opera mais de 500 agentes. No consórcio de celular, a IA da Klubi (grafada Kris pelo IT Inside e Cris pelo The Agent) ajuda o cliente a enviar os documentos pelo aplicativo e faz a análise de crédito, todos os dias, 24 horas. Depois da aprovação, verifica o produto a ser comprado, interpretando as regras do grupo de consórcio para saber se o item cabe na categoria contratada, e cuida das etapas de pagamento do bem. Antes de fechar a compra, a operação pode oferecer seguro para o aparelho. Em caso de inadimplência, a política de cobrança até 90 dias foi incorporada ao agente, que aplica regras definidas antes, inclusive condições de isenção de multa e juros. Segundo Silva, a criação de agentes é descentralizada, mas a decisão sobre o que entra em produção é centralizada.",
+  "resultado": "Segundo o COO, 96% das vendas de consórcio são feitas de forma autônoma. No call center, a taxa de resolução no primeiro contato subiu de cerca de 10%, dois anos atrás, para 98%. Menos de 2% dos casos de pagamento do bem precisam ser encaminhados a um profissional. Dos mais de 500 agentes, cerca de 400 têm metas claras e passam por monitoramento e testes A/B. Todos esses números foram apresentados por Silva no TI Inside Innovation Forum 2026 e relatados pelo IT Forum e pelo The Agent.",
+  "humano": "Segundo Silva, um profissional passou a supervisionar cerca de 30 agentes, e as metas que antes eram dos humanos passaram a ser dos agentes. Em menos de 2% dos casos de pagamento do bem, a operação encaminha para uma pessoa.",
+  "citacao": {
+    "texto": "Quando falo agente, não estou falando de um assistente. Falo de um agente. Ele toma a decisão, ele paga o crédito no final.",
+    "quem": "Anderson Silva, co-fundador e COO da Klubi, no TI Inside Innovation Forum 2026 (tradução do texto em inglês do TI Inside)"
+  },
+  "numeros": [
+    {"valor": "96%", "legenda": "das vendas de consórcio feitas de forma autônoma", "quemMediu": "Anderson Silva, COO da Klubi, em apresentação no TI Inside Innovation Forum 2026; sem período nem método informados"},
+    {"valor": "98%", "legenda": "de resolução no primeiro contato no call center, ante cerca de 10% dois anos atrás", "quemMediu": "Anderson Silva, COO da Klubi, em apresentação; método de medição não informado"},
+    {"valor": "<2%", "legenda": "dos casos de pagamento do bem encaminhados a um profissional", "quemMediu": "Anderson Silva, COO da Klubi, em apresentação"},
+    {"valor": "~30", "legenda": "agentes supervisionados por cada profissional", "quemMediu": "Anderson Silva, COO da Klubi, em apresentação"},
+    {"valor": "500+", "legenda": "agentes de IA em operação; cerca de 400 com metas e monitoramento", "quemMediu": "Anderson Silva, COO da Klubi, em apresentação"}
+  ],
+  "fluxo": [
+    {"tipo": "ENTRADA", "nome": "Cliente escolhe o bem", "faz": "No aplicativo, o cliente seleciona o produto, como um celular, dentro do consórcio."},
+    {"tipo": "AGENTE", "nome": "Agente de IA da Klubi", "faz": "Ajuda no envio dos documentos pelo aplicativo e faz a análise de crédito, 24 horas por dia, sete dias por semana."},
+    {"tipo": "AGENTE", "nome": "Verificação do produto e pagamento", "faz": "Confere se o item cabe na categoria contratada, segundo as regras do grupo de consórcio, e cuida das etapas de pagamento do bem."},
+    {"tipo": "SISTEMA", "nome": "Sistemas internos da Klubi", "faz": "A fonte não informa quais sistemas o agente consulta ou aciona."},
+    {"tipo": "SAÍDA", "nome": "Venda concluída", "faz": "Segundo a empresa, 96% das vendas de consórcio terminam sem intervenção humana. Antes do fechamento, a operação pode oferecer seguro do aparelho."},
+    {"tipo": "EXCEÇÃO", "nome": "Encaminhamento a um profissional", "faz": "Menos de 2% dos casos de pagamento do bem passam por uma pessoa."}
+  ],
+  "indicadores": [
+    {"nome": "Resolução no primeiro contato (call center)", "antes": "cerca de 10%", "depois": "98%", "medida": "informado pelo COO, em apresentação; compara dois anos atrás com hoje"}
+  ],
+  "naoConta": [
+    {"valor": "Medição", "texto": "a fonte não informa o período de medição nem como a empresa define venda autônoma e resolução no primeiro contato. Não foi possível conferir o que cada número inclui."},
+    {"valor": "Custo", "texto": "a Klubi não divulgou o investimento em IA, o custo por operação nem o prazo de implantação. O COO diz que a escala não elimina a necessidade de controle, para que o número de agentes não gere consumo desnecessário, mas não dá valores."},
+    {"valor": "Inadimplência", "texto": "a fonte não traz taxa de inadimplência, de recusa de crédito nem de reclamação. Resultado de crédito e de cobrança decidido por agente não aparece em nenhum número divulgado."}
+  ],
+  "licoes": [
+    {"titulo": "Defina o que é venda autônoma", "texto": "96% só significa algo se a empresa disser onde a venda começa e termina, e o que conta como intervenção humana. Antes de copiar a meta, peça a definição."},
+    {"titulo": "Quem cria não é quem libera", "texto": "A Klubi descentraliza a criação de agentes e centraliza a decisão do que entra em produção. É uma regra simples de governança que serve a empresas bem menores."},
+    {"titulo": "Cada agente com meta e teste", "texto": "Cerca de 400 dos mais de 500 agentes têm meta e passam por testes A/B. Agente sem meta medida vira custo sem retorno comprovado."}
+  ],
+  "ficha": [
+    {"rotulo": "Empresa", "valor": "Klubi"},
+    {"rotulo": "Setor", "valor": "Finanças (consórcio digital)"},
+    {"rotulo": "Processo", "valor": "Vendas de consórcio, da análise de crédito à cobrança até 90 dias"},
+    {"rotulo": "Sistema", "valor": "agente próprio da Klubi; sistemas e modelos não informados"},
+    {"rotulo": "Quem fez", "valor": "time da Klubi (não detalhado na fonte)"},
+    {"rotulo": "Status", "valor": "Em operação, segundo o COO"},
+    {"rotulo": "Divulgação", "valor": "Apresentação de Anderson Silva no TI Inside Innovation Forum 2026, relatada em 06/out/2026"}
+  ],
+  "comoApuramos": "Lemos a reportagem do IT Forum (TI Inside) publicada em 6 de outubro de 2026 sobre a apresentação de Anderson Silva no TI Inside Innovation Forum 2026, e o resumo do The Agent sobre a mesma fala. As duas fontes reportam a mesma apresentação, não duas medições independentes. A versão em português da reportagem foi lida na forma indexada em inglês e a fala citada foi traduzida por nós. Não houve visita nem entrevista: o caso foi montado apenas com fontes públicas.",
+  "transparencia": "A fonte primária é um executivo da própria Klubi, falando em evento de mídia sobre a operação da empresa. A reportagem e o resumo reproduzem a apresentação, sem auditoria independente.",
+  "fontes": [
+    {"titulo": "Klubi opera com mais de 500 agentes de IA e automatiza 96% das vendas de consórcio", "origem": "TI Inside, 06/out/2026", "url": "https://tiinside.com.br/06/10/2026/klubi-opera-com-mais-de-500-agentes-de-ia-e-automatiza-96-das-vendas-de-consorcio/"},
+    {"titulo": "96% das vendas de consórcio são autônomas", "origem": "The Agent, out/2026", "url": "https://theagent.bz/noticias/96-das-vendas-de-consorcio-sao-autonomas/"}
+  ],
+  "imagem": {
+    "arquivo": "img/na-operacao/klubi-consorcio-agentes-vendas-ia.png",
+    "alt": "Escritório vazio ao anoitecer, com uma caixa de celular e um caderno sobre uma mesa em primeiro plano e baias desfocadas ao fundo.",
+    "modelo": "gemini-3.1-flash-image",
+    "prompt": "A quiet digital financial services back office in Brazil in the evening, an empty desk with a smartphone box and a notebook in the foreground, softly lit office with a few desks blurred in the background. Computer monitors turned away or out of focus with no readable content. No text, no lettering, no logos, no signage, no readable screens, no identifiable faces. Style: realistic editorial photo, shallow depth of field, calm, not staged, not stock-photo, muted navy and warm paper tones"
+  }
+}
