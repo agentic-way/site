@@ -1,0 +1,58 @@
+{
+  "id": "coaf-portaria-51-nuvem-terceiros-sem-treino-ia",
+  "publicado_em": "2026-10-13T07:10:00-03:00",
+  "tema": "REGULAÇÃO",
+  "titulo": "Coaf aceita nuvem de terceiros para informação sigilosa, mas exige que o fornecedor não use os dados para treinar modelos",
+  "linha": "A Portaria Coaf nº 51/2026, publicada no Diário Oficial de 8 de outubro, lista as garantias que um ambiente de terceiros deve dar, entre elas a não utilização dos dados para treinamento ou aperfeiçoamento de modelos.",
+  "linhaFina": "A norma vale para o próprio Coaf, não para o mercado. Mas mostra, em texto oficial, um conjunto de exigências que qualquer empresa pode copiar ao contratar nuvem ou agente de IA.",
+  "fontePrimaria": "Coaf / Diário Oficial da União",
+  "leitura": 3,
+  "resumo": [
+    "A Portaria Coaf nº 51, de 1º de setembro de 2026, foi publicada no Diário Oficial da União de 8 de outubro de 2026 e revoga a Portaria Coaf nº 9, de 2021.",
+    "Ela admite o tratamento de informação em ambiente provido por terceiro, desde que submetido a avaliação de risco e a homologação pelo Coaf.",
+    "Entre as garantias mínimas estão confidencialidade, integridade, disponibilidade, segregação, não retenção dos dados após o processamento, não utilização para treinamento ou aperfeiçoamento de modelos por terceiros, reversibilidade e rastreabilidade."
+  ],
+  "corpo": [
+    "A portaria institui a política de segurança da informação do Conselho de Controle de Atividades Financeiras, órgão ligado ao Banco Central. O texto define como \"ambiente autorizado\" o ambiente físico ou lógico, próprio ou provido por terceiro, submetido a avaliação de risco e a rito formal de homologação pelo Coaf.",
+    "O artigo 17 manda que as informações não públicas do órgão sejam tratadas em ambientes autorizados. O parágrafo 2º diz que a autorização de ambientes de terceiros deve considerar, de forma proporcional à criticidade da informação, no mínimo as garantias técnicas e contratuais de confidencialidade, integridade, disponibilidade, segregação, não retenção dos dados após o processamento, não utilização dos dados para treinamento ou aperfeiçoamento de modelos por terceiros, reversibilidade e rastreabilidade.",
+    "O artigo 27 determina que o desenvolvimento, a contratação e o uso de sistemas de inteligência artificial observem a política, sem prejuízo de ato específico de governança de IA. A portaria entra em vigor na data da publicação. O texto remete o rito de autorização a norma específica; a notícia do TV Sim Brasil, de 10 de outubro, informa que o Coaf ainda não divulgou lista de provedores homologados, informação que não consta na portaria."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CONTRATO",
+      "titulo": "A cláusula de não treinamento passa a ter texto oficial de referência",
+      "texto": "Ao contratar nuvem ou agente de IA com dados de clientes, a empresa pode pedir por escrito as mesmas garantias: não retenção após o processamento e proibição de uso dos dados para treinar modelos."
+    },
+    {
+      "rotulo": "02 · ESCOPO",
+      "titulo": "A norma não obriga empresas privadas",
+      "texto": "A portaria rege o Coaf e quem lhe presta serviço. Fornecedores de nuvem e IA que atendem o órgão tendem a ter essas garantias prontas e podem ser questionados sobre elas."
+    },
+    {
+      "rotulo": "03 · SAÍDA",
+      "titulo": "Reversibilidade e rastreabilidade entram na mesma lista",
+      "texto": "Poder retirar os dados do fornecedor e saber quem os acessou pesa tanto quanto a promessa de não treinar modelos."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem contrata agentes que acessam dados de clientes, vale comparar o contrato do fornecedor com a lista do parágrafo 2º do artigo 17: retenção, uso para treinamento, segregação, devolução dos dados e registro de acesso."
+  ],
+  "fontes": [
+    {
+      "titulo": "Portaria Coaf nº 51, de 1º de setembro de 2026",
+      "origem": "Diário Oficial da União · seção 1 · 8 out 2026",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-coaf-n-51-de-1-de-setembro-de-2026-737221713"
+    },
+    {
+      "titulo": "Coaf libera nuvem de terceiros, mas veta uso de dados para IA",
+      "origem": "TV Sim Brasil · 10 out 2026",
+      "url": "https://tvsimbrasil.com.br/brasil/tecnologia/noticia/2026/10/10/coaf-libera-nuvem-terceiros-veta-dados-ia"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Órgão", "valor": "Coaf (Banco Central do Brasil)" },
+    { "rotulo": "Norma", "valor": "Portaria Coaf nº 51/2026, revoga a Portaria nº 9/2021" },
+    { "rotulo": "Vigência", "valor": "a partir da publicação, 8 out 2026" },
+    { "rotulo": "Divulgação", "valor": "8 out 2026" }
+  ]
+}

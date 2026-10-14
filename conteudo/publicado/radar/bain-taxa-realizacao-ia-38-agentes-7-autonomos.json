@@ -1,0 +1,67 @@
+{
+  "id": "bain-taxa-realizacao-ia-38-agentes-7-autonomos",
+  "publicado_em": "2026-10-12T07:20:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Bain: empresas realizam 38% do valor esperado com IA, e só cerca de 7% operam agentes totalmente autônomos em produção",
+  "linha": "Pesquisa da Bain com 951 empresas e 63 processos: a IA generativa entrega 38% do valor previsto, contra 52% da automação tradicional. Quase 40% de quem mediu economia ficou abaixo de 10%.",
+  "linhaFina": "A consultoria propõe medir a \"taxa de realização\", a parcela do valor esperado que vira resultado mensurável, e adverte que os planos de negócio assumem autonomia total que quase ninguém tem.",
+  "fontePrimaria": "Bain & Company",
+  "leitura": 3,
+  "resumo": [
+    "Em 951 empresas e 63 processos, a Bain estima que a IA generativa converte cerca de 38% do valor potencial em resultado mensurável. A automação tradicional chegou a 52%.",
+    "Quase 40% das empresas que mediram a economia de custo com IA realizaram menos de 10%, embora a meta chegasse a 20%.",
+    "Só cerca de 7% das empresas operam agentes totalmente autônomos em produção, mas muitos planos de investimento usam a conta da autonomia total."
+  ],
+  "corpo": [
+    "A Bain & Company publicou em 8 de outubro o artigo \"Realization Rate: The Metric Reshaping Enterprise AI\", assinado por Purna Doddapaneni e Michael Heric. Os dados vêm da Bain Automation and AI Pathfinder Survey 2026, com 951 empresas e 63 processos corporativos. O texto não informa a distribuição por país nem dá recorte para o Brasil.",
+    "A métrica central é a taxa de realização: a parcela do valor esperado que se converte em resultado de negócio mensurável. Para a IA generativa, a Bain aponta cerca de 38% nas funções pesquisadas. Para a automação tradicional, depois de duas décadas de mapeamento de processos, integração e gestão de mudança, 52%.",
+    "Entre as empresas que mediram economia de custo com IA, quase 40% ficaram abaixo de 10%, mesmo com meta de até 20%. Segundo a Bain, a maioria ainda amplia o gasto em IA, muitas vezes financiando novas iniciativas com economias de projetos anteriores que não chegaram ao esperado.",
+    "Sobre agentes, a consultoria afirma que só cerca de 7% das empresas rodam agentes totalmente autônomos em produção, enquanto muitos casos de investimento usam a economia da autonomia total. Na prática, diz a Bain, a maior parte dos processos com agentes ainda exige supervisão humana, o que é muitas vezes a escolha certa, mas o custo dessa supervisão precisa entrar na conta.",
+    "A Bain vende consultoria e orienta fornecedores de software sobre como competir em \"realização\". O artigo é dirigido ao mercado de software, e os números são da pesquisa da própria consultoria."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CONTA",
+      "titulo": "O caso de negócio precisa refletir a supervisão humana",
+      "texto": "Se o agente exige aprovação de uma pessoa, o custo dessa revisão faz parte da economia esperada. Planejar com autonomia total quando a operação é supervisionada gera meta que não fecha."
+    },
+    {
+      "rotulo": "02 · MEDIDA",
+      "titulo": "Cobrar a taxa de realização do ciclo anterior",
+      "texto": "A Bain sugere perguntar quanto do valor previsto foi de fato realizado antes de aprovar a próxima onda. Quem não consegue responder pode estar financiando projeto novo com economia que não existiu."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Pesquisa de consultoria, sem recorte brasileiro",
+      "texto": "A amostra é da Bain e o texto não separa o Brasil. Os percentuais servem de referência para a conversa interna, não de previsão para a empresa."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem já tem agentes em uso, vale levantar, por processo, a economia prometida no projeto e a economia medida hoje, e registrar quanto do esforço de revisão humana entrou na conta original."
+  ],
+  "fontes": [
+    {
+      "titulo": "Realization Rate: The Metric Reshaping Enterprise AI",
+      "origem": "Bain & Company · artigo · 8 out 2026",
+      "url": "https://www.bain.com/insights/realization-rate-the-metric-reshaping-enterprise-ai/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Bain & Company"
+    },
+    {
+      "rotulo": "Pesquisa",
+      "valor": "Bain Automation and AI Pathfinder Survey 2026"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "951 empresas, 63 processos corporativos"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "8 out 2026"
+    }
+  ]
+}
