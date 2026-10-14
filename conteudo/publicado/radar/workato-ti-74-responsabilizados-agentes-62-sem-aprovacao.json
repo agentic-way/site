@@ -1,0 +1,66 @@
+{
+  "id": "workato-ti-74-responsabilizados-agentes-62-sem-aprovacao",
+  "publicado_em": "2026-10-14T07:12:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Workato: 74% dos líderes de TI esperam ser responsabilizados por agentes que não controlam por completo",
+  "linha": "Pesquisa da Workato com 1.001 líderes de TI nos Estados Unidos: 62% dizem que a maioria dos agentes em uso não foi aprovada formalmente pela TI, e 36% tentariam tratar um incidente grave sem divulgá-lo.",
+  "linhaFina": "A pesquisa foi feita pela Censuswide em empresas com mais de mil funcionários, de 15 a 22 de maio de 2026. A Workato vende plataforma de governança de IA.",
+  "fontePrimaria": "Workato / Censuswide",
+  "leitura": 3,
+  "resumo": [
+    "74% dos líderes de TI ouvidos dizem que a TI seria responsabilizada se um agente violasse política, expusesse dados ou prejudicasse um cliente, mais que o dobro dos que apontam o fornecedor de IA.",
+    "62% concordam que a maioria dos agentes em uso na empresa não foi formalmente aprovada pela TI; 33% da adoção ocorre direto nas áreas de negócio e nos funcionários, sem supervisão.",
+    "36% dizem que a empresa tentaria tratar um incidente grave de segurança ou conformidade sem divulgação, e 62% apostariam que um agente causará um incidente público em até 18 meses."
+  ],
+  "corpo": [
+    "A Workato divulgou em 13 de outubro o relatório AI Challenges Threatening IT Leader Success. A pesquisa foi conduzida pela Censuswide entre 15 e 22 de maio de 2026, com 1.001 tomadores de decisão de TI nos Estados Unidos, de nível de vice-presidente para cima (251 CIOs e 665 executivos de nível C), em empresas com mais de 1.000 funcionários.",
+    "Sobre responsabilidade, 74% afirmam que a liderança de TI seria cobrada se um agente tomasse ação que violasse política, expusesse dados ou prejudicasse um cliente. 23% dizem que esperariam ser demitidos ou pedir demissão após um incidente público grave, e 63% afirmam que a equipe de TI sabe menos sobre como os agentes funcionam do que outros funcionários.",
+    "Sobre visibilidade, 42% colocam em primeiro lugar enxergar o que os agentes fazem nos sistemas, seguido por auditar e reverter uma ação (31%), saber quem responde (29%) e garantir conformidade por padrão (27%). Segundo a pesquisa, 66% da adoção passa pela compra formal da TI e 33% vem de áreas e funcionários; 64% esperam que as implantações não autorizadas aumentem.",
+    "A amostra é exclusivamente americana, e o relatório não traz dados do Brasil."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · RESPONSABILIDADE",
+      "titulo": "Quem responde pelo agente precisa estar definido antes do incidente",
+      "texto": "A maioria dos entrevistados espera que a TI responda, mesmo sem controle completo. Nomear o responsável por cada agente em operação evita descobrir isso depois do problema."
+    },
+    {
+      "rotulo": "02 · REVERSÃO",
+      "titulo": "Auditar e desfazer a ação pesa quase tanto quanto enxergar",
+      "texto": "31% priorizam poder auditar e reverter uma ação do agente. Para a empresa média, vale checar se o log e o desfazer existem nas ferramentas que já usa."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem publica vende o controle",
+      "texto": "A Workato vende plataforma de controle e execução de IA para empresas. Os números podem estar corretos e ainda assim favorecer quem os divulgou; a pesquisa também não ouviu empresas brasileiras."
+    }
+  ],
+  "oQueFazer": [
+    "Pergunte à área de TI quantos agentes e assistentes de IA estão em uso na empresa, quem os criou e a quais sistemas têm acesso. Se a resposta depende de perguntar a cada equipe, o inventário ainda não existe."
+  ],
+  "fontes": [
+    {
+      "titulo": "New Workato Survey Finds 74% of IT Leaders Expect to Be Held Accountable for AI Agents They Don't Fully Control",
+      "origem": "Workato · comunicado (Business Wire) · 13 out 2026",
+      "url": "https://www.businesswire.com/news/home/20261013432214/en/New-Workato-Survey-Finds-74-of-IT-Leaders-Expect-to-Be-Held-Accountable-for-AI-Agents-They-Dont-Fully-Control"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Workato, com a Censuswide"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "1.001 líderes de TI nos EUA, empresas com mais de 1.000 funcionários"
+    },
+    {
+      "rotulo": "Campo",
+      "valor": "15 a 22 de maio de 2026"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "13 out 2026"
+    }
+  ]
+}

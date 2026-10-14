@@ -1,0 +1,66 @@
+{
+  "id": "totvs-agro-agentes-auditor-campo-fechamento-custos",
+  "publicado_em": "2026-10-14T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Totvs prepara para o início de 2027 dois agentes de IA para o agro, que cruzam apontamentos e fecham custos",
+  "linha": "Segundo o AgFeed, um agente auditará diariamente os registros de campo e outro fará o fechamento de custos, tarefa que, diz a Totvs, pode levar uma semana. Pilotos estão sendo selecionados.",
+  "linhaFina": "A afirmação de que o processo cai de uma semana para uma hora é de Fabrício Orrigo, diretor da Totvs, e ainda não vem de cliente.",
+  "fontePrimaria": "Totvs, via AgFeed",
+  "leitura": 3,
+  "resumo": [
+    "A Totvs prepara dois agentes de IA para suas soluções de agro, previstos para o início de 2027.",
+    "Um agente analisa diariamente os apontamentos de campo e sinaliza divergências; o outro automatiza parte do fechamento mensal de custos.",
+    "Fabrício Orrigo, diretor executivo de produtos para agro, disse que a tarefa, que \"levava, às vezes, uma semana\", passa a levar uma hora. A Totvs ainda seleciona empresas para pilotos."
+  ],
+  "corpo": [
+    "Em entrevista ao AgFeed durante o Universo Totvs, em São Paulo, Fabrício Orrigo, diretor executivo de produtos para agro da Totvs, descreveu dois agentes de IA em desenvolvimento, que serão incorporados a soluções já existentes, como o Totvs Agro Bioenergia. Ele não detalhou quais sistemas receberão as funções.",
+    "O primeiro é um auditor de campo. Todos os dias ele compara os apontamentos das operações agrícolas com informações históricas e sugere ao usuário o que parece inconsistente. Segundo Orrigo, mesmo com registros digitais, os erros costumam ser descobertos só no fechamento do mês.",
+    "O segundo atua nesse fechamento. Ele cruza dados de insumos, máquinas e atividades, que vêm de fontes diversas, e aponta divergências para verificação do usuário. \"Uma pessoa que faz isso que levava, às vezes, uma semana pra fazer, faz agora em uma hora\", afirmou Orrigo.",
+    "A Totvs começou a selecionar empresas para projetos-piloto, e a previsão é que as soluções cheguem à base mais ampla de usuários no início de 2027, após a validação. A reportagem não cita cliente que tenha medido o resultado."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ESCOPO",
+      "titulo": "O caso de uso é de conferência, não de decisão",
+      "texto": "Os dois agentes apontam divergências para uma pessoa verificar. É um desenho de risco baixo, em que o usuário continua responsável pelo fechamento."
+    },
+    {
+      "rotulo": "02 · NÚMERO",
+      "titulo": "De uma semana para uma hora é afirmação do fornecedor",
+      "texto": "O número vem de um executivo da Totvs, antes dos pilotos. Só a medição em cliente mostrará quanto do tempo some e quanto vira revisão das divergências."
+    },
+    {
+      "rotulo": "03 · DADOS",
+      "titulo": "Agente de auditoria depende da qualidade do apontamento",
+      "texto": "Se o registro de campo é incompleto ou feito tarde, o agente tem pouco contra o que comparar. A fonte não detalha como ele trata esses casos."
+    }
+  ],
+  "oQueFazer": [
+    "Empresas do agro que usam sistemas Totvs podem se candidatar aos pilotos e, antes disso, medir hoje quanto tempo o fechamento de custos consome, para ter uma base de comparação."
+  ],
+  "fontes": [
+    {
+      "titulo": "Após comprar TBDC, Totvs prepara \"safra\" de agentes de IA para ampliar presença no agro",
+      "origem": "AgFeed · reportagem · 13 out 2026",
+      "url": "https://agfeed.com.br/agtech/apos-comprar-tbdc-totvs-prepara-safra-de-agentes-de-ia-para-ampliar-presenca-no-agro/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "Fabrício Orrigo, diretor executivo de produtos para agro da Totvs"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não confirmada pelo cliente"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "13 out 2026"
+    },
+    {
+      "rotulo": "Disponibilidade",
+      "valor": "início de 2027, após pilotos"
+    }
+  ]
+}

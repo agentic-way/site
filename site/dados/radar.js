@@ -3,72 +3,196 @@ window.AW_DADOS = window.AW_DADOS || {};
 window.AW_DADOS.assinatura = "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi";
 window.AW_DADOS.radar = [
  {
-  "id": "coaf-portaria-51-nuvem-terceiros-sem-treino-ia",
-  "publicado_em": "2026-10-13T07:10:00-03:00",
-  "tema": "REGULAÇÃO",
-  "titulo": "Coaf aceita nuvem de terceiros para informação sigilosa, mas exige que o fornecedor não use os dados para treinar modelos",
-  "linha": "A Portaria Coaf nº 51/2026, publicada no Diário Oficial de 8 de outubro, lista as garantias que um ambiente de terceiros deve dar, entre elas a não utilização dos dados para treinamento ou aperfeiçoamento de modelos.",
-  "linhaFina": "A norma vale para o próprio Coaf, não para o mercado. Mas mostra, em texto oficial, um conjunto de exigências que qualquer empresa pode copiar ao contratar nuvem ou agente de IA.",
-  "fontePrimaria": "Coaf / Diário Oficial da União",
+  "id": "workato-ti-74-responsabilizados-agentes-62-sem-aprovacao",
+  "publicado_em": "2026-10-14T07:12:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Workato: 74% dos líderes de TI esperam ser responsabilizados por agentes que não controlam por completo",
+  "linha": "Pesquisa da Workato com 1.001 líderes de TI nos Estados Unidos: 62% dizem que a maioria dos agentes em uso não foi aprovada formalmente pela TI, e 36% tentariam tratar um incidente grave sem divulgá-lo.",
+  "linhaFina": "A pesquisa foi feita pela Censuswide em empresas com mais de mil funcionários, de 15 a 22 de maio de 2026. A Workato vende plataforma de governança de IA.",
+  "fontePrimaria": "Workato / Censuswide",
   "leitura": 3,
   "resumo": [
-   "A Portaria Coaf nº 51, de 1º de setembro de 2026, foi publicada no Diário Oficial da União de 8 de outubro de 2026 e revoga a Portaria Coaf nº 9, de 2021.",
-   "Ela admite o tratamento de informação em ambiente provido por terceiro, desde que submetido a avaliação de risco e a homologação pelo Coaf.",
-   "Entre as garantias mínimas estão confidencialidade, integridade, disponibilidade, segregação, não retenção dos dados após o processamento, não utilização para treinamento ou aperfeiçoamento de modelos por terceiros, reversibilidade e rastreabilidade."
+   "74% dos líderes de TI ouvidos dizem que a TI seria responsabilizada se um agente violasse política, expusesse dados ou prejudicasse um cliente, mais que o dobro dos que apontam o fornecedor de IA.",
+   "62% concordam que a maioria dos agentes em uso na empresa não foi formalmente aprovada pela TI; 33% da adoção ocorre direto nas áreas de negócio e nos funcionários, sem supervisão.",
+   "36% dizem que a empresa tentaria tratar um incidente grave de segurança ou conformidade sem divulgação, e 62% apostariam que um agente causará um incidente público em até 18 meses."
   ],
   "corpo": [
-   "A portaria institui a política de segurança da informação do Conselho de Controle de Atividades Financeiras, órgão ligado ao Banco Central. O texto define como \"ambiente autorizado\" o ambiente físico ou lógico, próprio ou provido por terceiro, submetido a avaliação de risco e a rito formal de homologação pelo Coaf.",
-   "O artigo 17 manda que as informações não públicas do órgão sejam tratadas em ambientes autorizados. O parágrafo 2º diz que a autorização de ambientes de terceiros deve considerar, de forma proporcional à criticidade da informação, no mínimo as garantias técnicas e contratuais de confidencialidade, integridade, disponibilidade, segregação, não retenção dos dados após o processamento, não utilização dos dados para treinamento ou aperfeiçoamento de modelos por terceiros, reversibilidade e rastreabilidade.",
-   "O artigo 27 determina que o desenvolvimento, a contratação e o uso de sistemas de inteligência artificial observem a política, sem prejuízo de ato específico de governança de IA. A portaria entra em vigor na data da publicação. O texto remete o rito de autorização a norma específica; a notícia do TV Sim Brasil, de 10 de outubro, informa que o Coaf ainda não divulgou lista de provedores homologados, informação que não consta na portaria."
+   "A Workato divulgou em 13 de outubro o relatório AI Challenges Threatening IT Leader Success. A pesquisa foi conduzida pela Censuswide entre 15 e 22 de maio de 2026, com 1.001 tomadores de decisão de TI nos Estados Unidos, de nível de vice-presidente para cima (251 CIOs e 665 executivos de nível C), em empresas com mais de 1.000 funcionários.",
+   "Sobre responsabilidade, 74% afirmam que a liderança de TI seria cobrada se um agente tomasse ação que violasse política, expusesse dados ou prejudicasse um cliente. 23% dizem que esperariam ser demitidos ou pedir demissão após um incidente público grave, e 63% afirmam que a equipe de TI sabe menos sobre como os agentes funcionam do que outros funcionários.",
+   "Sobre visibilidade, 42% colocam em primeiro lugar enxergar o que os agentes fazem nos sistemas, seguido por auditar e reverter uma ação (31%), saber quem responde (29%) e garantir conformidade por padrão (27%). Segundo a pesquisa, 66% da adoção passa pela compra formal da TI e 33% vem de áreas e funcionários; 64% esperam que as implantações não autorizadas aumentem.",
+   "A amostra é exclusivamente americana, e o relatório não traz dados do Brasil."
   ],
   "consequencias": [
    {
-    "rotulo": "01 · CONTRATO",
-    "titulo": "A cláusula de não treinamento passa a ter texto oficial de referência",
-    "texto": "Ao contratar nuvem ou agente de IA com dados de clientes, a empresa pode pedir por escrito as mesmas garantias: não retenção após o processamento e proibição de uso dos dados para treinar modelos."
+    "rotulo": "01 · RESPONSABILIDADE",
+    "titulo": "Quem responde pelo agente precisa estar definido antes do incidente",
+    "texto": "A maioria dos entrevistados espera que a TI responda, mesmo sem controle completo. Nomear o responsável por cada agente em operação evita descobrir isso depois do problema."
    },
    {
-    "rotulo": "02 · ESCOPO",
-    "titulo": "A norma não obriga empresas privadas",
-    "texto": "A portaria rege o Coaf e quem lhe presta serviço. Fornecedores de nuvem e IA que atendem o órgão tendem a ter essas garantias prontas e podem ser questionados sobre elas."
+    "rotulo": "02 · REVERSÃO",
+    "titulo": "Auditar e desfazer a ação pesa quase tanto quanto enxergar",
+    "texto": "31% priorizam poder auditar e reverter uma ação do agente. Para a empresa média, vale checar se o log e o desfazer existem nas ferramentas que já usa."
    },
    {
-    "rotulo": "03 · SAÍDA",
-    "titulo": "Reversibilidade e rastreabilidade entram na mesma lista",
-    "texto": "Poder retirar os dados do fornecedor e saber quem os acessou pesa tanto quanto a promessa de não treinar modelos."
+    "rotulo": "03 · FONTE",
+    "titulo": "Quem publica vende o controle",
+    "texto": "A Workato vende plataforma de controle e execução de IA para empresas. Os números podem estar corretos e ainda assim favorecer quem os divulgou; a pesquisa também não ouviu empresas brasileiras."
    }
   ],
   "oQueFazer": [
-   "Para quem contrata agentes que acessam dados de clientes, vale comparar o contrato do fornecedor com a lista do parágrafo 2º do artigo 17: retenção, uso para treinamento, segregação, devolução dos dados e registro de acesso."
+   "Pergunte à área de TI quantos agentes e assistentes de IA estão em uso na empresa, quem os criou e a quais sistemas têm acesso. Se a resposta depende de perguntar a cada equipe, o inventário ainda não existe."
   ],
   "fontes": [
    {
-    "titulo": "Portaria Coaf nº 51, de 1º de setembro de 2026",
-    "origem": "Diário Oficial da União · seção 1 · 8 out 2026",
-    "url": "https://www.in.gov.br/web/dou/-/portaria-coaf-n-51-de-1-de-setembro-de-2026-737221713"
-   },
-   {
-    "titulo": "Coaf libera nuvem de terceiros, mas veta uso de dados para IA",
-    "origem": "TV Sim Brasil · 10 out 2026",
-    "url": "https://tvsimbrasil.com.br/brasil/tecnologia/noticia/2026/10/10/coaf-libera-nuvem-terceiros-veta-dados-ia"
+    "titulo": "New Workato Survey Finds 74% of IT Leaders Expect to Be Held Accountable for AI Agents They Don't Fully Control",
+    "origem": "Workato · comunicado (Business Wire) · 13 out 2026",
+    "url": "https://www.businesswire.com/news/home/20261013432214/en/New-Workato-Survey-Finds-74-of-IT-Leaders-Expect-to-Be-Held-Accountable-for-AI-Agents-They-Dont-Fully-Control"
    }
   ],
   "ficha": [
    {
-    "rotulo": "Órgão",
-    "valor": "Coaf (Banco Central do Brasil)"
+    "rotulo": "Quem mediu",
+    "valor": "Workato, com a Censuswide"
    },
    {
-    "rotulo": "Norma",
-    "valor": "Portaria Coaf nº 51/2026, revoga a Portaria nº 9/2021"
+    "rotulo": "Amostra",
+    "valor": "1.001 líderes de TI nos EUA, empresas com mais de 1.000 funcionários"
    },
    {
-    "rotulo": "Vigência",
-    "valor": "a partir da publicação, 8 out 2026"
+    "rotulo": "Campo",
+    "valor": "15 a 22 de maio de 2026"
    },
    {
     "rotulo": "Divulgação",
-    "valor": "8 out 2026"
+    "valor": "13 out 2026"
+   }
+  ]
+ },
+ {
+  "id": "totvs-agro-agentes-auditor-campo-fechamento-custos",
+  "publicado_em": "2026-10-14T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Totvs prepara para o início de 2027 dois agentes de IA para o agro, que cruzam apontamentos e fecham custos",
+  "linha": "Segundo o AgFeed, um agente auditará diariamente os registros de campo e outro fará o fechamento de custos, tarefa que, diz a Totvs, pode levar uma semana. Pilotos estão sendo selecionados.",
+  "linhaFina": "A afirmação de que o processo cai de uma semana para uma hora é de Fabrício Orrigo, diretor da Totvs, e ainda não vem de cliente.",
+  "fontePrimaria": "Totvs, via AgFeed",
+  "leitura": 3,
+  "resumo": [
+   "A Totvs prepara dois agentes de IA para suas soluções de agro, previstos para o início de 2027.",
+   "Um agente analisa diariamente os apontamentos de campo e sinaliza divergências; o outro automatiza parte do fechamento mensal de custos.",
+   "Fabrício Orrigo, diretor executivo de produtos para agro, disse que a tarefa, que \"levava, às vezes, uma semana\", passa a levar uma hora. A Totvs ainda seleciona empresas para pilotos."
+  ],
+  "corpo": [
+   "Em entrevista ao AgFeed durante o Universo Totvs, em São Paulo, Fabrício Orrigo, diretor executivo de produtos para agro da Totvs, descreveu dois agentes de IA em desenvolvimento, que serão incorporados a soluções já existentes, como o Totvs Agro Bioenergia. Ele não detalhou quais sistemas receberão as funções.",
+   "O primeiro é um auditor de campo. Todos os dias ele compara os apontamentos das operações agrícolas com informações históricas e sugere ao usuário o que parece inconsistente. Segundo Orrigo, mesmo com registros digitais, os erros costumam ser descobertos só no fechamento do mês.",
+   "O segundo atua nesse fechamento. Ele cruza dados de insumos, máquinas e atividades, que vêm de fontes diversas, e aponta divergências para verificação do usuário. \"Uma pessoa que faz isso que levava, às vezes, uma semana pra fazer, faz agora em uma hora\", afirmou Orrigo.",
+   "A Totvs começou a selecionar empresas para projetos-piloto, e a previsão é que as soluções cheguem à base mais ampla de usuários no início de 2027, após a validação. A reportagem não cita cliente que tenha medido o resultado."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · ESCOPO",
+    "titulo": "O caso de uso é de conferência, não de decisão",
+    "texto": "Os dois agentes apontam divergências para uma pessoa verificar. É um desenho de risco baixo, em que o usuário continua responsável pelo fechamento."
+   },
+   {
+    "rotulo": "02 · NÚMERO",
+    "titulo": "De uma semana para uma hora é afirmação do fornecedor",
+    "texto": "O número vem de um executivo da Totvs, antes dos pilotos. Só a medição em cliente mostrará quanto do tempo some e quanto vira revisão das divergências."
+   },
+   {
+    "rotulo": "03 · DADOS",
+    "titulo": "Agente de auditoria depende da qualidade do apontamento",
+    "texto": "Se o registro de campo é incompleto ou feito tarde, o agente tem pouco contra o que comparar. A fonte não detalha como ele trata esses casos."
+   }
+  ],
+  "oQueFazer": [
+   "Empresas do agro que usam sistemas Totvs podem se candidatar aos pilotos e, antes disso, medir hoje quanto tempo o fechamento de custos consome, para ter uma base de comparação."
+  ],
+  "fontes": [
+   {
+    "titulo": "Após comprar TBDC, Totvs prepara \"safra\" de agentes de IA para ampliar presença no agro",
+    "origem": "AgFeed · reportagem · 13 out 2026",
+    "url": "https://agfeed.com.br/agtech/apos-comprar-tbdc-totvs-prepara-safra-de-agentes-de-ia-para-ampliar-presenca-no-agro/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
+    "valor": "Fabrício Orrigo, diretor executivo de produtos para agro da Totvs"
+   },
+   {
+    "rotulo": "Confirmação",
+    "valor": "não confirmada pelo cliente"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "13 out 2026"
+   },
+   {
+    "rotulo": "Disponibilidade",
+    "valor": "início de 2027, após pilotos"
+   }
+  ]
+ },
+ {
+  "id": "totvs-corten-lynn-agentes-sistema-operacional",
+  "publicado_em": "2026-10-14T07:10:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Totvs apresenta o Corten, que reúne ERP, CRM, serviços financeiros e agentes de IA numa única área de trabalho",
+  "linha": "No Universo Totvs 2026, a empresa disse que os agentes do Corten rodam sobre a plataforma LYNN e terão supervisão humana conforme a criticidade do processo. Não há prazo único de entrega.",
+  "linhaFina": "A Totvs chama o Corten de sistema operacional de gestão. Cada produto da empresa receberá os recursos no próprio calendário, segundo o vice-presidente de plataformas.",
+  "fontePrimaria": "Totvs, via IT Forum",
+  "leitura": 3,
+  "resumo": [
+   "A Totvs anunciou em 13 de outubro, no Universo Totvs 2026, o Corten, plataforma que reúne sistemas empresariais, serviços financeiros, nuvem e agentes de IA.",
+   "Os agentes serão criados e controlados no LYNN, plataforma de IA corporativa anunciada em fevereiro de 2026, com regras de segurança e conexão aos sistemas da empresa.",
+   "A empresa não apresentou prazo único: cada produto incorporará o Corten conforme seu roadmap."
+  ],
+  "corpo": [
+   "Segundo o IT Forum, que cobriu o Universo Totvs 2026 em São Paulo, a Totvs apresentou em 13 de outubro o Corten, descrito pela empresa como um sistema operacional de gestão. A proposta é reunir em um só ambiente os sistemas de gestão, os produtos de relacionamento com clientes da RD Station, os serviços financeiros da Techfin e agentes de IA, em vez de o funcionário alternar entre programas. Também deverão entrar aplicações de parceiros homologados.",
+   "Os agentes serão construídos sobre o LYNN, plataforma de IA corporativa que a Totvs anunciou em fevereiro de 2026. De acordo com a reportagem, ele tem três componentes: desenvolvimento de agentes com diferentes modelos de IA, regras de segurança e controle sobre o que cada agente pode fazer, e conexão com os sistemas corporativos.",
+   "Gustavo Bastos, vice-presidente de plataformas da Totvs, disse que os processos podem ser autônomos, mas que, \"dependendo da criticidade\", sempre haverá a autorização de alguém para chancelar o trabalho do agente. O exemplo dado foi o de compras: o agente reúne fornecedores, compara propostas e prepara a solicitação, e a aprovação final fica com um funcionário, conforme as regras da empresa.",
+   "Sobre prazo, Bastos afirmou que \"cada um dos produtos tem seu roadmap\" e que a apresentação mostrou a diretriz, não uma data de entrega. A Totvs também reformulou os pacotes Intera (Financeiro, RH, Marketing Contínuo e 360) e citou o conceito de Task as a Service, em que agentes executam parte das tarefas, sem detalhar na apresentação o que cada pacote inclui."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · ERP",
+    "titulo": "O fornecedor do sistema passa a ser também o fornecedor dos agentes",
+    "texto": "Para quem já usa Totvs, o caminho natural de agentes passa a ser o do próprio ERP. Vale perguntar ao fornecedor quais processos terão agente, em qual versão e com que permissões."
+   },
+   {
+    "rotulo": "02 · APROVAÇÃO",
+    "titulo": "A regra de quem autoriza fica por conta da empresa",
+    "texto": "A Totvs diz que o nível de supervisão depende da criticidade e das regras definidas pelo cliente. Definir quais ações o agente faz sozinho, e quais exigem aprovação, será tarefa de quem implanta."
+   },
+   {
+    "rotulo": "03 · PRAZO",
+    "titulo": "Anúncio de direção não é produto disponível",
+    "texto": "Sem prazo único e sem detalhamento dos pacotes, o Corten ainda é, na prática, um roadmap. Preço e disponibilidade por produto não foram informados na cobertura."
+   }
+  ],
+  "oQueFazer": [
+   "Quem usa sistemas Totvs pode pedir ao gerente de conta o calendário do Corten e do LYNN para os módulos que a empresa tem, e perguntar como são registradas as ações dos agentes."
+  ],
+  "fontes": [
+   {
+    "titulo": "Com Corten, Totvs aposta em \"sistema operacional de gestão\" para ir além do ERP",
+    "origem": "IT Forum · reportagem · 13 out 2026",
+    "url": "https://itforum.com.br/noticias/totvs-corten-agentes-ia-erp/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
+    "valor": "Totvs, em apresentação no Universo Totvs 2026"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "13 out 2026"
+   },
+   {
+    "rotulo": "Disponibilidade",
+    "valor": "sem prazo único; por roadmap de cada produto"
    }
   ]
  },
