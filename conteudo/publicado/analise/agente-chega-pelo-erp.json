@@ -1,0 +1,84 @@
+{
+  "id": "agente-chega-pelo-erp",
+  "publicado_em": "2026-10-16T07:00:00-03:00",
+  "tema": "OPERAÇÃO",
+  "titulo": "O agente da empresa média vai chegar como atualização do ERP, não como compra",
+  "linhaFina": "Totvs e SAP anunciaram agentes dentro dos sistemas que o cliente já usa, e 66% da adoção de agentes numa pesquisa da Workato chega por compra formal da TI. Se o agente vem no contrato do ERP, a decisão de IA acontece na renovação, e quase ninguém está preparado para negociá-la.",
+  "frase": "Quando o agente vem dentro do ERP, a empresa não decide comprar IA. Decide, sem perceber, que cláusulas aceita.",
+  "leitura": 5,
+  "tese": [
+    "As fornecedoras de ERP estão colocando agentes dentro dos sistemas que o cliente já usa. Para a empresa média, o primeiro agente em produção tende a vir de um módulo, não de um projeto de IA.",
+    "Isso muda onde a decisão é tomada: não no comitê que avalia plataformas de agentes, mas na renovação do contrato, no pacote comercial e no calendário de cada produto.",
+    "A empresa que não definir antes nível de autonomia, registro por agente, uso dos dados e saída vai aceitar o padrão do fornecedor."
+  ],
+  "p1": "Na terça-feira, 13 de outubro, a Totvs apresentou o Corten, que reúne ERP, serviços financeiros, nuvem e agentes de IA numa única área de trabalho. Uma semana antes, a SAP mostrou no SAP Connect o Joule Work e os Joule Assistants, que executam tarefas nos processos de finanças, compras e cadeia de suprimentos. As duas anunciaram o mesmo movimento: o agente entra pelo sistema que o cliente já paga.",
+  "p2": "Esse é o jeito mais provável de a empresa média brasileira ter um agente trabalhando. Poucas vão montar uma plataforma própria, e a maioria já tem um ERP. O que me interessa é a consequência: se o agente vem como recurso do sistema, a decisão que a empresa acha que ainda não tomou já está sendo tomada pelo contrato.",
+  "h1": "O agente entra pelo produto que já está contratado",
+  "p3": "A Totvs disse ao AgFeed que os dois agentes que prepara para o agro, um auditor de campo e um agente de fechamento de custos, serão incorporados às soluções já existentes do portfólio. A previsão é de chegada à base mais ampla no início de 2027, depois de pilotos com empresas selecionadas. Segundo o diretor Fabrício Orrigo, uma tarefa que \"levava, às vezes, uma semana\" passa a levar uma hora. É afirmação da fornecedora, sobre produto que ainda não saiu.",
+  "p4": "A SAP descreve o mesmo desenho: os assistentes executam trabalho dentro dos fluxos de negócio, com os dados, as autorizações e as trilhas de auditoria já existentes, e o cliente controla o nível de autonomia. O Joule Work, diz a SAP, já opera com 110.000 funcionários da própria empresa, com ganho de produtividade de 20% em finanças, RH e compras. O número é da fornecedora, medido em casa, e não prova nada sobre a operação de um cliente.",
+  "destaque": "Quando o agente vem dentro do ERP, a empresa não decide comprar IA. Decide, sem perceber, que cláusulas aceita.",
+  "h2": "A decisão migra para a renovação, e ela ainda não tem termos",
+  "p5": "O IT Forum registra que a Totvs não apresentou prazo único para o Corten: cada produto incorporará os recursos conforme o próprio calendário, e a chegada ao cliente dependerá de condições comerciais ainda a detalhar. A empresa também reformulou as ofertas Intera, pacotes que reúnem soluções em vez de vender cada produto separado. Preço, escopo e momento do agente, portanto, serão definidos na conversa de renovação, não numa avaliação de IA.",
+  "p6": "Isso combina com o que a TI relata. Na pesquisa da Workato, 66% da adoção de agentes chega pela compra formal da TI, e 33% é implantada direto por áreas de negócio e funcionários, sem supervisão. A mesma pesquisa mostra 74% dos líderes de TI esperando ser responsabilizados se um agente violar política, expor dados ou prejudicar um cliente. A Workato vende plataforma de controle de IA, então o número tem interesse. Mesmo assim, a direção é coerente com o que se vê acima: quem responde pelo agente é quem aprovou o sistema em que ele vive.",
+  "h3": "O que pedir já existe, escrito por quem fiscaliza",
+  "p7": "A empresa média não precisa inventar a lista de exigências. A Portaria Coaf nº 51, publicada no Diário Oficial de 8 de outubro, admite ambiente de terceiros para informação sigilosa, mas só com avaliação de risco, homologação e garantias que incluem não retenção dos dados após o processamento, não uso para treinar modelos de terceiros, reversibilidade e rastreabilidade. O Coaf é um órgão público, e a norma não vale para a empresa privada. Como referência do que um regulador considera mínimo ao entregar dados a um fornecedor, serve. O Google Cloud, no Gemini agent, ainda em prévia privada, trata parte disso como padrão: cada agente tem identidade própria, e cada ação fica registrada em trilha atribuída ao agente, não a uma pessoa. Se o ERP não oferece o equivalente, a empresa precisa saber antes de ligar o agente.",
+  "contra": "Os fatos que sustentam esta tese vêm, quase todos, de quem vende: Totvs, SAP e Google falam dos próprios produtos, e a Workato, que publicou a pesquisa de adoção, vende a plataforma de controle que o problema pede. Nenhum dos agentes da Totvs está em produção, e a SAP e o Google divulgam rollout e prévia, não resultado em cliente. Também é possível que a empresa média nem chegue a esses recursos: muitas rodam versões antigas do ERP, e o ciclo de atualização pode levar anos. Outra possibilidade é que a adoção continue vindo por ferramentas pontuais, mais baratas e mais rápidas que um módulo do ERP, e a tese pesaria menos. Se isso acontecer, o problema muda de lugar, mas não desaparece: o contrato com cada fornecedor passa a ser a decisão. A tese também não sustenta que o agente do ERP seja pior ou melhor que o de terceiros. Diz apenas onde a decisão acontece.",
+  "fechamento": "Antes da próxima renovação do ERP, eu perguntaria ao fornecedor quando cada agente chega ao módulo que a empresa usa, a que preço e com que opção de desligar. Levaria quatro exigências por escrito: quem define o nível de autonomia, registro de cada ação por agente, proibição de uso dos dados para treinar modelos e forma de sair levando o histórico. Pilotos, como os que a Totvs está selecionando, são a melhor hora de testar isso, quando ainda há o que negociar.",
+  "pontos": [
+    {
+      "rotulo": "01 · CALENDÁRIO",
+      "titulo": "Quando o agente chega ao seu módulo",
+      "texto": "Peça ao fornecedor a data por produto, não a do anúncio. Cada módulo tem o próprio ritmo, e o que foi mostrado num evento pode não valer para a sua versão."
+    },
+    {
+      "rotulo": "02 · AUTONOMIA",
+      "titulo": "Quem define o que o agente pode fazer",
+      "texto": "Exija que o nível de autonomia seja configurável por processo e que a empresa possa começar com aprovação humana em cada ação."
+    },
+    {
+      "rotulo": "03 · CLÁUSULAS",
+      "titulo": "Dados, registro e saída por escrito",
+      "texto": "Use a lista do Coaf como roteiro: não retenção, não uso para treinar modelos, rastreabilidade por agente e reversibilidade. O que não estiver no contrato vale o padrão do fornecedor."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Após comprar TBDC, Totvs prepara \"safra\" de agentes de IA para ampliar presença no agro",
+      "origem": "AgFeed · 13 out 2026",
+      "url": "https://agfeed.com.br/agtech/apos-comprar-tbdc-totvs-prepara-safra-de-agentes-de-ia-para-ampliar-presenca-no-agro/"
+    },
+    {
+      "titulo": "Com Corten, Totvs aposta em \"sistema operacional de gestão\" para ir além do ERP",
+      "origem": "IT Forum · 13 out 2026",
+      "url": "https://itforum.com.br/noticias/totvs-corten-agentes-ia-erp/"
+    },
+    {
+      "titulo": "SAP Puts the Autonomous Enterprise to Work",
+      "origem": "SAP SE · comunicado (PR Newswire) · 6 out 2026",
+      "url": "https://www.prnewswire.com/news-releases/sap-puts-the-autonomous-enterprise-to-work-302899688.html"
+    },
+    {
+      "titulo": "New Workato Survey Finds 74% of IT Leaders Expect to Be Held Accountable for AI Agents They Don't Fully Control",
+      "origem": "Workato · comunicado (Business Wire) · 13 out 2026",
+      "url": "https://www.businesswire.com/news/home/20261013432214/en/New-Workato-Survey-Finds-74-of-IT-Leaders-Expect-to-Be-Held-Accountable-for-AI-Agents-They-Dont-Fully-Control"
+    },
+    {
+      "titulo": "Portaria Coaf nº 51, de 1º de setembro de 2026",
+      "origem": "Diário Oficial da União · seção 1 · 8 out 2026",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-coaf-n-51-de-1-de-setembro-de-2026-737221713"
+    },
+    {
+      "titulo": "Welcome to Gemini at Work",
+      "origem": "Google Cloud · blog · 8 out 2026",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026"
+    }
+  ],
+  "baseadoEm": [
+    "totvs-corten-lynn-agentes-sistema-operacional",
+    "totvs-agro-agentes-auditor-campo-fechamento-custos",
+    "sap-connect-joule-work-assistentes-agentes-disponibilidade",
+    "workato-ti-74-responsabilizados-agentes-62-sem-aprovacao",
+    "coaf-portaria-51-nuvem-terceiros-sem-treino-ia",
+    "google-cloud-gemini-agent-previa-privada"
+  ]
+}
