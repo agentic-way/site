@@ -1,0 +1,50 @@
+{
+  "id": "happyrobot-escritorio-sao-paulo-agentes-voz",
+  "publicado_em": "2026-10-15T07:11:00-03:00",
+  "tema": "MERCADO",
+  "titulo": "HappyRobot, fornecedora de agentes de IA avaliada em US$ 1,2 bilhão, abre escritório em São Paulo e mira grandes empresas, diz O Globo",
+  "linha": "A startup quer pôr o primeiro agente em uma empresa brasileira em cerca de um mês e chegar a 15 pessoas no país neste ano, segundo a coluna Capital.",
+  "linhaFina": "Agentes que fazem ligações, mensagens de WhatsApp e e-mails a partir de dados dos sistemas da empresa; foco declarado em problemas de cerca de R$ 10 milhões.",
+  "fontePrimaria": "HappyRobot, via O Globo (coluna Capital)",
+  "leitura": 3,
+  "resumo": [
+    "A HappyRobot abriu escritório em São Paulo, com foco em clientes do tipo enterprise (grandes corporações).",
+    "Segundo o líder comercial André Leite, o primeiro agente em uma empresa brasileira deve entrar em operação em um mês; a meta é ter 15 pessoas no Brasil ainda este ano e 35 no primeiro trimestre de 2027.",
+    "A empresa foi avaliada em US$ 1,2 bilhão em rodada liderada pela Prysm Capital e coliderada pela Eurazeo, após captação de US$ 150 milhões concluída em agosto."
+  ],
+  "corpo": [
+    "A coluna Capital, de O Globo, publicou em 14 de outubro que a HappyRobot, fundada por três empreendedores espanhóis no Vale do Silício, abriu escritório em São Paulo. A empresa fornece agentes de IA para o que chama de operações empresariais complexas e inclui Brasil, México e Cingapura na expansão.",
+    "Segundo a reportagem, os agentes navegam por sistemas, processos e registros da empresa para fazer ligações, enviar mensagens de WhatsApp e disparar e-mails. Um dos exemplos citados é um agente que conversa por telefone com paciente, pede o pedido médico por WhatsApp, interpreta o documento e busca o agendamento em laboratório da rede credenciada. Os exemplos foram demonstrados pela própria empresa à coluna.",
+    "Lucas Coelho, que lidera a implantação junto aos clientes, disse que a empresa usa modelos da Anthropic e da OpenAI, além de modelos próprios, como o de voz, e que seu trabalho é orquestrá-los conforme a necessidade de cada cliente. André Leite afirmou que o foco são problemas \"da ordem de R$ 10 milhões para grandes empresas\", em telecomunicações, logística, serviços financeiros e serviços públicos de utilidade, com oportunidades também em varejo e saúde."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · OFERTA",
+      "titulo": "Mais fornecedores globais de agentes de voz disputam o mercado local",
+      "texto": "A entrada de fornecedores com capital internacional tende a ampliar a oferta de agentes de atendimento e cobrança por telefone e WhatsApp no Brasil, mas o foco declarado é grande empresa."
+    },
+    {
+      "rotulo": "02 · PRAZO",
+      "titulo": "Ainda não há cliente brasileiro em produção",
+      "texto": "O primeiro agente no país está previsto para daqui a cerca de um mês, segundo a empresa. Não há números de resultado para o Brasil."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "As afirmações vêm do fornecedor",
+      "texto": "Capacidades e metas foram relatadas por executivos da própria HappyRobot e demonstradas por ela à coluna."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "HappyRobot, que 'vende' agentes de IA a empresas globais e vale US$ 1,2 bilhão, sai à caça de clientes no Brasil",
+      "origem": "O Globo · coluna Capital · 14 out 2026",
+      "url": "https://oglobo.globo.com/blogs/capital/post/2026/10/happyrobot-que-vende-agentes-de-ia-a-empresas-globais-e-vale-us-12-bilhao-sai-a-caca-de-clientes-no-brasil.ghtml"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Divulgação",
+      "valor": "14 out 2026"
+    }
+  ]
+}

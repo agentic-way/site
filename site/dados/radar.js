@@ -3,6 +3,118 @@ window.AW_DADOS = window.AW_DADOS || {};
 window.AW_DADOS.assinatura = "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi";
 window.AW_DADOS.radar = [
  {
+  "id": "happyrobot-escritorio-sao-paulo-agentes-voz",
+  "publicado_em": "2026-10-15T07:11:00-03:00",
+  "tema": "MERCADO",
+  "titulo": "HappyRobot, fornecedora de agentes de IA avaliada em US$ 1,2 bilhão, abre escritório em São Paulo e mira grandes empresas, diz O Globo",
+  "linha": "A startup quer pôr o primeiro agente em uma empresa brasileira em cerca de um mês e chegar a 15 pessoas no país neste ano, segundo a coluna Capital.",
+  "linhaFina": "Agentes que fazem ligações, mensagens de WhatsApp e e-mails a partir de dados dos sistemas da empresa; foco declarado em problemas de cerca de R$ 10 milhões.",
+  "fontePrimaria": "HappyRobot, via O Globo (coluna Capital)",
+  "leitura": 3,
+  "resumo": [
+   "A HappyRobot abriu escritório em São Paulo, com foco em clientes do tipo enterprise (grandes corporações).",
+   "Segundo o líder comercial André Leite, o primeiro agente em uma empresa brasileira deve entrar em operação em um mês; a meta é ter 15 pessoas no Brasil ainda este ano e 35 no primeiro trimestre de 2027.",
+   "A empresa foi avaliada em US$ 1,2 bilhão em rodada liderada pela Prysm Capital e coliderada pela Eurazeo, após captação de US$ 150 milhões concluída em agosto."
+  ],
+  "corpo": [
+   "A coluna Capital, de O Globo, publicou em 14 de outubro que a HappyRobot, fundada por três empreendedores espanhóis no Vale do Silício, abriu escritório em São Paulo. A empresa fornece agentes de IA para o que chama de operações empresariais complexas e inclui Brasil, México e Cingapura na expansão.",
+   "Segundo a reportagem, os agentes navegam por sistemas, processos e registros da empresa para fazer ligações, enviar mensagens de WhatsApp e disparar e-mails. Um dos exemplos citados é um agente que conversa por telefone com paciente, pede o pedido médico por WhatsApp, interpreta o documento e busca o agendamento em laboratório da rede credenciada. Os exemplos foram demonstrados pela própria empresa à coluna.",
+   "Lucas Coelho, que lidera a implantação junto aos clientes, disse que a empresa usa modelos da Anthropic e da OpenAI, além de modelos próprios, como o de voz, e que seu trabalho é orquestrá-los conforme a necessidade de cada cliente. André Leite afirmou que o foco são problemas \"da ordem de R$ 10 milhões para grandes empresas\", em telecomunicações, logística, serviços financeiros e serviços públicos de utilidade, com oportunidades também em varejo e saúde."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · OFERTA",
+    "titulo": "Mais fornecedores globais de agentes de voz disputam o mercado local",
+    "texto": "A entrada de fornecedores com capital internacional tende a ampliar a oferta de agentes de atendimento e cobrança por telefone e WhatsApp no Brasil, mas o foco declarado é grande empresa."
+   },
+   {
+    "rotulo": "02 · PRAZO",
+    "titulo": "Ainda não há cliente brasileiro em produção",
+    "texto": "O primeiro agente no país está previsto para daqui a cerca de um mês, segundo a empresa. Não há números de resultado para o Brasil."
+   },
+   {
+    "rotulo": "03 · FONTE",
+    "titulo": "As afirmações vêm do fornecedor",
+    "texto": "Capacidades e metas foram relatadas por executivos da própria HappyRobot e demonstradas por ela à coluna."
+   }
+  ],
+  "fontes": [
+   {
+    "titulo": "HappyRobot, que 'vende' agentes de IA a empresas globais e vale US$ 1,2 bilhão, sai à caça de clientes no Brasil",
+    "origem": "O Globo · coluna Capital · 14 out 2026",
+    "url": "https://oglobo.globo.com/blogs/capital/post/2026/10/happyrobot-que-vende-agentes-de-ia-a-empresas-globais-e-vale-us-12-bilhao-sai-a-caca-de-clientes-no-brasil.ghtml"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Divulgação",
+    "valor": "14 out 2026"
+   }
+  ]
+ },
+ {
+  "id": "g2-agentes-producao-66-imposto-desconfianca",
+  "publicado_em": "2026-10-15T07:10:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "G2: 66% das empresas compradoras de software já têm agentes em produção, e 45% dizem que a supervisão consome mais de um quarto do ganho esperado",
+  "linha": "Relatório da G2 com mais de 1.000 compradores de software B2B: 31% dizem que funcionários gastam 6 horas ou mais por semana vigiando agentes, e 46% relatam custo de operação acima do esperado.",
+  "linhaFina": "A G2 chama de \"imposto da desconfiança\" o custo de revisar, corrigir e tratar exceções de agentes em que a empresa não confia por completo.",
+  "fontePrimaria": "G2",
+  "leitura": 3,
+  "resumo": [
+   "66% das organizações pesquisadas têm agentes em produção limitada ou em escala, e a adoção entre compradores de software B2B subiu 25% em um ano.",
+   "31% dizem que funcionários passam 6 horas ou mais por semana supervisionando o trabalho de agentes; 45% afirmam que supervisionar e corrigir erros consome mais de um quarto do ganho de produtividade esperado; 46% relatam custo de operação acima do esperado.",
+   "52% exigem revisão humana de qualidade antes de colocar o agente em produção, e 77% reavaliam o desempenho pelo menos uma vez por mês."
+  ],
+  "corpo": [
+   "A G2, plataforma de avaliações de software, divulgou em 14 de outubro o relatório 2026 AI Agents Report: Crossing the Agentic Chasm. Segundo a empresa, a base é uma pesquisa com mais de 1.000 compradores de software B2B, somada a dados de avaliações da própria plataforma. O texto publicado não detalha países nem datas de campo.",
+   "O relatório diz que a adoção avançou do piloto para a produção: 66% das organizações têm agentes em produção limitada ou em escala, e quase metade das que concluíram pilotos afirma que a maioria deles chegou à produção plena. A G2 afirma que o desafio seguinte é dar tarefas de maior consequência aos agentes sem aumentar a supervisão a ponto de apagar o ganho.",
+   "Daí o termo \"imposto da desconfiança\": parte do valor volta na forma de revisão, correção e tratamento de exceção. Além dos 31%, 45% e 46% citados acima, o relatório mostra que, entre as organizações com agentes em produção, 38% operam mais de 100 agentes e 47% ainda os administram de modo informal ou descentralizado.",
+   "Sobre preço, só 9% dos compradores consideram a cobrança por usuário a mais justa para agentes, e 72% dizem que um ecossistema de conectores e ações é importante ou indispensável para adotar. Entre equipes com agentes em fluxos maduros, 4 em cada 5 relatam ganho de tempo de ciclo de pelo menos 11%."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · CUSTO",
+    "titulo": "O ganho líquido depende de quanto se revisa",
+    "texto": "Quem projeta retorno de um agente sem contar as horas de revisão e correção está calculando um ganho bruto. A pesquisa sugere que essa diferença é relevante para quase metade dos compradores."
+   },
+   {
+    "rotulo": "02 · INVENTÁRIO",
+    "titulo": "Informalidade aparece cedo",
+    "texto": "Com 47% dos que têm agentes em produção usando gestão informal, saber quem responde por cada agente e o que ele acessa passa a ser pré-requisito de escala."
+   },
+   {
+    "rotulo": "03 · FONTE",
+    "titulo": "A G2 também tem interesse no tema",
+    "texto": "A G2 vende pesquisa e visibilidade a fornecedores de software, público a que o relatório se dirige. A amostra é de compradores de software, não necessariamente de empresas médias brasileiras."
+   }
+  ],
+  "oQueFazer": [
+   "Ao avaliar um agente, peça ao fornecedor e à própria equipe uma estimativa das horas semanais de revisão e correção, e some-as ao custo antes de comparar com o ganho prometido."
+  ],
+  "fontes": [
+   {
+    "titulo": "New G2 Research: AI Agents Have Moved From Pilot to Production. Now Comes the Distrust Tax.",
+    "origem": "G2 · blog · 14 out 2026",
+    "url": "https://company.g2.com/news/2026-ai-agents-report"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem mediu",
+    "valor": "G2"
+   },
+   {
+    "rotulo": "Amostra",
+    "valor": "mais de 1.000 compradores de software B2B"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "14 out 2026"
+   }
+  ]
+ },
+ {
   "id": "workato-ti-74-responsabilizados-agentes-62-sem-aprovacao",
   "publicado_em": "2026-10-14T07:12:00-03:00",
   "tema": "PESQUISA",
@@ -193,6 +305,219 @@ window.AW_DADOS.radar = [
    {
     "rotulo": "Disponibilidade",
     "valor": "sem prazo único; por roadmap de cada produto"
+   }
+  ]
+ },
+ {
+  "id": "coaf-portaria-51-nuvem-terceiros-sem-treino-ia",
+  "publicado_em": "2026-10-13T07:10:00-03:00",
+  "tema": "REGULAÇÃO",
+  "titulo": "Coaf aceita nuvem de terceiros para informação sigilosa, mas exige que o fornecedor não use os dados para treinar modelos",
+  "linha": "A Portaria Coaf nº 51/2026, publicada no Diário Oficial de 8 de outubro, lista as garantias que um ambiente de terceiros deve dar, entre elas a não utilização dos dados para treinamento ou aperfeiçoamento de modelos.",
+  "linhaFina": "A norma vale para o próprio Coaf, não para o mercado. Mas mostra, em texto oficial, um conjunto de exigências que qualquer empresa pode copiar ao contratar nuvem ou agente de IA.",
+  "fontePrimaria": "Coaf / Diário Oficial da União",
+  "leitura": 3,
+  "resumo": [
+   "A Portaria Coaf nº 51, de 1º de setembro de 2026, foi publicada no Diário Oficial da União de 8 de outubro de 2026 e revoga a Portaria Coaf nº 9, de 2021.",
+   "Ela admite o tratamento de informação em ambiente provido por terceiro, desde que submetido a avaliação de risco e a homologação pelo Coaf.",
+   "Entre as garantias mínimas estão confidencialidade, integridade, disponibilidade, segregação, não retenção dos dados após o processamento, não utilização para treinamento ou aperfeiçoamento de modelos por terceiros, reversibilidade e rastreabilidade."
+  ],
+  "corpo": [
+   "A portaria institui a política de segurança da informação do Conselho de Controle de Atividades Financeiras, órgão ligado ao Banco Central. O texto define como \"ambiente autorizado\" o ambiente físico ou lógico, próprio ou provido por terceiro, submetido a avaliação de risco e a rito formal de homologação pelo Coaf.",
+   "O artigo 17 manda que as informações não públicas do órgão sejam tratadas em ambientes autorizados. O parágrafo 2º diz que a autorização de ambientes de terceiros deve considerar, de forma proporcional à criticidade da informação, no mínimo as garantias técnicas e contratuais de confidencialidade, integridade, disponibilidade, segregação, não retenção dos dados após o processamento, não utilização dos dados para treinamento ou aperfeiçoamento de modelos por terceiros, reversibilidade e rastreabilidade.",
+   "O artigo 27 determina que o desenvolvimento, a contratação e o uso de sistemas de inteligência artificial observem a política, sem prejuízo de ato específico de governança de IA. A portaria entra em vigor na data da publicação. O texto remete o rito de autorização a norma específica; a notícia do TV Sim Brasil, de 10 de outubro, informa que o Coaf ainda não divulgou lista de provedores homologados, informação que não consta na portaria."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · CONTRATO",
+    "titulo": "A cláusula de não treinamento passa a ter texto oficial de referência",
+    "texto": "Ao contratar nuvem ou agente de IA com dados de clientes, a empresa pode pedir por escrito as mesmas garantias: não retenção após o processamento e proibição de uso dos dados para treinar modelos."
+   },
+   {
+    "rotulo": "02 · ESCOPO",
+    "titulo": "A norma não obriga empresas privadas",
+    "texto": "A portaria rege o Coaf e quem lhe presta serviço. Fornecedores de nuvem e IA que atendem o órgão tendem a ter essas garantias prontas e podem ser questionados sobre elas."
+   },
+   {
+    "rotulo": "03 · SAÍDA",
+    "titulo": "Reversibilidade e rastreabilidade entram na mesma lista",
+    "texto": "Poder retirar os dados do fornecedor e saber quem os acessou pesa tanto quanto a promessa de não treinar modelos."
+   }
+  ],
+  "oQueFazer": [
+   "Para quem contrata agentes que acessam dados de clientes, vale comparar o contrato do fornecedor com a lista do parágrafo 2º do artigo 17: retenção, uso para treinamento, segregação, devolução dos dados e registro de acesso."
+  ],
+  "fontes": [
+   {
+    "titulo": "Portaria Coaf nº 51, de 1º de setembro de 2026",
+    "origem": "Diário Oficial da União · seção 1 · 8 out 2026",
+    "url": "https://www.in.gov.br/web/dou/-/portaria-coaf-n-51-de-1-de-setembro-de-2026-737221713"
+   },
+   {
+    "titulo": "Coaf libera nuvem de terceiros, mas veta uso de dados para IA",
+    "origem": "TV Sim Brasil · 10 out 2026",
+    "url": "https://tvsimbrasil.com.br/brasil/tecnologia/noticia/2026/10/10/coaf-libera-nuvem-terceiros-veta-dados-ia"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Órgão",
+    "valor": "Coaf (Banco Central do Brasil)"
+   },
+   {
+    "rotulo": "Norma",
+    "valor": "Portaria Coaf nº 51/2026, revoga a Portaria nº 9/2021"
+   },
+   {
+    "rotulo": "Vigência",
+    "valor": "a partir da publicação, 8 out 2026"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "8 out 2026"
+   }
+  ]
+ },
+ {
+  "id": "sap-connect-joule-work-assistentes-agentes-disponibilidade",
+  "publicado_em": "2026-10-12T07:21:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "SAP lança no SAP Connect o Joule Work e novos assistentes para finanças, compras e cadeia de suprimentos; disponibilidade geral começa neste trimestre",
+  "linha": "A SAP diz que o Joule Work já roda com 110.000 funcionários da própria empresa, com ganho de produtividade de 20%. O número é da fornecedora, e a fonte não detalha a oferta para o Brasil.",
+  "linhaFina": "Segundo a SAP, os agentes executam trabalho dentro dos processos do ERP, com as autorizações e a trilha de auditoria já existentes, e o cliente define o nível de autonomia.",
+  "fontePrimaria": "SAP SE",
+  "leitura": 3,
+  "resumo": [
+   "Em 6 de outubro, no SAP Connect, a SAP apresentou o Joule Work, interface de IA para os sistemas SAP, e os Joule Assistants, que executam tarefas nos processos de finanças, RH, compras, cadeia de suprimentos e atendimento ao cliente.",
+   "A SAP afirma que o Joule Work já opera com 110.000 funcionários dela mesma, com ganho de produtividade de 20% em finanças, RH e compras.",
+   "Segundo a CIO.com, a disponibilidade geral dos assistentes e agentes começa neste mês; para as capacidades de cadeia de suprimentos, a SAP planeja o quarto trimestre de 2026."
+  ],
+  "corpo": [
+   "Em comunicado de 6 de outubro, a SAP afirmou que o Joule Work começa a chegar aos clientes como uma interface em que o funcionário usa a linguagem natural para trabalhar nos sistemas SAP e em dados de terceiros. Os Joule Assistants, segundo a empresa, executam trabalho operacional dentro dos fluxos de negócio, usando os dados, as autorizações e as trilhas de auditoria já estabelecidos. O cliente controla o nível de autonomia, e o Joule se conecta a agentes de terceiros pelo protocolo Agent2Agent.",
+   "Os números de resultado vêm da própria SAP: o Joule Work está em uso por 110.000 funcionários da empresa, com ganho de produtividade de 20% em finanças, RH e compras; implantações iniciais do assistente de comércio internacional teriam reduzido em até 50% o esforço de classificação de mercadorias. O comunicado não nomeia o cliente nem o método de medição desse último dado.",
+   "Segundo a CIO.com, os assistentes e agentes, o Joule Studio e o Joule Work serão oferecidos como produtos gerenciados pela SAP, com disponibilidade geral a partir deste mês. O SAP Cloud ERP Private, versão para instalação própria, recebe as integrações com o Joule em programa de adoção antecipada, com disponibilidade geral prevista para o fim do ano. Em artigo à parte, a SAP indica o quarto trimestre de 2026 para as novas capacidades de cadeia de suprimentos.",
+   "Os documentos consultados não informam quais assistentes estarão disponíveis em português nem em que data chegam ao Brasil. A CIO.com cita o analista Thomas Randall, da Info-Tech Research Group, para quem o evento não trouxe avanço decisivo e coloca a SAP como seguidora de Microsoft, Salesforce, ServiceNow e Oracle em assistentes e orquestração de agentes."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · ERP",
+    "titulo": "O agente passa a ser a porta de entrada do ERP",
+    "texto": "A SAP trata o Joule como interface dos sistemas de registro. Para a empresa média que usa SAP, a discussão deixa de ser comprar um agente à parte e passa a ser quanto do ERP vai ser operado por ele."
+   },
+   {
+    "rotulo": "02 · CONTROLE",
+    "titulo": "Autonomia configurável é o que decide o risco",
+    "texto": "A SAP diz que o cliente escolhe o nível de autonomia. Convém saber, por assistente, o que ele pode executar sozinho e o que depende de aprovação, e se a trilha de auditoria registra cada ação."
+   },
+   {
+    "rotulo": "03 · FONTE",
+    "titulo": "Ganho de 20% é medição da própria fornecedora",
+    "texto": "O número vem do uso interno da SAP, sem auditoria externa. O resultado de uma empresa média, com dados e processos próprios, pode ser outro."
+   }
+  ],
+  "oQueFazer": [
+   "Quem usa SAP deve perguntar ao representante, por escrito, quais assistentes estão disponíveis para a versão e o idioma em uso, a partir de quando no Brasil, e como o consumo será cobrado."
+  ],
+  "fontes": [
+   {
+    "titulo": "SAP Puts the Autonomous Enterprise to Work",
+    "origem": "SAP SE · comunicado (PR Newswire) · 6 out 2026",
+    "url": "https://www.prnewswire.com/news-releases/sap-puts-the-autonomous-enterprise-to-work-302899688.html"
+   },
+   {
+    "titulo": "SAP advances its autonomous AI agenda with yet more Joule Assistants and agents",
+    "origem": "CIO.com · 6 out 2026",
+    "url": "https://www.cio.com/article/4231331/sap-advances-its-autonomous-ai-agenda-with-yet-more-joule-assistants-and-agents.html"
+   },
+   {
+    "titulo": "SAP Expands Joule Assistants and Agents to Advance Autonomous Supply Chain",
+    "origem": "SAP News Center · 8 out 2026",
+    "url": "https://news.sap.com/2026/10/joule-assistants-agents-advance-autonomous-scm/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
+    "valor": "SAP SE"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "6 out 2026"
+   },
+   {
+    "rotulo": "Disponibilidade",
+    "valor": "geral a partir de outubro (CIO.com); cadeia de suprimentos no 4º trimestre de 2026"
+   },
+   {
+    "rotulo": "Confirmação",
+    "valor": "não confirmada pelo cliente"
+   }
+  ]
+ },
+ {
+  "id": "bain-taxa-realizacao-ia-38-agentes-7-autonomos",
+  "publicado_em": "2026-10-12T07:20:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Bain: empresas realizam 38% do valor esperado com IA, e só cerca de 7% operam agentes totalmente autônomos em produção",
+  "linha": "Pesquisa da Bain com 951 empresas e 63 processos: a IA generativa entrega 38% do valor previsto, contra 52% da automação tradicional. Quase 40% de quem mediu economia ficou abaixo de 10%.",
+  "linhaFina": "A consultoria propõe medir a \"taxa de realização\", a parcela do valor esperado que vira resultado mensurável, e adverte que os planos de negócio assumem autonomia total que quase ninguém tem.",
+  "fontePrimaria": "Bain & Company",
+  "leitura": 3,
+  "resumo": [
+   "Em 951 empresas e 63 processos, a Bain estima que a IA generativa converte cerca de 38% do valor potencial em resultado mensurável. A automação tradicional chegou a 52%.",
+   "Quase 40% das empresas que mediram a economia de custo com IA realizaram menos de 10%, embora a meta chegasse a 20%.",
+   "Só cerca de 7% das empresas operam agentes totalmente autônomos em produção, mas muitos planos de investimento usam a conta da autonomia total."
+  ],
+  "corpo": [
+   "A Bain & Company publicou em 8 de outubro o artigo \"Realization Rate: The Metric Reshaping Enterprise AI\", assinado por Purna Doddapaneni e Michael Heric. Os dados vêm da Bain Automation and AI Pathfinder Survey 2026, com 951 empresas e 63 processos corporativos. O texto não informa a distribuição por país nem dá recorte para o Brasil.",
+   "A métrica central é a taxa de realização: a parcela do valor esperado que se converte em resultado de negócio mensurável. Para a IA generativa, a Bain aponta cerca de 38% nas funções pesquisadas. Para a automação tradicional, depois de duas décadas de mapeamento de processos, integração e gestão de mudança, 52%.",
+   "Entre as empresas que mediram economia de custo com IA, quase 40% ficaram abaixo de 10%, mesmo com meta de até 20%. Segundo a Bain, a maioria ainda amplia o gasto em IA, muitas vezes financiando novas iniciativas com economias de projetos anteriores que não chegaram ao esperado.",
+   "Sobre agentes, a consultoria afirma que só cerca de 7% das empresas rodam agentes totalmente autônomos em produção, enquanto muitos casos de investimento usam a economia da autonomia total. Na prática, diz a Bain, a maior parte dos processos com agentes ainda exige supervisão humana, o que é muitas vezes a escolha certa, mas o custo dessa supervisão precisa entrar na conta.",
+   "A Bain vende consultoria e orienta fornecedores de software sobre como competir em \"realização\". O artigo é dirigido ao mercado de software, e os números são da pesquisa da própria consultoria."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · CONTA",
+    "titulo": "O caso de negócio precisa refletir a supervisão humana",
+    "texto": "Se o agente exige aprovação de uma pessoa, o custo dessa revisão faz parte da economia esperada. Planejar com autonomia total quando a operação é supervisionada gera meta que não fecha."
+   },
+   {
+    "rotulo": "02 · MEDIDA",
+    "titulo": "Cobrar a taxa de realização do ciclo anterior",
+    "texto": "A Bain sugere perguntar quanto do valor previsto foi de fato realizado antes de aprovar a próxima onda. Quem não consegue responder pode estar financiando projeto novo com economia que não existiu."
+   },
+   {
+    "rotulo": "03 · FONTE",
+    "titulo": "Pesquisa de consultoria, sem recorte brasileiro",
+    "texto": "A amostra é da Bain e o texto não separa o Brasil. Os percentuais servem de referência para a conversa interna, não de previsão para a empresa."
+   }
+  ],
+  "oQueFazer": [
+   "Para quem já tem agentes em uso, vale levantar, por processo, a economia prometida no projeto e a economia medida hoje, e registrar quanto do esforço de revisão humana entrou na conta original."
+  ],
+  "fontes": [
+   {
+    "titulo": "Realization Rate: The Metric Reshaping Enterprise AI",
+    "origem": "Bain & Company · artigo · 8 out 2026",
+    "url": "https://www.bain.com/insights/realization-rate-the-metric-reshaping-enterprise-ai/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem mediu",
+    "valor": "Bain & Company"
+   },
+   {
+    "rotulo": "Pesquisa",
+    "valor": "Bain Automation and AI Pathfinder Survey 2026"
+   },
+   {
+    "rotulo": "Amostra",
+    "valor": "951 empresas, 63 processos corporativos"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "8 out 2026"
    }
   ]
  },

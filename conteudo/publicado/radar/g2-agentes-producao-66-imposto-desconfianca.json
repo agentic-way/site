@@ -1,0 +1,62 @@
+{
+  "id": "g2-agentes-producao-66-imposto-desconfianca",
+  "publicado_em": "2026-10-15T07:10:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "G2: 66% das empresas compradoras de software já têm agentes em produção, e 45% dizem que a supervisão consome mais de um quarto do ganho esperado",
+  "linha": "Relatório da G2 com mais de 1.000 compradores de software B2B: 31% dizem que funcionários gastam 6 horas ou mais por semana vigiando agentes, e 46% relatam custo de operação acima do esperado.",
+  "linhaFina": "A G2 chama de \"imposto da desconfiança\" o custo de revisar, corrigir e tratar exceções de agentes em que a empresa não confia por completo.",
+  "fontePrimaria": "G2",
+  "leitura": 3,
+  "resumo": [
+    "66% das organizações pesquisadas têm agentes em produção limitada ou em escala, e a adoção entre compradores de software B2B subiu 25% em um ano.",
+    "31% dizem que funcionários passam 6 horas ou mais por semana supervisionando o trabalho de agentes; 45% afirmam que supervisionar e corrigir erros consome mais de um quarto do ganho de produtividade esperado; 46% relatam custo de operação acima do esperado.",
+    "52% exigem revisão humana de qualidade antes de colocar o agente em produção, e 77% reavaliam o desempenho pelo menos uma vez por mês."
+  ],
+  "corpo": [
+    "A G2, plataforma de avaliações de software, divulgou em 14 de outubro o relatório 2026 AI Agents Report: Crossing the Agentic Chasm. Segundo a empresa, a base é uma pesquisa com mais de 1.000 compradores de software B2B, somada a dados de avaliações da própria plataforma. O texto publicado não detalha países nem datas de campo.",
+    "O relatório diz que a adoção avançou do piloto para a produção: 66% das organizações têm agentes em produção limitada ou em escala, e quase metade das que concluíram pilotos afirma que a maioria deles chegou à produção plena. A G2 afirma que o desafio seguinte é dar tarefas de maior consequência aos agentes sem aumentar a supervisão a ponto de apagar o ganho.",
+    "Daí o termo \"imposto da desconfiança\": parte do valor volta na forma de revisão, correção e tratamento de exceção. Além dos 31%, 45% e 46% citados acima, o relatório mostra que, entre as organizações com agentes em produção, 38% operam mais de 100 agentes e 47% ainda os administram de modo informal ou descentralizado.",
+    "Sobre preço, só 9% dos compradores consideram a cobrança por usuário a mais justa para agentes, e 72% dizem que um ecossistema de conectores e ações é importante ou indispensável para adotar. Entre equipes com agentes em fluxos maduros, 4 em cada 5 relatam ganho de tempo de ciclo de pelo menos 11%."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CUSTO",
+      "titulo": "O ganho líquido depende de quanto se revisa",
+      "texto": "Quem projeta retorno de um agente sem contar as horas de revisão e correção está calculando um ganho bruto. A pesquisa sugere que essa diferença é relevante para quase metade dos compradores."
+    },
+    {
+      "rotulo": "02 · INVENTÁRIO",
+      "titulo": "Informalidade aparece cedo",
+      "texto": "Com 47% dos que têm agentes em produção usando gestão informal, saber quem responde por cada agente e o que ele acessa passa a ser pré-requisito de escala."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "A G2 também tem interesse no tema",
+      "texto": "A G2 vende pesquisa e visibilidade a fornecedores de software, público a que o relatório se dirige. A amostra é de compradores de software, não necessariamente de empresas médias brasileiras."
+    }
+  ],
+  "oQueFazer": [
+    "Ao avaliar um agente, peça ao fornecedor e à própria equipe uma estimativa das horas semanais de revisão e correção, e some-as ao custo antes de comparar com o ganho prometido."
+  ],
+  "fontes": [
+    {
+      "titulo": "New G2 Research: AI Agents Have Moved From Pilot to Production. Now Comes the Distrust Tax.",
+      "origem": "G2 · blog · 14 out 2026",
+      "url": "https://company.g2.com/news/2026-ai-agents-report"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "G2"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "mais de 1.000 compradores de software B2B"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "14 out 2026"
+    }
+  ]
+}
