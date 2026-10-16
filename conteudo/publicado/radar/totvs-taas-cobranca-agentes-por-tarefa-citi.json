@@ -1,0 +1,67 @@
+{
+  "id": "totvs-taas-cobranca-agentes-por-tarefa-citi",
+  "publicado_em": "2026-10-16T07:10:00-03:00",
+  "tema": "MERCADO",
+  "titulo": "Segundo o Citi, a Totvs vai cobrar agentes de IA por tarefa concluída, dentro de uma mensalidade com franquia de T-Coins",
+  "linha": "Relatório do Citi após o Dia do Investidor da Totvs descreve o TaaS: mensalidade com franquia, excedente cobrado à parte e agentes faturados por tarefa, sem contagem de tokens. Pacotes do Intera custam de 40% a 100% a mais.",
+  "linhaFina": "O detalhe do modelo de preço vem de análise de banco que recomenda a compra da ação; a Totvs não detalhou na apresentação o que cada pacote inclui.",
+  "fontePrimaria": "Citi, via Times Brasil (CNBC)",
+  "leitura": 3,
+  "resumo": [
+    "O Citi, em relatório a clientes, descreve o TaaS da Totvs como uma mensalidade fixa com direito a uma franquia de T-Coins, mais cobrança à parte pelo uso que passar do limite.",
+    "As APIs são cobradas pela capacidade consumida, e os agentes pelas tarefas que concluem, sem contagem de tokens.",
+    "Os novos pacotes do Intera custam 40% a mais que o padrão no Financeiro, 65% a mais em RH e Marketing e 100% a mais no Intera 360, e a cobrança segue por usuário."
+  ],
+  "corpo": [
+    "O Times Brasil (CNBC) publicou em 14 de outubro um resumo do relatório que o Citi enviou a clientes depois do Dia do Investidor da Totvs. O banco tem recomendação de compra para a empresa e ficou mais otimista com o novo modelo de cobrança por consumo de APIs e por tarefas concluídas de agentes de IA.",
+    "Segundo o relatório, o TaaS reúne uma mensalidade fixa, que dá direito a uma franquia de T-Coins, e uma cobrança à parte para o uso que exceder essa franquia. As APIs são cobradas pela capacidade consumida e os agentes pelas tarefas que concluem, sem contagem de tokens. Para o Citi, isso permite ao cliente prever o gasto e à Totvs alternar entre modelos de IA aprovados para reduzir custos sem interromper os fluxos de trabalho.",
+    "Sobre os pacotes, o relatório informa que os novos pacotes do Intera custam 40% a mais que o padrão no Intera Financeiro, 65% a mais nas soluções de RH e Marketing e 100% a mais no Intera 360. A cobrança segue por usuário, e os itens de consumo são faturados separadamente.",
+    "A administração reconheceu que processos de missão crítica tendem a ter adoção mais lenta, e o Citi vê a contribuição relevante do TaaS só depois de 2027. O InfoMoney registrou leitura parecida do Goldman Sachs: o evento sinaliza a passagem da estratégia de IA para a definição de preços, com monetização baseada em tarefas concluídas."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · PREÇO",
+      "titulo": "O custo do agente passa a depender do que ele conclui",
+      "texto": "Na cobrança por tarefa, o gasto acompanha o volume de trabalho entregue e não o consumo de tokens. A empresa cliente precisa saber o que a Totvs conta como tarefa concluída antes de projetar o orçamento."
+    },
+    {
+      "rotulo": "02 · FRANQUIA",
+      "titulo": "O excedente é onde o orçamento pode escapar",
+      "texto": "A mensalidade traz previsibilidade só até o limite da franquia de T-Coins. Vale perguntar o preço do excedente e se há teto de gasto."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Os números vêm de relatório de analista, não da Totvs",
+      "texto": "O Citi recomenda a compra da ação, e a Totvs não detalhou na apresentação o que cada pacote do Intera inclui. Os valores e percentuais devem ser confirmados com a empresa antes de entrar em contrato."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem usa Totvs, pedir ao representante a definição escrita de tarefa concluída, o valor do T-Coin, o tamanho da franquia e o preço do excedente, e comparar o pacote novo com o que a empresa paga hoje por usuário."
+  ],
+  "fontes": [
+    {
+      "titulo": "Citi fica mais otimista com a Totvs após lançamento de cobrança por tarefa de agentes de inteligência artificial",
+      "origem": "Times Brasil (CNBC) · reportagem sobre relatório do Citi · 14 out 2026",
+      "url": "https://timesbrasil.com.br/empresas-e-negocios/tecnologia-e-inovacao/citi-totvs-taas-cobranca-agentes-inteligencia-artificial/"
+    },
+    {
+      "titulo": "Totvs avança na monetização de IA, mas impacto maior deve vir a partir de 2027",
+      "origem": "InfoMoney · 14 out 2026",
+      "url": "https://www.infomoney.com.br/mercados/totvs-avanca-na-monetizacao-de-ia-mas-impacto-maior-deve-vir-a-partir-de-2027/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "Citi, em relatório a clientes (não público), segundo o Times Brasil"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "14 out 2026"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não confirmada pela Totvs nas fontes consultadas"
+    }
+  ]
+}
