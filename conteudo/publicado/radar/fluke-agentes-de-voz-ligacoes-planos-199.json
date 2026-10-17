@@ -1,0 +1,62 @@
+{
+  "id": "fluke-agentes-de-voz-ligacoes-planos-199",
+  "publicado_em": "2026-10-17T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Fluke lança agentes de IA de voz para empresas, com planos a partir de R$ 199 por mês",
+  "linha": "A operadora digital permite criar agentes que fazem e recebem ligações, com transferência para atendente humano, no portal ou por API e MCP.",
+  "linhaFina": "Segundo o Inforchannel, a franquia é de minutos e gravação e transcrição das ligações são cobradas à parte.",
+  "fontePrimaria": "Fluke, via Inforchannel",
+  "leitura": 2,
+  "resumo": [
+    "A Fluke, operadora móvel digital que usa a rede da Vivo por parceria com a Telecall, lançou agentes de IA para ligações de voz.",
+    "Os agentes fazem e recebem chamadas e transferem para um atendente quando necessário. Planos mensais partem de R$ 199, sem fidelidade, com franquia de minutos.",
+    "Gravação e transcrição serão cobradas à parte."
+  ],
+  "corpo": [
+    "Segundo o Inforchannel, a Fluke lançou agentes de IA para ligações de voz que permitem às empresas fazer e receber chamadas a qualquer hora. Já é possível criar os agentes no portal Fluke Empresas e testar as ligações antes de colocá-los em operação.",
+    "O agente pode ser criado na plataforma, sem programação, ou integrado aos sistemas da empresa por API. A Fluke também diz que é possível montar tudo a partir de assistentes como ChatGPT e Claude, por meio do MCP. O número usado é da própria Fluke.",
+    "A contratação é por plano mensal a partir de R$ 199, sem fidelidade, com franquia de minutos. Planos maiores permitem mais ligações simultâneas e minuto mais barato. Gravação e transcrição serão cobradas à parte. A matéria não informa o valor do minuto excedente nem a franquia de cada plano.",
+    "Os agentes são um desdobramento da operação corporativa da Fluke, iniciada em 2023, que soma 80 mil linhas, metade de clientes empresariais, em 5,5 mil empresas, segundo a reportagem. A Agora.io já testa os agentes."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CANAL",
+      "titulo": "Voz entra no alcance de empresas pequenas e médias",
+      "texto": "Um plano de R$ 199 por mês com franquia de minutos coloca o atendimento telefônico automatizado ao alcance de quem não contrata plataformas de contact center."
+    },
+    {
+      "rotulo": "02 · CUSTO",
+      "titulo": "O preço final depende do que é cobrado à parte",
+      "texto": "Minutos além da franquia, gravação e transcrição pesam no custo. Quem precisa guardar as ligações deve somar esses itens antes de comparar."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Não há avaliação independente",
+      "texto": "As informações vêm do lançamento e de entrevista com o fundador. A matéria não traz taxa de resolução nem dado de qualidade das ligações."
+    }
+  ],
+  "oQueFazer": [
+    "Antes de contratar, teste o agente com as perguntas reais do atendimento e confira se a transferência para humano funciona fora do horário comercial."
+  ],
+  "fontes": [
+    {
+      "titulo": "Fluke lança agentes de voz com IA para mudar o canal de ligações no Brasil",
+      "origem": "Inforchannel · 16 out 2026",
+      "url": "https://inforchannel.com.br/2026/10/16/fluke-lanca-agentes-de-voz-com-ia-para-mudar-o-canal-de-ligacoes-no-brasil/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "Fluke, via Inforchannel"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "16 out 2026"
+    },
+    {
+      "rotulo": "Preço de entrada",
+      "valor": "R$ 199 por mês, sem fidelidade"
+    }
+  ]
+}
