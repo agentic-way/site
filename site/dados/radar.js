@@ -3,6 +3,135 @@ window.AW_DADOS = window.AW_DADOS || {};
 window.AW_DADOS.assinatura = "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi";
 window.AW_DADOS.radar = [
  {
+  "id": "fluke-agentes-de-voz-ligacoes-planos-199",
+  "publicado_em": "2026-10-17T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Fluke lança agentes de IA de voz para empresas, com planos a partir de R$ 199 por mês",
+  "linha": "A operadora digital permite criar agentes que fazem e recebem ligações, com transferência para atendente humano, no portal ou por API e MCP.",
+  "linhaFina": "Segundo o Inforchannel, a franquia é de minutos e gravação e transcrição das ligações são cobradas à parte.",
+  "fontePrimaria": "Fluke, via Inforchannel",
+  "leitura": 2,
+  "resumo": [
+   "A Fluke, operadora móvel digital que usa a rede da Vivo por parceria com a Telecall, lançou agentes de IA para ligações de voz.",
+   "Os agentes fazem e recebem chamadas e transferem para um atendente quando necessário. Planos mensais partem de R$ 199, sem fidelidade, com franquia de minutos.",
+   "Gravação e transcrição serão cobradas à parte."
+  ],
+  "corpo": [
+   "Segundo o Inforchannel, a Fluke lançou agentes de IA para ligações de voz que permitem às empresas fazer e receber chamadas a qualquer hora. Já é possível criar os agentes no portal Fluke Empresas e testar as ligações antes de colocá-los em operação.",
+   "O agente pode ser criado na plataforma, sem programação, ou integrado aos sistemas da empresa por API. A Fluke também diz que é possível montar tudo a partir de assistentes como ChatGPT e Claude, por meio do MCP. O número usado é da própria Fluke.",
+   "A contratação é por plano mensal a partir de R$ 199, sem fidelidade, com franquia de minutos. Planos maiores permitem mais ligações simultâneas e minuto mais barato. Gravação e transcrição serão cobradas à parte. A matéria não informa o valor do minuto excedente nem a franquia de cada plano.",
+   "Os agentes são um desdobramento da operação corporativa da Fluke, iniciada em 2023, que soma 80 mil linhas, metade de clientes empresariais, em 5,5 mil empresas, segundo a reportagem. A Agora.io já testa os agentes."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · CANAL",
+    "titulo": "Voz entra no alcance de empresas pequenas e médias",
+    "texto": "Um plano de R$ 199 por mês com franquia de minutos coloca o atendimento telefônico automatizado ao alcance de quem não contrata plataformas de contact center."
+   },
+   {
+    "rotulo": "02 · CUSTO",
+    "titulo": "O preço final depende do que é cobrado à parte",
+    "texto": "Minutos além da franquia, gravação e transcrição pesam no custo. Quem precisa guardar as ligações deve somar esses itens antes de comparar."
+   },
+   {
+    "rotulo": "03 · FONTE",
+    "titulo": "Não há avaliação independente",
+    "texto": "As informações vêm do lançamento e de entrevista com o fundador. A matéria não traz taxa de resolução nem dado de qualidade das ligações."
+   }
+  ],
+  "oQueFazer": [
+   "Antes de contratar, teste o agente com as perguntas reais do atendimento e confira se a transferência para humano funciona fora do horário comercial."
+  ],
+  "fontes": [
+   {
+    "titulo": "Fluke lança agentes de voz com IA para mudar o canal de ligações no Brasil",
+    "origem": "Inforchannel · 16 out 2026",
+    "url": "https://inforchannel.com.br/2026/10/16/fluke-lanca-agentes-de-voz-com-ia-para-mudar-o-canal-de-ligacoes-no-brasil/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
+    "valor": "Fluke, via Inforchannel"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "16 out 2026"
+   },
+   {
+    "rotulo": "Preço de entrada",
+    "valor": "R$ 199 por mês, sem fidelidade"
+   }
+  ]
+ },
+ {
+  "id": "totvs-taas-cobranca-agentes-por-tarefa-t-coins",
+  "publicado_em": "2026-10-17T07:10:00-03:00",
+  "tema": "MERCADO",
+  "titulo": "Totvs vai cobrar agentes de IA por tarefa concluída, com franquia mensal em T-Coins",
+  "linha": "No modelo TaaS, apresentado no Universo Totvs 2026, a cobrança dos agentes é por tarefa concluída e o consumo é organizado em faixas de T-Coins, com excedente cobrado à parte.",
+  "linhaFina": "A Totvs mostrou mais de 30 agentes de IA. Bancos ouvidos pela imprensa não esperam receita relevante do TaaS antes de 2027.",
+  "fontePrimaria": "Totvs, via Portal ERP e InfoMoney",
+  "leitura": 3,
+  "resumo": [
+   "A Totvs apresentou o TaaS (Task as a Service), modelo que cobra pelo uso de APIs e de agentes de IA.",
+   "Segundo o InfoMoney, os agentes serão cobrados por tarefas concluídas, e o consumo será organizado em faixas de T-Coins, convertidas em reais, com franquia mensal e cobrança adicional pelo excedente.",
+   "A empresa mostrou mais de 30 agentes em diferentes produtos e segmentos. O JPMorgan, citado pelo InfoMoney, não espera contribuição significativa do TaaS no quarto trimestre de 2026."
+  ],
+  "corpo": [
+   "A Totvs apresentou o TaaS no Universo Totvs 2026, junto com o Corten, sistema de gestão que reúne aplicações, serviços financeiros, nuvem e IA. Segundo o texto divulgado pela empresa e publicado pelo Portal ERP, o modelo foi construído sobre o LYNN, plataforma de IA da companhia, e disponibiliza agentes especializados e o acesso às APIs das aplicações Totvs para consumo.",
+   "O InfoMoney detalha a cobrança: a dos agentes será baseada nas tarefas concluídas, e o consumo será organizado em faixas de T-Coins, convertidas em reais. Os clientes terão uma franquia mensal, com cobrança adicional pelo uso excedente. A reportagem não informa o valor do T-Coin nem o preço por tarefa.",
+   "A Totvs mostrou mais de 30 agentes de IA, que, segundo o Portal ERP, atuam em tarefas operacionais como faturamento e conciliação, com supervisão humana sempre que necessário. Os analistas do Goldman Sachs, citados pelo InfoMoney, descrevem o evento como a passagem da estratégia de IA para a definição de preços.",
+   "Quanto ao ritmo, o InfoMoney informa que o JPMorgan não espera contribuição significativa do TaaS no quarto trimestre de 2026, porque as soluções atendem a processos críticos e integrados e a adoção exige tempo. O banco vê maior relevância para os resultados entre 2027 e 2029."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · CUSTO",
+    "titulo": "A unidade de cobrança passa a ser a tarefa, não o token",
+    "texto": "Para o cliente Totvs, o gasto com agentes tende a variar com o volume de tarefas concluídas, e não com o consumo técnico do modelo. Falta saber o que a Totvs conta como tarefa concluída."
+   },
+   {
+    "rotulo": "02 · CONTRATO",
+    "titulo": "Franquia e excedente pedem estimativa de volume",
+    "texto": "Com franquia mensal e excedente cobrado à parte, o custo real depende de quantas tarefas a operação vai delegar. Quem contrata precisa do histórico de volume do processo."
+   },
+   {
+    "rotulo": "03 · FONTE",
+    "titulo": "Os preços ainda não são públicos",
+    "texto": "As fontes não trazem valores. Até a tabela sair, comparar o TaaS com o custo atual do processo não é possível."
+   }
+  ],
+  "oQueFazer": [
+   "Clientes Totvs podem pedir à conta o critério de tarefa concluída, o valor do T-Coin e as regras do excedente antes de aprovar qualquer agente em produção."
+  ],
+  "fontes": [
+   {
+    "titulo": "Totvs avança na monetização de IA, mas impacto maior deve vir a partir de 2027",
+    "origem": "InfoMoney · 14 out 2026",
+    "url": "https://www.infomoney.com.br/mercados/totvs-avanca-na-monetizacao-de-ia-mas-impacto-maior-deve-vir-a-partir-de-2027/"
+   },
+   {
+    "titulo": "TOTVS lança CORTEN, sistema operacional de gestão empresarial",
+    "origem": "Portal ERP · texto da Totvs · 14 out 2026",
+    "url": "https://portalerp.com/br/noticia/totvs-lanca-corten-sistema-operacional-de-gestao-empresarial"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
+    "valor": "Totvs; projeções de JPMorgan e Goldman Sachs, via InfoMoney"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "14 out 2026"
+   },
+   {
+    "rotulo": "Preço",
+    "valor": "não divulgado nas fontes"
+   }
+  ]
+ },
+ {
   "id": "happyrobot-escritorio-sao-paulo-agentes-voz",
   "publicado_em": "2026-10-15T07:11:00-03:00",
   "tema": "MERCADO",
