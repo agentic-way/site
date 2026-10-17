@@ -65,55 +65,112 @@ window.AW_DADOS.radar = [
   ]
  },
  {
-  "id": "totvs-taas-cobranca-agentes-por-tarefa-t-coins",
-  "publicado_em": "2026-10-17T07:10:00-03:00",
-  "tema": "MERCADO",
-  "titulo": "Totvs vai cobrar agentes de IA por tarefa concluída, com franquia mensal em T-Coins",
-  "linha": "No modelo TaaS, apresentado no Universo Totvs 2026, a cobrança dos agentes é por tarefa concluída e o consumo é organizado em faixas de T-Coins, com excedente cobrado à parte.",
-  "linhaFina": "A Totvs mostrou mais de 30 agentes de IA. Bancos ouvidos pela imprensa não esperam receita relevante do TaaS antes de 2027.",
-  "fontePrimaria": "Totvs, via Portal ERP e InfoMoney",
+  "id": "venturebeat-troca-de-modelo-62-59-queda-desempenho",
+  "publicado_em": "2026-10-16T07:12:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "VentureBeat: 62% das empresas já trocaram o modelo de IA de um app em produção, e 59% delas viram o desempenho cair",
+  "linha": "Pesquisa de setembro com 109 respondentes qualificados: só 19% dos que trocaram de modelo dizem que a troca deu quase nenhum trabalho de engenharia.",
+  "linhaFina": "A amostra é pequena e vem de leitores e painel da VentureBeat; consultores relataram trocas mais do que quem trabalha na própria empresa.",
+  "fontePrimaria": "VentureBeat Intelligence (VB Pulse)",
   "leitura": 3,
   "resumo": [
-   "A Totvs apresentou o TaaS (Task as a Service), modelo que cobra pelo uso de APIs e de agentes de IA.",
-   "Segundo o InfoMoney, os agentes serão cobrados por tarefas concluídas, e o consumo será organizado em faixas de T-Coins, convertidas em reais, com franquia mensal e cobrança adicional pelo excedente.",
-   "A empresa mostrou mais de 30 agentes em diferentes produtos e segmentos. O JPMorgan, citado pelo InfoMoney, não espera contribuição significativa do TaaS no quarto trimestre de 2026."
+   "62% das empresas pesquisadas substituíram o modelo de IA dentro de um app em produção no último ano, mantendo o app.",
+   "Entre elas, 59% viram o desempenho cair e tiveram de refazer o app ou voltar ao modelo original.",
+   "Só 19% dos que trocaram dizem que a troca deu quase nenhum trabalho de engenharia; para 75%, levou alguns dias de engenharia ou mais, ou foi interrompida antes do fim."
   ],
   "corpo": [
-   "A Totvs apresentou o TaaS no Universo Totvs 2026, junto com o Corten, sistema de gestão que reúne aplicações, serviços financeiros, nuvem e IA. Segundo o texto divulgado pela empresa e publicado pelo Portal ERP, o modelo foi construído sobre o LYNN, plataforma de IA da companhia, e disponibiliza agentes especializados e o acesso às APIs das aplicações Totvs para consumo.",
-   "O InfoMoney detalha a cobrança: a dos agentes será baseada nas tarefas concluídas, e o consumo será organizado em faixas de T-Coins, convertidas em reais. Os clientes terão uma franquia mensal, com cobrança adicional pelo uso excedente. A reportagem não informa o valor do T-Coin nem o preço por tarefa.",
-   "A Totvs mostrou mais de 30 agentes de IA, que, segundo o Portal ERP, atuam em tarefas operacionais como faturamento e conciliação, com supervisão humana sempre que necessário. Os analistas do Goldman Sachs, citados pelo InfoMoney, descrevem o evento como a passagem da estratégia de IA para a definição de preços.",
-   "Quanto ao ritmo, o InfoMoney informa que o JPMorgan não espera contribuição significativa do TaaS no quarto trimestre de 2026, porque as soluções atendem a processos críticos e integrados e a adoção exige tempo. O banco vê maior relevância para os resultados entre 2027 e 2029."
+   "A VentureBeat Intelligence divulgou em 13 de outubro resultados da pesquisa de setembro sobre orquestração de agentes, parte da série VB Pulse. A edição teve 109 respondentes qualificados, de organizações com 100 ou mais funcionários ou consultores que atendem essas organizações. Os respondentes vêm de leitores da VentureBeat e de um painel de pesquisa, e os resultados, diz a própria publicação, descrevem esses respondentes e podem não valer para todas as empresas.",
+   "A pesquisa perguntou se a empresa tinha substituído o modelo de IA dentro de um app em produção no último ano, mantendo o app. A troca pode ser para o modelo de outro fornecedor ou para um modelo mais novo do mesmo fornecedor. Entre as empresas pesquisadas, 62% tinham feito a troca. Dessas, 59% viram o desempenho cair e tiveram de refazer o app ou voltar ao modelo original.",
+   "Só 19% das empresas que trocaram disseram que a troca deu quase nenhum trabalho de engenharia. Para 75%, a troca levou alguns dias de engenharia ou mais, ou elas pararam antes de concluir.",
+   "A VentureBeat ressalva que consultores relataram trocas em taxa maior que quem trabalha na própria empresa: 81% dos consultores disseram que o cliente principal trocou de modelo no último ano, contra 51% dos respondentes internos. Isso puxou o total de 62% para cima. A publicação diz que repetirá as perguntas na pesquisa de outubro."
   ],
   "consequencias": [
    {
-    "rotulo": "01 · CUSTO",
-    "titulo": "A unidade de cobrança passa a ser a tarefa, não o token",
-    "texto": "Para o cliente Totvs, o gasto com agentes tende a variar com o volume de tarefas concluídas, e não com o consumo técnico do modelo. Falta saber o que a Totvs conta como tarefa concluída."
+    "rotulo": "01 · TROCA",
+    "titulo": "Trocar o modelo não é como trocar a chave de uma tomada",
+    "texto": "Um agente ajustado a um modelo pode piorar com outro. Antes de aceitar a troca sugerida por um fornecedor, a empresa precisa de testes que comparem o resultado nos seus próprios casos."
    },
    {
     "rotulo": "02 · CONTRATO",
-    "titulo": "Franquia e excedente pedem estimativa de volume",
-    "texto": "Com franquia mensal e excedente cobrado à parte, o custo real depende de quantas tarefas a operação vai delegar. Quem contrata precisa do histórico de volume do processo."
+    "titulo": "Fornecedores que trocam modelos por conta própria transferem esse risco",
+    "texto": "Quando o fornecedor pode trocar o modelo por trás do agente, vale perguntar no contrato quem testa o resultado depois de cada troca e quem arca com o retrabalho."
    },
    {
-    "rotulo": "03 · FONTE",
-    "titulo": "Os preços ainda não são públicos",
-    "texto": "As fontes não trazem valores. Até a tabela sair, comparar o TaaS com o custo atual do processo não é possível."
+    "rotulo": "03 · AMOSTRA",
+    "titulo": "O dado é um retrato, não uma média do mercado",
+    "texto": "São 109 respondentes que escolheram participar, e a taxa entre quem trabalha na própria empresa foi de 51%. Serve como alerta, não como índice."
    }
   ],
   "oQueFazer": [
-   "Clientes Totvs podem pedir à conta o critério de tarefa concluída, o valor do T-Coin e as regras do excedente antes de aprovar qualquer agente em produção."
+   "Para quem opera agentes em produção, manter um conjunto fixo de casos reais, com o resultado esperado, para rodar sempre que o modelo mudar, seja por decisão da empresa ou do fornecedor."
   ],
   "fontes": [
    {
-    "titulo": "Totvs avança na monetização de IA, mas impacto maior deve vir a partir de 2027",
-    "origem": "InfoMoney · 14 out 2026",
-    "url": "https://www.infomoney.com.br/mercados/totvs-avanca-na-monetizacao-de-ia-mas-impacto-maior-deve-vir-a-partir-de-2027/"
+    "titulo": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+    "origem": "VentureBeat · Matt Marshall · 13 out 2026",
+    "url": "https://venturebeat.com/orchestration/openais-ai-agent-platform-is-used-by-twice-as-many-companies-as-anthropics-new-venturebeat-survey-finds"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem mediu",
+    "valor": "VentureBeat Intelligence (VB Pulse)"
    },
    {
-    "titulo": "TOTVS lança CORTEN, sistema operacional de gestão empresarial",
-    "origem": "Portal ERP · texto da Totvs · 14 out 2026",
-    "url": "https://portalerp.com/br/noticia/totvs-lanca-corten-sistema-operacional-de-gestao-empresarial"
+    "rotulo": "Amostra",
+    "valor": "109 respondentes qualificados (pesquisa de orquestração de agentes)"
+   },
+   {
+    "rotulo": "Campo",
+    "valor": "setembro de 2026"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "13 out 2026"
+   }
+  ]
+ },
+ {
+  "id": "totvs-t-cloud-agentes-nativos-sem-customizacao",
+  "publicado_em": "2026-10-16T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Totvs diz que clientes do T-Cloud já podem ativar agentes de IA nativos dos módulos, sem customização",
+  "linha": "Em palestra no Universo Totvs 2026, o diretor Ricardo Castillo afirmou que a nuvem é o caminho principal para adotar IA nos produtos da empresa. A Totvs informa 8 mil clientes na nuvem.",
+  "linhaFina": "A informação é de executivo da Totvs, relatada pela Central do Varejo; a fonte não detalha quais módulos têm agentes nem o custo de ativação.",
+  "fontePrimaria": "Totvs, via Central do Varejo",
+  "leitura": 2,
+  "resumo": [
+   "Clientes que usam os sistemas da Totvs na nuvem já podem ativar os agentes de IA nativos dos módulos sem precisar de customização, disse Ricardo Castillo, diretor da Totvs.",
+   "A Totvs informa ter 8 mil clientes na nuvem e mais de 41 mil ambientes na plataforma.",
+   "O T-Cloud funciona como camada de orquestração e governança para os agentes criados a partir do Lynn, a base de IA da empresa."
+  ],
+  "corpo": [
+   "A informação foi apresentada por Ricardo Castillo, diretor da Totvs, em 14 de outubro, no Universo Totvs 2026, em São Paulo, e relatada pela Central do Varejo. Segundo ele, o T-Cloud, a nuvem da companhia, é hoje o principal caminho para a adoção de IA nos produtos da Totvs, porque os dados dos clientes já estão organizados na plataforma.",
+   "Castillo disse que a plataforma reúne mais de 41 mil ambientes de clientes e que, desde julho, os próprios clientes aplicaram mais de 49 mil pacotes de atualização pelo portal, sem abrir chamado com a Totvs. A empresa informa ter 8 mil clientes na nuvem e passou a oferecer pelo T-Cloud infraestrutura de outros provedores, em modelo multicloud, para hospedar sistemas de terceiros e legados dos clientes que migram o ERP.",
+   "Segundo a empresa, o T-Cloud funciona como camada de orquestração e governança para os agentes criados a partir do Lynn, a base de IA corporativa da Totvs. A reportagem não informa quais módulos já têm agentes disponíveis nem quanto custa ativá-los."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · NUVEM",
+    "titulo": "Para ter o agente nativo, o ERP precisa estar na nuvem da Totvs",
+    "texto": "Segundo o executivo, a nuvem é o caminho principal. Quem roda o sistema em servidor próprio deve perguntar o que muda para acessar os agentes."
+   },
+   {
+    "rotulo": "02 · ESCOPO",
+    "titulo": "Falta saber quais agentes e a que custo",
+    "texto": "A fonte não lista módulos nem preço. A relação com a cobrança por tarefa descrita pelo Citi (TaaS) é uma pergunta aberta, não um fato da reportagem."
+   }
+  ],
+  "fontes": [
+   {
+    "titulo": "TOTVS usa a nuvem como porta de entrada para os agentes de IA dos seus sistemas",
+    "origem": "Central do Varejo · reportagem do Universo Totvs 2026 · 14 out 2026",
+    "url": "https://centraldovarejo.com.br/totvs-cloud-agentes-ia-nativos/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
     "valor": "Ricardo Castillo, diretor da Totvs"
    },
    {
@@ -181,15 +238,15 @@ window.AW_DADOS.radar = [
   "ficha": [
    {
     "rotulo": "Quem afirma",
-    "valor": "Totvs; projeções de JPMorgan e Goldman Sachs, via InfoMoney"
+    "valor": "Citi, em relatório a clientes (não público), segundo o Times Brasil"
    },
    {
     "rotulo": "Divulgação",
     "valor": "14 out 2026"
    },
    {
-    "rotulo": "Preço",
-    "valor": "não divulgado nas fontes"
+    "rotulo": "Confirmação",
+    "valor": "não confirmada pela Totvs nas fontes consultadas"
    }
   ]
  },
