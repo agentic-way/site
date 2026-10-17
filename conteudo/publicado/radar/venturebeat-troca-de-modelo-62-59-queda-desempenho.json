@@ -1,0 +1,66 @@
+{
+  "id": "venturebeat-troca-de-modelo-62-59-queda-desempenho",
+  "publicado_em": "2026-10-16T07:12:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "VentureBeat: 62% das empresas já trocaram o modelo de IA de um app em produção, e 59% delas viram o desempenho cair",
+  "linha": "Pesquisa de setembro com 109 respondentes qualificados: só 19% dos que trocaram de modelo dizem que a troca deu quase nenhum trabalho de engenharia.",
+  "linhaFina": "A amostra é pequena e vem de leitores e painel da VentureBeat; consultores relataram trocas mais do que quem trabalha na própria empresa.",
+  "fontePrimaria": "VentureBeat Intelligence (VB Pulse)",
+  "leitura": 3,
+  "resumo": [
+    "62% das empresas pesquisadas substituíram o modelo de IA dentro de um app em produção no último ano, mantendo o app.",
+    "Entre elas, 59% viram o desempenho cair e tiveram de refazer o app ou voltar ao modelo original.",
+    "Só 19% dos que trocaram dizem que a troca deu quase nenhum trabalho de engenharia; para 75%, levou alguns dias de engenharia ou mais, ou foi interrompida antes do fim."
+  ],
+  "corpo": [
+    "A VentureBeat Intelligence divulgou em 13 de outubro resultados da pesquisa de setembro sobre orquestração de agentes, parte da série VB Pulse. A edição teve 109 respondentes qualificados, de organizações com 100 ou mais funcionários ou consultores que atendem essas organizações. Os respondentes vêm de leitores da VentureBeat e de um painel de pesquisa, e os resultados, diz a própria publicação, descrevem esses respondentes e podem não valer para todas as empresas.",
+    "A pesquisa perguntou se a empresa tinha substituído o modelo de IA dentro de um app em produção no último ano, mantendo o app. A troca pode ser para o modelo de outro fornecedor ou para um modelo mais novo do mesmo fornecedor. Entre as empresas pesquisadas, 62% tinham feito a troca. Dessas, 59% viram o desempenho cair e tiveram de refazer o app ou voltar ao modelo original.",
+    "Só 19% das empresas que trocaram disseram que a troca deu quase nenhum trabalho de engenharia. Para 75%, a troca levou alguns dias de engenharia ou mais, ou elas pararam antes de concluir.",
+    "A VentureBeat ressalva que consultores relataram trocas em taxa maior que quem trabalha na própria empresa: 81% dos consultores disseram que o cliente principal trocou de modelo no último ano, contra 51% dos respondentes internos. Isso puxou o total de 62% para cima. A publicação diz que repetirá as perguntas na pesquisa de outubro."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · TROCA",
+      "titulo": "Trocar o modelo não é como trocar a chave de uma tomada",
+      "texto": "Um agente ajustado a um modelo pode piorar com outro. Antes de aceitar a troca sugerida por um fornecedor, a empresa precisa de testes que comparem o resultado nos seus próprios casos."
+    },
+    {
+      "rotulo": "02 · CONTRATO",
+      "titulo": "Fornecedores que trocam modelos por conta própria transferem esse risco",
+      "texto": "Quando o fornecedor pode trocar o modelo por trás do agente, vale perguntar no contrato quem testa o resultado depois de cada troca e quem arca com o retrabalho."
+    },
+    {
+      "rotulo": "03 · AMOSTRA",
+      "titulo": "O dado é um retrato, não uma média do mercado",
+      "texto": "São 109 respondentes que escolheram participar, e a taxa entre quem trabalha na própria empresa foi de 51%. Serve como alerta, não como índice."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem opera agentes em produção, manter um conjunto fixo de casos reais, com o resultado esperado, para rodar sempre que o modelo mudar, seja por decisão da empresa ou do fornecedor."
+  ],
+  "fontes": [
+    {
+      "titulo": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+      "origem": "VentureBeat · Matt Marshall · 13 out 2026",
+      "url": "https://venturebeat.com/orchestration/openais-ai-agent-platform-is-used-by-twice-as-many-companies-as-anthropics-new-venturebeat-survey-finds"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "VentureBeat Intelligence (VB Pulse)"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "109 respondentes qualificados (pesquisa de orquestração de agentes)"
+    },
+    {
+      "rotulo": "Campo",
+      "valor": "setembro de 2026"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "13 out 2026"
+    }
+  ]
+}
