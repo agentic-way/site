@@ -1,0 +1,53 @@
+{
+  "id": "totvs-t-cloud-agentes-nativos-sem-customizacao",
+  "publicado_em": "2026-10-16T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Totvs diz que clientes do T-Cloud já podem ativar agentes de IA nativos dos módulos, sem customização",
+  "linha": "Em palestra no Universo Totvs 2026, o diretor Ricardo Castillo afirmou que a nuvem é o caminho principal para adotar IA nos produtos da empresa. A Totvs informa 8 mil clientes na nuvem.",
+  "linhaFina": "A informação é de executivo da Totvs, relatada pela Central do Varejo; a fonte não detalha quais módulos têm agentes nem o custo de ativação.",
+  "fontePrimaria": "Totvs, via Central do Varejo",
+  "leitura": 2,
+  "resumo": [
+    "Clientes que usam os sistemas da Totvs na nuvem já podem ativar os agentes de IA nativos dos módulos sem precisar de customização, disse Ricardo Castillo, diretor da Totvs.",
+    "A Totvs informa ter 8 mil clientes na nuvem e mais de 41 mil ambientes na plataforma.",
+    "O T-Cloud funciona como camada de orquestração e governança para os agentes criados a partir do Lynn, a base de IA da empresa."
+  ],
+  "corpo": [
+    "A informação foi apresentada por Ricardo Castillo, diretor da Totvs, em 14 de outubro, no Universo Totvs 2026, em São Paulo, e relatada pela Central do Varejo. Segundo ele, o T-Cloud, a nuvem da companhia, é hoje o principal caminho para a adoção de IA nos produtos da Totvs, porque os dados dos clientes já estão organizados na plataforma.",
+    "Castillo disse que a plataforma reúne mais de 41 mil ambientes de clientes e que, desde julho, os próprios clientes aplicaram mais de 49 mil pacotes de atualização pelo portal, sem abrir chamado com a Totvs. A empresa informa ter 8 mil clientes na nuvem e passou a oferecer pelo T-Cloud infraestrutura de outros provedores, em modelo multicloud, para hospedar sistemas de terceiros e legados dos clientes que migram o ERP.",
+    "Segundo a empresa, o T-Cloud funciona como camada de orquestração e governança para os agentes criados a partir do Lynn, a base de IA corporativa da Totvs. A reportagem não informa quais módulos já têm agentes disponíveis nem quanto custa ativá-los."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · NUVEM",
+      "titulo": "Para ter o agente nativo, o ERP precisa estar na nuvem da Totvs",
+      "texto": "Segundo o executivo, a nuvem é o caminho principal. Quem roda o sistema em servidor próprio deve perguntar o que muda para acessar os agentes."
+    },
+    {
+      "rotulo": "02 · ESCOPO",
+      "titulo": "Falta saber quais agentes e a que custo",
+      "texto": "A fonte não lista módulos nem preço. A relação com a cobrança por tarefa descrita pelo Citi (TaaS) é uma pergunta aberta, não um fato da reportagem."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "TOTVS usa a nuvem como porta de entrada para os agentes de IA dos seus sistemas",
+      "origem": "Central do Varejo · reportagem do Universo Totvs 2026 · 14 out 2026",
+      "url": "https://centraldovarejo.com.br/totvs-cloud-agentes-ia-nativos/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "Ricardo Castillo, diretor da Totvs"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "14 out 2026"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não confirmada pelo cliente"
+    }
+  ]
+}

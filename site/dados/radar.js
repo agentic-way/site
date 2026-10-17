@@ -3,6 +3,192 @@ window.AW_DADOS = window.AW_DADOS || {};
 window.AW_DADOS.assinatura = "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi";
 window.AW_DADOS.radar = [
  {
+  "id": "venturebeat-troca-de-modelo-62-59-queda-desempenho",
+  "publicado_em": "2026-10-16T07:12:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "VentureBeat: 62% das empresas já trocaram o modelo de IA de um app em produção, e 59% delas viram o desempenho cair",
+  "linha": "Pesquisa de setembro com 109 respondentes qualificados: só 19% dos que trocaram de modelo dizem que a troca deu quase nenhum trabalho de engenharia.",
+  "linhaFina": "A amostra é pequena e vem de leitores e painel da VentureBeat; consultores relataram trocas mais do que quem trabalha na própria empresa.",
+  "fontePrimaria": "VentureBeat Intelligence (VB Pulse)",
+  "leitura": 3,
+  "resumo": [
+   "62% das empresas pesquisadas substituíram o modelo de IA dentro de um app em produção no último ano, mantendo o app.",
+   "Entre elas, 59% viram o desempenho cair e tiveram de refazer o app ou voltar ao modelo original.",
+   "Só 19% dos que trocaram dizem que a troca deu quase nenhum trabalho de engenharia; para 75%, levou alguns dias de engenharia ou mais, ou foi interrompida antes do fim."
+  ],
+  "corpo": [
+   "A VentureBeat Intelligence divulgou em 13 de outubro resultados da pesquisa de setembro sobre orquestração de agentes, parte da série VB Pulse. A edição teve 109 respondentes qualificados, de organizações com 100 ou mais funcionários ou consultores que atendem essas organizações. Os respondentes vêm de leitores da VentureBeat e de um painel de pesquisa, e os resultados, diz a própria publicação, descrevem esses respondentes e podem não valer para todas as empresas.",
+   "A pesquisa perguntou se a empresa tinha substituído o modelo de IA dentro de um app em produção no último ano, mantendo o app. A troca pode ser para o modelo de outro fornecedor ou para um modelo mais novo do mesmo fornecedor. Entre as empresas pesquisadas, 62% tinham feito a troca. Dessas, 59% viram o desempenho cair e tiveram de refazer o app ou voltar ao modelo original.",
+   "Só 19% das empresas que trocaram disseram que a troca deu quase nenhum trabalho de engenharia. Para 75%, a troca levou alguns dias de engenharia ou mais, ou elas pararam antes de concluir.",
+   "A VentureBeat ressalva que consultores relataram trocas em taxa maior que quem trabalha na própria empresa: 81% dos consultores disseram que o cliente principal trocou de modelo no último ano, contra 51% dos respondentes internos. Isso puxou o total de 62% para cima. A publicação diz que repetirá as perguntas na pesquisa de outubro."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · TROCA",
+    "titulo": "Trocar o modelo não é como trocar a chave de uma tomada",
+    "texto": "Um agente ajustado a um modelo pode piorar com outro. Antes de aceitar a troca sugerida por um fornecedor, a empresa precisa de testes que comparem o resultado nos seus próprios casos."
+   },
+   {
+    "rotulo": "02 · CONTRATO",
+    "titulo": "Fornecedores que trocam modelos por conta própria transferem esse risco",
+    "texto": "Quando o fornecedor pode trocar o modelo por trás do agente, vale perguntar no contrato quem testa o resultado depois de cada troca e quem arca com o retrabalho."
+   },
+   {
+    "rotulo": "03 · AMOSTRA",
+    "titulo": "O dado é um retrato, não uma média do mercado",
+    "texto": "São 109 respondentes que escolheram participar, e a taxa entre quem trabalha na própria empresa foi de 51%. Serve como alerta, não como índice."
+   }
+  ],
+  "oQueFazer": [
+   "Para quem opera agentes em produção, manter um conjunto fixo de casos reais, com o resultado esperado, para rodar sempre que o modelo mudar, seja por decisão da empresa ou do fornecedor."
+  ],
+  "fontes": [
+   {
+    "titulo": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+    "origem": "VentureBeat · Matt Marshall · 13 out 2026",
+    "url": "https://venturebeat.com/orchestration/openais-ai-agent-platform-is-used-by-twice-as-many-companies-as-anthropics-new-venturebeat-survey-finds"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem mediu",
+    "valor": "VentureBeat Intelligence (VB Pulse)"
+   },
+   {
+    "rotulo": "Amostra",
+    "valor": "109 respondentes qualificados (pesquisa de orquestração de agentes)"
+   },
+   {
+    "rotulo": "Campo",
+    "valor": "setembro de 2026"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "13 out 2026"
+   }
+  ]
+ },
+ {
+  "id": "totvs-t-cloud-agentes-nativos-sem-customizacao",
+  "publicado_em": "2026-10-16T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Totvs diz que clientes do T-Cloud já podem ativar agentes de IA nativos dos módulos, sem customização",
+  "linha": "Em palestra no Universo Totvs 2026, o diretor Ricardo Castillo afirmou que a nuvem é o caminho principal para adotar IA nos produtos da empresa. A Totvs informa 8 mil clientes na nuvem.",
+  "linhaFina": "A informação é de executivo da Totvs, relatada pela Central do Varejo; a fonte não detalha quais módulos têm agentes nem o custo de ativação.",
+  "fontePrimaria": "Totvs, via Central do Varejo",
+  "leitura": 2,
+  "resumo": [
+   "Clientes que usam os sistemas da Totvs na nuvem já podem ativar os agentes de IA nativos dos módulos sem precisar de customização, disse Ricardo Castillo, diretor da Totvs.",
+   "A Totvs informa ter 8 mil clientes na nuvem e mais de 41 mil ambientes na plataforma.",
+   "O T-Cloud funciona como camada de orquestração e governança para os agentes criados a partir do Lynn, a base de IA da empresa."
+  ],
+  "corpo": [
+   "A informação foi apresentada por Ricardo Castillo, diretor da Totvs, em 14 de outubro, no Universo Totvs 2026, em São Paulo, e relatada pela Central do Varejo. Segundo ele, o T-Cloud, a nuvem da companhia, é hoje o principal caminho para a adoção de IA nos produtos da Totvs, porque os dados dos clientes já estão organizados na plataforma.",
+   "Castillo disse que a plataforma reúne mais de 41 mil ambientes de clientes e que, desde julho, os próprios clientes aplicaram mais de 49 mil pacotes de atualização pelo portal, sem abrir chamado com a Totvs. A empresa informa ter 8 mil clientes na nuvem e passou a oferecer pelo T-Cloud infraestrutura de outros provedores, em modelo multicloud, para hospedar sistemas de terceiros e legados dos clientes que migram o ERP.",
+   "Segundo a empresa, o T-Cloud funciona como camada de orquestração e governança para os agentes criados a partir do Lynn, a base de IA corporativa da Totvs. A reportagem não informa quais módulos já têm agentes disponíveis nem quanto custa ativá-los."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · NUVEM",
+    "titulo": "Para ter o agente nativo, o ERP precisa estar na nuvem da Totvs",
+    "texto": "Segundo o executivo, a nuvem é o caminho principal. Quem roda o sistema em servidor próprio deve perguntar o que muda para acessar os agentes."
+   },
+   {
+    "rotulo": "02 · ESCOPO",
+    "titulo": "Falta saber quais agentes e a que custo",
+    "texto": "A fonte não lista módulos nem preço. A relação com a cobrança por tarefa descrita pelo Citi (TaaS) é uma pergunta aberta, não um fato da reportagem."
+   }
+  ],
+  "fontes": [
+   {
+    "titulo": "TOTVS usa a nuvem como porta de entrada para os agentes de IA dos seus sistemas",
+    "origem": "Central do Varejo · reportagem do Universo Totvs 2026 · 14 out 2026",
+    "url": "https://centraldovarejo.com.br/totvs-cloud-agentes-ia-nativos/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
+    "valor": "Ricardo Castillo, diretor da Totvs"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "14 out 2026"
+   },
+   {
+    "rotulo": "Confirmação",
+    "valor": "não confirmada pelo cliente"
+   }
+  ]
+ },
+ {
+  "id": "totvs-taas-cobranca-agentes-por-tarefa-citi",
+  "publicado_em": "2026-10-16T07:10:00-03:00",
+  "tema": "MERCADO",
+  "titulo": "Segundo o Citi, a Totvs vai cobrar agentes de IA por tarefa concluída, dentro de uma mensalidade com franquia de T-Coins",
+  "linha": "Relatório do Citi após o Dia do Investidor da Totvs descreve o TaaS: mensalidade com franquia, excedente cobrado à parte e agentes faturados por tarefa, sem contagem de tokens. Pacotes do Intera custam de 40% a 100% a mais.",
+  "linhaFina": "O detalhe do modelo de preço vem de análise de banco que recomenda a compra da ação; a Totvs não detalhou na apresentação o que cada pacote inclui.",
+  "fontePrimaria": "Citi, via Times Brasil (CNBC)",
+  "leitura": 3,
+  "resumo": [
+   "O Citi, em relatório a clientes, descreve o TaaS da Totvs como uma mensalidade fixa com direito a uma franquia de T-Coins, mais cobrança à parte pelo uso que passar do limite.",
+   "As APIs são cobradas pela capacidade consumida, e os agentes pelas tarefas que concluem, sem contagem de tokens.",
+   "Os novos pacotes do Intera custam 40% a mais que o padrão no Financeiro, 65% a mais em RH e Marketing e 100% a mais no Intera 360, e a cobrança segue por usuário."
+  ],
+  "corpo": [
+   "O Times Brasil (CNBC) publicou em 14 de outubro um resumo do relatório que o Citi enviou a clientes depois do Dia do Investidor da Totvs. O banco tem recomendação de compra para a empresa e ficou mais otimista com o novo modelo de cobrança por consumo de APIs e por tarefas concluídas de agentes de IA.",
+   "Segundo o relatório, o TaaS reúne uma mensalidade fixa, que dá direito a uma franquia de T-Coins, e uma cobrança à parte para o uso que exceder essa franquia. As APIs são cobradas pela capacidade consumida e os agentes pelas tarefas que concluem, sem contagem de tokens. Para o Citi, isso permite ao cliente prever o gasto e à Totvs alternar entre modelos de IA aprovados para reduzir custos sem interromper os fluxos de trabalho.",
+   "Sobre os pacotes, o relatório informa que os novos pacotes do Intera custam 40% a mais que o padrão no Intera Financeiro, 65% a mais nas soluções de RH e Marketing e 100% a mais no Intera 360. A cobrança segue por usuário, e os itens de consumo são faturados separadamente.",
+   "A administração reconheceu que processos de missão crítica tendem a ter adoção mais lenta, e o Citi vê a contribuição relevante do TaaS só depois de 2027. O InfoMoney registrou leitura parecida do Goldman Sachs: o evento sinaliza a passagem da estratégia de IA para a definição de preços, com monetização baseada em tarefas concluídas."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · PREÇO",
+    "titulo": "O custo do agente passa a depender do que ele conclui",
+    "texto": "Na cobrança por tarefa, o gasto acompanha o volume de trabalho entregue e não o consumo de tokens. A empresa cliente precisa saber o que a Totvs conta como tarefa concluída antes de projetar o orçamento."
+   },
+   {
+    "rotulo": "02 · FRANQUIA",
+    "titulo": "O excedente é onde o orçamento pode escapar",
+    "texto": "A mensalidade traz previsibilidade só até o limite da franquia de T-Coins. Vale perguntar o preço do excedente e se há teto de gasto."
+   },
+   {
+    "rotulo": "03 · FONTE",
+    "titulo": "Os números vêm de relatório de analista, não da Totvs",
+    "texto": "O Citi recomenda a compra da ação, e a Totvs não detalhou na apresentação o que cada pacote do Intera inclui. Os valores e percentuais devem ser confirmados com a empresa antes de entrar em contrato."
+   }
+  ],
+  "oQueFazer": [
+   "Para quem usa Totvs, pedir ao representante a definição escrita de tarefa concluída, o valor do T-Coin, o tamanho da franquia e o preço do excedente, e comparar o pacote novo com o que a empresa paga hoje por usuário."
+  ],
+  "fontes": [
+   {
+    "titulo": "Citi fica mais otimista com a Totvs após lançamento de cobrança por tarefa de agentes de inteligência artificial",
+    "origem": "Times Brasil (CNBC) · reportagem sobre relatório do Citi · 14 out 2026",
+    "url": "https://timesbrasil.com.br/empresas-e-negocios/tecnologia-e-inovacao/citi-totvs-taas-cobranca-agentes-inteligencia-artificial/"
+   },
+   {
+    "titulo": "Totvs avança na monetização de IA, mas impacto maior deve vir a partir de 2027",
+    "origem": "InfoMoney · 14 out 2026",
+    "url": "https://www.infomoney.com.br/mercados/totvs-avanca-na-monetizacao-de-ia-mas-impacto-maior-deve-vir-a-partir-de-2027/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
+    "valor": "Citi, em relatório a clientes (não público), segundo o Times Brasil"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "14 out 2026"
+   },
+   {
+    "rotulo": "Confirmação",
+    "valor": "não confirmada pela Totvs nas fontes consultadas"
+   }
+  ]
+ },
+ {
   "id": "happyrobot-escritorio-sao-paulo-agentes-voz",
   "publicado_em": "2026-10-15T07:11:00-03:00",
   "tema": "MERCADO",
