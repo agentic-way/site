@@ -1,0 +1,57 @@
+{
+  "id": "servicenow-ai-passport-credencial-agentes",
+  "publicado_em": "2026-10-18T07:10:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "ServiceNow anuncia o AI Passport, credencial que verifica em tempo real o que cada agente de IA pode fazer",
+  "linha": "A credencial assinada define o escopo de cada agente, inclusive os de terceiros, e prevê redirecionar, restringir ou desligar quem sair do limite. Disponibilidade esperada para o quarto trimestre de 2026.",
+  "linhaFina": "Anúncio de 15 de outubro amplia a Super Intelligence Control Tower, com detecção de agentes não aprovados e controle de custo. A NVIDIA é parceira de lançamento.",
+  "fontePrimaria": "ServiceNow",
+  "leitura": 3,
+  "resumo": [
+    "A ServiceNow anunciou o AI Passport, credencial assinada criptograficamente que o agente consulta durante a execução para verificar o escopo autorizado.",
+    "Se o agente sai do escopo, a empresa pode redirecioná-lo, restringi-lo ou desligá-lo; o registro de auditoria fica na Super Intelligence Control Tower.",
+    "AI Passport, detecção de IA não aprovada e gestão de custo de IA têm disponibilidade esperada para o quarto trimestre de 2026."
+  ],
+  "corpo": [
+    "A ServiceNow anunciou em 15 de outubro de 2026 o AI Passport, descrito no comunicado como uma camada de autoridade que dá à empresa controle, em tempo de execução, sobre o que agentes de IA e servidores MCP estão autorizados a fazer em cada etapa de um fluxo com vários agentes. Cada agente recebe um passaporte emitido pela Super Intelligence Control Tower, com base no CMDB, nas políticas de governança, risco e conformidade (GRC) e nas aprovações de fluxo da empresa.",
+    "Segundo a ServiceNow, o agente que permanece no escopo opera livremente. Quando sai dele, a empresa pode aplicar respostas graduais: redirecionar, restringir ou reconectar o agente ao contexto correto, com a possibilidade de desligá-lo. A especificação é aberta, para que outros produtos de governança e de identidade emitam e verifiquem credenciais, e a NVIDIA é parceira de lançamento, com implementação sobre a Open Agent Safety Platform.",
+    "O anúncio inclui ainda detecção de agentes de IA não aprovados na rede, mais de 400 conectores prontos para descobrir IA em diferentes plataformas, observabilidade contínua e gestão de custo por usuário, departamento e ambiente de execução. A ServiceNow informa que AI Passport, a detecção de IA não aprovada e a gestão de custo de IA devem estar disponíveis no quarto trimestre de 2026."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · INVENTÁRIO",
+      "titulo": "O mercado trata a lista de agentes em operação como pré-requisito",
+      "texto": "O comunicado parte de saber quais agentes existem e a que sistemas têm acesso. Para quem ainda não tem esse inventário, a pergunta vem antes de qualquer produto."
+    },
+    {
+      "rotulo": "02 · DISPONIBILIDADE",
+      "titulo": "Ainda é anúncio, não produto em uso",
+      "texto": "A previsão é de quarto trimestre de 2026, e o comunicado não informa preço nem disponibilidade específica para o Brasil. Não há, na fonte, caso de cliente usando o recurso."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem descreve o problema vende a solução",
+      "texto": "A ServiceNow vende a plataforma que o anúncio apresenta como resposta. A ideia de limitar o escopo de cada agente é útil de cobrar de qualquer fornecedor, com ou sem esse produto."
+    }
+  ],
+  "oQueFazer": [
+    "Ao avaliar qualquer plataforma de agentes, pergunte se o escopo de cada agente é definido e verificado a cada ação, se há como revogar uma permissão específica e se o registro mostra quem autorizou o quê."
+  ],
+  "fontes": [
+    {
+      "titulo": "ServiceNow advances its operational harness for enterprise AI with AI Passport and expanded governance capabilities",
+      "origem": "ServiceNow · comunicado · 15 out 2026",
+      "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-advances-its-operational-harness-for-enterprise-AI-with-AI-Passport-and-expanded-governance-capabilities/default.aspx"
+    },
+    {
+      "titulo": "Quem controla os agentes de IA? ServiceNow anuncia ‘passaporte’ digital",
+      "origem": "Exame · 15 out 2026",
+      "url": "https://exame.com/inteligencia-artificial/quem-controla-os-agentes-de-ia-servicenow-anuncia-passaporte-digital/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem anunciou", "valor": "ServiceNow, com a NVIDIA como parceira de lançamento" },
+    { "rotulo": "Divulgação", "valor": "15 out 2026" },
+    { "rotulo": "Disponibilidade", "valor": "esperada para o 4º trimestre de 2026" }
+  ]
+}
