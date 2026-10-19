@@ -3,122 +3,65 @@ window.AW_DADOS = window.AW_DADOS || {};
 window.AW_DADOS.assinatura = "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi";
 window.AW_DADOS.radar = [
  {
-  "id": "sicoob-sebah-agente-operacoes-ti",
-  "publicado_em": "2026-10-18T07:11:00-03:00",
-  "tema": "CASOS",
-  "titulo": "Sicoob diz que o agente Sebah reduziu em até 98% o tempo de relatórios e rotinas na operação de TI",
-  "linha": "O número é do próprio Sicoob, divulgado em comunicado. O agente consolida dados, gera relatórios e alertas, e confere a compensação de boletos a cada sete minutos com regras determinísticas.",
-  "linhaFina": "Comunicado de 15 de outubro descreve o Sebah, construído sobre a plataforma própria Sisbr IA, com avaliação técnica, homologação e supervisão humana antes de ir à produção.",
-  "fontePrimaria": "Sicoob",
+  "id": "ibm-emea-80-incidente-ia-conselho-40-mudou-governanca",
+  "publicado_em": "2026-10-19T07:10:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Oito em dez executivos na Europa e no Oriente Médio dizem que incidente de IA chegou ao conselho no último ano, mostra estudo da IBM",
+  "linha": "Estudo da IBM com 3.221 executivos em oito países: só 40% dessas organizações mudaram a política de governança de IA depois do incidente, e 37% dizem que a governança foi desenhada para escalar com agentes.",
+  "linhaFina": "A pesquisa, feita pela Censuswide para a IBM em empresas com 1.000 ou mais funcionários, não inclui o Brasil. Os números servem de referência para quem decide sobre agentes, não de retrato do mercado brasileiro.",
+  "fontePrimaria": "IBM / Censuswide",
   "leitura": 3,
   "resumo": [
-   "O Sicoob lançou o Sebah, agente de IA para a área de Operações de TI, que consolida informações de várias fontes, gera relatórios e análises e emite alertas.",
-   "Segundo o Sicoob, o agente já automatizou diversos processos e relatórios, com redução de até 98% no tempo médio dessas atividades.",
-   "Na compensação de boletos, o Sebah usa IA determinística, baseada em regras, para conferir a cada sete minutos os movimentos entre instituições financeiras."
+   "80% dos executivos ouvidos dizem que um incidente ligado a IA (falha de agente, exposição de dados, erro de decisão ou violação de segurança) chegou ao conselho ou à diretoria no último ano; só 40% citam mudança na política ou no marco de governança em resposta.",
+   "35% já operam IA agêntica em produção, 75% esperam que agentes tenham algum grau de autonomia nas decisões até 2027, e apenas 37% dizem que a governança atual foi desenhada para escalar com isso.",
+   "Quando a implantação corre à frente da governança, 56% seguem adiante dentro de limites de risco acordados e 33% esperam a governança ficar pronta."
   ],
   "corpo": [
-   "O Sicoob, instituição financeira cooperativa, anunciou em 15 de outubro de 2026 o Sebah, agente de IA para apoiar a Área de Operações de TI na automação de processos, na análise de dados e na geração de informação para decisão. A área monitora 24 horas por dia os sistemas que sustentam os serviços digitais da instituição, com milhares de eventos, indicadores e alertas.",
-   "Um dos casos de uso descritos é a compensação de boletos de cobrança, em que as informações precisam ser processadas, consolidadas e validadas em intervalos de sete minutos. Para isso, segundo o comunicado, o Sebah usa inteligência artificial determinística, baseada em regras, critérios e validações previamente estabelecidos, comparando pagamentos e recebimentos processados com o movimento que será enviado a cada ciclo.",
-   "O Sicoob informa que desde a implementação o agente automatizou diversos processos e relatórios, reduzindo em até 98% o tempo médio dessas atividades. O comunicado não diz quantos processos, qual era o tempo de partida, nem quem mediu. Sobre governança, a instituição afirma que nenhuma funcionalidade entra em produção sem avaliação técnica, homologação e supervisão humana, com controle de acesso e rastreabilidade das ações."
+   "A IBM divulgou em 14 de outubro de 2026 um estudo feito pela Censuswide com 3.221 executivos, incluindo cargos de C-level, de organizações com 1.000 ou mais funcionários no Reino Unido, França, Alemanha, Itália, Espanha, Países Baixos, Arábia Saudita e Emirados Árabes. Os dados foram coletados de 14 a 24 de setembro de 2026.",
+   "Quase todos (98%) dizem ter responsabilidade por risco de IA atribuída formalmente em nível de conselho, e 26% têm comitê de IA dedicado. Mesmo assim, não há consenso sobre quem responde por resultado adverso causado por agentes: o cargo mais citado foi CIO ou CTO, por apenas 17% dos respondentes. Sobre responsabilidade legal, 20% defendem divisão proporcional entre quem implanta e o fornecedor, 19% apontam um marco regulatório que ainda não existe de forma adequada e 14% colocam a responsabilidade no fornecedor.",
+   "Para operar agentes que decidem sem aprovação a cada passo até 2027, os executivos esperam precisar de contratos que definam a responsabilidade do fornecedor por falhas (33%), limites definidos para escalar a um humano (32%), monitoramento e trilha de auditoria das decisões e ações do agente em tempo real (30%) e capacidade de interromper imediatamente a atividade dos agentes em toda a empresa (29%).",
+   "O estudo também aponta lacunas na cadeia de fornecedores: 54% reconhecem limitações na cobertura da governança sobre os sistemas de IA de fornecedores e parceiros, 21% monitoram continuamente o risco de IA de terceiros e 13% exigem garantia independente ou certificação. Apenas 37% têm uma quantificação formal, revisada pelo conselho, do risco financeiro criado por lacunas de governança."
   ],
   "consequencias": [
    {
-    "rotulo": "01 · ESCOPO",
-    "titulo": "O caso citado é conferência por regra, não decisão aberta",
-    "texto": "A tarefa descrita para a compensação de boletos é comparar movimentos com critérios definidos. Esse tipo de tarefa é o mais fácil de medir e de auditar."
+    "rotulo": "01 · RESPONSABILIDADE",
+    "titulo": "Definir quem responde pelo agente antes do primeiro incidente",
+    "texto": "O estudo não encontra consenso sobre quem responde quando um agente erra. Em empresa média, a pergunta cabe no contrato com o fornecedor e na designação de um responsável interno, antes de o agente ganhar acesso a sistemas."
    },
    {
-    "rotulo": "02 · MEDIDA",
-    "titulo": "\"Até 98%\" é teto, não média",
-    "texto": "A expressão indica o melhor resultado entre as atividades, e o comunicado não informa o conjunto medido nem o método. Vale pedir a linha de base antes de comparar com a sua operação."
+    "rotulo": "02 · CONTROLES",
+    "titulo": "Os quatro controles mais citados são operacionais",
+    "texto": "Limite de escalonamento a humano, trilha de auditoria, interrupção imediata e cláusula de responsabilidade do fornecedor são itens que dá para exigir de um fornecedor hoje, sem esperar regulação."
    },
    {
-    "rotulo": "03 · FONTE",
-    "titulo": "Não há confirmação independente",
-    "texto": "Todas as informações vêm da assessoria de imprensa do Sicoob. Não há dado de terceiros nem de auditoria sobre o resultado."
+    "rotulo": "03 · ESCOPO",
+    "titulo": "Amostra grande, mas europeia e do Oriente Médio",
+    "texto": "O estudo ouviu empresas com 1.000 ou mais funcionários em oito países e não inclui o Brasil. A IBM também vende consultoria e plataformas de governança de IA, o que dá a ela interesse no tema."
    }
   ],
   "fontes": [
    {
-    "titulo": "Sicoob lança “Sebah”, agente de Inteligência Artificial para ampliar a eficiência das operações de TI",
-    "origem": "Assessoria de Imprensa Sicoob, via Universo Coop · 15 out 2026",
-    "url": "https://universo.coop/sicoob-lanca-sebah-agente-de-inteligencia-artificial-para-ampliar-a-eficiencia-das-operacoes-de-ti/"
+    "titulo": "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance",
+    "origem": "IBM · comunicado · 14 out 2026",
+    "url": "https://newsroom.ibm.com/2026-10-14-ibm-study-eight-in-ten-emea-enterprises-escalate-ai-incidents-to-board-or-c-suite-as-ai-agents-test-governance"
    }
   ],
   "ficha": [
    {
     "rotulo": "Quem mediu",
-    "valor": "Sicoob"
+    "valor": "Censuswide, a pedido da IBM"
+   },
+   {
+    "rotulo": "Amostra",
+    "valor": "3.221 executivos em organizações com 1.000 ou mais funcionários, em 8 países (Reino Unido, França, Alemanha, Itália, Espanha, Países Baixos, Arábia Saudita, Emirados Árabes)"
+   },
+   {
+    "rotulo": "Campo",
+    "valor": "14 a 24 de setembro de 2026"
    },
    {
     "rotulo": "Divulgação",
-    "valor": "15 out 2026"
-   }
-  ]
- },
- {
-  "id": "servicenow-ai-passport-credencial-agentes",
-  "publicado_em": "2026-10-18T07:10:00-03:00",
-  "tema": "LANÇAMENTOS",
-  "titulo": "ServiceNow anuncia o AI Passport, credencial que verifica em tempo real o que cada agente de IA pode fazer",
-  "linha": "A credencial assinada define o escopo de cada agente, inclusive os de terceiros, e prevê redirecionar, restringir ou desligar quem sair do limite. Disponibilidade esperada para o quarto trimestre de 2026.",
-  "linhaFina": "Anúncio de 15 de outubro amplia a Super Intelligence Control Tower, com detecção de agentes não aprovados e controle de custo. A NVIDIA é parceira de lançamento.",
-  "fontePrimaria": "ServiceNow",
-  "leitura": 3,
-  "resumo": [
-   "A ServiceNow anunciou o AI Passport, credencial assinada criptograficamente que o agente consulta durante a execução para verificar o escopo autorizado.",
-   "Se o agente sai do escopo, a empresa pode redirecioná-lo, restringi-lo ou desligá-lo; o registro de auditoria fica na Super Intelligence Control Tower.",
-   "AI Passport, detecção de IA não aprovada e gestão de custo de IA têm disponibilidade esperada para o quarto trimestre de 2026."
-  ],
-  "corpo": [
-   "A ServiceNow anunciou em 15 de outubro de 2026 o AI Passport, descrito no comunicado como uma camada de autoridade que dá à empresa controle, em tempo de execução, sobre o que agentes de IA e servidores MCP estão autorizados a fazer em cada etapa de um fluxo com vários agentes. Cada agente recebe um passaporte emitido pela Super Intelligence Control Tower, com base no CMDB, nas políticas de governança, risco e conformidade (GRC) e nas aprovações de fluxo da empresa.",
-   "Segundo a ServiceNow, o agente que permanece no escopo opera livremente. Quando sai dele, a empresa pode aplicar respostas graduais: redirecionar, restringir ou reconectar o agente ao contexto correto, com a possibilidade de desligá-lo. A especificação é aberta, para que outros produtos de governança e de identidade emitam e verifiquem credenciais, e a NVIDIA é parceira de lançamento, com implementação sobre a Open Agent Safety Platform.",
-   "O anúncio inclui ainda detecção de agentes de IA não aprovados na rede, mais de 400 conectores prontos para descobrir IA em diferentes plataformas, observabilidade contínua e gestão de custo por usuário, departamento e ambiente de execução. A ServiceNow informa que AI Passport, a detecção de IA não aprovada e a gestão de custo de IA devem estar disponíveis no quarto trimestre de 2026."
-  ],
-  "consequencias": [
-   {
-    "rotulo": "01 · INVENTÁRIO",
-    "titulo": "O mercado trata a lista de agentes em operação como pré-requisito",
-    "texto": "O comunicado parte de saber quais agentes existem e a que sistemas têm acesso. Para quem ainda não tem esse inventário, a pergunta vem antes de qualquer produto."
-   },
-   {
-    "rotulo": "02 · DISPONIBILIDADE",
-    "titulo": "Ainda é anúncio, não produto em uso",
-    "texto": "A previsão é de quarto trimestre de 2026, e o comunicado não informa preço nem disponibilidade específica para o Brasil. Não há, na fonte, caso de cliente usando o recurso."
-   },
-   {
-    "rotulo": "03 · FONTE",
-    "titulo": "Quem descreve o problema vende a solução",
-    "texto": "A ServiceNow vende a plataforma que o anúncio apresenta como resposta. A ideia de limitar o escopo de cada agente é útil de cobrar de qualquer fornecedor, com ou sem esse produto."
-   }
-  ],
-  "oQueFazer": [
-   "Ao avaliar qualquer plataforma de agentes, pergunte se o escopo de cada agente é definido e verificado a cada ação, se há como revogar uma permissão específica e se o registro mostra quem autorizou o quê."
-  ],
-  "fontes": [
-   {
-    "titulo": "ServiceNow advances its operational harness for enterprise AI with AI Passport and expanded governance capabilities",
-    "origem": "ServiceNow · comunicado · 15 out 2026",
-    "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-advances-its-operational-harness-for-enterprise-AI-with-AI-Passport-and-expanded-governance-capabilities/default.aspx"
-   },
-   {
-    "titulo": "Quem controla os agentes de IA? ServiceNow anuncia ‘passaporte’ digital",
-    "origem": "Exame · 15 out 2026",
-    "url": "https://exame.com/inteligencia-artificial/quem-controla-os-agentes-de-ia-servicenow-anuncia-passaporte-digital/"
-   }
-  ],
-  "ficha": [
-   {
-    "rotulo": "Quem anunciou",
-    "valor": "ServiceNow, com a NVIDIA como parceira de lançamento"
-   },
-   {
-    "rotulo": "Divulgação",
-    "valor": "15 out 2026"
-   },
-   {
-    "rotulo": "Disponibilidade",
-    "valor": "esperada para o 4º trimestre de 2026"
+    "valor": "14 out 2026"
    }
   ]
  },

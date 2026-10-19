@@ -1,0 +1,51 @@
+{
+  "id": "ibm-emea-80-incidente-ia-conselho-40-mudou-governanca",
+  "publicado_em": "2026-10-19T07:10:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Oito em dez executivos na Europa e no Oriente Médio dizem que incidente de IA chegou ao conselho no último ano, mostra estudo da IBM",
+  "linha": "Estudo da IBM com 3.221 executivos em oito países: só 40% dessas organizações mudaram a política de governança de IA depois do incidente, e 37% dizem que a governança foi desenhada para escalar com agentes.",
+  "linhaFina": "A pesquisa, feita pela Censuswide para a IBM em empresas com 1.000 ou mais funcionários, não inclui o Brasil. Os números servem de referência para quem decide sobre agentes, não de retrato do mercado brasileiro.",
+  "fontePrimaria": "IBM / Censuswide",
+  "leitura": 3,
+  "resumo": [
+    "80% dos executivos ouvidos dizem que um incidente ligado a IA (falha de agente, exposição de dados, erro de decisão ou violação de segurança) chegou ao conselho ou à diretoria no último ano; só 40% citam mudança na política ou no marco de governança em resposta.",
+    "35% já operam IA agêntica em produção, 75% esperam que agentes tenham algum grau de autonomia nas decisões até 2027, e apenas 37% dizem que a governança atual foi desenhada para escalar com isso.",
+    "Quando a implantação corre à frente da governança, 56% seguem adiante dentro de limites de risco acordados e 33% esperam a governança ficar pronta."
+  ],
+  "corpo": [
+    "A IBM divulgou em 14 de outubro de 2026 um estudo feito pela Censuswide com 3.221 executivos, incluindo cargos de C-level, de organizações com 1.000 ou mais funcionários no Reino Unido, França, Alemanha, Itália, Espanha, Países Baixos, Arábia Saudita e Emirados Árabes. Os dados foram coletados de 14 a 24 de setembro de 2026.",
+    "Quase todos (98%) dizem ter responsabilidade por risco de IA atribuída formalmente em nível de conselho, e 26% têm comitê de IA dedicado. Mesmo assim, não há consenso sobre quem responde por resultado adverso causado por agentes: o cargo mais citado foi CIO ou CTO, por apenas 17% dos respondentes. Sobre responsabilidade legal, 20% defendem divisão proporcional entre quem implanta e o fornecedor, 19% apontam um marco regulatório que ainda não existe de forma adequada e 14% colocam a responsabilidade no fornecedor.",
+    "Para operar agentes que decidem sem aprovação a cada passo até 2027, os executivos esperam precisar de contratos que definam a responsabilidade do fornecedor por falhas (33%), limites definidos para escalar a um humano (32%), monitoramento e trilha de auditoria das decisões e ações do agente em tempo real (30%) e capacidade de interromper imediatamente a atividade dos agentes em toda a empresa (29%).",
+    "O estudo também aponta lacunas na cadeia de fornecedores: 54% reconhecem limitações na cobertura da governança sobre os sistemas de IA de fornecedores e parceiros, 21% monitoram continuamente o risco de IA de terceiros e 13% exigem garantia independente ou certificação. Apenas 37% têm uma quantificação formal, revisada pelo conselho, do risco financeiro criado por lacunas de governança."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · RESPONSABILIDADE",
+      "titulo": "Definir quem responde pelo agente antes do primeiro incidente",
+      "texto": "O estudo não encontra consenso sobre quem responde quando um agente erra. Em empresa média, a pergunta cabe no contrato com o fornecedor e na designação de um responsável interno, antes de o agente ganhar acesso a sistemas."
+    },
+    {
+      "rotulo": "02 · CONTROLES",
+      "titulo": "Os quatro controles mais citados são operacionais",
+      "texto": "Limite de escalonamento a humano, trilha de auditoria, interrupção imediata e cláusula de responsabilidade do fornecedor são itens que dá para exigir de um fornecedor hoje, sem esperar regulação."
+    },
+    {
+      "rotulo": "03 · ESCOPO",
+      "titulo": "Amostra grande, mas europeia e do Oriente Médio",
+      "texto": "O estudo ouviu empresas com 1.000 ou mais funcionários em oito países e não inclui o Brasil. A IBM também vende consultoria e plataformas de governança de IA, o que dá a ela interesse no tema."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance",
+      "origem": "IBM · comunicado · 14 out 2026",
+      "url": "https://newsroom.ibm.com/2026-10-14-ibm-study-eight-in-ten-emea-enterprises-escalate-ai-incidents-to-board-or-c-suite-as-ai-agents-test-governance"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Censuswide, a pedido da IBM" },
+    { "rotulo": "Amostra", "valor": "3.221 executivos em organizações com 1.000 ou mais funcionários, em 8 países (Reino Unido, França, Alemanha, Itália, Espanha, Países Baixos, Arábia Saudita, Emirados Árabes)" },
+    { "rotulo": "Campo", "valor": "14 a 24 de setembro de 2026" },
+    { "rotulo": "Divulgação", "valor": "14 out 2026" }
+  ]
+}
