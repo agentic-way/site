@@ -3,6 +3,160 @@ window.AW_DADOS = window.AW_DADOS || {};
 window.AW_DADOS.assinatura = "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi";
 window.AW_DADOS.na_operacao = [
  {
+  "id": "sicoob-crediauc-cobranca-agente-ia",
+  "publicado_em": "2026-10-19T08:30:00-03:00",
+  "setor": "FINANÇAS",
+  "processo": "FINANCEIRO",
+  "status": "piloto",
+  "empresa": "Sicoob Crediauc",
+  "titulo": "Fornecedor diz que um agente de IA renegociou 6 contratos em 5 dias de campanha do Desenrola no Sicoob Crediauc",
+  "linhaFina": "Os números vêm da Ubots, que vende o agente, cobrem cinco dias e são comparados com 75 dias de 135 gerentes; custo, taxa de acordo e inadimplência não aparecem.",
+  "resumo": "Nos últimos cinco dias da campanha do Desenrola Brasil, a cooperativa catarinense testou um agente da Ubots para abrir contatos de cobrança. Segundo o fornecedor, foram 6 contratos renegociados, somando R$ 23.402,22; os acordos foram fechados por uma pessoa da equipe.",
+  "leitura": 5,
+  "abertura": "O Sicoob Crediauc é uma cooperativa financeira com mais de 40 anos, nascida no Oeste Catarinense, com presença no Rio Grande do Sul e em Curitiba. Segundo a Ubots, tem 30 agências, cerca de 470 colaboradores e mais de 92.500 cooperados, com forte atuação no agronegócio. Durante a campanha do Desenrola Brasil, que oferecia descontos de até 90%, prazos de até 48 meses, carência de 35 dias e uso do FGTS, a cooperativa tentou renegociar dívidas de cooperados.",
+  "problema": "Segundo a Ubots, a operação humana da campanha reuniu 135 gerentes de relacionamento, muitos apoiados por assistentes. Em 75 dias, renegociaram 13 contratos, somando R$ 46.228,00, e quitaram 25 contratos, no valor de R$ 23.566,20. O fornecedor descreve ainda um conjunto de dívidas mais complexas que não avançava nas tratativas.",
+  "solucao": "Nos cinco últimos dias da campanha, a cooperativa colocou um agente de IA da Ubots para apoiar um colaborador interno na cobrança. O agente iniciava os contatos com os cooperados e organizava as informações de cada caso; a pessoa conduzia a negociação e registrava o acordo. As fontes não dizem por qual canal o agente falava com o cooperado (a Ubots trabalha com mensageria e WhatsApp, mas isso não é afirmado para este caso), nem a quais sistemas da cooperativa ele estava ligado.",
+  "resultado": "Em cinco dias, segundo a Ubots, o agente apoiou a renegociação de 6 contratos dentro do Desenrola, somando R$ 23.402,22, dos quais R$ 3.546,30 já foram quitados na data da matéria do Let's Money (14/out/2026). Fora do escopo oficial do programa, foram mais 6 renegociações, que totalizaram R$ 5.700,00. A Ubots relata que algumas conversas abertas pelo agente levaram cooperados a procurar uma agência para fechar o acordo. O fornecedor também afirma que o agente alcançou 50% do valor renegociado pelas agências em 1/15 do tempo; essa comparação é da Ubots, não da cooperativa.",
+  "humano": "O agente não fechou acordos. Segundo o CEO da Ubots, ele ajudou a iniciar os contatos e a organizar as informações, enquanto o colaborador conduziu as negociações e concluiu os acordos. Parte das conversas terminou com o cooperado indo à agência.",
+  "citacao": {
+   "texto": "Cada negociação de crédito tem seu contexto. […] o agente ajudou a iniciar os contatos e a organizar as informações, enquanto o colaborador conduziu as negociações e concluiu os acordos. É esse tipo de apoio que buscamos com a IA, ajudar a equipe a avançar nos casos mais difíceis, sem substituir o contato com o cooperado.",
+   "quem": "Rafael Souza, CEO da Ubots, em matéria do Let's Money de 14/out/2026"
+  },
+  "numeros": [
+   {
+    "valor": "R$ 23.402,22",
+    "legenda": "em 6 contratos renegociados em 5 dias, com o apoio do agente, no Desenrola Brasil",
+    "quemMediu": "Ubots (fornecedor), em estudo de caso; reproduzido pelo Let's Money"
+   },
+   {
+    "valor": "R$ 3.546,30",
+    "legenda": "já quitados desse total até a data da matéria",
+    "quemMediu": "Ubots (fornecedor), reproduzido pelo Let's Money"
+   },
+   {
+    "valor": "R$ 5.700,00",
+    "legenda": "em 6 renegociações adicionais, fora do escopo oficial do Desenrola",
+    "quemMediu": "Ubots (fornecedor), em estudo de caso"
+   },
+   {
+    "valor": "R$ 46.228,00",
+    "legenda": "em 13 contratos renegociados pela operação humana (135 gerentes) em 75 dias",
+    "quemMediu": "Ubots (fornecedor), em estudo de caso"
+   }
+  ],
+  "fluxo": [
+   {
+    "tipo": "ENTRADA",
+    "nome": "Dívidas de cooperados na campanha",
+    "faz": "Contratos em atraso elegíveis ao Desenrola Brasil, entre eles os mais complexos, que não avançavam nas tratativas."
+   },
+   {
+    "tipo": "AGENTE",
+    "nome": "Agente de IA da Ubots",
+    "faz": "Inicia o contato com o cooperado, conduz a abordagem inicial e organiza as informações do caso."
+   },
+   {
+    "tipo": "SISTEMA",
+    "nome": "Sistemas da cooperativa",
+    "faz": "As fontes não informam a quais sistemas o agente se conecta nem onde o acordo é registrado."
+   },
+   {
+    "tipo": "SAÍDA",
+    "nome": "Acordo fechado por uma pessoa",
+    "faz": "O colaborador conduz a negociação, fecha e registra a renegociação."
+   },
+   {
+    "tipo": "EXCEÇÃO",
+    "nome": "Cooperado vai à agência",
+    "faz": "Em alguns casos, a conversa aberta pelo agente leva o cooperado a procurar uma agência para concluir o acordo."
+   }
+  ],
+  "indicadores": [],
+  "naoConta": [
+   {
+    "valor": "Comparação",
+    "texto": "os 5 dias do agente são comparados com 75 dias de 135 gerentes, e a conta de 15 vezes é da Ubots. Não se sabe se as dívidas são do mesmo tipo (o fornecedor diz que o agente atuou nas mais complexas), quantas o agente abordou nem quantas viraram acordo."
+   },
+   {
+    "valor": "Quitação",
+    "texto": "dos R$ 23.402,22 renegociados, R$ 3.546,30 estavam quitados na data da matéria. Se o restante será pago, a fonte não diz, e carência de 35 dias pode explicar parte da diferença."
+   },
+   {
+    "valor": "Custo e prazo",
+    "texto": "nem a cooperativa nem a Ubots divulgaram o custo do agente, o tempo de implantação, o número de pessoas envolvidas na etapa de fechamento e o que a cooperativa decidiu depois do teste. A Ubots diz que o próximo passo é integrá-lo à estratégia de cobrança."
+   }
+  ],
+  "licoes": [
+   {
+    "titulo": "Compare períodos iguais",
+    "texto": "Cinco dias contra 75 não dá produtividade. Antes de acreditar em múltiplo de ganho, peça o mesmo recorte de tempo e de carteira para os dois lados."
+   },
+   {
+    "titulo": "Contrato renegociado não é dinheiro recebido",
+    "texto": "A diferença entre R$ 23.402,22 renegociados e R$ 3.546,30 quitados mostra por que cobrança deve ser medida até o pagamento."
+   },
+   {
+    "titulo": "O agente abre, a pessoa fecha",
+    "texto": "A divisão do trabalho é simples e vale em empresas menores: máquina para o primeiro contato e a organização dos dados, pessoa para negociar e decidir."
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Empresa",
+    "valor": "Sicoob Crediauc (cooperativa de crédito, SC)"
+   },
+   {
+    "rotulo": "Setor",
+    "valor": "Finanças (cooperativa de crédito)"
+   },
+   {
+    "rotulo": "Processo",
+    "valor": "Cobrança e renegociação de dívidas"
+   },
+   {
+    "rotulo": "Sistema",
+    "valor": "Agente de IA da Ubots; sistemas da cooperativa não informados"
+   },
+   {
+    "rotulo": "Quem fez",
+    "valor": "Ubots (fornecedor) com a cooperativa"
+   },
+   {
+    "rotulo": "Status",
+    "valor": "Teste de cinco dias nos últimos dias da campanha do Desenrola Brasil"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "Estudo de caso do fornecedor; matéria do Let's Money, 14/out/2026"
+   }
+  ],
+  "comoApuramos": "Lemos o estudo de caso publicado pela Ubots em seu site, a matéria do Let's Money de 14 de outubro de 2026, que reproduz os números da Ubots, e o texto patrocinado da Ubots no Mundo Coop sobre a mesa de negócios de 4 de novembro. Todos os números e falas deste caso estão nessas fontes, na versão da data da leitura (19/out/2026). Não houve visita nem entrevista: o caso foi montado apenas com fontes públicas.",
+  "transparencia": "A fonte primária é a Ubots, que vende o agente e tem interesse comercial no resultado: o estudo de caso termina com um convite para falar com um especialista, e o Mundo Coop é conteúdo de marca da própria Ubots. O Let's Money cita a Ubots como fonte dos números. Nenhuma fonte traz medição independente nem fala da cooperativa.",
+  "fontes": [
+   {
+    "titulo": "Case Sicoob Crediauc: recuperação de crédito",
+    "origem": "Ubots, estudo de caso no site do fornecedor, lido em 19/out/2026",
+    "url": "https://ubots.com.br/casos-de-sucesso/recuperacao-de-credito/sicoob-crediauc"
+   },
+   {
+    "titulo": "Com IA, Sicoob Crediauc acelera renegociações no Desenrola",
+    "origem": "Let's Money, 14/out/2026",
+    "url": "https://www.letsmoney.com.br/credito/sicoob-crediauc-ia-renegociacoes-desenrola/"
+   },
+   {
+    "titulo": "Ubots apresenta case do Sicoob Crediauc em mesa de negócios sobre agentes de IA na recuperação de crédito",
+    "origem": "Mundo Coop, conteúdo de marca da Ubots, out/2026",
+    "url": "https://mundocoop.com.br/conteudodemarca/ubots-apresenta-case-do-sicoob-crediauc-em-mesa-de-negocios-sobre-agentes-de-ia-na-recuperacao-de-credito/"
+   }
+  ],
+  "imagem": {
+   "arquivo": "img/na-operacao/sicoob-crediauc-cobranca-agente-ia-ia.png",
+   "alt": "Mesa de madeira com caderno e xícara em primeiro plano, cadeiras azuis ao lado; ao fundo, fora de foco, duas pessoas conversam em um escritório de atendimento.",
+   "modelo": "gemini-3.1-flash-image",
+   "prompt": "A calm branch office of a credit cooperative in southern Brazil, an empty desk with a notepad and two chairs in the foreground, a person and a client talking softly in the blurred background. Computer monitors turned away or out of focus with no readable content. No text, no lettering, no logos, no signage, no readable screens, no identifiable faces. Style: realistic editorial photo, shallow depth of field, calm, not staged, not stock-photo, muted navy and warm paper tones"
+  }
+ },
+ {
   "id": "klubi-consorcio-agentes-vendas",
   "publicado_em": "2026-10-12T08:30:00-03:00",
   "setor": "FINANÇAS",
