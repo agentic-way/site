@@ -3,6 +3,69 @@ window.AW_DADOS = window.AW_DADOS || {};
 window.AW_DADOS.assinatura = "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi";
 window.AW_DADOS.radar = [
  {
+  "id": "ibm-emea-80-incidente-ia-conselho-40-mudou-governanca",
+  "publicado_em": "2026-10-19T07:10:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Oito em dez executivos na Europa e no Oriente Médio dizem que incidente de IA chegou ao conselho no último ano, mostra estudo da IBM",
+  "linha": "Estudo da IBM com 3.221 executivos em oito países: só 40% dessas organizações mudaram a política de governança de IA depois do incidente, e 37% dizem que a governança foi desenhada para escalar com agentes.",
+  "linhaFina": "A pesquisa, feita pela Censuswide para a IBM em empresas com 1.000 ou mais funcionários, não inclui o Brasil. Os números servem de referência para quem decide sobre agentes, não de retrato do mercado brasileiro.",
+  "fontePrimaria": "IBM / Censuswide",
+  "leitura": 3,
+  "resumo": [
+   "80% dos executivos ouvidos dizem que um incidente ligado a IA (falha de agente, exposição de dados, erro de decisão ou violação de segurança) chegou ao conselho ou à diretoria no último ano; só 40% citam mudança na política ou no marco de governança em resposta.",
+   "35% já operam IA agêntica em produção, 75% esperam que agentes tenham algum grau de autonomia nas decisões até 2027, e apenas 37% dizem que a governança atual foi desenhada para escalar com isso.",
+   "Quando a implantação corre à frente da governança, 56% seguem adiante dentro de limites de risco acordados e 33% esperam a governança ficar pronta."
+  ],
+  "corpo": [
+   "A IBM divulgou em 14 de outubro de 2026 um estudo feito pela Censuswide com 3.221 executivos, incluindo cargos de C-level, de organizações com 1.000 ou mais funcionários no Reino Unido, França, Alemanha, Itália, Espanha, Países Baixos, Arábia Saudita e Emirados Árabes. Os dados foram coletados de 14 a 24 de setembro de 2026.",
+   "Quase todos (98%) dizem ter responsabilidade por risco de IA atribuída formalmente em nível de conselho, e 26% têm comitê de IA dedicado. Mesmo assim, não há consenso sobre quem responde por resultado adverso causado por agentes: o cargo mais citado foi CIO ou CTO, por apenas 17% dos respondentes. Sobre responsabilidade legal, 20% defendem divisão proporcional entre quem implanta e o fornecedor, 19% apontam um marco regulatório que ainda não existe de forma adequada e 14% colocam a responsabilidade no fornecedor.",
+   "Para operar agentes que decidem sem aprovação a cada passo até 2027, os executivos esperam precisar de contratos que definam a responsabilidade do fornecedor por falhas (33%), limites definidos para escalar a um humano (32%), monitoramento e trilha de auditoria das decisões e ações do agente em tempo real (30%) e capacidade de interromper imediatamente a atividade dos agentes em toda a empresa (29%).",
+   "O estudo também aponta lacunas na cadeia de fornecedores: 54% reconhecem limitações na cobertura da governança sobre os sistemas de IA de fornecedores e parceiros, 21% monitoram continuamente o risco de IA de terceiros e 13% exigem garantia independente ou certificação. Apenas 37% têm uma quantificação formal, revisada pelo conselho, do risco financeiro criado por lacunas de governança."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · RESPONSABILIDADE",
+    "titulo": "Definir quem responde pelo agente antes do primeiro incidente",
+    "texto": "O estudo não encontra consenso sobre quem responde quando um agente erra. Em empresa média, a pergunta cabe no contrato com o fornecedor e na designação de um responsável interno, antes de o agente ganhar acesso a sistemas."
+   },
+   {
+    "rotulo": "02 · CONTROLES",
+    "titulo": "Os quatro controles mais citados são operacionais",
+    "texto": "Limite de escalonamento a humano, trilha de auditoria, interrupção imediata e cláusula de responsabilidade do fornecedor são itens que dá para exigir de um fornecedor hoje, sem esperar regulação."
+   },
+   {
+    "rotulo": "03 · ESCOPO",
+    "titulo": "Amostra grande, mas europeia e do Oriente Médio",
+    "texto": "O estudo ouviu empresas com 1.000 ou mais funcionários em oito países e não inclui o Brasil. A IBM também vende consultoria e plataformas de governança de IA, o que dá a ela interesse no tema."
+   }
+  ],
+  "fontes": [
+   {
+    "titulo": "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance",
+    "origem": "IBM · comunicado · 14 out 2026",
+    "url": "https://newsroom.ibm.com/2026-10-14-ibm-study-eight-in-ten-emea-enterprises-escalate-ai-incidents-to-board-or-c-suite-as-ai-agents-test-governance"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem mediu",
+    "valor": "Censuswide, a pedido da IBM"
+   },
+   {
+    "rotulo": "Amostra",
+    "valor": "3.221 executivos em organizações com 1.000 ou mais funcionários, em 8 países (Reino Unido, França, Alemanha, Itália, Espanha, Países Baixos, Arábia Saudita, Emirados Árabes)"
+   },
+   {
+    "rotulo": "Campo",
+    "valor": "14 a 24 de setembro de 2026"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "14 out 2026"
+   }
+  ]
+ },
+ {
   "id": "fluke-agentes-de-voz-ligacoes-planos-199",
   "publicado_em": "2026-10-17T07:11:00-03:00",
   "tema": "LANÇAMENTOS",
@@ -114,6 +177,130 @@ window.AW_DADOS.radar = [
     "titulo": "TOTVS lança CORTEN, sistema operacional de gestão empresarial",
     "origem": "Portal ERP · texto da Totvs · 14 out 2026",
     "url": "https://portalerp.com/br/noticia/totvs-lanca-corten-sistema-operacional-de-gestao-empresarial"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
+    "valor": "Totvs; projeções de JPMorgan e Goldman Sachs, via InfoMoney"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "14 out 2026"
+   },
+   {
+    "rotulo": "Preço",
+    "valor": "não divulgado nas fontes"
+   }
+  ]
+ },
+ {
+  "id": "venturebeat-troca-de-modelo-62-59-queda-desempenho",
+  "publicado_em": "2026-10-16T07:12:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "VentureBeat: 62% das empresas já trocaram o modelo de IA de um app em produção, e 59% delas viram o desempenho cair",
+  "linha": "Pesquisa de setembro com 109 respondentes qualificados: só 19% dos que trocaram de modelo dizem que a troca deu quase nenhum trabalho de engenharia.",
+  "linhaFina": "A amostra é pequena e vem de leitores e painel da VentureBeat; consultores relataram trocas mais do que quem trabalha na própria empresa.",
+  "fontePrimaria": "VentureBeat Intelligence (VB Pulse)",
+  "leitura": 3,
+  "resumo": [
+   "62% das empresas pesquisadas substituíram o modelo de IA dentro de um app em produção no último ano, mantendo o app.",
+   "Entre elas, 59% viram o desempenho cair e tiveram de refazer o app ou voltar ao modelo original.",
+   "Só 19% dos que trocaram dizem que a troca deu quase nenhum trabalho de engenharia; para 75%, levou alguns dias de engenharia ou mais, ou foi interrompida antes do fim."
+  ],
+  "corpo": [
+   "A VentureBeat Intelligence divulgou em 13 de outubro resultados da pesquisa de setembro sobre orquestração de agentes, parte da série VB Pulse. A edição teve 109 respondentes qualificados, de organizações com 100 ou mais funcionários ou consultores que atendem essas organizações. Os respondentes vêm de leitores da VentureBeat e de um painel de pesquisa, e os resultados, diz a própria publicação, descrevem esses respondentes e podem não valer para todas as empresas.",
+   "A pesquisa perguntou se a empresa tinha substituído o modelo de IA dentro de um app em produção no último ano, mantendo o app. A troca pode ser para o modelo de outro fornecedor ou para um modelo mais novo do mesmo fornecedor. Entre as empresas pesquisadas, 62% tinham feito a troca. Dessas, 59% viram o desempenho cair e tiveram de refazer o app ou voltar ao modelo original.",
+   "Só 19% das empresas que trocaram disseram que a troca deu quase nenhum trabalho de engenharia. Para 75%, a troca levou alguns dias de engenharia ou mais, ou elas pararam antes de concluir.",
+   "A VentureBeat ressalva que consultores relataram trocas em taxa maior que quem trabalha na própria empresa: 81% dos consultores disseram que o cliente principal trocou de modelo no último ano, contra 51% dos respondentes internos. Isso puxou o total de 62% para cima. A publicação diz que repetirá as perguntas na pesquisa de outubro."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · TROCA",
+    "titulo": "Trocar o modelo não é como trocar a chave de uma tomada",
+    "texto": "Um agente ajustado a um modelo pode piorar com outro. Antes de aceitar a troca sugerida por um fornecedor, a empresa precisa de testes que comparem o resultado nos seus próprios casos."
+   },
+   {
+    "rotulo": "02 · CONTRATO",
+    "titulo": "Fornecedores que trocam modelos por conta própria transferem esse risco",
+    "texto": "Quando o fornecedor pode trocar o modelo por trás do agente, vale perguntar no contrato quem testa o resultado depois de cada troca e quem arca com o retrabalho."
+   },
+   {
+    "rotulo": "03 · AMOSTRA",
+    "titulo": "O dado é um retrato, não uma média do mercado",
+    "texto": "São 109 respondentes que escolheram participar, e a taxa entre quem trabalha na própria empresa foi de 51%. Serve como alerta, não como índice."
+   }
+  ],
+  "oQueFazer": [
+   "Para quem opera agentes em produção, manter um conjunto fixo de casos reais, com o resultado esperado, para rodar sempre que o modelo mudar, seja por decisão da empresa ou do fornecedor."
+  ],
+  "fontes": [
+   {
+    "titulo": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+    "origem": "VentureBeat · Matt Marshall · 13 out 2026",
+    "url": "https://venturebeat.com/orchestration/openais-ai-agent-platform-is-used-by-twice-as-many-companies-as-anthropics-new-venturebeat-survey-finds"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem mediu",
+    "valor": "VentureBeat Intelligence (VB Pulse)"
+   },
+   {
+    "rotulo": "Amostra",
+    "valor": "109 respondentes qualificados (pesquisa de orquestração de agentes)"
+   },
+   {
+    "rotulo": "Campo",
+    "valor": "setembro de 2026"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "13 out 2026"
+   }
+  ]
+ },
+ {
+  "id": "totvs-t-cloud-agentes-nativos-sem-customizacao",
+  "publicado_em": "2026-10-16T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Totvs diz que clientes do T-Cloud já podem ativar agentes de IA nativos dos módulos, sem customização",
+  "linha": "Em palestra no Universo Totvs 2026, o diretor Ricardo Castillo afirmou que a nuvem é o caminho principal para adotar IA nos produtos da empresa. A Totvs informa 8 mil clientes na nuvem.",
+  "linhaFina": "A informação é de executivo da Totvs, relatada pela Central do Varejo; a fonte não detalha quais módulos têm agentes nem o custo de ativação.",
+  "fontePrimaria": "Totvs, via Central do Varejo",
+  "leitura": 2,
+  "resumo": [
+   "Clientes que usam os sistemas da Totvs na nuvem já podem ativar os agentes de IA nativos dos módulos sem precisar de customização, disse Ricardo Castillo, diretor da Totvs.",
+   "A Totvs informa ter 8 mil clientes na nuvem e mais de 41 mil ambientes na plataforma.",
+   "O T-Cloud funciona como camada de orquestração e governança para os agentes criados a partir do Lynn, a base de IA da empresa."
+  ],
+  "corpo": [
+   "A informação foi apresentada por Ricardo Castillo, diretor da Totvs, em 14 de outubro, no Universo Totvs 2026, em São Paulo, e relatada pela Central do Varejo. Segundo ele, o T-Cloud, a nuvem da companhia, é hoje o principal caminho para a adoção de IA nos produtos da Totvs, porque os dados dos clientes já estão organizados na plataforma.",
+   "Castillo disse que a plataforma reúne mais de 41 mil ambientes de clientes e que, desde julho, os próprios clientes aplicaram mais de 49 mil pacotes de atualização pelo portal, sem abrir chamado com a Totvs. A empresa informa ter 8 mil clientes na nuvem e passou a oferecer pelo T-Cloud infraestrutura de outros provedores, em modelo multicloud, para hospedar sistemas de terceiros e legados dos clientes que migram o ERP.",
+   "Segundo a empresa, o T-Cloud funciona como camada de orquestração e governança para os agentes criados a partir do Lynn, a base de IA corporativa da Totvs. A reportagem não informa quais módulos já têm agentes disponíveis nem quanto custa ativá-los."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · NUVEM",
+    "titulo": "Para ter o agente nativo, o ERP precisa estar na nuvem da Totvs",
+    "texto": "Segundo o executivo, a nuvem é o caminho principal. Quem roda o sistema em servidor próprio deve perguntar o que muda para acessar os agentes."
+   },
+   {
+    "rotulo": "02 · ESCOPO",
+    "titulo": "Falta saber quais agentes e a que custo",
+    "texto": "A fonte não lista módulos nem preço. A relação com a cobrança por tarefa descrita pelo Citi (TaaS) é uma pergunta aberta, não um fato da reportagem."
+   }
+  ],
+  "fontes": [
+   {
+    "titulo": "TOTVS usa a nuvem como porta de entrada para os agentes de IA dos seus sistemas",
+    "origem": "Central do Varejo · reportagem do Universo Totvs 2026 · 14 out 2026",
+    "url": "https://centraldovarejo.com.br/totvs-cloud-agentes-ia-nativos/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
     "valor": "Ricardo Castillo, diretor da Totvs"
    },
    {
@@ -181,15 +368,15 @@ window.AW_DADOS.radar = [
   "ficha": [
    {
     "rotulo": "Quem afirma",
-    "valor": "Totvs; projeções de JPMorgan e Goldman Sachs, via InfoMoney"
+    "valor": "Citi, em relatório a clientes (não público), segundo o Times Brasil"
    },
    {
     "rotulo": "Divulgação",
     "valor": "14 out 2026"
    },
    {
-    "rotulo": "Preço",
-    "valor": "não divulgado nas fontes"
+    "rotulo": "Confirmação",
+    "valor": "não confirmada pela Totvs nas fontes consultadas"
    }
   ]
  },
