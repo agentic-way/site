@@ -3,6 +3,126 @@ window.AW_DADOS = window.AW_DADOS || {};
 window.AW_DADOS.assinatura = "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi";
 window.AW_DADOS.radar = [
  {
+  "id": "sicoob-sebah-agente-operacoes-ti",
+  "publicado_em": "2026-10-18T07:11:00-03:00",
+  "tema": "CASOS",
+  "titulo": "Sicoob diz que o agente Sebah reduziu em até 98% o tempo de relatórios e rotinas na operação de TI",
+  "linha": "O número é do próprio Sicoob, divulgado em comunicado. O agente consolida dados, gera relatórios e alertas, e confere a compensação de boletos a cada sete minutos com regras determinísticas.",
+  "linhaFina": "Comunicado de 15 de outubro descreve o Sebah, construído sobre a plataforma própria Sisbr IA, com avaliação técnica, homologação e supervisão humana antes de ir à produção.",
+  "fontePrimaria": "Sicoob",
+  "leitura": 3,
+  "resumo": [
+   "O Sicoob lançou o Sebah, agente de IA para a área de Operações de TI, que consolida informações de várias fontes, gera relatórios e análises e emite alertas.",
+   "Segundo o Sicoob, o agente já automatizou diversos processos e relatórios, com redução de até 98% no tempo médio dessas atividades.",
+   "Na compensação de boletos, o Sebah usa IA determinística, baseada em regras, para conferir a cada sete minutos os movimentos entre instituições financeiras."
+  ],
+  "corpo": [
+   "O Sicoob, instituição financeira cooperativa, anunciou em 15 de outubro de 2026 o Sebah, agente de IA para apoiar a Área de Operações de TI na automação de processos, na análise de dados e na geração de informação para decisão. A área monitora 24 horas por dia os sistemas que sustentam os serviços digitais da instituição, com milhares de eventos, indicadores e alertas.",
+   "Um dos casos de uso descritos é a compensação de boletos de cobrança, em que as informações precisam ser processadas, consolidadas e validadas em intervalos de sete minutos. Para isso, segundo o comunicado, o Sebah usa inteligência artificial determinística, baseada em regras, critérios e validações previamente estabelecidos, comparando pagamentos e recebimentos processados com o movimento que será enviado a cada ciclo.",
+   "O Sicoob informa que desde a implementação o agente automatizou diversos processos e relatórios, reduzindo em até 98% o tempo médio dessas atividades. O comunicado não diz quantos processos, qual era o tempo de partida, nem quem mediu. Sobre governança, a instituição afirma que nenhuma funcionalidade entra em produção sem avaliação técnica, homologação e supervisão humana, com controle de acesso e rastreabilidade das ações."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · ESCOPO",
+    "titulo": "O caso citado é conferência por regra, não decisão aberta",
+    "texto": "A tarefa descrita para a compensação de boletos é comparar movimentos com critérios definidos. Esse tipo de tarefa é o mais fácil de medir e de auditar."
+   },
+   {
+    "rotulo": "02 · MEDIDA",
+    "titulo": "\"Até 98%\" é teto, não média",
+    "texto": "A expressão indica o melhor resultado entre as atividades, e o comunicado não informa o conjunto medido nem o método. Vale pedir a linha de base antes de comparar com a sua operação."
+   },
+   {
+    "rotulo": "03 · FONTE",
+    "titulo": "Não há confirmação independente",
+    "texto": "Todas as informações vêm da assessoria de imprensa do Sicoob. Não há dado de terceiros nem de auditoria sobre o resultado."
+   }
+  ],
+  "fontes": [
+   {
+    "titulo": "Sicoob lança “Sebah”, agente de Inteligência Artificial para ampliar a eficiência das operações de TI",
+    "origem": "Assessoria de Imprensa Sicoob, via Universo Coop · 15 out 2026",
+    "url": "https://universo.coop/sicoob-lanca-sebah-agente-de-inteligencia-artificial-para-ampliar-a-eficiencia-das-operacoes-de-ti/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem mediu",
+    "valor": "Sicoob"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "15 out 2026"
+   }
+  ]
+ },
+ {
+  "id": "servicenow-ai-passport-credencial-agentes",
+  "publicado_em": "2026-10-18T07:10:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "ServiceNow anuncia o AI Passport, credencial que verifica em tempo real o que cada agente de IA pode fazer",
+  "linha": "A credencial assinada define o escopo de cada agente, inclusive os de terceiros, e prevê redirecionar, restringir ou desligar quem sair do limite. Disponibilidade esperada para o quarto trimestre de 2026.",
+  "linhaFina": "Anúncio de 15 de outubro amplia a Super Intelligence Control Tower, com detecção de agentes não aprovados e controle de custo. A NVIDIA é parceira de lançamento.",
+  "fontePrimaria": "ServiceNow",
+  "leitura": 3,
+  "resumo": [
+   "A ServiceNow anunciou o AI Passport, credencial assinada criptograficamente que o agente consulta durante a execução para verificar o escopo autorizado.",
+   "Se o agente sai do escopo, a empresa pode redirecioná-lo, restringi-lo ou desligá-lo; o registro de auditoria fica na Super Intelligence Control Tower.",
+   "AI Passport, detecção de IA não aprovada e gestão de custo de IA têm disponibilidade esperada para o quarto trimestre de 2026."
+  ],
+  "corpo": [
+   "A ServiceNow anunciou em 15 de outubro de 2026 o AI Passport, descrito no comunicado como uma camada de autoridade que dá à empresa controle, em tempo de execução, sobre o que agentes de IA e servidores MCP estão autorizados a fazer em cada etapa de um fluxo com vários agentes. Cada agente recebe um passaporte emitido pela Super Intelligence Control Tower, com base no CMDB, nas políticas de governança, risco e conformidade (GRC) e nas aprovações de fluxo da empresa.",
+   "Segundo a ServiceNow, o agente que permanece no escopo opera livremente. Quando sai dele, a empresa pode aplicar respostas graduais: redirecionar, restringir ou reconectar o agente ao contexto correto, com a possibilidade de desligá-lo. A especificação é aberta, para que outros produtos de governança e de identidade emitam e verifiquem credenciais, e a NVIDIA é parceira de lançamento, com implementação sobre a Open Agent Safety Platform.",
+   "O anúncio inclui ainda detecção de agentes de IA não aprovados na rede, mais de 400 conectores prontos para descobrir IA em diferentes plataformas, observabilidade contínua e gestão de custo por usuário, departamento e ambiente de execução. A ServiceNow informa que AI Passport, a detecção de IA não aprovada e a gestão de custo de IA devem estar disponíveis no quarto trimestre de 2026."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · INVENTÁRIO",
+    "titulo": "O mercado trata a lista de agentes em operação como pré-requisito",
+    "texto": "O comunicado parte de saber quais agentes existem e a que sistemas têm acesso. Para quem ainda não tem esse inventário, a pergunta vem antes de qualquer produto."
+   },
+   {
+    "rotulo": "02 · DISPONIBILIDADE",
+    "titulo": "Ainda é anúncio, não produto em uso",
+    "texto": "A previsão é de quarto trimestre de 2026, e o comunicado não informa preço nem disponibilidade específica para o Brasil. Não há, na fonte, caso de cliente usando o recurso."
+   },
+   {
+    "rotulo": "03 · FONTE",
+    "titulo": "Quem descreve o problema vende a solução",
+    "texto": "A ServiceNow vende a plataforma que o anúncio apresenta como resposta. A ideia de limitar o escopo de cada agente é útil de cobrar de qualquer fornecedor, com ou sem esse produto."
+   }
+  ],
+  "oQueFazer": [
+   "Ao avaliar qualquer plataforma de agentes, pergunte se o escopo de cada agente é definido e verificado a cada ação, se há como revogar uma permissão específica e se o registro mostra quem autorizou o quê."
+  ],
+  "fontes": [
+   {
+    "titulo": "ServiceNow advances its operational harness for enterprise AI with AI Passport and expanded governance capabilities",
+    "origem": "ServiceNow · comunicado · 15 out 2026",
+    "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-advances-its-operational-harness-for-enterprise-AI-with-AI-Passport-and-expanded-governance-capabilities/default.aspx"
+   },
+   {
+    "titulo": "Quem controla os agentes de IA? ServiceNow anuncia ‘passaporte’ digital",
+    "origem": "Exame · 15 out 2026",
+    "url": "https://exame.com/inteligencia-artificial/quem-controla-os-agentes-de-ia-servicenow-anuncia-passaporte-digital/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem anunciou",
+    "valor": "ServiceNow, com a NVIDIA como parceira de lançamento"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "15 out 2026"
+   },
+   {
+    "rotulo": "Disponibilidade",
+    "valor": "esperada para o 4º trimestre de 2026"
+   }
+  ]
+ },
+ {
   "id": "fluke-agentes-de-voz-ligacoes-planos-199",
   "publicado_em": "2026-10-17T07:11:00-03:00",
   "tema": "LANÇAMENTOS",
@@ -114,6 +234,130 @@ window.AW_DADOS.radar = [
     "titulo": "TOTVS lança CORTEN, sistema operacional de gestão empresarial",
     "origem": "Portal ERP · texto da Totvs · 14 out 2026",
     "url": "https://portalerp.com/br/noticia/totvs-lanca-corten-sistema-operacional-de-gestao-empresarial"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
+    "valor": "Totvs; projeções de JPMorgan e Goldman Sachs, via InfoMoney"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "14 out 2026"
+   },
+   {
+    "rotulo": "Preço",
+    "valor": "não divulgado nas fontes"
+   }
+  ]
+ },
+ {
+  "id": "venturebeat-troca-de-modelo-62-59-queda-desempenho",
+  "publicado_em": "2026-10-16T07:12:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "VentureBeat: 62% das empresas já trocaram o modelo de IA de um app em produção, e 59% delas viram o desempenho cair",
+  "linha": "Pesquisa de setembro com 109 respondentes qualificados: só 19% dos que trocaram de modelo dizem que a troca deu quase nenhum trabalho de engenharia.",
+  "linhaFina": "A amostra é pequena e vem de leitores e painel da VentureBeat; consultores relataram trocas mais do que quem trabalha na própria empresa.",
+  "fontePrimaria": "VentureBeat Intelligence (VB Pulse)",
+  "leitura": 3,
+  "resumo": [
+   "62% das empresas pesquisadas substituíram o modelo de IA dentro de um app em produção no último ano, mantendo o app.",
+   "Entre elas, 59% viram o desempenho cair e tiveram de refazer o app ou voltar ao modelo original.",
+   "Só 19% dos que trocaram dizem que a troca deu quase nenhum trabalho de engenharia; para 75%, levou alguns dias de engenharia ou mais, ou foi interrompida antes do fim."
+  ],
+  "corpo": [
+   "A VentureBeat Intelligence divulgou em 13 de outubro resultados da pesquisa de setembro sobre orquestração de agentes, parte da série VB Pulse. A edição teve 109 respondentes qualificados, de organizações com 100 ou mais funcionários ou consultores que atendem essas organizações. Os respondentes vêm de leitores da VentureBeat e de um painel de pesquisa, e os resultados, diz a própria publicação, descrevem esses respondentes e podem não valer para todas as empresas.",
+   "A pesquisa perguntou se a empresa tinha substituído o modelo de IA dentro de um app em produção no último ano, mantendo o app. A troca pode ser para o modelo de outro fornecedor ou para um modelo mais novo do mesmo fornecedor. Entre as empresas pesquisadas, 62% tinham feito a troca. Dessas, 59% viram o desempenho cair e tiveram de refazer o app ou voltar ao modelo original.",
+   "Só 19% das empresas que trocaram disseram que a troca deu quase nenhum trabalho de engenharia. Para 75%, a troca levou alguns dias de engenharia ou mais, ou elas pararam antes de concluir.",
+   "A VentureBeat ressalva que consultores relataram trocas em taxa maior que quem trabalha na própria empresa: 81% dos consultores disseram que o cliente principal trocou de modelo no último ano, contra 51% dos respondentes internos. Isso puxou o total de 62% para cima. A publicação diz que repetirá as perguntas na pesquisa de outubro."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · TROCA",
+    "titulo": "Trocar o modelo não é como trocar a chave de uma tomada",
+    "texto": "Um agente ajustado a um modelo pode piorar com outro. Antes de aceitar a troca sugerida por um fornecedor, a empresa precisa de testes que comparem o resultado nos seus próprios casos."
+   },
+   {
+    "rotulo": "02 · CONTRATO",
+    "titulo": "Fornecedores que trocam modelos por conta própria transferem esse risco",
+    "texto": "Quando o fornecedor pode trocar o modelo por trás do agente, vale perguntar no contrato quem testa o resultado depois de cada troca e quem arca com o retrabalho."
+   },
+   {
+    "rotulo": "03 · AMOSTRA",
+    "titulo": "O dado é um retrato, não uma média do mercado",
+    "texto": "São 109 respondentes que escolheram participar, e a taxa entre quem trabalha na própria empresa foi de 51%. Serve como alerta, não como índice."
+   }
+  ],
+  "oQueFazer": [
+   "Para quem opera agentes em produção, manter um conjunto fixo de casos reais, com o resultado esperado, para rodar sempre que o modelo mudar, seja por decisão da empresa ou do fornecedor."
+  ],
+  "fontes": [
+   {
+    "titulo": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+    "origem": "VentureBeat · Matt Marshall · 13 out 2026",
+    "url": "https://venturebeat.com/orchestration/openais-ai-agent-platform-is-used-by-twice-as-many-companies-as-anthropics-new-venturebeat-survey-finds"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem mediu",
+    "valor": "VentureBeat Intelligence (VB Pulse)"
+   },
+   {
+    "rotulo": "Amostra",
+    "valor": "109 respondentes qualificados (pesquisa de orquestração de agentes)"
+   },
+   {
+    "rotulo": "Campo",
+    "valor": "setembro de 2026"
+   },
+   {
+    "rotulo": "Divulgação",
+    "valor": "13 out 2026"
+   }
+  ]
+ },
+ {
+  "id": "totvs-t-cloud-agentes-nativos-sem-customizacao",
+  "publicado_em": "2026-10-16T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Totvs diz que clientes do T-Cloud já podem ativar agentes de IA nativos dos módulos, sem customização",
+  "linha": "Em palestra no Universo Totvs 2026, o diretor Ricardo Castillo afirmou que a nuvem é o caminho principal para adotar IA nos produtos da empresa. A Totvs informa 8 mil clientes na nuvem.",
+  "linhaFina": "A informação é de executivo da Totvs, relatada pela Central do Varejo; a fonte não detalha quais módulos têm agentes nem o custo de ativação.",
+  "fontePrimaria": "Totvs, via Central do Varejo",
+  "leitura": 2,
+  "resumo": [
+   "Clientes que usam os sistemas da Totvs na nuvem já podem ativar os agentes de IA nativos dos módulos sem precisar de customização, disse Ricardo Castillo, diretor da Totvs.",
+   "A Totvs informa ter 8 mil clientes na nuvem e mais de 41 mil ambientes na plataforma.",
+   "O T-Cloud funciona como camada de orquestração e governança para os agentes criados a partir do Lynn, a base de IA da empresa."
+  ],
+  "corpo": [
+   "A informação foi apresentada por Ricardo Castillo, diretor da Totvs, em 14 de outubro, no Universo Totvs 2026, em São Paulo, e relatada pela Central do Varejo. Segundo ele, o T-Cloud, a nuvem da companhia, é hoje o principal caminho para a adoção de IA nos produtos da Totvs, porque os dados dos clientes já estão organizados na plataforma.",
+   "Castillo disse que a plataforma reúne mais de 41 mil ambientes de clientes e que, desde julho, os próprios clientes aplicaram mais de 49 mil pacotes de atualização pelo portal, sem abrir chamado com a Totvs. A empresa informa ter 8 mil clientes na nuvem e passou a oferecer pelo T-Cloud infraestrutura de outros provedores, em modelo multicloud, para hospedar sistemas de terceiros e legados dos clientes que migram o ERP.",
+   "Segundo a empresa, o T-Cloud funciona como camada de orquestração e governança para os agentes criados a partir do Lynn, a base de IA corporativa da Totvs. A reportagem não informa quais módulos já têm agentes disponíveis nem quanto custa ativá-los."
+  ],
+  "consequencias": [
+   {
+    "rotulo": "01 · NUVEM",
+    "titulo": "Para ter o agente nativo, o ERP precisa estar na nuvem da Totvs",
+    "texto": "Segundo o executivo, a nuvem é o caminho principal. Quem roda o sistema em servidor próprio deve perguntar o que muda para acessar os agentes."
+   },
+   {
+    "rotulo": "02 · ESCOPO",
+    "titulo": "Falta saber quais agentes e a que custo",
+    "texto": "A fonte não lista módulos nem preço. A relação com a cobrança por tarefa descrita pelo Citi (TaaS) é uma pergunta aberta, não um fato da reportagem."
+   }
+  ],
+  "fontes": [
+   {
+    "titulo": "TOTVS usa a nuvem como porta de entrada para os agentes de IA dos seus sistemas",
+    "origem": "Central do Varejo · reportagem do Universo Totvs 2026 · 14 out 2026",
+    "url": "https://centraldovarejo.com.br/totvs-cloud-agentes-ia-nativos/"
+   }
+  ],
+  "ficha": [
+   {
+    "rotulo": "Quem afirma",
     "valor": "Ricardo Castillo, diretor da Totvs"
    },
    {
@@ -181,15 +425,15 @@ window.AW_DADOS.radar = [
   "ficha": [
    {
     "rotulo": "Quem afirma",
-    "valor": "Totvs; projeções de JPMorgan e Goldman Sachs, via InfoMoney"
+    "valor": "Citi, em relatório a clientes (não público), segundo o Times Brasil"
    },
    {
     "rotulo": "Divulgação",
     "valor": "14 out 2026"
    },
    {
-    "rotulo": "Preço",
-    "valor": "não divulgado nas fontes"
+    "rotulo": "Confirmação",
+    "valor": "não confirmada pela Totvs nas fontes consultadas"
    }
   ]
  },

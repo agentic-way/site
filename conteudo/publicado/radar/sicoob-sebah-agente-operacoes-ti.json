@@ -1,0 +1,54 @@
+{
+  "id": "sicoob-sebah-agente-operacoes-ti",
+  "publicado_em": "2026-10-18T07:11:00-03:00",
+  "tema": "CASOS",
+  "titulo": "Sicoob diz que o agente Sebah reduziu em até 98% o tempo de relatórios e rotinas na operação de TI",
+  "linha": "O número é do próprio Sicoob, divulgado em comunicado. O agente consolida dados, gera relatórios e alertas, e confere a compensação de boletos a cada sete minutos com regras determinísticas.",
+  "linhaFina": "Comunicado de 15 de outubro descreve o Sebah, construído sobre a plataforma própria Sisbr IA, com avaliação técnica, homologação e supervisão humana antes de ir à produção.",
+  "fontePrimaria": "Sicoob",
+  "leitura": 3,
+  "resumo": [
+    "O Sicoob lançou o Sebah, agente de IA para a área de Operações de TI, que consolida informações de várias fontes, gera relatórios e análises e emite alertas.",
+    "Segundo o Sicoob, o agente já automatizou diversos processos e relatórios, com redução de até 98% no tempo médio dessas atividades.",
+    "Na compensação de boletos, o Sebah usa IA determinística, baseada em regras, para conferir a cada sete minutos os movimentos entre instituições financeiras."
+  ],
+  "corpo": [
+    "O Sicoob, instituição financeira cooperativa, anunciou em 15 de outubro de 2026 o Sebah, agente de IA para apoiar a Área de Operações de TI na automação de processos, na análise de dados e na geração de informação para decisão. A área monitora 24 horas por dia os sistemas que sustentam os serviços digitais da instituição, com milhares de eventos, indicadores e alertas.",
+    "Um dos casos de uso descritos é a compensação de boletos de cobrança, em que as informações precisam ser processadas, consolidadas e validadas em intervalos de sete minutos. Para isso, segundo o comunicado, o Sebah usa inteligência artificial determinística, baseada em regras, critérios e validações previamente estabelecidos, comparando pagamentos e recebimentos processados com o movimento que será enviado a cada ciclo.",
+    "O Sicoob informa que desde a implementação o agente automatizou diversos processos e relatórios, reduzindo em até 98% o tempo médio dessas atividades. O comunicado não diz quantos processos, qual era o tempo de partida, nem quem mediu. Sobre governança, a instituição afirma que nenhuma funcionalidade entra em produção sem avaliação técnica, homologação e supervisão humana, com controle de acesso e rastreabilidade das ações."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ESCOPO",
+      "titulo": "O caso citado é conferência por regra, não decisão aberta",
+      "texto": "A tarefa descrita para a compensação de boletos é comparar movimentos com critérios definidos. Esse tipo de tarefa é o mais fácil de medir e de auditar."
+    },
+    {
+      "rotulo": "02 · MEDIDA",
+      "titulo": "\"Até 98%\" é teto, não média",
+      "texto": "A expressão indica o melhor resultado entre as atividades, e o comunicado não informa o conjunto medido nem o método. Vale pedir a linha de base antes de comparar com a sua operação."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Não há confirmação independente",
+      "texto": "Todas as informações vêm da assessoria de imprensa do Sicoob. Não há dado de terceiros nem de auditoria sobre o resultado."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Sicoob lança “Sebah”, agente de Inteligência Artificial para ampliar a eficiência das operações de TI",
+      "origem": "Assessoria de Imprensa Sicoob, via Universo Coop · 15 out 2026",
+      "url": "https://universo.coop/sicoob-lanca-sebah-agente-de-inteligencia-artificial-para-ampliar-a-eficiencia-das-operacoes-de-ti/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Sicoob"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "15 out 2026"
+    }
+  ]
+}
