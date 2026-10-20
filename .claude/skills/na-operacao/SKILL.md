@@ -15,7 +15,7 @@ Um caso por semana. Melhor nenhum do que um caso fraco: se a busca não achar um
 
 - 1 arquivo `conteudo/publicado/na-operacao/<id>.json`
 - 1 imagem `site/img/na-operacao/<id>-ia.png` (opcional, ver Passo 5)
-- `site/dados/na-operacao.js` regenerado
+- `site/dados/na-operacao.js` regenerado localmente para conferir (não vai no commit: o Vercel gera na publicação)
 - branch `na-operacao/AAAA-MM-DD` com um commit, enviado, e um pull request aberto
 - no chat ou no log da rotina: o caso escolhido, os candidatos descartados e o motivo de cada um
 
@@ -98,9 +98,13 @@ Corrija até passar. Depois releia o caso contra as fontes, procurando número, 
 
 ```bash
 git checkout -b na-operacao/$(date +%Y-%m-%d)
-git add conteudo/publicado/na-operacao/ site/dados/na-operacao.js site/img/na-operacao/
+git add conteudo/publicado/na-operacao/ site/img/na-operacao/
 git commit -m "Na Operação: <empresa> — <processo>"
 git push -u origin HEAD
 ```
+
+**Link de prévia, obrigatório na descrição do PR.** O Vercel monta uma prévia do site para cada branch. Para cada item novo ou alterado, ponha o link direto para a página dele, para o editor ler como o leitor vai ver:
+`https://site-git-<branch com / trocado por ->-agentic-way1.vercel.app/AgenticWay%20Na%20Operacao%20Artigo.dc.html?id=<id>`
+(exemplo: o branch `na-operacao/2026-10-21` vira `site-git-na-operacao-2026-10-21-agentic-way1.vercel.app`). A prévia fica pronta cerca de um minuto depois do push. O commit leva só os arquivos de `conteudo/` (e imagens): `site/dados/*.js` é gerado pelo Vercel e não vai no PR, o que evita conflito entre PRs abertos ao mesmo tempo.
 
 Abra o PR para o `main` (ferramenta de GitHub da sessão ou `gh pr create`; se nenhuma existir, informe `https://github.com/agentic-way/site/pull/new/<branch>`). Descrição: o caso em uma linha, as fontes, os números e quem mediu cada um, os candidatos descartados com motivo, e qualquer ponto que o editor precise decidir. Nunca faça merge nem push no `main`: o merge é a aprovação do editor.

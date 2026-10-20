@@ -34,10 +34,10 @@ Marca de Domiciano Rossi. Pivô (set/2026): começar como **mídia especializada
 
 ## Conteúdo como dados
 - Cada item publicado é um JSON em `conteudo/publicado/<editoria>/<id>.json`. Nenhum HTML é editado para publicar.
-- `python scripts/build_dados.py` valida tudo (campos, tema, fonte com https, data com fuso) e gera `site/dados/<editoria>.js`, que define `window.AW_DADOS`. Item inválido derruba o build. O `.js` gerado é commitado (a Vercel não roda build).
+- `python scripts/build_dados.py` valida tudo (campos, tema, fonte com https, data com fuso) e gera `site/dados/<editoria>.js`, que define `window.AW_DADOS`. Item inválido derruba o build. **O `.js` gerado não é commitado** (está no `.gitignore`): o Vercel roda `build_dados.py` a cada publicação, pelo `site/vercel.json`. Assim PRs abertos ao mesmo tempo não conflitam. Localmente, rode o script para ver as páginas.
 - As páginas carregam `dados/<editoria>.js` e `aw.js` (datas, endereços, assinatura) antes do `support.js`. Uma página por editoria mostra qualquer item via `?id=`.
 - Assinatura do conteúdo gerado: "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi" (em `build_dados.py`).
-- Aprovação humana = merge do pull request que traz o JSON. Rotinas abrem PR, não publicam direto.
+- Aprovação humana = merge do pull request que traz o JSON. Rotinas abrem PR, não publicam direto. Cada PR traz o link da prévia do Vercel para a página de cada item (`site-git-<branch>-agentic-way1.vercel.app`). O editor pode aprovar pelo chat: Claude mostra resumo, checagem e prévia, e faz o merge quando ele disser.
 - Migrados e com conteúdo real: Radar, Na Operação, Análise, Guia, Ferramentas e a Home. Nenhuma página com faixa de demonstração.
 
 ## Decisões e rotinas

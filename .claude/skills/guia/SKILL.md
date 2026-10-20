@@ -13,7 +13,7 @@ O público não é técnico. Um guia bom pode ser usado por um diretor que nunca
 
 - guia novo (nas rodadas de guia novo): `conteudo/publicado/guia/<id>.json`, versão 1.0
 - revisões: os JSON alterados, com `versao`, `atualizado_em` e uma entrada nova no começo de `historico`
-- `site/dados/guia.js` regenerado
+- `site/dados/guia.js` regenerado localmente para conferir (não vai no commit: o Vercel gera na publicação)
 - branch `guia/AAAA-MM-DD`, um commit, push e pull request
 - no chat ou no log: o que foi escrito, o que foi revisado e por quê, e o que foi considerado e não mudou
 
@@ -86,11 +86,15 @@ Corrija até passar. Releia o que é fato contra as fontes.
 
 ```bash
 git checkout -b guia/$(date +%Y-%m-%d)
-git add conteudo/publicado/guia/ site/dados/guia.js
+git add conteudo/publicado/guia/
 git commit -m "Guia: novo — <título>"            # rodada só com guia novo
 # ou "Guia: revisões — <id> v1.1, <id> v2.0"   # rodada só com revisões
 # ou "Guia: novo — <título>; revisões — <id> v1.1"
 git push -u origin HEAD
 ```
+
+**Link de prévia, obrigatório na descrição do PR.** O Vercel monta uma prévia do site para cada branch. Para cada item novo ou alterado, ponha o link direto para a página dele, para o editor ler como o leitor vai ver:
+`https://site-git-<branch com / trocado por ->-agentic-way1.vercel.app/AgenticWay%20Guia%20Artigo.dc.html?id=<id>`
+(exemplo: o branch `guia/2026-10-21` vira `site-git-guia-2026-10-21-agentic-way1.vercel.app`). A prévia fica pronta cerca de um minuto depois do push. O commit leva só os arquivos de `conteudo/` (e imagens): `site/dados/*.js` é gerado pelo Vercel e não vai no PR, o que evita conflito entre PRs abertos ao mesmo tempo.
 
 Abra o PR para o `main`. Na descrição: o guia novo (assunto, formato, de qual publicação partiu), cada revisão com a versão nova e o motivo, e os guias que você considerou revisar e deixou como estavam, com o motivo. Nunca faça merge nem push no `main`.

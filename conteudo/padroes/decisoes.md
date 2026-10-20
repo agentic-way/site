@@ -40,6 +40,8 @@ Registro das decisões tomadas e do porquê, para valer em situações semelhant
 ## 3. Arquitetura do site
 
 - Conteúdo como dados: `conteudo/publicado/<editoria>/<id>.json` → `python scripts/build_dados.py` (valida e gera `site/dados/<editoria>.js`) → páginas leem os dados. Publicar nunca é editar HTML.
+- **Os dados gerados (`site/dados/*.js`) não vão nos PRs; o Vercel gera na publicação** (`site/vercel.json`). *Por quê:* cada PR trazia sua versão do arquivo da editoria inteira, e dois PRs abertos ao mesmo tempo sempre conflitavam, mesmo aprovando do mais antigo para o mais novo. (20/out/2026)
+- **Todo PR de rotina traz o link da prévia de cada item.** *Por quê:* no GitHub o editor só via o JSON e só conseguia ler a matéria depois de publicada. (20/out/2026)
 - Uma página por editoria mostra qualquer item via `?id=`. Endereço antigo que já circulou vira redirecionamento (ex.: a análise da conta do agente).
 - Vercel publica o `main` com Root Directory = `site`. Arquivos internos (`CLAUDE.md`, `conteudo/`, `marca/`) não são servidos.
 - Branch por mudança, PR, merge pelo editor. Commit com `Co-Authored-By`.

@@ -12,7 +12,7 @@ Ferramentas responde a uma pergunta só: **isso integra com o que a empresa já 
 ## Saída
 
 - `conteudo/publicado/ferramentas/<id>.json` (esquema em `references/esquema.md`)
-- `site/dados/ferramentas.js` regenerado
+- `site/dados/ferramentas.js` regenerado localmente para conferir (não vai no commit: o Vercel gera na publicação)
 - branch `ferramentas/AAAA-MM-DD`, um commit, push e pull request
 - no log: o que foi avaliado, por que essas ferramentas, e as células em que você hesitou
 
@@ -74,9 +74,13 @@ Corrija até passar. Releia cada célula contra a fonte que ela cita.
 
 ```bash
 git checkout -b ferramentas/$(date +%Y-%m-%d)
-git add conteudo/publicado/ferramentas/ site/dados/ferramentas.js
+git add conteudo/publicado/ferramentas/
 git commit -m "Ferramentas: <título>"
 git push -u origin HEAD
 ```
+
+**Link de prévia, obrigatório na descrição do PR.** O Vercel monta uma prévia do site para cada branch. Para cada item novo ou alterado, ponha o link direto para a página dele, para o editor ler como o leitor vai ver:
+`https://site-git-<branch com / trocado por ->-agentic-way1.vercel.app/AgenticWay%20Ferramentas%20Artigo.dc.html?id=<id>`
+(exemplo: o branch `ferramentas/2026-10-21` vira `site-git-ferramentas-2026-10-21-agentic-way1.vercel.app`). A prévia fica pronta cerca de um minuto depois do push. O commit leva só os arquivos de `conteudo/` (e imagens): `site/dados/*.js` é gerado pelo Vercel e não vai no PR, o que evita conflito entre PRs abertos ao mesmo tempo.
 
 Abra o PR para o `main`. Na descrição: o recorte e por quê, a tabela resumida, as células em que você hesitou entre duas marcas e por quê, e o que não encontrou. Nunca faça merge nem push no `main`.
