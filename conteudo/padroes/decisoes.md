@@ -31,8 +31,11 @@ Registro das decisões tomadas e do porquê, para valer em situações semelhant
 - **Ao criar rotina pela API, remover os conectores que o servidor anexa sozinho** (Gmail, Drive, Calendar etc.). Rotina que lê a web não deve ter acesso a e-mail e arquivos.
 - Modelo das rotinas: Sonnet 5.5.
 
-- **Newsletter no Buttondown (conta agenticway, entrada pelo Google).** A rotina só cria rascunho; a chave da API tem Emails = leitura e escrita e **Sending desligado**, então nada sai sem o clique do editor. O formulário "Assinar" usa o endereço público de inscrição (com confirmação por e-mail) e nunca leva chave ao site. A newsletter mantém o bloco discreto "Para empresas" ao fim (exceção à regra de serviço só em Análise, já prevista no template). (03/out/2026)
+- **Newsletter no Buttondown (conta agenticway, entrada pelo Google).** A rotina só cria rascunho; a chave da API tem Emails = leitura e escrita e **Sending desligado**, então nada sai sem o clique do editor. O formulário "Assinar" usa o endereço público de inscrição (com confirmação por e-mail) e nunca leva chave ao site.  (03/out/2026)
 - **Chaves nunca em print.** Em 03/out/2026 duas chaves vazaram em prints e foram trocadas.
+
+- **A AgenticWay não vende nada hoje (20/out/2026).** O editor ainda não se sente pronto para oferecer serviço. Saíram do site o "Diagnóstico de Oportunidades com IA", o bloco de serviço das análises e da newsletter e as frases "vendemos integração". "Para empresas" virou página "em breve" com contato. *Por quê:* o site dizia vender algo que não existe; a mesma regra de "nunca fingir" vale para a marca. Quando houver serviço, ele será declarado na Sobre, em Para empresas e em todo texto sobre um cliente.
+- **A biografia do editor vem do perfil dele** (`~/workspace/perfil/USER.md`), aprovada por ele; nada de carreira inventada. (20/out/2026)
 
 ## 3. Arquitetura do site
 
