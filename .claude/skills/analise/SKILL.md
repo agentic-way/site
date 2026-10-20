@@ -12,7 +12,7 @@ O que torna uma análise boa: uma afirmação clara, que nem todo mundo faria, s
 ## Saída
 
 - 1 arquivo `conteudo/publicado/analise/<id>.json`
-- `site/dados/analise.js` regenerado
+- `site/dados/analise.js` regenerado localmente para conferir (não vai no commit: o Vercel gera na publicação)
 - branch `analise/AAAA-MM-DD`, um commit, push e pull request
 - no chat ou no log: a tese escolhida, as duas alternativas que você considerou e por que ficou com esta
 
@@ -78,9 +78,13 @@ Corrija até passar. Releia o texto contra as fontes procurando número, nome e 
 
 ```bash
 git checkout -b analise/<data de publicação AAAA-MM-DD, a do semana.py>
-git add conteudo/publicado/analise/ site/dados/analise.js
+git add conteudo/publicado/analise/
 git commit -m "Análise: <título>"
 git push -u origin HEAD
 ```
+
+**Link de prévia, obrigatório na descrição do PR.** O Vercel monta uma prévia do site para cada branch. Para cada item novo ou alterado, ponha o link direto para a página dele, para o editor ler como o leitor vai ver:
+`https://site-git-<branch com / trocado por ->-agentic-way1.vercel.app/AgenticWay%20Analise%20Artigo.dc.html?id=<id>`
+(exemplo: o branch `analise/2026-10-21` vira `site-git-analise-2026-10-21-agentic-way1.vercel.app`). A prévia fica pronta cerca de um minuto depois do push. O commit leva só os arquivos de `conteudo/` (e imagens): `site/dados/*.js` é gerado pelo Vercel e não vai no PR, o que evita conflito entre PRs abertos ao mesmo tempo.
 
 Abra o PR para o `main`. Na descrição: a tese em uma linha, as duas alternativas descartadas e por quê, as fontes principais, e qualquer afirmação que o editor deva conferir com atenção. Nunca faça merge nem push no `main`: o merge é a aprovação do editor, que assina a tese.

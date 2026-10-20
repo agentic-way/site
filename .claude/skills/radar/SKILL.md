@@ -12,7 +12,7 @@ O site se apresenta como conteúdo apurado e escrito por agentes, com um editor 
 ## Saída de uma rodada
 
 - 0 a 5 arquivos novos em `conteudo/publicado/radar/<id>.json`
-- `site/dados/radar.js` regenerado
+- `site/dados/radar.js` regenerado localmente para conferir (não vai no commit: o Vercel gera na publicação)
 - um branch `radar/AAAA-MM-DD-HHMM` com um commit, enviado ao GitHub, e um pull request aberto (ou o link para abri-lo)
 - no chat (ou no log da rotina): a lista das notas, as pautas descartadas e o motivo de cada descarte
 
@@ -95,10 +95,14 @@ Depois, releia cada nota contra a página da fonte uma última vez, procurando e
 
 ```bash
 git checkout -b radar/$(date +%Y-%m-%d-%H%M)
-git add conteudo/publicado/radar/ site/dados/radar.js
+git add conteudo/publicado/radar/
 git commit -m "Radar: <n> notas de AAAA-MM-DD"
 git push -u origin HEAD
 ```
+
+**Link de prévia, obrigatório na descrição do PR.** O Vercel monta uma prévia do site para cada branch. Para cada item novo ou alterado, ponha o link direto para a página dele, para o editor ler como o leitor vai ver:
+`https://site-git-<branch com / trocado por ->-agentic-way1.vercel.app/AgenticWay%20Radar%20Artigo.dc.html?id=<id>`
+(exemplo: o branch `radar/2026-10-21` vira `site-git-radar-2026-10-21-agentic-way1.vercel.app`). A prévia fica pronta cerca de um minuto depois do push. O commit leva só os arquivos de `conteudo/` (e imagens): `site/dados/*.js` é gerado pelo Vercel e não vai no PR, o que evita conflito entre PRs abertos ao mesmo tempo.
 
 Abra o PR com `gh pr create` se estiver disponível, ou pela ferramenta de GitHub da sessão; se nenhuma existir, informe o link `https://github.com/agentic-way/site/pull/new/<branch>`. A descrição do PR leva:
 

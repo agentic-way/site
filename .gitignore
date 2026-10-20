@@ -12,3 +12,6 @@ generated-images/
 edicao.json
 previa.html
 __pycache__/
+
+# gerado pelo Vercel a cada publicação (scripts/build_dados.py); não vai nos PRs
+site/dados/*.js
