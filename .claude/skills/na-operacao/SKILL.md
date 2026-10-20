@@ -63,6 +63,7 @@ Regras de conteúdo, e por quê:
 - **Setor é o da empresa, processo é o do agente.** Fabricante com agente no atendimento: setor INDÚSTRIA, processo ATENDIMENTO.
 - **Número calculado não entra.** Se a fonte diz 51,7% resolvidos, não escreva os 48,3% restantes: a fonte não afirmou isso.
 - **Reportagem que só repete o comunicado não é segunda fonte independente.** Liste as duas, mas o `transparencia` diz que a matéria reproduz os números da empresa.
+- **O primeiro item de `numeros` é o destaque** da capa e dos cards: `valor` com no máximo 8 caracteres, um número só ("67%", "R$ 1,2 mi", "5 h"), e a variação vai na `legenda`. Se a fonte afirma a variação em percentual, use-a ("−67%"); se não, use o valor depois e diga o antes na legenda. Nunca calcule o percentual. *Por quê:* "12–15 h → 5 h" não coube no card e quebrou o layout no celular.
 - **Número igual à fonte**, com `quemMediu` dizendo de onde veio ("empresa, em comunicado", "fornecedor X, em estudo de caso", "veículo Y"). Arredondar é inventar.
 - **Fluxo** descreve o processo como a fonte descreve. Se a fonte não diz qual sistema, escreva "sistema de gestão da empresa (não informado)" em vez de supor.
 - **Indicadores antes/depois** só com os dois valores na fonte. Se a fonte só dá o depois, não invente o antes: deixe a lista vazia.

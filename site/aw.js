@@ -112,6 +112,19 @@
     return new URLSearchParams(window.location.search).get(nome);
   }
 
+  // Capas tipográficas: marca números longos para o CSS reduzir a fonte (aw.css, data-aw-tam).
+  // Usa atributo data- porque a página reescreve style e class a cada renderização.
+  function mede() {
+    document.querySelectorAll('.aw-capa-fig').forEach(function (el) {
+      var n = el.textContent.trim().length;
+      var tam = n > 9 ? 'xl' : n > 6 ? 'l' : '';
+      if (el.getAttribute('data-aw-tam') !== tam) el.setAttribute('data-aw-tam', tam);
+    });
+  }
+  if (window.MutationObserver) {
+    new MutationObserver(mede).observe(document.documentElement, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ['data-aw-tam', 'class'] });
+  }
+
   window.AW = {
     quando: quando, radar: radar, casos: casos, analises: analises, guias: guias, ferramentas: ferramentas, hoje: hoje, param: param, assinar: assinar, temas: TEMAS,
     assinatura: function () { return (window.AW_DADOS && window.AW_DADOS.assinatura) || ''; },

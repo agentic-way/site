@@ -7,7 +7,38 @@
 .aw-capa-papel .aw-capa-ed{color:#1F4E79}
 .aw-capa-fig{font-family:Montserrat,sans-serif;font-weight:700;font-size:min(64px,11.5cqi);overflow-wrap:anywhere;line-height:.95;letter-spacing:-.03em}
 .aw-capa-grande .aw-capa-fig{font-size:min(104px,18cqi)}
+.aw-capa-fig[data-aw-tam="l"]{font-size:min(52px,9cqi)}
+.aw-capa-fig[data-aw-tam="xl"]{font-size:min(44px,7.5cqi)}
+.aw-capa-grande .aw-capa-fig[data-aw-tam="l"]{font-size:min(80px,13cqi)}
+.aw-capa-grande .aw-capa-fig[data-aw-tam="xl"]{font-size:min(64px,10.5cqi)}
 .aw-capa-rot{font-family:'IBM Plex Mono',monospace;font-size:12px;line-height:1.4;color:#B9C3CE;max-width:30ch}
 .aw-capa-papel .aw-capa-rot{color:#5B6572}
 .aw-capa-marca{position:absolute;top:clamp(12px,2vw,22px);right:clamp(14px,2.2vw,26px);width:34px;opacity:.55}
 .aw-capa-papel .aw-capa-marca{opacity:.8}
+
+/* Celular: colunas lado a lado viram uma embaixo da outra, o menu rola para o lado
+   e números grandes deixam a legenda descer. As páginas usam estilos inline, por isso
+   as regras casam pelo atributo style e usam !important. */
+.aw-num{flex-wrap:wrap}
+.aw-num>:first-child{white-space:nowrap}
+.aw-num>:last-child{flex:1 1 140px}
+@media (max-width:760px){
+  [style*="grid-template-columns: minmax(0px, 7fr)"],
+  [style*="grid-template-columns: minmax(0px, 8fr)"],
+  [style*="grid-template-columns: minmax(0px, 4fr) minmax(0px, 7fr)"],
+  [style*="grid-template-columns: minmax(0px, 1fr) minmax(0px, 1fr)"],
+  [style*="grid-template-columns: minmax(0px, 1fr) minmax(0px, 2fr)"],
+  [style*="grid-template-columns: minmax(0px, 2fr) minmax(0px, 3fr)"],
+  [style*="grid-template-columns: minmax(0px, 1fr) 220px"],
+  [style*="grid-template-columns: 1fr 1fr"]{grid-template-columns:minmax(0,1fr)!important;gap:28px!important}
+  [style*="grid-template-columns: 40px minmax(0px, 1fr) minmax(0px, 1fr)"]{grid-template-columns:32px minmax(0,1fr)!important}
+  [style*="grid-template-columns: 40px minmax(0px, 1fr) minmax(0px, 1fr)"]>:last-child{grid-column:2}
+  [style*="height: 60px"]{flex-wrap:wrap!important;height:auto!important;padding:10px 0!important;row-gap:8px!important}
+  [style*="height: 60px"]>nav{width:100%;flex-wrap:nowrap!important;justify-content:flex-start!important;overflow-x:auto;white-space:nowrap;gap:18px!important;padding-bottom:4px}
+  table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table th,table td{min-width:150px}
+  table th:first-child,table td:first-child{min-width:120px}
+  .fluxo{flex-direction:column}
+  .fluxo .no{min-width:0!important}
+  .fluxo .seta{justify-content:center;padding:4px 0!important;transform:rotate(90deg)}
+}
