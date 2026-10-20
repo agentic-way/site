@@ -9,8 +9,8 @@ Marca de Domiciano Rossi. Pivô (set/2026): começar como **mídia especializada
 - Editorias: Radar · Na Operação · Ferramentas · Análise · Guia
 - Público: decisores de empresas médias (primário); gerentes de TI/processos (secundário). Não: devs, curiosos.
 - Tom: analítico, direto, com fonte, sem hype. Sem emoji, sem exclamação, anglicismo só quando necessário.
-- Serviço: seção "Para empresas" + bloco discreto ao fim das análises (só em Análise; as demais editorias não têm). Sem pop-up.
-- Newsletter semanal às sextas. Oferta de entrada: "Diagnóstico de Oportunidades com IA".
+- Serviço: **hoje a AgenticWay não vende nada** (decisão de 20/out/2026: Domiciano ainda não se sente pronto para vender). "Para empresas" é uma página "em breve"; não há bloco de serviço nas análises nem na newsletter. Sem conflito de interesse a declarar além disso.
+- Newsletter semanal às sextas. (Oferta futura em estudo; o antigo "Diagnóstico de Oportunidades com IA" saiu do site.)
 - Idioma: português (pt-BR).
 
 ## Identidade visual
@@ -38,7 +38,7 @@ Marca de Domiciano Rossi. Pivô (set/2026): começar como **mídia especializada
 - As páginas carregam `dados/<editoria>.js` e `aw.js` (datas, endereços, assinatura) antes do `support.js`. Uma página por editoria mostra qualquer item via `?id=`.
 - Assinatura do conteúdo gerado: "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi" (em `build_dados.py`).
 - Aprovação humana = merge do pull request que traz o JSON. Rotinas abrem PR, não publicam direto.
-- Migrados e com conteúdo real: Radar, Na Operação, Análise, Guia, Ferramentas e a Home. Nenhuma página com faixa de demonstração (Para Empresas tem conteúdo de exemplo).
+- Migrados e com conteúdo real: Radar, Na Operação, Análise, Guia, Ferramentas e a Home. Nenhuma página com faixa de demonstração.
 
 ## Decisões e rotinas
 - Registro completo em `conteudo/padroes/decisoes.md` (proposta editorial, rotinas, arquitetura, padrões de página, como trabalhar com o editor).
@@ -53,14 +53,14 @@ Marca de Domiciano Rossi. Pivô (set/2026): começar como **mídia especializada
 - `AgenticWay Na Operacao Lista.dc.html` — listagem de casos com filtro por setor e processo, destaque e marca "parou"
 - `AgenticWay Na Operacao Artigo.dc.html` — caso de Na Operação (números, fluxo, antes/depois, "o que a história não conta")
 - `AgenticWay Analise Lista.dc.html` — listagem de análises por tema (réplicas aparecem quando houver)
-- `AgenticWay Analise Artigo.dc.html` — opinião assinada (tese em três pontos, "onde posso estar errado", bloco de serviço ao fim)
+- `AgenticWay Analise Artigo.dc.html` — opinião assinada (tese em três pontos, "onde posso estar errado")
 - `AgenticWay Analise Conta do Agente.dc.html` — redirecionamento para `Analise Artigo?id=agente-funciona-planilha-nao` (endereço antigo que pode ter circulado)
 - `AgenticWay Ferramentas Lista.dc.html` — listagem de Ferramentas com placar "integra?" por item e fila de testes votável
 - `AgenticWay Ferramentas Artigo.dc.html` — comparativo de Ferramentas (tabela passou/parcial/não, ficha do teste)
 - `AgenticWay Guia Lista.dc.html` — biblioteca de guias por assunto, com versão, status e atualizações recentes
 - `AgenticWay Guia Artigo.dc.html` — artigo de Guia (itens numerados, resposta boa/ruim, checklist imprimível, histórico de versões)
-- `AgenticWay Para Empresas.dc.html` — página de serviço "Para empresas" (conteúdo de exemplo)
-- `AgenticWay Sobre.dc.html` — página "Sobre" com critérios editoriais e declaração de conflito de interesse
+- `AgenticWay Para Empresas.dc.html` — "Para empresas · em breve": a AgenticWay não vende nada hoje; contato para quem quer ser avisado
+- `AgenticWay Sobre.dc.html` — página "Sobre": foto e carreira do editor (texto aprovado em 20/out/2026, a partir de `~/workspace/perfil/USER.md`; foto em `site/img/domiciano-rossi.jpg`), critérios editoriais e conflito de interesse
 - `AgenticWay Como Funciona.dc.html` — página pública "Como a AgenticWay funciona": agentes escrevem, editor aprova; ciclo, o que os agentes não fazem, a semana e cada editoria em detalhe (versão interna: `conteudo/padroes/rotinas.md`)
 
 ### marca/pranchas/

@@ -134,10 +134,6 @@ def monta(ed, numero):
                           f'{e(d["titulo"])} <a href="{url(t["editoria"], d["id"])}" style="font-size:14px;color:{AZUL}">Ler →</a></p>')
 
     partes += [
-        f'<p style="margin:36px 0 0;padding:16px;border:1px solid {LINHA};font-size:14px;color:#3C4A5A">'
-        f'<span style="font-family:{MONO};font-size:11px;color:{CINZA}">PARA EMPRESAS</span><br>'
-        f'Quer avaliar isso no seu processo? Quem faz esta newsletter também integra IA aos processos que a empresa já usa. '
-        f'<a href="{SITE}AgenticWay%20Para%20Empresas.dc.html" style="color:{AZUL}">Diagnóstico de Oportunidades com IA →</a></p>',
         f'<p style="margin:24px 0 0;font-family:{MONO};font-size:11px;color:{CINZA};line-height:1.6">{ASSINATURA}.<br>'
         f'Achou útil? Encaminhe para quem decide. Recebeu de alguém? <a href="{SITE}" style="color:{CINZA}">Assine em agenticway.com.br</a>.</p>',
         '</div>',

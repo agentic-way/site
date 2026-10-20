@@ -186,7 +186,7 @@ A AgenticWay é um site de notícias sobre agentes de IA nas empresas, **apurado
 
 **Voz:** primeira pessoa ("eu faria"), que é a voz da redação, sem fingir experiência pessoal ("visitei", "na minha consultoria").
 
-**O que entrega:** 1 análise por semana. Entre as editorias do site, é a única com o bloco discreto do serviço ("Para empresas") ao fim; a newsletter também tem um, no rodapé.
+**O que entrega:** 1 análise por semana. Desde 20/out/2026 não há bloco de serviço: a AgenticWay não vende nada hoje.
 
 **O editor:** assina a tese. No PR, o agente mostra as duas teses descartadas e as afirmações que o editor deve conferir com atenção.
 
