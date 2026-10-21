@@ -1,0 +1,53 @@
+{
+  "id": "gartner-13-cios-valor-ia-regras-de-parada",
+  "publicado_em": "2026-10-21T07:12:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Gartner: só 13% dos CIOs dizem que a empresa obteve valor significativo com IA, e 17% têm regra para abandonar iniciativa de baixo valor",
+  "linha": "Pesquisa com 2.002 CIOs e executivos de tecnologia: a chance de sucesso de um caso de uso de IA continua em um em cada cinco, e 51% esperam que a IA aumente o custo total das soluções de tecnologia.",
+  "linhaFina": "A Gartner divulgou a pesquisa em 19 de outubro, no Gartner IT Symposium/Xpo, em Orlando. Quem tem critério para parar piloto e projeto em produção tem mais chance de estar no grupo que entrega resultado.",
+  "fontePrimaria": "Gartner",
+  "leitura": 3,
+  "resumo": [
+    "13% dos CIOs dizem que a empresa já obteve valor significativo ou transformador com IA; a probabilidade de sucesso de um caso de uso segue em um em cada cinco, segundo a Gartner.",
+    "Só 31% têm critério para decidir quando um piloto não deve ir para produção, e só 17% têm critério para abandonar iniciativas de baixo valor já em produção.",
+    "58% dos CIOs relatam mais pressão por redução de custo com IA, e 51% esperam que a IA aumente o custo total de propriedade das soluções de tecnologia."
+  ],
+  "corpo": [
+    "A Gartner divulgou em 19 de outubro, em Orlando, resultados da pesquisa 2027 CIO and Technology Executive Agenda, feita entre maio e julho de 2026 com 2.002 CIOs e executivos de tecnologia. Segundo a empresa, só 13% dos CIOs dizem que a organização obteve valor significativo ou transformador com IA até agora, e a probabilidade de sucesso de um caso de uso continua em um em cada cinco, apesar da aceleração dos últimos dois anos.",
+    "O estudo separa um grupo que chama de vanguarda: CIOs que entregam melhor desempenho em resultados de negócio e, ao mesmo tempo, relatam alta percepção de valor de IA pelo CEO. Organizações com critério para barrar um piloto antes da produção têm 2,3 vezes mais chance de estar nesse grupo; as que têm critério para abandonar iniciativas de baixo valor já em produção, 2,6 vezes. Só 31% e 17% dos CIOs, respectivamente, dizem ter essas práticas.",
+    "Sobre custo, 58% dos CIOs relatam mais pressão para obter redução de custo com IA, e 51% esperam que a IA aumente o custo total de propriedade das soluções de tecnologia. A analista Alicia Mullery afirmou que os custos de IA são probabilísticos e definidos no momento da execução, ao contrário dos custos de nuvem e software tradicionais. Sobre pessoas, organizações com plano explícito de redesenho de funções para uma força de trabalho de humanos e agentes têm 2,4 vezes mais chance de estar na vanguarda, mas só 4% dos CIOs têm esse plano. 40% esperam aumentar o quadro de TI em 2027."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CRITÉRIO",
+      "titulo": "Definir antes quando parar é parte do projeto",
+      "texto": "O dado da Gartner associa melhor desempenho a ter regra de parada tanto no piloto quanto em produção. A associação não prova causa, mas a falta dessa regra é a prática menos comum entre os CIOs ouvidos (17%)."
+    },
+    {
+      "rotulo": "02 · CUSTO",
+      "titulo": "Orçamento de agente não se comporta como o de software",
+      "texto": "Se o custo é definido na execução, uma aprovação única de compra não cobre o ciclo de vida. Convém acompanhar custo por tarefa concluída, não só a licença."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Amostra global de CIOs, sem recorte por país ou porte",
+      "texto": "O comunicado não detalha países nem tamanho das empresas, e a Gartner vende consultoria a CIOs. A pesquisa mede percepção dos executivos, não resultado auditado."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem tem pilotos de agentes em andamento, vale registrar agora, por escrito, o resultado esperado de cada um e a condição em que será encerrado. É a prática que os dados da Gartner associam ao grupo de melhor desempenho."
+  ],
+  "fontes": [
+    {
+      "titulo": "Gartner Survey Finds Only 13% of CIOs Say Their Enterprise Has Realized Significant or Transformational Value from AI",
+      "origem": "Gartner · comunicado · 19 out 2026",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-19-gartner-survey-finds-only-13-percent-of-cios-say-their-enterprise-has-realized-significant-or-transformational-value-from-ai"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Gartner" },
+    { "rotulo": "Amostra", "valor": "2.002 CIOs e executivos de tecnologia" },
+    { "rotulo": "Campo", "valor": "maio a julho de 2026" },
+    { "rotulo": "Divulgação", "valor": "19 out 2026" }
+  ]
+}
