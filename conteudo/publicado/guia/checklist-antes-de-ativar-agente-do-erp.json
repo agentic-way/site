@@ -1,0 +1,96 @@
+{
+  "id": "checklist-antes-de-ativar-agente-do-erp",
+  "publicado_em": "2026-10-21T08:00:00-03:00",
+  "atualizado_em": "2026-10-21T08:00:00-03:00",
+  "versao": "1.0",
+  "assunto": "CONTRATAÇÃO",
+  "formato": "CHECKLIST",
+  "titulo": "Seis itens para conferir antes de ativar o agente de IA que vem no seu ERP",
+  "linhaFina": "Totvs e SAP anunciaram agentes dentro dos sistemas que o cliente já usa. Quando o agente chega como recurso do contrato, a decisão acontece na ativação ou na renovação. Esta lista ajuda a conferir o que está escrito antes de ligar.",
+  "resumo": "O que conferir com o fornecedor do ERP antes de ligar um agente: calendário, nível de autonomia, registro por agente, uso dos dados, custo e saída.",
+  "leitura": 6,
+  "paraQuem": "Quem aprova ou renova o contrato do ERP: diretor financeiro, de operações ou de TI. Não é preciso saber configurar o agente; é preciso ter o contrato atual e o nome do gerente de conta do fornecedor.",
+  "comoUsar": "Imprima a lista e preencha a coluna de anotações com o gerente de conta, antes da renovação ou da ativação. Peça as respostas por escrito e leve o que for sobre dados e responsabilidade ao jurídico. O guia diz o que verificar; não diz o que é permitido no seu caso.",
+  "abertura": "Em outubro de 2026, a Totvs apresentou o Corten, que reúne ERP, serviços financeiros, nuvem e agentes de IA, e a SAP anunciou o Joule Work e os Joule Assistants, que executam tarefas nos processos de finanças, compras e cadeia de suprimentos. A tendência é que o primeiro agente de muitas empresas médias chegue por um módulo do sistema que já usam, e não por um projeto de IA. Nesse caso, as regras valem as do contrato e do padrão do fornecedor, a menos que a empresa peça outra coisa. Os itens abaixo partem de exigências que o site já publicou: algumas vêm de uma norma pública do Coaf, outras do que o Google Cloud descreve em seu agente.",
+  "itens": [
+    {
+      "curta": "Calendário",
+      "pergunta": "Quando cada agente chega aos módulos e à versão que a empresa usa?",
+      "porque": "Segundo o IT Forum, cada sistema da Totvs terá seu próprio calendário para incorporar os recursos, e a chegada ao cliente depende de condições comerciais ainda a detalhar. O que foi mostrado no evento pode não valer para a sua versão do sistema.",
+      "boa": "Uma data por módulo, escrita, com a versão mínima exigida e a informação de que o sistema precisa estar ou não na nuvem do fornecedor.",
+      "ruim": "A data do anúncio, uma resposta como \"em breve\" ou a exigência de migrar de versão ou de ambiente que só aparece depois da assinatura.",
+      "anote": "Módulo, versão mínima, data prevista, exigência de nuvem."
+    },
+    {
+      "curta": "Autonomia",
+      "pergunta": "Quem define o que o agente pode fazer sozinho, e dá para começar com aprovação humana em cada ação?",
+      "porque": "A SAP diz que o cliente controla o nível de autonomia dos Joule Assistants. Isso é afirmação da fornecedora. A empresa precisa ver o controle funcionando no seu ambiente, por processo, antes de depender dele.",
+      "boa": "Configuração por processo, com aprovação humana como ponto de partida e demonstração no seu ambiente de teste.",
+      "ruim": "Um único interruptor liga-desliga para todo o agente, ou autonomia máxima como padrão.",
+      "anote": "Níveis de autonomia disponíveis, quem pode alterá-los, padrão inicial."
+    },
+    {
+      "curta": "Registro por agente",
+      "pergunta": "Cada ação do agente fica registrada com o nome do agente, e eu consigo ver esse registro?",
+      "porque": "No Gemini agent, ainda em prévia privada, o Google Cloud descreve identidade própria por agente e cada ação gravada numa trilha atribuída ao agente, e não a uma pessoa. A SAP cita trilhas de auditoria existentes. Sem esse registro, depois de um erro ninguém sabe se foi o agente ou um colega.",
+      "boa": "Um registro com data, agente, ação e dado afetado, que a empresa exporta sem abrir chamado.",
+      "ruim": "Ações do agente gravadas sob o usuário que o ativou, ou registro que só o fornecedor consegue consultar.",
+      "anote": "Campos do registro, prazo de guarda, quem acessa."
+    },
+    {
+      "curta": "Uso dos dados",
+      "pergunta": "O contrato proíbe usar nossos dados para treinar ou aperfeiçoar modelos, e diz o que acontece com eles depois do processamento?",
+      "porque": "A Portaria Coaf nº 51 admite ambiente de terceiros, mas lista entre as garantias mínimas a não retenção dos dados após o processamento e a não utilização para treinamento ou aperfeiçoamento de modelos por terceiros. A norma vale para o Coaf, não para a empresa privada. Serve de roteiro do que um regulador considera básico.",
+      "boa": "Cláusula escrita que proíbe o treino com dados do cliente e define retenção, inclusive para subcontratados que rodam o modelo.",
+      "ruim": "Resposta verbal, remissão a uma política \"que pode mudar\" ou silêncio sobre quem processa os dados.",
+      "anote": "Cláusula e página do contrato, prazo de retenção, subcontratados citados."
+    },
+    {
+      "curta": "Custo",
+      "pergunta": "Como o agente é cobrado, o que conta como uma unidade, e o que acontece quando passa da franquia?",
+      "porque": "Segundo o InfoMoney, a Totvs vai cobrar os agentes por tarefa concluída, com franquia mensal em T-Coins e cobrança à parte pelo excedente. As fontes não trazem o valor do T-Coin nem o critério de tarefa concluída. Sem isso, a conta é impossível de prever.",
+      "boa": "Tabela de preço, definição escrita de tarefa concluída, regra do excedente e uma estimativa feita com o volume do seu processo.",
+      "ruim": "Preço \"sob consulta\" depois da ativação, ou definição de unidade que o fornecedor pode mudar sem aviso.",
+      "anote": "Unidade de cobrança, valor, franquia, regra do excedente, volume mensal estimado."
+    },
+    {
+      "curta": "Saída",
+      "pergunta": "Se desligarmos o agente ou o contrato, como saímos e o que levamos?",
+      "porque": "A reversibilidade também está na lista do Coaf. Um agente integrado ao ERP altera processos, e desligá-lo sem plano pode parar uma rotina que a equipe já deixou de fazer à mão.",
+      "boa": "Opção de desativar por agente sem multa, exportação do histórico de ações e prazo de eliminação dos dados.",
+      "ruim": "Agente vendido em pacote que só se cancela junto com o ERP, ou histórico que fica com o fornecedor.",
+      "anote": "Como desativar, o que se exporta, prazo de eliminação, multa."
+    }
+  ],
+  "fechamento": "Se duas ou mais respostas forem ruins, adie a ativação e leve o contrato ao jurídico. Se forem boas, comece por um processo só, com aprovação humana em cada ação, e compare o registro do agente com o trabalho feito à mão nas primeiras semanas. Guarde as respostas: elas serão sua referência na renovação seguinte.",
+  "historico": [
+    {"data": "out/2026", "versao": "1.0", "texto": "Publicação. Parte da análise \"O agente da empresa média vai chegar como atualização do ERP, não como compra\"."}
+  ],
+  "fontes": [
+    {
+      "titulo": "Com Corten, Totvs aposta em \"sistema operacional de gestão\" para ir além do ERP",
+      "origem": "IT Forum · 13 out 2026",
+      "url": "https://itforum.com.br/noticias/totvs-corten-agentes-ia-erp/"
+    },
+    {
+      "titulo": "SAP Puts the Autonomous Enterprise to Work",
+      "origem": "SAP SE · comunicado (PR Newswire) · 6 out 2026",
+      "url": "https://www.prnewswire.com/news-releases/sap-puts-the-autonomous-enterprise-to-work-302899688.html"
+    },
+    {
+      "titulo": "Portaria Coaf nº 51, de 1º de setembro de 2026",
+      "origem": "Diário Oficial da União · seção 1 · 8 out 2026",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-coaf-n-51-de-1-de-setembro-de-2026-737221713"
+    },
+    {
+      "titulo": "Welcome to Gemini at Work",
+      "origem": "Google Cloud · blog · 8 out 2026",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026"
+    },
+    {
+      "titulo": "Totvs avança na monetização de IA, mas impacto maior deve vir a partir de 2027",
+      "origem": "InfoMoney · 14 out 2026",
+      "url": "https://www.infomoney.com.br/mercados/totvs-avanca-na-monetizacao-de-ia-mas-impacto-maior-deve-vir-a-partir-de-2027/"
+    }
+  ]
+}
