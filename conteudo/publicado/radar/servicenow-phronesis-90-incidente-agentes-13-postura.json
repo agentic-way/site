@@ -1,0 +1,57 @@
+{
+  "id": "servicenow-phronesis-90-incidente-agentes-13-postura",
+  "publicado_em": "2026-10-21T07:11:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Pesquisa encomendada pela ServiceNow: 90% das empresas tiveram incidente de segurança com agentes de IA no último ano, e 29% acharam agentes não registrados em produção",
+  "linha": "Estudo da Phronesis Partners com mais de 3.700 líderes de segurança e tecnologia: só 13% têm postura de segurança defensável para agentes, e 66% não conseguem agir automaticamente diante de comportamento anômalo.",
+  "linhaFina": "A ServiceNow divulgou o estudo em 20 de outubro. A empresa vende produtos de governança de agentes, o que ajuda a explicar o enquadramento do relatório.",
+  "fontePrimaria": "ServiceNow / Phronesis Partners",
+  "leitura": 3,
+  "resumo": [
+    "90% das organizações tiveram um incidente de segurança com agentes de IA no último ano, e só 36% delas o contiveram em menos de 24 horas.",
+    "29% das equipes de segurança encontraram agentes em produção que nunca tinham sido registrados; só 19% enxergam mais de 90% dos seus agentes em tempo real.",
+    "Só 13% têm programa de segurança defensável nos cinco domínios medidos, e 44% desenham a segurança do agente antes de ele ser construído."
+  ],
+  "corpo": [
+    "A ServiceNow divulgou em 20 de outubro o relatório Deployed but ungoverned: the state of agentic security, feito em conjunto com a Phronesis Partners. O estudo ouviu mais de 3.700 decisores sênior de segurança e tecnologia, de nível VP ou acima, em 20 países. Segundo a empresa, os respondentes são de organizações de porte médio e grande, e 97% informam receita anual de US$ 250 milhões ou mais.",
+    "Sobre escala, 49% das organizações rodam entre 100 e 999 agentes de IA, e 35% rodam mais de 1.000. 57% das equipes de segurança dizem ter registro completo e preciso de todos os agentes em produção, com processo para acompanhar mudanças, mas 29% encontraram agentes em produção que nunca tinham sido registrados ou conhecidos. 76% dizem manter um mapa completo e atual do acesso de cada agente, e só 19% enxergam mais de 90% dos agentes em tempo real.",
+    "Sobre resposta, 66% não conseguem agir automaticamente quando um agente se comporta de forma anômala e dependem de uma pessoa para intervir. Segundo a ServiceNow, 90% já tiveram um incidente de segurança com agentes no último ano, e 36% contiveram o incidente em menos de 24 horas. Quando medidas contra cinco domínios (superfície de ataque, responsabilização, segurança desde o projeto, visibilidade e preparo para auditoria), só 13% têm programa defensável, embora muitos líderes se avaliem como tendo postura estabelecida. 44% projetam a segurança do agente antes de ele ser construído."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · INVENTÁRIO",
+      "titulo": "O que a empresa não registrou, ela não consegue desligar",
+      "texto": "O dado dos 29% com agentes desconhecidos em produção reforça o inventário como primeiro passo: quem criou, que sistemas acessa e quem responde por cada agente."
+    },
+    {
+      "rotulo": "02 · RESPOSTA",
+      "titulo": "Dois terços dependem de uma pessoa para conter um agente",
+      "texto": "Vale definir antes quem tem autoridade para suspender um agente e como, sem depender de um comitê no momento do incidente."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "A ServiceNow vende a solução para o problema que o estudo mede",
+      "texto": "O relatório foi encomendado por uma fornecedora de governança de agentes, e o comunicado cita os produtos dela como resposta. Os números não foram auditados por terceiros além da Phronesis, e o comunicado não informa o recorte para o Brasil."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem já usa agentes, a pergunta prática é se a TI consegue listar hoje todos os agentes em operação e o que cada um acessa. Se a lista depende de perguntar às áreas, o dado de 29% de agentes desconhecidos descreve o risco."
+  ],
+  "fontes": [
+    {
+      "titulo": "ServiceNow Research Study Warns Security Leaders: Ungoverned Agentic AI Exposure Is Compounding Inside Enterprises",
+      "origem": "ServiceNow · comunicado · 20 out 2026",
+      "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Research-Study-Warns-Security-Leaders-Ungoverned-Agentic-AI-Exposure-Is-Compounding-Inside-Enterprises/default.aspx"
+    },
+    {
+      "titulo": "Pesquisa mostra avanço da Shadow AI com agentes de inteligência artificial",
+      "origem": "Mobile Time · 20 out 2026",
+      "url": "https://www.mobiletime.com.br/noticias/20/10/2026/shadow-ai-agentes-avanco/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "ServiceNow, com a Phronesis Partners" },
+    { "rotulo": "Amostra", "valor": "mais de 3.700 decisores de segurança e tecnologia em 20 países" },
+    { "rotulo": "Divulgação", "valor": "20 out 2026" }
+  ]
+}
