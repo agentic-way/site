@@ -1,0 +1,82 @@
+{
+  "id": "cobranca-por-tarefa-quem-define-concluida",
+  "publicado_em": "2026-10-23T07:00:00-03:00",
+  "tema": "CUSTO",
+  "titulo": "Cobrança por tarefa só protege quem define o que é tarefa concluída e qual modelo a executa",
+  "linhaFina": "A Totvs vai cobrar agentes por tarefa concluída, e o Citi diz que ela poderá trocar de modelo de IA sem interromper os fluxos. Numa pesquisa da VentureBeat, 59% das empresas que trocaram de modelo viram o desempenho cair. O preço por tarefa parece previsível, mas esconde duas escolhas que ficam com o fornecedor.",
+  "frase": "No preço por tarefa, a empresa deixa de pagar pelo insumo e passa a depender de duas definições que o contrato precisa dizer: o que conta como concluída e quem responde quando a qualidade cai.",
+  "leitura": 5,
+  "tese": [
+    "A cobrança por tarefa concluída é mais fácil de orçar do que a cobrança por token, mas só vale o que o contrato definir como \"concluída\".",
+    "Quando o fornecedor pode trocar o modelo que executa a tarefa, ele controla o custo e a qualidade ao mesmo tempo. O preço por tarefa não diz quem fica com a economia nem quem paga pela queda de desempenho.",
+    "A empresa média deve exigir na renovação uma definição objetiva de tarefa concluída, aviso antes de troca de modelo e um jeito de medir o resultado com os próprios dados."
+  ],
+  "p1": "Na semana passada, a Totvs apresentou o TaaS (Task as a Service), modelo em que os agentes de IA são cobrados pelas tarefas que concluem, sem contagem de tokens, dentro de uma mensalidade com franquia de T-Coins e cobrança à parte pelo excedente. Segundo o InfoMoney, o Goldman Sachs leu o movimento como uma transição da estratégia de IA para a definição de preços. A empresa mostrou mais de 30 agentes em diferentes produtos e segmentos.",
+  "p2": "À primeira vista, é uma boa notícia para a empresa média: a conta deixa de depender de uma unidade técnica que o financeiro não consegue prever. O que me interessa é o que o preço por tarefa deixa de fora. Ele esconde duas decisões que, hoje, ficam com o fornecedor: o que conta como tarefa concluída e qual modelo de IA a executa.",
+  "h1": "\"Concluída\" é uma palavra que alguém define",
+  "p3": "Em tarefas simples, como conciliar um lançamento, concluir é objetivo. Em tarefas com mais passos, a fronteira se move. Um caso recente mostra como. A Ubots, fornecedora de um agente de cobrança, informa que o Sicoob Crediauc renegociou R$ 23.402,22 em seis contratos em cinco dias de campanha do Desenrola. Na data da reportagem do Let's Money, R$ 3.546,30 desse total estavam quitados. Os números são da fornecedora, e a fonte não diz se o restante será pago.",
+  "p4": "Se o agente fosse cobrado por renegociação fechada, a tarefa estaria concluída no acordo. Se fosse por valor recebido, só no pagamento. O mesmo trabalho teria dois preços, e a diferença é de definição, não de tecnologia. Não sei como a Totvs vai definir cada tarefa: as fontes públicas que li não trazem a tabela de T-Coins nem os critérios de conclusão. Por isso, a pergunta vale para qualquer fornecedor que cobre assim.",
+  "destaque": "No preço por tarefa, a empresa deixa de pagar pelo insumo e passa a depender de duas definições que o contrato precisa dizer: o que conta como concluída e quem responde quando a qualidade cai.",
+  "h2": "Quem escolhe o modelo fica com a economia",
+  "p5": "O relatório do Citi, segundo o Times Brasil, diz que a Totvs pode alternar entre modelos de IA aprovados para reduzir custos sem interromper os fluxos de trabalho. A própria Totvs afirma que seus agentes atuam tanto com modelos de linguagem fechados quanto abertos, sempre com supervisão humana quando necessário. Do ponto de vista da fornecedora, isso é uma vantagem de engenharia legítima.",
+  "p6": "A consequência de preço é a que ninguém comentou nas reportagens que li. Se o cliente paga o mesmo valor por tarefa e o custo de executá-la cai com um modelo mais barato, a economia fica com quem escolhe o modelo. Isso é uma inferência minha: as fontes não dizem como a economia será repartida. Pode ser que a fornecedora a repasse em preço, mas o contrato por tarefa não obriga a isso. Já a queda de desempenho, se houver, aparece na operação do cliente.",
+  "h3": "A troca de modelo costuma custar mais do que parece",
+  "p7": "Numa pesquisa da VentureBeat de setembro de 2026, 62% das empresas ouvidas tinham trocado o modelo de IA dentro de um app em produção no último ano, mantendo o app. Entre elas, 59% viram o desempenho cair e tiveram de refazer o app ou voltar ao modelo original. Só 19% disseram que a troca deu quase nenhum trabalho de engenharia. A amostra é pequena (109 respondentes qualificados, de empresas com 100 ou mais funcionários ou consultores delas) e os próprios autores avisam que ela pode não valer para todas as empresas. Mesmo assim, o dado indica que trocar de modelo exige retestar o que foi construído em torno do anterior. Se esse retrabalho acontece dentro da empresa que fez a troca, é razoável supor que ele também aconteça do lado do fornecedor, e que a empresa cliente só o perceba pelo resultado.",
+  "contra": "A cobrança por tarefa pode, de fato, favorecer o cliente. Ela alinha o preço ao resultado, tira da conta um custo que o cliente não controla e dá ao fornecedor motivo para tornar o agente mais eficiente, o que reduz o preço no médio prazo. A fornecedora também tem a reputação em jogo: se a qualidade cai, o cliente cancela. Além disso, a pesquisa da VentureBeat mede troca feita por equipes de engenharia dentro de empresas, que é diferente de uma plataforma que testa a troca em muitos clientes ao mesmo tempo e tem escala para fazer isso bem. As fontes sobre o TaaS são, em boa parte, relatórios de bancos e cobertura de um evento da própria Totvs, e o Citi, que tem recomendação de compra para a ação, vê o modelo com otimismo. Eu não vi o contrato nem a tabela de preços, e o desenho final pode incluir as proteções que aqui peço. Se incluir, a tese perde força. Por fim, o JPMorgan não espera contribuição significativa do TaaS no quarto trimestre de 2026, o que sugere que a adoção será gradual e que há tempo para negociar.",
+  "fechamento": "Antes de aceitar qualquer cobrança por tarefa, inclusive a da Totvs quando o contrato chegar, eu pediria três coisas por escrito: a definição de tarefa concluída para cada agente que a empresa vai usar, o aviso prévio e o direito de testar quando o modelo mudar, e um conjunto de casos da própria empresa para comparar o resultado antes e depois. Sem isso, o preço é previsível, mas o que se compra não é.",
+  "pontos": [
+    {
+      "rotulo": "01 · DEFINIÇÃO",
+      "titulo": "O que é uma tarefa concluída",
+      "texto": "Peça a definição de conclusão de cada agente: acordo fechado ou dinheiro recebido, lançamento feito ou conferido. Se a resposta for vaga, o preço também é."
+    },
+    {
+      "rotulo": "02 · MODELO",
+      "titulo": "Aviso antes de trocar o modelo",
+      "texto": "Pergunte se o fornecedor pode trocar o modelo sem avisar e se a empresa pode retestar antes. Na troca, quem recebe o risco precisa saber que ela aconteceu."
+    },
+    {
+      "rotulo": "03 · MEDIDA",
+      "titulo": "Um conjunto de casos seu",
+      "texto": "Guarde de 20 a 50 casos reais já resolvidos e rode de novo quando algo mudar. É a única forma de saber se o agente continua entregando o que entregava."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Totvs avança na monetização de IA, mas impacto maior deve vir a partir de 2027",
+      "origem": "InfoMoney · 14 out 2026",
+      "url": "https://www.infomoney.com.br/mercados/totvs-avanca-na-monetizacao-de-ia-mas-impacto-maior-deve-vir-a-partir-de-2027/"
+    },
+    {
+      "titulo": "Citi fica mais otimista com a Totvs após lançamento de cobrança por tarefa de agentes de inteligência artificial",
+      "origem": "Times Brasil (CNBC) · relatório do Citi · 14 out 2026",
+      "url": "https://timesbrasil.com.br/empresas-e-negocios/tecnologia-e-inovacao/citi-totvs-taas-cobranca-agentes-inteligencia-artificial/"
+    },
+    {
+      "titulo": "Totvs lança Corten, sistema operacional de gestão empresarial",
+      "origem": "Portal ERP · texto da Totvs · 14 out 2026",
+      "url": "https://portalerp.com/br/noticia/totvs-lanca-corten-sistema-operacional-de-gestao-empresarial"
+    },
+    {
+      "titulo": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+      "origem": "VentureBeat · Matt Marshall · 13 out 2026",
+      "url": "https://venturebeat.com/orchestration/openais-ai-agent-platform-is-used-by-twice-as-many-companies-as-anthropics-new-venturebeat-survey-finds"
+    },
+    {
+      "titulo": "Case Sicoob Crediauc: recuperação de crédito",
+      "origem": "Ubots · estudo de caso do fornecedor · lido em 19 out 2026",
+      "url": "https://ubots.com.br/casos-de-sucesso/recuperacao-de-credito/sicoob-crediauc"
+    },
+    {
+      "titulo": "Com IA, Sicoob Crediauc acelera renegociações no Desenrola",
+      "origem": "Let's Money · 14 out 2026",
+      "url": "https://www.letsmoney.com.br/credito/sicoob-crediauc-ia-renegociacoes-desenrola/"
+    }
+  ],
+  "baseadoEm": [
+    "totvs-taas-cobranca-agentes-por-tarefa-t-coins",
+    "totvs-taas-cobranca-agentes-por-tarefa-citi",
+    "venturebeat-troca-de-modelo-62-59-queda-desempenho",
+    "sicoob-crediauc-cobranca-agente-ia"
+  ]
+}
