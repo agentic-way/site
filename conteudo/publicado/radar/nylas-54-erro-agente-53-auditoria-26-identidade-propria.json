@@ -1,0 +1,54 @@
+{
+  "id": "nylas-54-erro-agente-53-auditoria-26-identidade-propria",
+  "publicado_em": "2026-10-22T07:20:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Nylas: 54% das empresas ouvidas tiveram erro de agente de IA em 90 dias, e só 53% conseguem auditar o que os agentes fizeram",
+  "linha": "Pesquisa da Nylas com 1.030 profissionais nos EUA: 31% tiveram de reverter um fluxo disparado por agente, e só 26% dão ao agente uma identidade própria.",
+  "linhaFina": "A Nylas, que vende contas de e-mail e agenda para agentes, ouviu 1.030 profissionais de empresas americanas entre 26 de agosto e 12 de setembro. Onde o agente tem identidade própria, 66% conseguem auditar tudo; onde usa o login de um funcionário, 51%.",
+  "fontePrimaria": "Nylas",
+  "leitura": 3,
+  "resumo": [
+    "54% dos respondentes disseram que um agente de IA cometeu um erro nos últimos 90 dias: 31% tiveram de reverter um fluxo disparado pelo agente, 25% tiveram um registro errado atualizado e 18% tiveram um e-mail incorreto ou inadequado enviado.",
+    "53% conseguem produzir um log completo do que os agentes fizeram na semana anterior e de qual agente fez cada ação; 37% conseguem em parte e 10% não conseguem ou não auditam.",
+    "26% dizem que seus agentes se autenticam com identidade própria. Entre as empresas com 1 a 5 agentes, 45% relataram incidente; entre as que têm mais de 20, 70%."
+  ],
+  "corpo": [
+    "A Nylas divulgou em 20 de outubro o relatório The State of Agentic AI: H2 2026, segunda rodada de uma pesquisa sobre como organizações constroem, operam e governam agentes de IA. Foram ouvidos 1.030 profissionais baseados nos Estados Unidos que constroem, compram ou influenciam sistemas de IA, entre 26 de agosto e 12 de setembro, por meio do painel Centiment. Software e SaaS respondem por 48% da amostra.",
+    "Sobre o erro: 54% dizem que um agente errou nos últimos 90 dias. O tipo mais citado foi o fluxo disparado que a equipe precisou reverter (31%), seguido de registro errado atualizado (25%) e e-mail incorreto ou inadequado enviado (18%). A taxa sobe com a escala: 45% entre quem opera de um a cinco agentes e 70% entre quem opera mais de 20.",
+    "Sobre auditoria e identidade: 53% conseguem auditar por completo o que os agentes fizeram na semana anterior. Só 26% dizem que os agentes usam identidade própria; em cerca de uma em cada quatro organizações, agentes enviam e-mails e gerenciam agendas pelo login de um funcionário ou por uma caixa compartilhada. Entre as empresas com identidade própria para o agente, 66% relatam auditoria completa, contra 51% das que usam a conta de um funcionário.",
+    "Em relação à primeira rodada, de dezembro de 2025, nas oito perguntas repetidas de forma idêntica, a parcela que deixa agentes agirem sem nenhuma aprovação humana subiu de 4,2% para 7,5%, e a que exige aprovação em toda ação caiu oito pontos, para 30%. Entre os principais bloqueios à implantação estão aprovações de segurança (42%) e complexidade de integração (40%)."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · IDENTIDADE",
+      "titulo": "Agente que age com o login de uma pessoa deixa o log mostrando a pessoa",
+      "texto": "É o argumento da própria Nylas, e os números da pesquisa o acompanham: auditoria completa em 66% com identidade própria e 51% sem. Vale perguntar, para cada agente em uso, em nome de quem ele age."
+    },
+    {
+      "rotulo": "02 · REVERSÃO",
+      "titulo": "O erro mais comum foi um fluxo que precisou ser desfeito",
+      "texto": "Antes de ampliar a autonomia de um agente, convém saber quais ações dele são reversíveis e quem as reverte."
+    },
+    {
+      "rotulo": "03 · FONTE E ESCOPO",
+      "titulo": "Amostra americana, majoritariamente de software, e quem mediu vende a solução",
+      "texto": "A pesquisa não mede empresas brasileiras, e a Nylas vende contas de e-mail e agenda com identidade própria para agentes. Os números indicam um padrão a verificar na própria operação, não uma taxa aplicável ao Brasil."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem já tem agentes enviando e-mails, atualizando cadastros ou mexendo em agenda, o levantamento mais útil é simples: lista de agentes, conta com que cada um age e se o log permite separar a ação do agente da ação da pessoa."
+  ],
+  "fontes": [
+    {
+      "titulo": "54% of Companies Report an AI Agent Error in the Past 90 Days, Nylas Survey Finds",
+      "origem": "Nylas · comunicado via Business Wire · 20 out 2026",
+      "url": "https://www.businesswire.com/news/home/20261020854203/en/54-of-Companies-Report-an-AI-Agent-Error-in-the-Past-90-Days-Nylas-Survey-Finds"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Nylas, painel Centiment" },
+    { "rotulo": "Amostra", "valor": "1.030 profissionais nos EUA" },
+    { "rotulo": "Campo", "valor": "26 de agosto a 12 de setembro de 2026" },
+    { "rotulo": "Divulgação", "valor": "20 out 2026" }
+  ]
+}
