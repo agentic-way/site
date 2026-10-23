@@ -33,7 +33,7 @@ Leia o material da semana procurando uma tensão: dois fatos que, juntos, dizem 
 Escreva três teses candidatas em uma frase cada e escolha a que passar nestes testes:
 - **É uma afirmação, não um tema.** "Agentes no setor jurídico" é tema; "o escritório médio vai contratar agente pelo preço por documento, não pela precisão" é tese. (O exemplo é ilustrativo: não o use como ponto de partida.)
 - **Alguém sério discordaria.** Se ninguém discorda, não é opinião.
-- **Os fatos da semana sustentam**, com pesquisa complementar se precisar (Firecrawl ou WebSearch; fonte aberta e lida, como no Radar).
+- **Os fatos da semana sustentam**, com pesquisa complementar se precisar: busque dados com o Exa (`python scripts/exa_busca.py "pesquisa ou estudo com dados sobre <tema da tese>" --dias 90`), que acha estudos por significado, e leia cada fonte com `firecrawl scrape` antes de usar um número. Fonte aberta e lida, como no Radar. Sem `EXA_API_KEY`, use o Firecrawl ou WebSearch.
 - **Importa para a empresa média brasileira**, com consequência prática.
 - **Não repete** tese de análise anterior.
 

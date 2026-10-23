@@ -46,6 +46,12 @@ Busque a última semana (`--tbs qdr:w`) e, na escolha, aceite só notícia divul
 firecrawl search "agentes de IA empresas Brasil" --sources news,web --tbs qdr:w --country BR --limit 10 --json -o .firecrawl/radar-1.json
 ```
 
+**Some o Exa à busca.** Depois das buscas do Firecrawl, faça 2 ou 3 consultas no Exa, que busca por significado e costuma achar pesquisas e anúncios que a busca por palavra-chave perde:
+```bash
+python scripts/exa_busca.py "anúncio ou pesquisa divulgada nos últimos dias sobre agentes de IA em empresas, com dado novo" --dias 3
+```
+Os trechos do Exa vêm cortados: leia toda fonte que for usar com `firecrawl scrape`. Se `EXA_API_KEY` não existir ou o Exa falhar, siga só com o Firecrawl.
+
 Sem `--json`, a saída é texto, mesmo com extensão `.json`. Rode os `firecrawl scrape` **um de cada vez**: em paralelo, arquivos se perdem e um site bloqueado derruba o lote. Alguns sites são bloqueados pelo Firecrawl (ZDNet, por exemplo); nesse caso, procure a mesma informação na origem (comunicado, relatório) em vez de insistir.
 
 ## Passo 3 — Escolher as pautas

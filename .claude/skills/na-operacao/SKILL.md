@@ -30,6 +30,12 @@ Um caso por semana. Melhor nenhum do que um caso fraco: se a busca não achar um
 
 ## Passo 2 — Encontrar candidatos
 
+**Busque com o Exa e com o Firecrawl, juntos.** O Exa busca por significado e acha casos que a busca por palavra-chave não traz (no teste de 23/out/2026 ele achou cinco candidatos na mesma janela em que o Firecrawl achou dois). Comece por ele, com consultas que descrevem a página ideal:
+```bash
+python scripts/exa_busca.py "notícia sobre empresa brasileira nomeada que colocou agente de IA em produção num processo, com número de resultado" --dias 30
+```
+Faça de 3 a 5 consultas assim, com ângulos diferentes (os da lista abaixo). Complete com 2 ou 3 `firecrawl search`. **Quem lê é sempre o Firecrawl:** os trechos do Exa vêm cortados, então abra com `firecrawl scrape` toda página que for usar e tire dela os números. Se `EXA_API_KEY` não existir ou o Exa falhar, siga só com o Firecrawl e registre isso no PR.
+
 Prefira o Firecrawl (`firecrawl search ... --json`, `firecrawl scrape`, um de cada vez); sem ele, WebSearch e WebFetch. Guarde o que baixar em `.firecrawl/`.
 
 Faça de 4 a 6 buscas, priorizando Brasil, nos últimos 30 dias (`--tbs qdr:m`):

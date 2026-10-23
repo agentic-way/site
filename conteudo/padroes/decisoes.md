@@ -39,6 +39,8 @@ Registro das decisões tomadas e do porquê, para valer em situações semelhant
 
 - **Newsletter, modelo B (23/out/2026):** toda sexta a rotina cria o rascunho e manda uma cópia de revisão só para o editor (domiciano@agenticway.com.br e domiciano.rossi@gmail.com); ele publica no Buttondown. Rascunho de semana anterior não publicado é apagado em vez de travar a edição nova. Para a cópia funcionar, o editor liberou **Sending** na chave da rotina (o Buttondown exige isso até para o "Send draft"). *Consequência:* a chave poderia publicar para todos; a garantia agora é de regra, não técnica: o script só chama `send-draft`, a rotina proíbe publicar e não lê a web. Se isso mudar, rever. *Descoberto no teste:* a cópia só é entregue a assinantes confirmados, por isso os dois e-mails do editor estão inscritos na newsletter. *Alternativa registrada:* um serviço de e-mail que só fala com o dono da conta (ex.: Resend), se quisermos a garantia técnica de volta.
 
+- **Pesquisa com Exa e Firecrawl juntos (23/out/2026).** No teste com o mesmo objetivo e a mesma janela da rotina de Na Operação de 19/out, o Exa achou 5 candidatos com empresa nomeada e número (BV, Riachuelo, BB, São Salvador Alimentos, Sicoob) em 3 buscas; o Firecrawl tinha achado 2 em 6, entre posts de rede social e opinião. O Exa entra para **achar** (Na Operação, Análise e Guia começam por ele; no Radar é busca extra); o Firecrawl continua para **ler**, porque os trechos do Exa vêm cortados. Chave `EXA_API_KEY` no ambiente da nuvem.
+
 ## 3. Arquitetura do site
 
 - Conteúdo como dados: `conteudo/publicado/<editoria>/<id>.json` → `python scripts/build_dados.py` (valida e gera `site/dados/<editoria>.js`) → páginas leem os dados. Publicar nunca é editar HTML.
