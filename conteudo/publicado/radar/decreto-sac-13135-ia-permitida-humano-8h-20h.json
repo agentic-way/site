@@ -1,0 +1,62 @@
+{
+  "id": "decreto-sac-13135-ia-permitida-humano-8h-20h",
+  "publicado_em": "2026-10-23T07:20:00-03:00",
+  "tema": "REGULAÇÃO",
+  "titulo": "Novo decreto do SAC permite IA na triagem e na resolução, mas exige atendente humano das 8h às 20h, todos os dias",
+  "linha": "O Decreto nº 13.135/2026 vale para fornecedores de setores regulados pela União e para serviços financeiros digitais sob o Banco Central. Canais eletrônicos têm de oferecer humano em tempo real a qualquer momento, inclusive no primeiro nível.",
+  "linhaFina": "O texto, assinado em 9 de outubro de 2026, revoga o Decreto nº 11.034/2022 e entra em vigor vinte dias após a publicação.",
+  "fontePrimaria": "Presidência da República (Decreto nº 13.135/2026)",
+  "leitura": 4,
+  "resumo": [
+    "O decreto autoriza procedimentos automatizados, inclusive sistemas de inteligência artificial, para triagem, distribuição interna e resolução das demandas, desde que o consumidor tenha a opção de atendimento em tempo real por pessoa humana.",
+    "Nos canais eletrônicos, a pessoa humana deve estar disponível das 8h às 20h, sete dias por semana, e a opção precisa aparecer em qualquer nível do atendimento, inclusive o primeiro. Pelo menos um canal eletrônico deve funcionar 24 horas por dia.",
+    "Não pode haver mais de cinco níveis de atendimento, e demandas não urgentes têm resposta em até sete dias corridos. No telefone, a espera pelo atendente humano é de até 20 segundos em no mínimo 80% das demandas."
+  ],
+  "corpo": [
+    "O Decreto nº 13.135, de 9 de outubro de 2026, regulamenta o Código de Defesa do Consumidor para o Serviço de Atendimento ao Consumidor (SAC) e revoga o Decreto nº 11.034/2022. Ele se aplica a fornecedores de produtos e serviços regulados pelo Poder Executivo federal que se enquadrem nos critérios da agência ou do órgão regulador, e a quem presta serviços financeiros, de pagamento ou de crédito por meios digitais sob regulação ou supervisão do Banco Central. Plataformas de intermediação, transporte por aplicativo e entrega devem apresentar seus modelos de atendimento à Secretaria Nacional do Consumidor, com taxa de resolução e grau de satisfação.",
+    "Sobre automação, o § 3º do art. 3º diz que o fornecedor poderá adotar procedimentos automatizados, inclusive sistemas de inteligência artificial, para a triagem, a distribuição interna e a resolução das demandas, desde que assegurada ao consumidor a opção de atendimento em tempo real por pessoa humana. O art. 12 exige ao menos um canal eletrônico funcionando 24 horas por dia, com atendimento por pessoa humana em tempo real das 8h às 20h, todos os dias. O art. 13 proíbe mais de cinco níveis de atendimento e determina que, em qualquer nível, inclusive o primeiro, o consumidor possa pedir o cancelamento imediato do contrato ou falar com uma pessoa, sendo informado do tempo estimado de espera.",
+    "No telefone, o atendimento é obrigatório (art. 14); a espera para falar com o atendente é de até 20 segundos para no mínimo 80% das demandas e de até 300 segundos para as demais (art. 15). Demandas não urgentes têm resposta em até sete dias corridos (art. 21), e serviço não solicitado ou cobrança indevida devem ser suspensos de imediato, com conclusão em no máximo 48 horas. Agências e órgãos reguladores podem fixar regras complementares por setor, respeitado o patamar mínimo do decreto. A fiscalização e as sanções ficam com a Senacon.",
+    "O texto do decreto diz que ele entra em vigor vinte dias após a publicação. O Canal da Ética, que comenta a norma, informa publicação no Diário Oficial da União em 13 de outubro de 2026, o que leva a vigência a cerca de 2 de novembro; a data precisa deve ser confirmada no Diário Oficial."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ESCOPO",
+      "titulo": "Primeiro, saber se a empresa está sujeita",
+      "texto": "A norma não alcança todo fornecedor: depende de o setor ser regulado pela União nos critérios do órgão competente, ou de o serviço financeiro digital estar sob o Banco Central. Vale checar com o jurídico antes de redesenhar o atendimento."
+    },
+    {
+      "rotulo": "02 · DESENHO",
+      "titulo": "Agente de atendimento precisa de saída para humano em todos os passos",
+      "texto": "Um agente que resolve a demanda sozinha é permitido; um que impede ou atrasa o acesso à pessoa, não. A opção de humano e a de cancelamento têm de estar disponíveis desde o primeiro nível, com tempo de espera informado."
+    },
+    {
+      "rotulo": "03 · CUSTO",
+      "titulo": "A cobertura humana de 8h às 20h, sete dias, é o ponto que pesa na escala",
+      "texto": "Quem hoje usa IA para cobrir horários sem equipe precisa verificar se o canal eletrônico atende ao mínimo de humano em tempo real. A conta de equipe muda, e o ganho do agente passa a depender de quanto ele resolve nos outros horários."
+    }
+  ],
+  "oQueFazer": [
+    "Mapeie os canais de SAC (telefone, chat, WhatsApp), o número de etapas de cada um e onde o agente de IA entra. Confira se a opção de falar com uma pessoa e a de cancelar aparecem já no primeiro passo, e se o tempo de espera é informado. Registre também o prazo de resposta das demandas não urgentes."
+  ],
+  "fontes": [
+    {
+      "titulo": "Decreto nº 13.135, de 9 de outubro de 2026",
+      "origem": "Planalto · Presidência da República · 9 out 2026",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13135.htm"
+    },
+    {
+      "titulo": "Novo decreto do SAC: o que muda no atendimento ao consumidor",
+      "origem": "Canal da Ética · artigo (data de publicação no DOU)",
+      "url": "https://canaldaetica.com.br/blog/novo-decreto-do-sac/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Norma", "valor": "Decreto nº 13.135, de 9 de outubro de 2026" },
+    { "rotulo": "Revoga", "valor": "Decreto nº 11.034, de 5 de abril de 2022" },
+    { "rotulo": "Fiscalização", "valor": "Secretaria Nacional do Consumidor (Senacon)" },
+    { "rotulo": "Divulgação", "valor": "13 out 2026 (publicação no DOU, segundo o Canal da Ética)" }
+  ],
+  "datas": [
+    { "quando": "Cerca de 2 nov 2026", "evento": "Vigência: 20 dias após a publicação, contados de 13 de outubro (data informada pelo Canal da Ética; confirmar no DOU)" }
+  ]
+}
