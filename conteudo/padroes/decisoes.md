@@ -37,6 +37,8 @@ Registro das decisões tomadas e do porquê, para valer em situações semelhant
 - **A AgenticWay não vende nada hoje (20/out/2026).** O editor ainda não se sente pronto para oferecer serviço. Saíram do site o "Diagnóstico de Oportunidades com IA", o bloco de serviço das análises e da newsletter e as frases "vendemos integração". "Para empresas" virou página "em breve" com contato. *Por quê:* o site dizia vender algo que não existe; a mesma regra de "nunca fingir" vale para a marca. Quando houver serviço, ele será declarado na Sobre, em Para empresas e em todo texto sobre um cliente.
 - **A biografia do editor vem do perfil dele** (`~/workspace/perfil/USER.md`), aprovada por ele; nada de carreira inventada. (20/out/2026)
 
+- **Newsletter, modelo B (23/out/2026):** toda sexta a rotina cria o rascunho e manda uma cópia de revisão só para o editor (domiciano@agenticway.com.br e domiciano.rossi@gmail.com); ele publica no Buttondown. Rascunho de semana anterior não publicado é apagado em vez de travar a edição nova. Para a cópia funcionar, o editor liberou **Sending** na chave da rotina (o Buttondown exige isso até para o "Send draft"). *Consequência:* a chave poderia publicar para todos; a garantia agora é de regra, não técnica: o script só chama `send-draft`, a rotina proíbe publicar e não lê a web. Se isso mudar, rever. *Alternativa registrada:* um serviço de e-mail que só fala com o dono da conta (ex.: Resend), se quisermos a garantia técnica de volta.
+
 ## 3. Arquitetura do site
 
 - Conteúdo como dados: `conteudo/publicado/<editoria>/<id>.json` → `python scripts/build_dados.py` (valida e gera `site/dados/<editoria>.js`) → páginas leem os dados. Publicar nunca é editar HTML.
