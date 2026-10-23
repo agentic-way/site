@@ -1,0 +1,53 @@
+{
+  "id": "redwood-77-agente-sem-governanca-82-sistemas-legados",
+  "publicado_em": "2026-10-23T07:22:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Pesquisa da Redwood: 77% já tiveram consequência negativa de agente sem governança, e 82% veem sistemas existentes como maior obstáculo que a falta de estratégia",
+  "linha": "Levantamento com 300 líderes e profissionais de tecnologia, risco e IA: só 42% dizem conseguir conectar agentes a sistemas legados ou centrais, e 42% têm um registro central dos agentes em uso.",
+  "linhaFina": "A Redwood Software, que vende plataforma de orquestração, divulgou em 22 de outubro o relatório, com dados coletados pelo instituto Leger Opinion.",
+  "fontePrimaria": "Redwood Software / Leger Opinion",
+  "leitura": 3,
+  "resumo": [
+    "77% dos ouvidos tiveram uma consequência negativa de um agente de IA sem governança; a mais citada foi custo inesperado de nuvem, seguida de interrupção operacional e problemas de conformidade.",
+    "82% concordam que os sistemas existentes são obstáculo maior para escalar IA do que a falta de estratégia, e só 42% dizem ter forte capacidade de conectar agentes a sistemas legados ou centrais.",
+    "42% têm um registro centralizado dos agentes implantados e 51% têm monitoramento da atividade em tempo real."
+  ],
+  "corpo": [
+    "A Redwood Software divulgou em 22 de outubro de 2026 o relatório \"Enterprise benchmarks in AI and agentic orchestration 2026\", baseado em pesquisa com 300 líderes e profissionais seniores de tecnologia, risco e IA. Os dados foram coletados em painel pelo instituto Leger Opinion. O comunicado não informa países nem datas de campo.",
+    "Segundo a empresa, 89% aumentaram a implantação de agentes no último ano e 54% dizem estar em adoção em escala ou madura. Ao mesmo tempo, 54% afirmam estar totalmente preparados para orquestrar IA nos sistemas existentes, mas só 42% têm registro centralizado dos agentes e 51% têm monitoramento em tempo real. A responsabilidade pelos agentes está dividida entre operações de TI, equipes dedicadas de IA ou automação e engenharia de software, sem dono único.",
+    "Perguntados sobre o que ajudaria a expandir agentes com confiança, 62% apontaram observabilidade ou visibilidade em tempo real e 58% a capacidade comprovada de integrar agentes a sistemas legados ou centrais. A Redwood afirma ainda que seus clientes têm 1,4 vez mais chance de ter um plano financiado para conectar a IA às cargas de trabalho existentes."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · INTEGRAÇÃO",
+      "titulo": "O ERP e os sistemas do núcleo são o gargalo declarado",
+      "texto": "A integração com sistemas existentes aparece como obstáculo maior que a estratégia, o que dá peso à pergunta de como o agente se conecta ao sistema da empresa antes da escolha da ferramenta."
+    },
+    {
+      "rotulo": "02 · DONO",
+      "titulo": "Sem responsável único, ninguém responde pelo agente",
+      "texto": "A divisão da responsabilidade entre áreas aparece junto de registro e monitoramento incompletos. Definir quem responde por cada agente é uma decisão de gestão, não de ferramenta."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem publica vende orquestração",
+      "texto": "A Redwood vende plataforma de orquestração e cita vantagem dos próprios clientes. O comunicado não traz países nem datas de campo, e o relatório completo exige download."
+    }
+  ],
+  "oQueFazer": [
+    "Liste os agentes em uso, o sistema que cada um acessa, quem é o responsável e onde ficam o log e o custo. Se a lista não existir, é o primeiro passo."
+  ],
+  "fontes": [
+    {
+      "titulo": "77% of Enterprises Have Paid a Price for Ungoverned AI Agents",
+      "origem": "Redwood Software · comunicado · 22 out 2026",
+      "url": "https://www.redwood.com/press-releases/ai-and-agentic-orchestration-benchmarks-report/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Redwood Software, com dados coletados pelo Leger Opinion" },
+    { "rotulo": "Amostra", "valor": "300 líderes e profissionais seniores de tecnologia, risco e IA (países não informados)" },
+    { "rotulo": "Divulgação", "valor": "22 out 2026" },
+    { "rotulo": "Confirmação", "valor": "relatório completo não consultado" }
+  ]
+}
