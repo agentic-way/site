@@ -13,13 +13,18 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[4]
 PUB = RAIZ / "conteudo" / "publicado"
 SITE = "https://www.agenticway.com.br/"
 API = "https://api.buttondown.com/v1/emails"
+# Quem recebe a cópia do rascunho para revisar (só o editor; os assinantes não recebem nada).
+# Pode ser trocado pela variável NEWSLETTER_COPIA, com endereços separados por vírgula.
+COPIA_PADRAO = "domiciano@agenticway.com.br"
 ASSINATURA = "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi"
 PAGINAS = {"radar": "Radar", "na-operacao": "Na%20Operacao", "analise": "Analise",
            "guia": "Guia", "ferramentas": "Ferramentas"}
@@ -173,7 +178,7 @@ def situacao(k):
             if x.get("status") in ("sent", "about_to_send", "scheduled", "in_flight"):
                 enviados += 1
             elif x.get("status") == "draft":
-                rascunhos.append(x.get("subject"))
+                rascunhos.append(x)
         endereco = d.get("next")
     return enviados + 1, rascunhos
 
@@ -186,9 +191,17 @@ def main():
     previa = "--previa" in sys.argv
     k = None if previa else chave()
     numero, rascunhos = (1, []) if previa else situacao(k)
-    if rascunhos and "--novo" not in sys.argv:
-        erro(f"já há rascunho no Buttondown ({'; '.join(map(str, rascunhos))}). O editor decide se apaga; "
-             "para criar outro mesmo assim, rode com --novo")
+    # Rascunho de semana anterior que o editor não publicou: foi superado pela edição nova e sai.
+    # Rascunho desta semana: não duplica.
+    limite = datetime.now(timezone.utc) - timedelta(days=6)
+    for x in rascunhos:
+        criado = datetime.fromisoformat(str(x.get("creation_date", "")).replace("Z", "+00:00") or "1970-01-01T00:00:00+00:00")
+        if criado < limite and not previa:
+            pede("DELETE", f"{API}/{x['id']}", k)
+            print(f"rascunho antigo apagado (não publicado, superado pela edição nova): {x.get('subject')}")
+        elif "--novo" not in sys.argv:
+            erro(f"já há rascunho desta semana no Buttondown ({x.get('subject')}). Não crio outro; "
+                 "para criar mesmo assim, rode com --novo")
     corpo = monta(ed, numero)
     destino = Path(sys.argv[1]).with_name("previa.html")
     destino.write_text(f'<!doctype html><meta charset="utf-8"><title>{e(ed["assunto"])}</title>'
@@ -198,7 +211,14 @@ def main():
         return
     r = pede("POST", API, k, {"subject": ed["assunto"], "body": corpo, "description": ed["preheader"], "status": "draft"})
     print(f"RASCUNHO CRIADO (não enviado): edição {numero} · {r.get('subject')} · id {r.get('id')} · status {r.get('status')}")
-    print("Revise e envie em https://buttondown.com/emails")
+    # Cópia para o editor revisar na caixa de entrada (o "Send draft" do Buttondown). Os assinantes não recebem.
+    copia = [a.strip() for a in os.environ.get("NEWSLETTER_COPIA", COPIA_PADRAO).split(",") if a.strip()]
+    try:
+        pede("POST", f"{API}/{r['id']}/send-draft", k, {"recipients": copia})
+        print(f"cópia de revisão enviada para: {', '.join(copia)}")
+    except urllib.error.HTTPError as ex:
+        print(f"AVISO: a cópia de revisão não foi enviada (HTTP {ex.code}: {ex.read()[:200]!r}). O rascunho está no Buttondown.")
+    print("Para publicar: https://buttondown.com/emails → abrir o rascunho → Publish")
 
 
 if __name__ == "__main__":

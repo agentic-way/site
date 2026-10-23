@@ -54,8 +54,8 @@ python .claude/skills/newsletter/scripts/rascunho.py edicao.json --previa   # ge
 python .claude/skills/newsletter/scripts/rascunho.py edicao.json            # cria o rascunho no Buttondown
 ```
 
-O script valida tamanhos (em caracteres, contando tudo), tom e números, numera a edição pelo que já foi **enviado** (rascunhos não contam) e cria o rascunho. Se já houver rascunho no Buttondown, ele para e avisa: na rotina, relate isso e não crie outro; quem apaga rascunho é o editor. A janela é de 7 dias até a hora em que o `semana.py` roda; a rotina roda sexta às 7h. Corrija os erros que ele apontar e rode de novo. Se a criação falhar (chave ausente, erro de rede), relate o erro e deixe a prévia; não tente outro caminho de envio.
+O script valida tamanhos (em caracteres, contando tudo), tom e números, numera a edição pelo que já foi **enviado** (rascunhos não contam) e cria o rascunho. Depois manda **uma cópia de revisão só para o editor** (o "Send draft" do Buttondown; padrão domiciano@agenticway.com.br, ou a variável `NEWSLETTER_COPIA`), para ele ler na caixa de entrada; os assinantes não recebem nada. Um rascunho de **semana anterior** que não foi publicado é apagado e substituído pela edição nova (não trava mais a semana). Se já houver rascunho **desta semana**, o script para e avisa: na rotina, relate isso e não crie outro. Se a cópia de revisão falhar, o rascunho continua criado: relate o aviso do script. A janela é de 7 dias até a hora em que o `semana.py` roda; a rotina roda sexta às 7h.
 
 ## Resposta final
 
-Assunto, preheader, os itens escolhidos (e os que ficaram de fora, com o motivo) e a confirmação "rascunho criado, não enviado", com o link https://buttondown.com/emails.
+Assunto, preheader, os itens escolhidos (e os que ficaram de fora, com o motivo), se a cópia de revisão foi enviada e para quem, se algum rascunho antigo foi apagado, e a confirmação "rascunho criado, não enviado", com o link https://buttondown.com/emails.
