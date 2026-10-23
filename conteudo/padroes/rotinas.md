@@ -124,7 +124,7 @@ A AgenticWay é um site de notícias sobre agentes de IA nas empresas, **apurado
 
 **O que não faz:** não testa nem instala nenhuma ferramenta. A página diz isso com todas as letras. Também não dá nota de estrelas nem diz "a melhor": diz para quem cada opção faz sentido.
 
-**O que entrega:** 1 comparativo a cada 2 semanas. Fornecedores podem mandar correção para ferramentas@agenticway.com.br; correções aceitas entram com data.
+**O que entrega:** 1 comparativo a cada 2 semanas. Fornecedores podem mandar correção para correcoes@agenticway.com.br; correções aceitas entram com data.
 
 **O editor:** confere as marcas de que o agente teve menos certeza (ele as lista no PR) e faz o merge.
 
