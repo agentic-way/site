@@ -24,7 +24,7 @@ SITE = "https://www.agenticway.com.br/"
 API = "https://api.buttondown.com/v1/emails"
 # Quem recebe a cópia do rascunho para revisar (só o editor; os assinantes não recebem nada).
 # Pode ser trocado pela variável NEWSLETTER_COPIA, com endereços separados por vírgula.
-COPIA_PADRAO = "domiciano@agenticway.com.br"
+COPIA_PADRAO = "domiciano@agenticway.com.br,domiciano.rossi@gmail.com"
 ASSINATURA = "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi"
 PAGINAS = {"radar": "Radar", "na-operacao": "Na%20Operacao", "analise": "Analise",
            "guia": "Guia", "ferramentas": "Ferramentas"}
