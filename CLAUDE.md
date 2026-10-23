@@ -29,7 +29,8 @@ Marca de Domiciano Rossi. Pivô (set/2026): começar como **mídia especializada
 - `.claude/skills/`: `radar`, `na-operacao`, `analise`, `guia`, `ferramentas`, `newsletter` (editorias, usadas pelas rotinas) e `pesquisa-conteudo`, `copy-conteudo`, `design-conteudo` (carrossel e peças avulsas). Versionadas no GitHub; a nuvem (rotinas) e o computador local usam estas cópias.
 - As cópias do repositório gravam em `conteudo/pesquisas/` a partir da raiz e chamam os scripts por `.claude/skills/design-conteudo/scripts/`.
 - Existem cópias globais antigas em `~/.claude/skills/` (e `.skill` em `C:	emp`) para uso fora deste projeto. Alteração feita aqui não chega lá sozinha.
-- Chaves ficam fora do repositório: `FIRECRAWL_API_KEY` e `GEMINI_API_KEY` como variáveis do ambiente "Radar AgenticWay" na nuvem; localmente, login do Firecrawl e `~/api_keys.env`.
+- Chaves ficam fora do repositório: `FIRECRAWL_API_KEY`, `GEMINI_API_KEY`, `BUTTONDOWN_API_KEY` e `EXA_API_KEY` como variáveis do ambiente "Radar AgenticWay" na nuvem; localmente, login do Firecrawl e `~/api_keys.env`.
+- Pesquisa: o **Exa acha** (`scripts/exa_busca.py`, busca por significado) e o **Firecrawl lê** (`firecrawl scrape`). Os trechos do Exa vêm cortados; número só se tira da página lida.
 - `render.py` precisa de Chrome; na nuvem pode não existir (render de carrossel é tarefa local por enquanto).
 
 ## Conteúdo como dados

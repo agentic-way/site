@@ -65,6 +65,7 @@ Ao revisar:
 - `anote`: o que a pessoa escreve para comparar depois
 
 **Regras, e por quê:**
+- **Para achar fontes de um guia novo** (norma, preço, pesquisa), use o Exa, que busca por significado: `python scripts/exa_busca.py "<o que você precisa provar>" --dias 180`. Leia a fonte com `firecrawl scrape` antes de usar; os trechos do Exa vêm cortados.
 - **Releia a fonte original de todo fato que entrar no guia**, mesmo que ele já esteja numa nota ou análise do site. O guia fica no ar por meses e é revisado; ele precisa apontar para a origem, não para a nota.
 - **Fontes que mostram o mesmo dado em escalas diferentes** (por exemplo, 1.000 e 10.000 mensagens): use uma só, a mesma que o site já publicou, e diga a escala no texto.
 - **Fato tem fonte.** Número, regra, preço e nome de norma vêm de fonte aberta e lida, listada em `fontes`. O guia não pode dizer "60% dos pilotos param na integração" sem dizer quem mediu; se não houver fonte, escreva sem o número.
