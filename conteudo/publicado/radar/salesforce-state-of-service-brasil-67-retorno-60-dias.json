@@ -1,0 +1,66 @@
+{
+  "id": "salesforce-state-of-service-brasil-67-retorno-60-dias",
+  "publicado_em": "2026-10-24T07:10:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Salesforce diz que 67% das empresas brasileiras com agentes autônomos veem retorno em até 60 dias",
+  "linha": "Na 7ª edição do State of Service, a Salesforce afirma que 21% chegam a valor mensurável em menos de um mês. A barreira número um no Brasil é a integração de sistemas, não segurança nem custo.",
+  "linhaFina": "Pesquisa da própria Salesforce, que vende plataforma de agentes, com mais de 6,5 mil profissionais em 40 países, 300 deles no Brasil. A leitura aqui é da Inforchannel, que reproduz o comunicado.",
+  "fontePrimaria": "Salesforce Research, via Inforchannel",
+  "leitura": 3,
+  "resumo": [
+    "No Brasil, 67% das organizações que implementaram agentes autônomos de IA registram retorno tangível em até 60 dias, e 21% alcançam valor mensurável em menos de um mês.",
+    "A falta de integração de sistemas e os silos de dados são apontados como a barreira número um para ampliar agentes no Brasil, acima de segurança e custo.",
+    "Os três principais casos de uso de agentes no país são roteamento de chamados, recomendação preditiva de produtos e contato proativo."
+  ],
+  "corpo": [
+    "A Salesforce divulgou a 7ª edição do relatório global State of Service. Segundo a Inforchannel, que publicou os dados em 23 de outubro, o estudo ouviu mais de 6,5 mil profissionais de atendimento, líderes de operações de serviço e tomadores de decisão em 40 países, incluindo 300 no Brasil, em entrevistas anônimas conduzidas pela Salesforce Research.",
+    "No recorte brasileiro, 67% das organizações que implementaram agentes autônomos registram retorno tangível em até 60 dias, e 21% chegam a valor mensurável em menos de um mês. Globalmente, a Salesforce cita aumento de até 23% na satisfação do cliente, 20% de receita adicional por recomendações e upsell e 20% de redução nos custos de serviço entre quem opera com agentes integrados.",
+    "A pesquisa aponta a integração de sistemas e os silos de dados como a barreira número um no Brasil, à frente de segurança e custo. Para Daniel Hoe, vice-presidente de Marketing da Salesforce para a América Latina, a prioridade das lideranças é unificar a camada de dados corporativos. O relatório também diz que o investimento em treinamento das equipes de atendimento no Brasil supera a média global, e que 91% dos profissionais afirmam que a IA os torna mais produtivos.",
+    "A nota se apoia na matéria da Inforchannel. A página do relatório na Salesforce não trouxe os números brasileiros, e o período de campo, o critério de retorno e a base do percentual de 67% (empresas que já implementaram agentes) não aparecem na matéria."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · FONTE",
+      "titulo": "Quem mede é quem vende",
+      "texto": "A Salesforce comercializa agentes de atendimento. O percentual vale para empresas que já implementaram agentes, o que tende a excluir quem desistiu antes."
+    },
+    {
+      "rotulo": "02 · DADOS",
+      "titulo": "A barreira citada é a que o fornecedor resolve",
+      "texto": "Integração e silos de dados aparecem como obstáculo principal. É um diagnóstico plausível, e também o argumento de venda de uma plataforma que unifica dados."
+    },
+    {
+      "rotulo": "03 · MEDIDA",
+      "titulo": "Defina o que conta como retorno antes do piloto",
+      "texto": "A matéria não diz o que é retorno tangível. Sem esse critério escrito, o prazo de 60 dias não serve de meta nem de comparação."
+    }
+  ],
+  "oQueFazer": [
+    "Se o atendimento é o primeiro processo candidato a agente, levante antes quais sistemas ele precisaria consultar e se esses dados estão acessíveis. Pelos próprios números da pesquisa, é aí que os projetos travam."
+  ],
+  "fontes": [
+    {
+      "titulo": "67% das empresas no Brasil atingem retorno com agentes de IA em até 60 dias",
+      "origem": "Inforchannel · 23 out 2026",
+      "url": "https://inforchannel.com.br/2026/10/23/67-das-empresas-no-brasil-atingem-retorno-com-agentes-de-ia-em-ate-60-dias/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Salesforce Research"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "mais de 6,5 mil profissionais em 40 países, 300 no Brasil"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "23 out 2026"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não confirmada por fonte independente"
+    }
+  ]
+}
