@@ -1,0 +1,65 @@
+{
+  "id": "claro-empresas-iatende-whatsapp-atendimento-ia",
+  "publicado_em": "2026-10-24T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Claro empresas lança o IAtende, plataforma de atendimento por WhatsApp com IA, sem divulgar preço",
+  "linha": "A plataforma usa a API oficial do WhatsApp Business, integra-se a CRM e ERP e já pode ser contratada em todo o Brasil, segundo o Teletime.",
+  "linhaFina": "A operadora anunciou na quinta-feira, 22 de outubro, uma ferramenta para automatizar atendimento no WhatsApp. Preços e modelo de cobrança não foram informados.",
+  "fontePrimaria": "Claro empresas, via Teletime",
+  "leitura": 2,
+  "resumo": [
+    "A Claro empresas lançou o IAtende, plataforma para automatizar o atendimento a clientes pelo WhatsApp com IA.",
+    "Usa a API oficial do WhatsApp Business e permite respostas automáticas, chatbots, fluxos de atendimento e atendimento simultâneo por vários funcionários.",
+    "Pode ser integrada a CRM e ERP e está disponível para contratação em todo o Brasil. A operadora não informou preços nem modelos de cobrança."
+  ],
+  "corpo": [
+    "Segundo o Teletime, a Claro empresas anunciou em 22 de outubro uma plataforma para o mercado corporativo que automatiza o atendimento por WhatsApp com inteligência artificial. A solução, chamada IAtende, pode ser contratada por empresas de portes e setores diferentes.",
+    "A ferramenta usa a API oficial do WhatsApp Business. As empresas configuram respostas automáticas, chatbots e fluxos de atendimento para solicitações de informação, suporte e processos comerciais, e várias pessoas podem atender ao mesmo tempo. A plataforma reúne as interações numa interface única e oferece indicadores de desempenho, e pode ser integrada a sistemas de gestão como CRM e ERP.",
+    "Mário Rachid, diretor executivo de Soluções Digitais da Claro empresas, afirmou que a automação de jornadas e o acompanhamento de indicadores em tempo real reduzem custos operacionais. É uma afirmação da empresa, sem número. A matéria não detalha o que a IA faz além de chatbots e fluxos, nem se há agentes que executam ações nos sistemas integrados."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CUSTO",
+      "titulo": "O preço do canal tem duas camadas",
+      "texto": "Além da plataforma da Claro, que não divulgou preço, a API oficial do WhatsApp Business tem tabela própria de cobrança por mensagem, tema de outra nota do Radar. Peça a conta completa."
+    },
+    {
+      "rotulo": "02 · ESCOPO",
+      "titulo": "Pergunte o que a IA faz de fato",
+      "texto": "Chatbot com fluxo fixo e agente que consulta e altera dados no ERP são produtos diferentes. A matéria descreve o primeiro e menciona a integração com sistemas sem detalhá-la."
+    },
+    {
+      "rotulo": "03 · OPÇÕES",
+      "titulo": "Operadora entra na disputa por atendimento",
+      "texto": "Quem já contrata linhas e conectividade com a Claro ganha mais um fornecedor para comparar, ao lado de plataformas especializadas."
+    }
+  ],
+  "oQueFazer": [
+    "Ao avaliar, peça a lista de sistemas com integração pronta, o limite de mensagens incluído, quem responde quando a IA não resolve e como é feito o repasse para uma pessoa."
+  ],
+  "fontes": [
+    {
+      "titulo": "Claro empresas lança plataforma B2B de atendimento por WhatsApp com IA",
+      "origem": "Teletime · 22 out 2026",
+      "url": "https://teletime.com.br/22/10/2026/claro-empresas-whatsapp-ia/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem anunciou",
+      "valor": "Claro empresas"
+    },
+    {
+      "rotulo": "Disponibilidade",
+      "valor": "todo o Brasil, por contratação"
+    },
+    {
+      "rotulo": "Preço",
+      "valor": "não informado"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "22 out 2026"
+    }
+  ]
+}
