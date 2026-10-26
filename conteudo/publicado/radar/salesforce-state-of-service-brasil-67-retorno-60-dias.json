@@ -1,0 +1,66 @@
+{
+  "id": "salesforce-state-of-service-brasil-67-retorno-60-dias",
+  "publicado_em": "2026-10-26T07:15:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Salesforce diz que 67% das empresas brasileiras com agentes de IA veem retorno em até 60 dias",
+  "linha": "Segundo a 7ª edição do State of Service, 21% chegam a valor mensurável em menos de um mês. A barreira número um para ampliar o uso é a falta de integração entre sistemas.",
+  "linhaFina": "O relatório da Salesforce ouviu mais de 6,5 mil profissionais de atendimento em 40 países, 300 deles no Brasil. A Salesforce vende plataforma de atendimento com agentes.",
+  "fontePrimaria": "Salesforce Research, via Inforchannel",
+  "leitura": 3,
+  "resumo": [
+    "No Brasil, 67% das organizações que implementaram agentes autônomos de IA registram retorno tangível em até 60 dias, e 21% alcançam valor mensurável em menos de um mês.",
+    "A falta de integração de sistemas e os silos de dados são apontados como a barreira número um para expandir agentes no país, à frente de segurança e custo.",
+    "Os três principais usos no Brasil são roteamento de chamados, recomendação preditiva de produtos e contato proativo."
+  ],
+  "corpo": [
+    "A Salesforce divulgou a 7ª edição do relatório State of Service, conduzida pela Salesforce Research com entrevistas anônimas a mais de 6,5 mil profissionais de atendimento, líderes de operações de serviço e tomadores de decisão em 40 países. Segundo a Inforchannel, 300 dos entrevistados são do Brasil.",
+    "No recorte brasileiro, quase sete em cada dez organizações (67%) que implementaram agentes autônomos registram retorno tangível em até 60 dias. Entre elas, 21% alcançam valor mensurável em menos de um mês. O número vale para quem já implementou agentes, não para o conjunto das empresas ouvidas.",
+    "O relatório aponta a integração de sistemas e a existência de silos de dados como a principal barreira à expansão de agentes no Brasil, acima de segurança e custo. A Salesforce também diz que o investimento em treinamento das equipes de atendimento no país supera a média global.",
+    "No conjunto global, a Salesforce informa que organizações com agentes integrados já registram até 23% de aumento na satisfação do cliente, 20% de aumento de receita por recomendações e upsell e 20% de redução nos custos de serviço."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · PRAZO",
+      "titulo": "Retorno rápido é o que a empresa respondente declara, não o que foi auditado",
+      "texto": "A fonte não detalha como o retorno foi medido nem o que conta como valor mensurável. Para decidir, vale definir antes qual indicador do próprio atendimento vai provar o retorno."
+    },
+    {
+      "rotulo": "02 · INTEGRAÇÃO",
+      "titulo": "O gargalo citado é dado e sistema, não o modelo de IA",
+      "texto": "Se a barreira número um é silo de dados, o trabalho de conectar CRM, ERP e canais de atendimento vem antes de ampliar o número de agentes."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem mede vende a plataforma",
+      "texto": "A Salesforce comercializa agentes de atendimento. Os números podem estar corretos e ainda assim favorecer quem os divulgou; a amostra brasileira é de 300 pessoas."
+    }
+  ],
+  "oQueFazer": [
+    "Quem avalia agentes no atendimento pode usar o relatório como lista de perguntas ao fornecedor: em quanto tempo o retorno apareceu em clientes parecidos, medido por qual indicador e com quais sistemas integrados."
+  ],
+  "fontes": [
+    {
+      "titulo": "67% das empresas no Brasil atingem retorno com agentes de IA em até 60 dias",
+      "origem": "Inforchannel · 23 out 2026",
+      "url": "https://inforchannel.com.br/2026/10/23/67-das-empresas-no-brasil-atingem-retorno-com-agentes-de-ia-em-ate-60-dias/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Salesforce Research (7ª edição do State of Service)"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "Mais de 6,5 mil profissionais em 40 países, 300 no Brasil"
+    },
+    {
+      "rotulo": "Período de campo",
+      "valor": "Não informado na fonte lida"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "23 out 2026 (Inforchannel)"
+    }
+  ]
+}
