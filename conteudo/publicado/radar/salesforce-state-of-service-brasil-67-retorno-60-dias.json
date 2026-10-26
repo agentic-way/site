@@ -1,42 +1,42 @@
 {
   "id": "salesforce-state-of-service-brasil-67-retorno-60-dias",
-  "publicado_em": "2026-10-24T07:10:00-03:00",
+  "publicado_em": "2026-10-26T07:15:00-03:00",
   "tema": "PESQUISA",
-  "titulo": "Salesforce diz que 67% das empresas brasileiras com agentes autônomos veem retorno em até 60 dias",
-  "linha": "Na 7ª edição do State of Service, a Salesforce afirma que 21% chegam a valor mensurável em menos de um mês. A barreira número um no Brasil é a integração de sistemas, não segurança nem custo.",
-  "linhaFina": "Pesquisa da própria Salesforce, que vende plataforma de agentes, com mais de 6,5 mil profissionais em 40 países, 300 deles no Brasil. A leitura aqui é da Inforchannel, que reproduz o comunicado.",
+  "titulo": "Salesforce diz que 67% das empresas brasileiras com agentes de IA veem retorno em até 60 dias",
+  "linha": "Segundo a 7ª edição do State of Service, 21% chegam a valor mensurável em menos de um mês. A barreira número um para ampliar o uso é a falta de integração entre sistemas.",
+  "linhaFina": "O relatório da Salesforce ouviu mais de 6,5 mil profissionais de atendimento em 40 países, 300 deles no Brasil. A Salesforce vende plataforma de atendimento com agentes.",
   "fontePrimaria": "Salesforce Research, via Inforchannel",
   "leitura": 3,
   "resumo": [
     "No Brasil, 67% das organizações que implementaram agentes autônomos de IA registram retorno tangível em até 60 dias, e 21% alcançam valor mensurável em menos de um mês.",
-    "A falta de integração de sistemas e os silos de dados são apontados como a barreira número um para ampliar agentes no Brasil, acima de segurança e custo.",
-    "Os três principais casos de uso de agentes no país são roteamento de chamados, recomendação preditiva de produtos e contato proativo."
+    "A falta de integração de sistemas e os silos de dados são apontados como a barreira número um para expandir agentes no país, à frente de segurança e custo.",
+    "Os três principais usos no Brasil são roteamento de chamados, recomendação preditiva de produtos e contato proativo."
   ],
   "corpo": [
-    "A Salesforce divulgou a 7ª edição do relatório global State of Service. Segundo a Inforchannel, que publicou os dados em 23 de outubro, o estudo ouviu mais de 6,5 mil profissionais de atendimento, líderes de operações de serviço e tomadores de decisão em 40 países, incluindo 300 no Brasil, em entrevistas anônimas conduzidas pela Salesforce Research.",
-    "No recorte brasileiro, 67% das organizações que implementaram agentes autônomos registram retorno tangível em até 60 dias, e 21% chegam a valor mensurável em menos de um mês. Globalmente, a Salesforce cita aumento de até 23% na satisfação do cliente, 20% de receita adicional por recomendações e upsell e 20% de redução nos custos de serviço entre quem opera com agentes integrados.",
-    "A pesquisa aponta a integração de sistemas e os silos de dados como a barreira número um no Brasil, à frente de segurança e custo. Para Daniel Hoe, vice-presidente de Marketing da Salesforce para a América Latina, a prioridade das lideranças é unificar a camada de dados corporativos. O relatório também diz que o investimento em treinamento das equipes de atendimento no Brasil supera a média global, e que 91% dos profissionais afirmam que a IA os torna mais produtivos.",
-    "A nota se apoia na matéria da Inforchannel. A página do relatório na Salesforce não trouxe os números brasileiros, e o período de campo, o critério de retorno e a base do percentual de 67% (empresas que já implementaram agentes) não aparecem na matéria."
+    "A Salesforce divulgou a 7ª edição do relatório State of Service, conduzida pela Salesforce Research com entrevistas anônimas a mais de 6,5 mil profissionais de atendimento, líderes de operações de serviço e tomadores de decisão em 40 países. Segundo a Inforchannel, 300 dos entrevistados são do Brasil.",
+    "No recorte brasileiro, quase sete em cada dez organizações (67%) que implementaram agentes autônomos registram retorno tangível em até 60 dias. Entre elas, 21% alcançam valor mensurável em menos de um mês. O número vale para quem já implementou agentes, não para o conjunto das empresas ouvidas.",
+    "O relatório aponta a integração de sistemas e a existência de silos de dados como a principal barreira à expansão de agentes no Brasil, acima de segurança e custo. A Salesforce também diz que o investimento em treinamento das equipes de atendimento no país supera a média global.",
+    "No conjunto global, a Salesforce informa que organizações com agentes integrados já registram até 23% de aumento na satisfação do cliente, 20% de aumento de receita por recomendações e upsell e 20% de redução nos custos de serviço."
   ],
   "consequencias": [
     {
-      "rotulo": "01 · FONTE",
-      "titulo": "Quem mede é quem vende",
-      "texto": "A Salesforce comercializa agentes de atendimento. O percentual vale para empresas que já implementaram agentes, o que tende a excluir quem desistiu antes."
+      "rotulo": "01 · PRAZO",
+      "titulo": "Retorno rápido é o que a empresa respondente declara, não o que foi auditado",
+      "texto": "A fonte não detalha como o retorno foi medido nem o que conta como valor mensurável. Para decidir, vale definir antes qual indicador do próprio atendimento vai provar o retorno."
     },
     {
-      "rotulo": "02 · DADOS",
-      "titulo": "A barreira citada é a que o fornecedor resolve",
-      "texto": "Integração e silos de dados aparecem como obstáculo principal. É um diagnóstico plausível, e também o argumento de venda de uma plataforma que unifica dados."
+      "rotulo": "02 · INTEGRAÇÃO",
+      "titulo": "O gargalo citado é dado e sistema, não o modelo de IA",
+      "texto": "Se a barreira número um é silo de dados, o trabalho de conectar CRM, ERP e canais de atendimento vem antes de ampliar o número de agentes."
     },
     {
-      "rotulo": "03 · MEDIDA",
-      "titulo": "Defina o que conta como retorno antes do piloto",
-      "texto": "A matéria não diz o que é retorno tangível. Sem esse critério escrito, o prazo de 60 dias não serve de meta nem de comparação."
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem mede vende a plataforma",
+      "texto": "A Salesforce comercializa agentes de atendimento. Os números podem estar corretos e ainda assim favorecer quem os divulgou; a amostra brasileira é de 300 pessoas."
     }
   ],
   "oQueFazer": [
-    "Se o atendimento é o primeiro processo candidato a agente, levante antes quais sistemas ele precisaria consultar e se esses dados estão acessíveis. Pelos próprios números da pesquisa, é aí que os projetos travam."
+    "Quem avalia agentes no atendimento pode usar o relatório como lista de perguntas ao fornecedor: em quanto tempo o retorno apareceu em clientes parecidos, medido por qual indicador e com quais sistemas integrados."
   ],
   "fontes": [
     {
@@ -48,19 +48,19 @@
   "ficha": [
     {
       "rotulo": "Quem mediu",
-      "valor": "Salesforce Research"
+      "valor": "Salesforce Research (7ª edição do State of Service)"
     },
     {
       "rotulo": "Amostra",
-      "valor": "mais de 6,5 mil profissionais em 40 países, 300 no Brasil"
+      "valor": "Mais de 6,5 mil profissionais em 40 países, 300 no Brasil"
+    },
+    {
+      "rotulo": "Período de campo",
+      "valor": "Não informado na fonte lida"
     },
     {
       "rotulo": "Divulgação",
-      "valor": "23 out 2026"
-    },
-    {
-      "rotulo": "Confirmação",
-      "valor": "não confirmada por fonte independente"
+      "valor": "23 out 2026 (Inforchannel)"
     }
   ]
 }

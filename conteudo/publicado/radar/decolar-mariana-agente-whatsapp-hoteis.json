@@ -1,0 +1,54 @@
+{
+  "id": "decolar-mariana-agente-whatsapp-hoteis",
+  "publicado_em": "2026-10-26T07:16:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Decolar lança no WhatsApp a Mariana, agente de IA que dá recomendações comerciais a hotéis parceiros",
+  "linha": "O agente cruza reservas, receita e demanda do destino e sugere ações. Está em testes em mercados selecionados, e a empresa não informou datas nem número de parceiros.",
+  "linhaFina": "Segundo o E-Commerce Brasil, a Decolar diz que a ferramenta não substitui os executivos de contas e deve chegar a hotéis de todo o Brasil e depois ao México.",
+  "fontePrimaria": "Decolar, via E-Commerce Brasil",
+  "leitura": 2,
+  "resumo": [
+    "A Decolar lançou a Mariana, agente de IA que atende hotéis e pousadas parceiros pelo WhatsApp, 24 horas por dia.",
+    "O agente reúne dados de desempenho, informações de mercado e recomendações comerciais para cada propriedade.",
+    "A solução está em testes com meios de hospedagem que têm contrato direto com a empresa, em mercados selecionados. Datas e número de parceiros atendidos não foram divulgados."
+  ],
+  "corpo": [
+    "A Decolar lançou um agente de IA para atender hotéis e pousadas parceiros, batizado de Mariana. A ferramenta funciona pelo WhatsApp e, segundo a empresa, consulta diferentes fontes, cruza informações e sugere ações, em vez de apenas responder perguntas.",
+    "Entre os indicadores analisados estão reservas, receita, diária média, noites vendidas, cancelamentos, antecedência de compra, estadia média e RevPAR (receita por quarto disponível). O agente também acompanha a disponibilidade, mostra o ritmo de buscas e reservas de cada destino e aponta períodos críticos e oportunidades ligadas a eventos e feriados.",
+    "A Mariana ainda sugere ajustes na página do hotel, como fotos, descrição e avaliações, e orienta sobre promoções, planos tarifários, comissões e uso da extranet. Segundo Roberto Rizo-Patrón, diretor Comercial de Produtos em Destino da Decolar, a experiência da equipe comercial foi usada para ensinar à tecnologia quais dados observar e como interpretá-los.",
+    "A empresa diz que o agente não substitui os executivos de contas: a IA cuida das demandas do dia a dia, e os profissionais seguem com o relacionamento e as análises estratégicas. Para as próximas etapas, a Decolar planeja incluir dados de tráfego aéreo, novos sinais de demanda, relatórios mensais e recomendações mais proativas."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CANAL",
+      "titulo": "O WhatsApp vira interface de gestão, não só de atendimento",
+      "texto": "O agente é oferecido ao parceiro, não ao consumidor final: o mesmo canal que o pequeno hotel já usa passa a entregar análise comercial."
+    },
+    {
+      "rotulo": "02 · LIMITE",
+      "titulo": "Sem resultado medido, é lançamento, não caso",
+      "texto": "A Decolar não divulgou datas, número de parceiros atendidos nem ganho de venda. O que se pode observar por ora é o desenho: dados da plataforma, recomendação e humano no relacionamento."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Decolar lança agente de IA no WhatsApp para orientar vendas de hotéis",
+      "origem": "E-Commerce Brasil · 23 out 2026",
+      "url": "https://www.ecommercebrasil.com.br/noticias/decolar-lanca-agente-de-ia-no-whatsapp-para-orientar-vendas-de-hoteis"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "Decolar, via E-Commerce Brasil"
+    },
+    {
+      "rotulo": "Situação",
+      "valor": "Em testes com parceiros de contrato direto, em mercados selecionados"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "23 out 2026"
+    }
+  ]
+}
