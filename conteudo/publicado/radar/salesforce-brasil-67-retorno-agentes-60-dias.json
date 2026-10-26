@@ -1,0 +1,66 @@
+{
+  "id": "salesforce-brasil-67-retorno-agentes-60-dias",
+  "publicado_em": "2026-10-25T07:15:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Salesforce diz que 67% das empresas brasileiras com agentes de IA tiveram retorno em até 60 dias, mas a integração de dados é a maior barreira",
+  "linha": "Segundo a 7ª edição do State of Service, da Salesforce, 67% das organizações no Brasil que implantaram agentes autônomos registram retorno tangível em até 60 dias. A barreira número um é a falta de integração entre sistemas.",
+  "linhaFina": "Pesquisa da Salesforce ouviu mais de 6,5 mil profissionais de atendimento em 40 países, 300 deles no Brasil. A fornecedora vende plataforma de agentes de atendimento.",
+  "fontePrimaria": "Salesforce, via Inforchannel",
+  "leitura": 3,
+  "resumo": [
+    "67% das organizações no Brasil que implementaram agentes autônomos de IA registram retorno tangível em até 60 dias, e 21% alcançam valor mensurável em menos de um mês.",
+    "A falta de integração de sistemas e os silos de dados são apontados como a barreira número um para expandir agentes no Brasil, acima de segurança e custo.",
+    "Os dados vêm da 7ª edição do State of Service, com mais de 6,5 mil profissionais de atendimento e líderes de operações em 40 países, incluindo 300 do Brasil."
+  ],
+  "corpo": [
+    "A Salesforce divulgou a 7ª edição do relatório global State of Service, que mapeia a transição das áreas de atendimento para o que a empresa chama de Agentic Enterprise, organizações em que profissionais e agentes de IA autônomos trabalham juntos. O Inforchannel publicou o recorte brasileiro em 23 de outubro.",
+    "Segundo o relatório, 67% das organizações no Brasil que implementaram agentes autônomos registram retorno tangível em até 60 dias, e 21% alcançam valor mensurável em menos de um mês. A pesquisa foi feita por entrevistas anônimas com mais de 6,5 mil profissionais de atendimento, líderes de operações de serviços e tomadores de decisão em 40 países, incluindo 300 no Brasil.",
+    "Os três principais casos de uso de agentes no país, segundo o estudo, são roteamento inteligente de chamados, recomendações preditivas de produtos e contato proativo, que dispara ações antes de o consumidor formalizar uma queixa.",
+    "A barreira número um para expandir agentes no Brasil é a falta de integração de sistemas e a existência de silos de dados, à frente de segurança e custo. No recorte global, a Salesforce atribui às organizações com agentes integrados aumento de até 23% na satisfação do cliente, 20% a mais em receita com recomendações e upsell e 20% de redução nos custos de serviço."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · DADOS",
+      "titulo": "A integração pesa mais que o modelo",
+      "texto": "O principal obstáculo citado não é o agente em si, e sim o acesso a dados espalhados em sistemas que não conversam. Quem pretende implantar um agente de atendimento deve começar por mapear onde estão esses dados."
+    },
+    {
+      "rotulo": "02 · PRAZO",
+      "titulo": "Retorno em 60 dias é o que quem respondeu declara, não uma medição auditada",
+      "texto": "Os números vêm de entrevistas. A nota não traz a definição de retorno tangível usada pela pesquisa, e esse critério muda muito o que 67% significa."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem mede também vende",
+      "texto": "A Salesforce comercializa uma plataforma de agentes de atendimento. Os números podem estar corretos e ainda assim favorecer quem os divulgou; a base brasileira é de 300 respondentes."
+    }
+  ],
+  "oQueFazer": [
+    "Antes de usar o prazo de 60 dias como referência interna, defina o que a empresa vai contar como retorno (tempo de espera, custo por atendimento, satisfação) e meça a situação atual. Sem essa linha de base, nenhum resultado de fornecedor pode ser comparado com o seu."
+  ],
+  "fontes": [
+    {
+      "titulo": "67% das empresas no Brasil atingem retorno com agentes de IA em até 60 dias",
+      "origem": "Inforchannel · matéria · 23 out 2026",
+      "url": "https://inforchannel.com.br/2026/10/23/67-das-empresas-no-brasil-atingem-retorno-com-agentes-de-ia-em-ate-60-dias/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Salesforce Research"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "Mais de 6,5 mil profissionais em 40 países, 300 no Brasil"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "23 out 2026 (matéria do Inforchannel)"
+    },
+    {
+      "rotulo": "Limite",
+      "valor": "recorte brasileiro não localizado na página da Salesforce; números conferidos só na matéria"
+    }
+  ]
+}
