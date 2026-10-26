@@ -1,0 +1,69 @@
+{
+ "id": "riachuelo-atendimento-agente-whatsapp",
+ "publicado_em": "2026-10-26T08:15:00-03:00",
+ "setor": "VAREJO",
+ "processo": "ATENDIMENTO",
+ "status": "em-operacao",
+ "empresa": "Riachuelo",
+ "titulo": "Fornecedor diz que o agente da Riachuelo no WhatsApp resolve 84% dos contatos sem atendente, contra 30% do chatbot anterior",
+ "linhaFina": "Os números vêm da Genesys e da própria Riachuelo, sem auditoria, e a fonte não traz custo do agente, período da medição nem como \"resolver\" foi definido.",
+ "resumo": "A Riachuelo usa um agente virtual da Genesys no WhatsApp para tratar atrasos de entrega e abrir chamados de suporte. Segundo a Genesys, 84% dos clientes que usam o autoatendimento resolvem sem funcionário, contra 30% no chatbot anterior.",
+ "leitura": 5,
+ "abertura": "A Riachuelo é uma varejista de moda com mais de 400 lojas e cerca de 1 milhão de interações com clientes por mês, segundo o estudo de caso da Genesys. Antes do projeto, os canais de voz e chat funcionavam separados, o monitoramento de qualidade era manual e os consultores interrompiam o atendimento para buscar a resposta certa.",
+ "problema": "Pedidos atrasados eram o principal motivo de contato do e-commerce. As perguntas eram simples (por que atrasou, quando chega, o que acontece agora), mas um funcionário ainda precisava passar a atualização, enviar o rastreamento ou abrir um chamado. O chatbot anterior, segundo a Genesys, resolvia 30% dos casos sem pessoa.",
+ "solucao": "A Riachuelo criou um Agente Virtual Agêntico do Genesys Cloud para o WhatsApp Business e o treinou com roteiros de alguns de seus consultores mais experientes. Segundo a Genesys, o agente envia links de rastreamento, cria chamados de suporte de nível 2, trata situações críticas e leva o cliente a opções de autoatendimento. Quando a questão precisa de pessoa, a conversa é transferida com o contexto. As fontes não dizem quais sistemas de pedido e logística o agente consulta.",
+ "resultado": "Segundo a Genesys, 84% dos clientes que usam o autoatendimento agêntico resolvem a demanda sem a ajuda de um colaborador, contra 30% com o chatbot anterior. A empresa relata aumento de 60% na satisfação dos clientes com o agente, e o gerente sênior de CX diz que antes \"praticamente nunca\" recebiam feedback positivo no chatbot. Os 26% de redução em custos de tecnologia vêm da migração do atendimento para a plataforma em nuvem da Genesys, e não do agente isolado.",
+ "humano": "Os consultores continuam disponíveis para exceções e para momentos que pedem julgamento, segundo o estudo de caso. A Riachuelo também usa um copiloto da Genesys para apoiar consultores e IA no monitoramento de qualidade, que são outras frentes do mesmo projeto. As fontes não informam quantos atendentes o canal tem hoje nem se o quadro mudou.",
+ "citacao": {
+  "texto": "Nós praticamente nunca recebíamos feedback positivo quando os clientes eram atendidos por um chatbot. Agora, com o agente de IA, a satisfação dos nossos clientes aumentou em 60%.",
+  "quem": "César Nicoletti, gerente sênior da Midway e Riachuelo, no estudo de caso da Genesys"
+ },
+ "numeros": [
+  {"valor": "84%", "legenda": "dos clientes do autoatendimento agêntico resolvem sem funcionário, contra 30% no chatbot anterior", "quemMediu": "Genesys, em comunicado de 29/set/2026 e estudo de caso; sem auditoria independente"},
+  {"valor": "+60%", "legenda": "de aumento na satisfação dos clientes com o agente virtual", "quemMediu": "Riachuelo e Genesys, em comunicado e estudo de caso; a métrica de satisfação não é detalhada"},
+  {"valor": "−26%", "legenda": "nos custos de tecnologia após a migração do atendimento para a nuvem", "quemMediu": "Genesys, em comunicado e estudo de caso; refere-se à migração, não só ao agente"},
+  {"valor": "1 mi", "legenda": "de interações com clientes por mês, no total dos canais da Riachuelo (não só o WhatsApp)", "quemMediu": "Genesys, em estudo de caso"}
+ ],
+ "fluxo": [
+  {"tipo": "ENTRADA", "nome": "Cliente no WhatsApp", "faz": "O cliente entra em contato pelo WhatsApp Business, em geral para saber de um pedido atrasado."},
+  {"tipo": "AGENTE", "nome": "Agente Virtual Agêntico (Genesys Cloud)", "faz": "Entende o pedido, envia link de rastreamento e conduz a jornada até a resolução, dentro de um processo de atendimento definido."},
+  {"tipo": "SISTEMA", "nome": "Sistemas de back office (não informados)", "faz": "Segundo a Genesys, o agente se conecta a sistemas e fluxos de back office. As fontes não dizem quais."},
+  {"tipo": "SAÍDA", "nome": "Pedido resolvido ou chamado aberto", "faz": "O agente resolve sozinho ou cria automaticamente um chamado de suporte de nível 2, preservando o contexto."},
+  {"tipo": "EXCEÇÃO", "nome": "Transferência para consultor", "faz": "Situações que exigem atenção adicional vão para um atendente humano, com o histórico da conversa."}
+ ],
+ "indicadores": [
+  {"nome": "Resolução sem funcionário", "antes": "30% (chatbot anterior)", "depois": "84% (agente agêntico)", "medida": "Genesys, no estudo de caso"}
+ ],
+ "naoConta": [
+  {"valor": "Definição", "texto": "as fontes não explicam o que conta como \"resolvido\": sem recontato em quantos dias, e se quem desistiu entra na conta. O estudo de caso também chama os 84% de \"retenção de clientes\" no resumo e de autoatendimento no texto."},
+  {"valor": "Custo e prazo", "texto": "não foram divulgados o custo do agente, o prazo de implantação nem o período em que os 84% foram medidos."},
+  {"valor": "Satisfação", "texto": "a Genesys cita +60% com o agente e, na mesma página, +11% na satisfação geral após a migração para a nuvem. Não há base, amostra ou pergunta de pesquisa para nenhum dos dois."}
+ ],
+ "licoes": [
+  {"titulo": "Comece pelo motivo de contato mais repetido", "texto": "A Riachuelo escolheu pedido atrasado: pergunta simples, resposta que está nos sistemas. Um agente tende a funcionar melhor onde a resposta existe e só falta alguém buscar."},
+  {"titulo": "Separe o ganho do agente do ganho da plataforma", "texto": "Os 26% de custo vêm da migração para a nuvem. Ao ler um caso de fornecedor, confira qual número pertence a qual parte do projeto."},
+  {"titulo": "Peça a definição de resolvido", "texto": "84% sem funcionário não diz se o cliente ficou satisfeito. Guarde a taxa do canal antigo, como a Riachuelo tinha (30%), e acompanhe recontato."}
+ ],
+ "ficha": [
+  {"rotulo": "Empresa", "valor": "Riachuelo"},
+  {"rotulo": "Setor", "valor": "Varejo (moda)"},
+  {"rotulo": "Processo", "valor": "Atendimento de e-commerce pelo WhatsApp (atraso de entrega e chamados)"},
+  {"rotulo": "Sistema", "valor": "Genesys Cloud Agentic Virtual Agent; sistemas de back office não informados"},
+  {"rotulo": "Quem fez", "valor": "Riachuelo com a Genesys"},
+  {"rotulo": "Status", "valor": "Em operação; sem data de início informada"},
+  {"rotulo": "Divulgação", "valor": "Comunicado e estudo de caso da Genesys, 29/set/2026"}
+ ],
+ "comoApuramos": "Lemos o comunicado da Genesys de 29 de setembro de 2026, o estudo de caso da Riachuelo no site da Genesys e a reportagem da ExpoEcomm de 13 de outubro de 2026, que repete os números atribuindo-os à Genesys. Todos os números e falas deste caso estão nessas fontes. Não houve visita nem entrevista: o caso foi montado apenas com fontes públicas.",
+ "transparencia": "A fonte primária é a Genesys, fornecedora da tecnologia, divulgando um cliente. A Riachuelo aparece por meio de citações do gerente sênior de CX. A reportagem da ExpoEcomm reproduz os dados da Genesys e diz que não há auditoria independente. Não há medição de terceiros.",
+ "fontes": [
+  {"titulo": "Riachuelo avança na experiência autônoma do cliente com o Genesys Cloud Agentic Virtual Agent", "origem": "Genesys, comunicado, 29/set/2026", "url": "https://www.genesys.com/pt-br/company/newsroom/announcements/riachuelo-advances-autonomous-customer-experience-with-genesys-cloud-agentic-virtual-agent"},
+  {"titulo": "Riachuelo aumenta a satisfação dos clientes em 60% com IA Agêntica", "origem": "Genesys, estudo de caso", "url": "https://www.genesys.com/pt-br/customer-stories/riachuelo"},
+  {"titulo": "Riachuelo usa IA agêntica no WhatsApp e resolve 84% dos atendimentos sem intervenção humana", "origem": "ExpoEcomm, 13/out/2026", "url": "https://www.expoecomm.com.br/noticias/riachuelo-usa-ia-agentica-no-whatsapp-e-resolve-84-dos-atendimentos-sem-intervencao-humana"}
+ ],
+ "imagem": {
+  "arquivo": "img/na-operacao/riachuelo-atendimento-agente-whatsapp-ia.png",
+  "alt": "Mesa de madeira com um celular virado para baixo, uma caixa de papelão lacrada e um caderno aberto; ao fundo, fora de foco, pessoas trabalhando em baias de um escritório de atendimento.",
+  "modelo": "gemini-3.1-flash-image",
+  "prompt": "A quiet e-commerce customer support office of a fashion retailer, a smartphone lying face down next to a cardboard shipping box and a notebook on a desk in the foreground, a few people working softly in the blurred background. Computer monitors turned away or out of focus with no readable content. No text, no lettering, no logos, no signage, no readable screens, no identifiable faces. Style: realistic editorial photo, shallow depth of field, calm, not staged, not stock-photo, muted navy and warm paper tones"
+ }
+}
