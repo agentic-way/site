@@ -1,0 +1,58 @@
+{
+  "id": "oracle-fusion-claw-agentes-cadeia-suprimentos",
+  "publicado_em": "2026-10-27T07:12:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Oracle lança três aplicações com agentes para cadeia de suprimentos, que executam ações dentro de limites definidos pela empresa",
+  "linha": "No Oracle AI World, a empresa apresentou aplicações do Fusion Claw para alocação de materiais, planejamento de cargas e análise de gastos com fornecedores. A Oracle não informou preço nem disponibilidade no Brasil.",
+  "linhaFina": "As aplicações rodam dentro do Fusion Cloud Supply Chain & Manufacturing e, segundo o comunicado, levam ações aprovadas até a execução.",
+  "fontePrimaria": "Oracle",
+  "leitura": 3,
+  "resumo": [
+    "Em 26 de outubro, a Oracle anunciou três aplicações agênticas baseadas no Fusion Claw, o ambiente de execução de agentes do Fusion: Supply Planning Allocation, Shipment Load Planning e Procurement Spend.",
+    "Segundo a Oracle, as aplicações avaliam alternativas, preparam planos para revisão e aprovação das equipes e executam as ações autorizadas, dentro das permissões e políticas definidas pela empresa.",
+    "O comunicado não traz preço, data de disponibilidade nem recorte por país."
+  ],
+  "corpo": [
+    "A Oracle anunciou em 26 de outubro, no Oracle AI World, em Las Vegas, aplicações do Fusion Claw para operações de cadeia de suprimentos. A empresa descreve o Fusion Claw como um ambiente de execução agêntica governado, que permite trabalho de maior escala e mais longo, replanejamento contínuo e execução determinística, dentro de políticas e controles da organização.",
+    "Cada aplicação cobre uma tarefa. A Supply Planning Allocation decide como distribuir materiais e capacidade escassos entre pedidos concorrentes, compara cenários e prepara planos para a equipe revisar e aprovar. A Shipment Load Planning avalia oportunidades de consolidação de cargas e, segundo o comunicado, toma ação aprovada em direção a planos de execução autorizados. A Procurement Spend analisa gastos, contratos de fornecedores e dados de compras para detectar gasto fora de contrato e recomendar correções para revisão e aprovação.",
+    "A Época Negócios, que acompanhou o evento, relatou uma demonstração em que o sistema analisou 154 cargas de uma empresa de logística, propôs combinar duas delas, com economia estimada em US$ 12 mil no cenário apresentado, e encaminhou cinco cargas para avaliação humana. A cobertura também menciona o registro de limites de atuação (Enterprise Operating Envelope) e um documento ao fim de cada tarefa (Outcome Receipt) com a autoridade usada, as decisões e as transações executadas; esses dois nomes aparecem na reportagem, não no comunicado da cadeia de suprimentos.",
+    "O comunicado diz que as aplicações são parte do Oracle AI Agent Studio para Fusion Applications, com observabilidade, medição de retorno e controles de segurança embutidos. A Oracle não informa preço, data de disponibilidade nem se a oferta está disponível no Brasil."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · LIMITE",
+      "titulo": "A pergunta passa a ser quanto a empresa delega",
+      "texto": "O modelo descrito separa o que o agente decide sozinho do que exige aprovação. Para quem usa Oracle Fusion, definir esses limites antes de ativar a função é decisão de processo, não de TI."
+    },
+    {
+      "rotulo": "02 · RASTRO",
+      "titulo": "Execução automática exige registro do que foi feito",
+      "texto": "Segundo a cobertura da Época Negócios, cada tarefa gera um registro de autoridade, dados consultados e transações. Vale pedir ao fornecedor o mesmo nível de registro em qualquer agente que altere sistema de gestão."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "O número da demonstração é da Oracle",
+      "texto": "A economia de US$ 12 mil vem de um cenário de palco, apresentado por quem vende a tecnologia. Não é resultado medido em cliente."
+    }
+  ],
+  "oQueFazer": [
+    "Quem tem Oracle Fusion SCM pode perguntar ao gerente de conta quando as três aplicações chegam à região, qual é a cobrança e como configurar o que exige aprovação humana. Quem usa outro sistema de gestão pode usar as mesmas perguntas com o seu fornecedor."
+  ],
+  "fontes": [
+    {
+      "titulo": "Oracle Introduces Claw-Powered Fusion Agentic Applications for Supply Chain",
+      "origem": "Oracle · comunicado · 26 out 2026",
+      "url": "https://www.oracle.com/news/announcement/ai-world-oracle-introduces-claw-powered-fusion-agentic-applications-for-supply-chain-2026-10-26/"
+    },
+    {
+      "titulo": "Oracle mostra IA que continua trabalhando depois do expediente e deixa 'recibo' do que fez",
+      "origem": "Época Negócios · 26 out 2026",
+      "url": "https://epocanegocios.globo.com/inteligencia-artificial/noticia/2026/10/oracle-mostra-ia-que-continua-trabalhando-depois-do-expediente-e-deixa-recibo-do-que-fez.ghtml"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem anunciou", "valor": "Oracle, no Oracle AI World (Las Vegas)" },
+    { "rotulo": "Divulgação", "valor": "26 out 2026" },
+    { "rotulo": "Preço e disponibilidade", "valor": "não informados no comunicado" }
+  ]
+}
