@@ -1,0 +1,65 @@
+{
+  "id": "rd-station-criador-agentes-conector-gemini",
+  "publicado_em": "2026-10-28T07:15:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "RD Station, da Totvs, lança criador de agentes de IA e diz ser a primeira brasileira do segmento com conexão nativa ao Gemini",
+  "linha": "A RD Station apresentou no Universo TOTVS um criador de agentes para Marketing, Vendas e Atendimento e conectores MCP com ChatGPT e Google Gemini. A empresa quer ter as ferramentas operáveis sem interface até meados de 2027.",
+  "linhaFina": "O criador de agentes estava em testes com um grupo restrito, e a RD previa o lançamento faseado para a base de clientes em outubro de 2026. O acesso por MCP depende de plano elegível.",
+  "fontePrimaria": "RD Station (Totvs), via AdNews e Central do Varejo",
+  "leitura": 3,
+  "resumo": [
+    "A RD Station, operação da Totvs, apresentou no Universo TOTVS 2026 (13 e 14 de outubro, em São Paulo) um criador de agentes de IA nativo para Marketing, Vendas e Atendimento.",
+    "Os agentes podem ser reativos, para conversas por chat, ou automatizados, para tarefas agendadas, e podem ser montados do zero, por template ou por um copiloto que recebe a descrição em texto.",
+    "Os conectores de IA usam o protocolo MCP para ligar a RD ao ChatGPT e ao Google Gemini. Segundo a empresa, é a primeira brasileira do segmento com conexão nativa ao Gemini.",
+    "O vice-presidente da Totvs à frente da RD, Gustavo Avelar, diz que a meta é que, até meados de 2027, as ferramentas possam ser operadas sem acessar as interfaces tradicionais."
+  ],
+  "corpo": [
+    "Segundo a AdNews e a Central do Varejo, a RD Station apresentou no Universo TOTVS 2026 um pacote de recursos de IA para Marketing, Vendas e Atendimento: o Criador de Agentes de IA, os Conectores de IA e a IA para Negociações, integrada ao RD Station CRM. A Central do Varejo informa que o criador de agentes havia sido anunciado no Mundo RD 2026 e estava em testes com um grupo restrito de clientes e parceiros, com lançamento faseado para a base prevista para outubro de 2026.",
+    "O criador de agentes é nativo e usa os dados e os fluxos da jornada do cliente nos produtos da RD. Os agentes reativos atendem interações por chat; os automatizados executam tarefas agendadas. A criação pode partir do zero, de templates ou de um copiloto que recebe a descrição em texto.",
+    "Os conectores usam o Model Context Protocol (MCP) para que ferramentas como ChatGPT e Google Gemini consultem dados e executem tarefas dentro da RD Station, sem integração personalizada e sem migrar os dados para outra plataforma. A página da RD sobre o MCP diz que o acesso exige um plano elegível, que a conexão usa um token gerado pelo cliente e que as ações respeitam as permissões configuradas na conta.",
+    "A IA para Negociações, no CRM, usa análise preditiva para identificar concorrentes citados, sinais de intenção de compra e a probabilidade de fechamento de cada oportunidade. Nenhuma das fontes divulga preço, planos incluídos ou número de clientes que já usam os recursos."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · INTEGRAÇÃO",
+      "titulo": "O agente passa a entrar pelo CRM que a empresa já tem",
+      "texto": "Quem usa RD Station pode testar agentes e consultas por IA sem um projeto de integração, desde que o plano permita. A decisão deixa de ser técnica e vira de permissão: quais dados e quais ações a IA externa pode acessar."
+    },
+    {
+      "rotulo": "02 · PERMISSÃO",
+      "titulo": "Conectar ChatGPT ou Gemini a dados de clientes exige regra interna",
+      "texto": "O conector dá a uma ferramenta de IA acesso a dados de leads e negociações. Vale definir antes quem gera o token, que escopo ele tem e quem revisa as ações executadas."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "As metas vêm da própria fornecedora",
+      "texto": "A promessa de ferramentas 100% operáveis sem interface até meados de 2027 é um objetivo declarado pela Totvs, não um recurso entregue. Também não há dado de resultado de clientes nas fontes."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem usa a RD Station, o passo prático é confirmar com a fornecedora se o plano contratado inclui o MCP e o criador de agentes, e em qual data o recurso chega à conta."
+  ],
+  "fontes": [
+    {
+      "titulo": "RD Station quer tornar suas ferramentas operáveis por IA sem depender de interfaces até 2027",
+      "origem": "AdNews · 26 out 2026",
+      "url": "https://adnews.com.br/post/rd-station-quer-tornar-suas-ferramentas-operaveis-por-ia-sem-depender-de-interfaces-ate-2027"
+    },
+    {
+      "titulo": "RD Station apresenta criador de agentes de IA e conectores com ChatGPT e Gemini",
+      "origem": "Central do Varejo · 26 out 2026",
+      "url": "https://centraldovarejo.com.br/rd-station-apresenta-criador-de-agentes-de-ia-e-conectores-com-chatgpt-e-gemini/"
+    },
+    {
+      "titulo": "MCP RD Station: conecte ChatGPT e Claude aos seus dados reais",
+      "origem": "RD Station · página do produto",
+      "url": "https://www.rdstation.com/inteligencia-artificial/mcp/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem anunciou", "valor": "RD Station (Totvs), no Universo TOTVS 2026" },
+    { "rotulo": "Divulgação", "valor": "26 out 2026" },
+    { "rotulo": "Disponibilidade", "valor": "lançamento faseado previsto para outubro de 2026; MCP só em plano elegível" },
+    { "rotulo": "Preço", "valor": "não divulgado" }
+  ]
+}
