@@ -1,0 +1,50 @@
+{
+  "id": "bradesco-magalu-roche-agentes-valor-supervisao-humana",
+  "publicado_em": "2026-10-28T07:15:00-03:00",
+  "tema": "CASOS",
+  "titulo": "Bradesco diz ter 70 agentes de IA na área de tecnologia e reduzir em até 95% o tempo de análise de documentos, segundo o Valor",
+  "linha": "Reportagem do Valor reúne Bradesco, Magazine Luiza e Roche Brasil: todos descrevem agentes com supervisão humana, e os números citados são das próprias empresas.",
+  "linhaFina": "O Magalu diz que o WhatsApp da Lu já teve mais de 9 milhões de conversas. O Bradesco diz que mais de 5 mil profissionais de tecnologia são apoiados por agentes.",
+  "fontePrimaria": "Bradesco, Magazine Luiza e Roche Brasil, via Valor Econômico",
+  "leitura": 3,
+  "resumo": [
+    "O Bradesco diz que a plataforma interna Bia Tech AgentiX reúne 70 agentes especializados e que mais de 5 mil profissionais de tecnologia são apoiados por agentes.",
+    "A diretora executiva Silvana Machado cita 85% de acurácia na criação de testes automatizados e redução de até 95% no tempo de leitura e análise de documentos em determinados processos.",
+    "O Magazine Luiza diz que o WhatsApp da Lu, de arquitetura multiagente lançado no fim de 2025, já gerou mais de 9 milhões de conversas, com humanos definindo diretrizes e travas de segurança."
+  ],
+  "corpo": [
+    "A reportagem do Valor Econômico, publicada em 26 de outubro dentro do especial GPTW, descreve como Magalu, Roche e Bradesco usam agentes de IA e afirma que a disseminação ainda é restrita a grandes empresas e startups. Em todos os casos, os executivos dizem que há supervisão humana.",
+    "No Bradesco, a plataforma Bia Tech AgentiX orquestra 70 agentes para engenharia reversa, geração de documentação, modernização tecnológica, avaliação automatizada de mudanças e análise de incidentes. Silvana Machado, diretora executiva de pessoas e sustentabilidade, cita 69,5% de eficiência na escrita de histórias para engajar funcionários, 85% de acurácia na criação de testes automatizados e redução de até 95% no tempo de leitura e análise de documentos em determinados processos. A reportagem não informa como cada indicador foi medido. O banco diz ainda que mais de 10 mil funcionários passaram por iniciativas de aprendizagem em IA em 2026.",
+    "No Magazine Luiza, o WhatsApp da Lu usa uma arquitetura de vários agentes. Segundo a empresa, os funcionários definem as diretrizes operacionais, o tom de voz, as políticas de privacidade e as travas de segurança. A IA faz a primeira avaliação da qualidade do atendimento e atribui uma nota; quando há desvio grande, uma pessoa estuda o caso e dá retorno à IA.",
+    "A Roche Farma Brasil diz usar agentes descentralizados no mapeamento de gargalos da jornada do paciente, na análise de dados, na revisão de código e na otimização de pesquisas clínicas, além de um agente de desenvolvimento de carreira que cruza dados internos com o plano de cada funcionário."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · MEDIDA",
+      "titulo": "Os ganhos citados não trazem método de medição",
+      "texto": "Percentuais como 'até 95%' valem para processos específicos e vêm das empresas. Para comparar com a própria operação, é preciso saber o que foi medido, em que base e em quanto tempo."
+    },
+    {
+      "rotulo": "02 · SUPERVISÃO",
+      "titulo": "O desenho comum é humano definindo regras e revisando desvios",
+      "texto": "No Magalu, pessoas definem as travas e tratam os desvios grandes. O padrão aparece nos três relatos e é útil como ponto de partida para desenhar a alçada de um agente."
+    },
+    {
+      "rotulo": "03 · PORTE",
+      "titulo": "São casos de grandes empresas",
+      "texto": "Uma plataforma interna com 70 agentes pressupõe equipe e dados organizados. A reportagem aponta que a adoção ainda é restrita a grandes empresas e startups."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Agentes de IA começam a transformar as rotinas nas grandes companhias",
+      "origem": "Valor Econômico · especial GPTW · 26 out 2026",
+      "url": "https://valor.globo.com/publicacoes/especiais/gptw-melhores-empresas-para-trabalhar/noticia/2026/10/26/agentes-de-ia-comecam-a-transformar-as-rotinas-nas-grandes-companhias.ghtml"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem afirma os números", "valor": "Bradesco e Magazine Luiza, em entrevista ao Valor" },
+    { "rotulo": "Divulgação", "valor": "26 out 2026" },
+    { "rotulo": "Confirmação", "valor": "não confirmada de forma independente" }
+  ]
+}

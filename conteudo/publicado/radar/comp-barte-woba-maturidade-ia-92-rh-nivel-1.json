@@ -1,0 +1,50 @@
+{
+  "id": "comp-barte-woba-maturidade-ia-92-rh-nivel-1",
+  "publicado_em": "2026-10-28T07:15:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Estudo de Comp, Barte e Woba: 92% das áreas de RH ficam no nível mais básico de maturidade em IA quando testadas, contra 64% que se declaram nele",
+  "linha": "O estudo, com mais de 300 profissionais de RH, financeiro e facilities, diz que a IA é usada de forma individual, sem método nem medição, e que nenhuma área de RH confirmou executar um processo de ponta a ponta com IA.",
+  "linhaFina": "As três empresas que fizeram o levantamento vendem soluções para as áreas estudadas. A fonte é a reportagem do TI Inside; o relatório original não foi localizado.",
+  "fontePrimaria": "Comp, Barte e Woba, via TI Inside",
+  "leitura": 3,
+  "resumo": [
+    "No RH, 64% dos líderes se colocaram no nível 1 ou abaixo da escala de cinco estágios. Quando as áreas foram avaliadas por testes objetivos, 92% ficaram nesse patamar e nenhuma confirmou os níveis 3, 4 ou 5.",
+    "Em facilities, 83% usam IA individualmente, 90% não seguem método compartilhado e 93% não medem os ganhos.",
+    "Em finanças, o fechamento do mês aparece como maior gargalo em 60% das pequenas, 68% das médias e 69% das grandes empresas."
+  ],
+  "corpo": [
+    "O TI Inside noticiou em 27 de outubro um estudo conjunto de Comp (RH), Barte (financeiro) e Woba (facilities), que ouviram executivos e líderes de empresas enterprise, com mais de 300 profissionais no total. As três aplicaram a mesma escala de cinco estágios, do uso individual e não padronizado (nível 1) a uma camada de IA que aprende com o resultado das próprias decisões (nível 5). Segundo a reportagem, os métodos de coleta e os tamanhos de amostra de cada recorte estão detalhados nas seções do estudo, que não são reproduzidos na matéria.",
+    "No RH, a Comp mediu a maturidade de duas formas. Na autodeclaração, 64% se colocaram no nível 1 ou abaixo, 24% no nível 2, 10% no nível 3 e 2% nos níveis 4 e 5. Nos testes objetivos, 92% caíram no nível 1 ou abaixo e 8% chegaram ao nível 2. Entre as áreas que declaram ter uma solução compartilhada de IA, 75% têm uma instância única, mas só 25% cobrem praticamente toda tarefa recorrente. Quando o critério é executar um processo de ponta a ponta entre sistemas como HRIS, folha e recrutamento, a confirmação é zero.",
+    "Em facilities, a Woba diz que 87% têm baixa prontidão de dados e que 80% das operações estão no nível 1. Para a empresa, o uso individual cresce sem processo e sem medição. No financeiro, a Barte diz que o fechamento em até cinco dias é parecido entre grandes (64%) e pequenas (50%) empresas, o que indicaria um gargalo de método, não de tamanho.",
+    "A Comp excluiu os próprios clientes da base de RH. As três empresas vendem soluções para as áreas que mediram."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · AUTODECLARAÇÃO",
+      "titulo": "O que a liderança diz ter e o que a operação sustenta diferem",
+      "texto": "No RH, a distância entre a resposta declarada e o teste objetivo foi de 64% para 92% no nível mais básico. Perguntar 'vocês usam agentes?' tende a superestimar a maturidade."
+    },
+    {
+      "rotulo": "02 · PROCESSO",
+      "titulo": "Ferramenta compartilhada não significa tarefa coberta",
+      "texto": "Ter uma IA para toda a equipe é diferente de rodar os fluxos recorrentes com ela por padrão. Só um quarto das áreas que declaram a camada compartilhada chegam a isso, segundo a Comp."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem mediu vende o que o estudo recomenda",
+      "texto": "Os números podem estar certos, mas as três empresas oferecem soluções de IA para RH, finanças e facilities. A amostra por área não aparece na reportagem."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "IA: Estudo revela abismo entre o uso declarado e o real resultado nas empresas",
+      "origem": "TI Inside · 27 out 2026",
+      "url": "https://tiinside.com.br/27/10/2026/estudo-revela-abismo-entre-o-uso-declarado-e-o-real-resultado-nas-empresas/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Comp (RH), Barte (financeiro) e Woba (facilities)" },
+    { "rotulo": "Amostra", "valor": "mais de 300 profissionais, ao longo de 2026; tamanho por recorte não informado na reportagem" },
+    { "rotulo": "Divulgação", "valor": "27 out 2026" }
+  ]
+}
