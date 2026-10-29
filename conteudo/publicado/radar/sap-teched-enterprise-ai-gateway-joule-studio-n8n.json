@@ -1,0 +1,62 @@
+{
+  "id": "sap-teched-enterprise-ai-gateway-joule-studio-n8n",
+  "publicado_em": "2026-10-29T07:12:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "SAP anuncia no TechEd o Enterprise AI Gateway e a integração do Joule Studio com o n8n para agentes",
+  "linha": "Segundo a SAP, o Enterprise AI Gateway vai centralizar autenticação, políticas, monitoramento e auditoria das interações de IA; o Joule Studio ganha integração com o n8n e recursos de teste e monitoramento de agentes.",
+  "linhaFina": "Anúncios do SAP TechEd 2026, em Berlim, divulgados pela SAP Brasil em 28 de outubro. O comunicado não traz datas de disponibilidade nem preços.",
+  "fontePrimaria": "SAP Notícias Brasil",
+  "leitura": 3,
+  "resumo": [
+    "A SAP anunciou no SAP TechEd 2026, em Berlim, o SAP Enterprise AI Gateway, que vai centralizar autenticação, aplicação de políticas, monitoramento de uso e auditoria das interações de IA nas organizações.",
+    "O Joule Studio, usado para criar e personalizar agentes, ganha integração com a plataforma de automação n8n e recursos de monitoramento e testes para avaliar agentes antes da entrada em produção.",
+    "A Joule Work passa a ter novos recursos de orquestração, inclusive para ambientes que não usam tecnologia SAP, e o SAP AI Agent Hub recebe novos recursos de governança."
+  ],
+  "corpo": [
+    "A SAP divulgou em 28 de outubro, em seu portal de notícias no Brasil, os anúncios feitos no SAP TechEd 2026, em Berlim. O texto descreve as novidades como recursos que \"serão\" ou \"permitirão\" fazer algo, e não traz datas de disponibilidade, preços nem informação sobre o que já chega ao Brasil.",
+    "Na criação de agentes, o Joule Studio permitirá desenvolver fluxos de trabalho que conectam diferentes aplicações e processos por meio da integração com o n8n. A SAP diz que novos recursos de monitoramento e testes ajudarão as empresas a acompanhar o comportamento dos agentes, controlar alterações e avaliar desempenho antes da produção. O Joule Studio oferece mais de 70 modelos, segundo a empresa.",
+    "Na camada de controle, o SAP Enterprise AI Gateway reunirá autenticação, aplicação de políticas, monitoramento de uso e auditoria. A SAP também citou novos recursos de governança no SAP AI Agent Hub e um assistente de apoio à conformidade com regulamentações como o AI Act da União Europeia.",
+    "A Joule Work, que recebe objetivos em linguagem natural e aciona agentes, aplicações e dados, ganha orquestração para tarefas que envolvem várias áreas e sistemas, incluindo ambientes sem tecnologia SAP. A empresa cita ainda interoperabilidade entre agentes de diferentes fornecedores por protocolos abertos e controle de acesso."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CONTROLE",
+      "titulo": "O controle dos agentes passa a ser vendido junto com a plataforma",
+      "texto": "Autenticação, política, auditoria e teste antes da produção aparecem no mesmo anúncio que a criação de agentes. Para quem usa SAP, vale perguntar ao fornecedor o que já está disponível e o que está em roteiro."
+    },
+    {
+      "rotulo": "02 · LEGADO",
+      "titulo": "Orquestração fora do SAP é o ponto a verificar",
+      "texto": "A promessa de coordenar sistemas que não são SAP é o que decide o valor para empresas com ERPs e CRMs mistos. O comunicado não detalha quais sistemas nem como."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "É anúncio do fornecedor, sem data",
+      "texto": "A fonte é a própria SAP e usa verbos no futuro. Sem datas, preços e disponibilidade no Brasil, ainda não é possível planejar contratação com base nele."
+    }
+  ],
+  "oQueFazer": [
+    "Clientes SAP podem pedir ao gerente de conta a lista do que dessas novidades já está em disponibilidade geral, em quais regiões e com que cobrança, antes de tratar o anúncio como plano."
+  ],
+  "fontes": [
+    {
+      "titulo": "SAP anuncia novos recursos de IA para acelerar a transformação das empresas em organizações autônomas",
+      "origem": "SAP Notícias Brasil · 28 out 2026",
+      "url": "https://news.sap.com/brazil/2026/10/sap-anuncia-novos-recursos-de-ia-para-acelerar-a-transformacao-das-empresas-em-organizacoes-autonomas/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Evento",
+      "valor": "SAP TechEd 2026, Berlim"
+    },
+    {
+      "rotulo": "Disponibilidade",
+      "valor": "não informada no comunicado"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "28 out 2026"
+    }
+  ]
+}
