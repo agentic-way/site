@@ -1,8 +1,8 @@
 {
   "id": "checklist-antes-de-ativar-agente-do-erp",
   "publicado_em": "2026-10-21T08:00:00-03:00",
-  "atualizado_em": "2026-10-21T08:00:00-03:00",
-  "versao": "1.0",
+  "atualizado_em": "2026-10-28T08:00:00-03:00",
+  "versao": "1.1",
   "assunto": "CONTRATAÇÃO",
   "formato": "CHECKLIST",
   "titulo": "Seis itens para conferir antes de ativar o agente de IA que vem no seu ERP",
@@ -47,11 +47,11 @@
     },
     {
       "curta": "Custo",
-      "pergunta": "Como o agente é cobrado, o que conta como uma unidade, e o que acontece quando passa da franquia?",
-      "porque": "Segundo o InfoMoney, a Totvs vai cobrar os agentes por tarefa concluída, com franquia mensal em T-Coins e cobrança à parte pelo excedente. As fontes não trazem o valor do T-Coin nem o critério de tarefa concluída. Sem isso, a conta é impossível de prever.",
-      "boa": "Tabela de preço, definição escrita de tarefa concluída, regra do excedente e uma estimativa feita com o volume do seu processo.",
-      "ruim": "Preço \"sob consulta\" depois da ativação, ou definição de unidade que o fornecedor pode mudar sem aviso.",
-      "anote": "Unidade de cobrança, valor, franquia, regra do excedente, volume mensal estimado."
+      "pergunta": "Como o agente é cobrado, o que conta como uma unidade, o que acontece quando passa da franquia e o fornecedor pode trocar o modelo que executa a tarefa?",
+      "porque": "Segundo o InfoMoney, a Totvs vai cobrar os agentes por tarefa concluída, com franquia mensal em T-Coins e cobrança à parte pelo excedente. As fontes não trazem o valor do T-Coin nem o critério de tarefa concluída. Sem isso, a conta é impossível de prever. Segundo o Citi, relatado pelo Times Brasil, a Totvs pode alternar entre modelos de IA aprovados para reduzir custos sem interromper os fluxos. Numa pesquisa da VentureBeat (109 respondentes qualificados), 59% das empresas que trocaram o modelo de um app em produção viram o desempenho cair e refizeram o app ou voltaram ao modelo anterior. Com preço por tarefa, quem escolhe o modelo controla o custo e a qualidade, e a queda de desempenho aparece na sua operação.",
+      "boa": "Tabela de preço, definição escrita de tarefa concluída, regra do excedente, aviso prévio de troca de modelo com direito de retestar e uma estimativa feita com o volume do seu processo.",
+      "ruim": "Preço \"sob consulta\" depois da ativação, definição de unidade que o fornecedor pode mudar sem aviso, ou troca de modelo sem comunicação ao cliente.",
+      "anote": "Unidade de cobrança, valor, franquia, regra do excedente, regra de aviso de troca de modelo, volume mensal estimado."
     },
     {
       "curta": "Saída",
@@ -64,9 +64,20 @@
   ],
   "fechamento": "Se duas ou mais respostas forem ruins, adie a ativação e leve o contrato ao jurídico. Se forem boas, comece por um processo só, com aprovação humana em cada ação, e compare o registro do agente com o trabalho feito à mão nas primeiras semanas. Guarde as respostas: elas serão sua referência na renovação seguinte.",
   "historico": [
+    {"data": "out/2026", "versao": "1.1", "texto": "Item 05 (Custo) ampliado: passou a perguntar se o fornecedor pode trocar o modelo que executa a tarefa, e a pedir aviso prévio e direito de retestar. Motivo: o Citi, segundo o Times Brasil, diz que a Totvs pode alternar entre modelos aprovados, e a VentureBeat apurou que 59% das empresas que trocaram o modelo de um app em produção viram o desempenho cair."},
     {"data": "out/2026", "versao": "1.0", "texto": "Publicação. Parte da análise \"O agente da empresa média vai chegar como atualização do ERP, não como compra\"."}
   ],
   "fontes": [
+    {
+      "titulo": "Citi fica mais otimista com a Totvs após lançamento de cobrança por tarefa de agentes de inteligência artificial",
+      "origem": "Times Brasil (CNBC) · relatório do Citi · 14 out 2026",
+      "url": "https://timesbrasil.com.br/empresas-e-negocios/tecnologia-e-inovacao/citi-totvs-taas-cobranca-agentes-inteligencia-artificial/"
+    },
+    {
+      "titulo": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+      "origem": "VentureBeat · Matt Marshall · 13 out 2026",
+      "url": "https://venturebeat.com/orchestration/openais-ai-agent-platform-is-used-by-twice-as-many-companies-as-anthropics-new-venturebeat-survey-finds"
+    },
     {
       "titulo": "Com Corten, Totvs aposta em \"sistema operacional de gestão\" para ir além do ERP",
       "origem": "IT Forum · 13 out 2026",
