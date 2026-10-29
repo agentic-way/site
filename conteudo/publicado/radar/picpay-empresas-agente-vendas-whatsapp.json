@@ -1,0 +1,57 @@
+{
+  "id": "picpay-empresas-agente-vendas-whatsapp",
+  "publicado_em": "2026-10-29T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "PicPay oferece a clientes PJ um agente de IA que vende pelo WhatsApp, segundo o Mobile Time",
+  "linha": "No app PicPay Empresas, o lojista cadastra catálogo e preços e lança um agente que atende por texto, imagem e áudio e leva o cliente ao pagamento por Pix, cartão ou QR Code.",
+  "linhaFina": "Segundo o Mobile Time, é o segundo tipo de agente de IA que o neobanco oferece a clientes PJ; o primeiro cria campanhas de marketing digital. A matéria não informa preço nem data de início.",
+  "fontePrimaria": "PicPay, via Mobile Time",
+  "leitura": 2,
+  "resumo": [
+    "Pelo app PicPay Empresas, o cliente PJ cria uma loja digital com a própria identidade visual, cadastra catálogo e preços e lança um agente de IA para vender no WhatsApp.",
+    "Segundo o Mobile Time, o agente trabalha 24 horas, comunica-se por texto, interpreta imagens e entende áudios, apresenta produtos e preços e conduz o consumidor até o pagamento.",
+    "Os meios de pagamento citados são Pix, cartão de crédito e QR Code do PicPay."
+  ],
+  "corpo": [
+    "O Mobile Time publicou em 27 de outubro que o PicPay passou a oferecer a pessoas jurídicas uma ferramenta de criação de agentes de IA para vendas no WhatsApp. A matéria não cita comunicado do PicPay; a descrição vem do próprio veículo.",
+    "O fluxo descrito: dentro do PicPay Empresas, o cliente monta uma loja digital com identidade visual própria, cadastra produtos e preços e lança o agente. O \"vendedor virtual\" atua em nome do lojista de forma autônoma, segundo a matéria, e aceita Pix, cartão de crédito e QR Code do PicPay.",
+    "É o segundo agente de IA que o neobanco disponibiliza a clientes PJ. O primeiro foi um agente para criar campanhas de marketing digital. A matéria não informa preço, limites de uso, quantos clientes têm acesso nem como o lojista revisa o que o agente combina com o consumidor."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CANAL",
+      "titulo": "O banco entra como plataforma de agentes para o pequeno lojista",
+      "texto": "Catálogo, agente e pagamento ficam no mesmo app. Para a empresa menor, reduz integrações; em troca, concentra a operação de venda em um fornecedor financeiro."
+    },
+    {
+      "rotulo": "02 · AUTONOMIA",
+      "titulo": "Agente que fecha venda sozinho exige regras sobre preço e exceção",
+      "texto": "A matéria diz que o agente vende de forma autônoma, mas não descreve limites de desconto, tratamento de pedidos fora do catálogo ou passagem para uma pessoa."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Descrição única, sem resultado medido",
+      "texto": "Não há número de vendas, taxa de conversão ou preço. Trata-se de lançamento de produto, não de caso com resultado."
+    }
+  ],
+  "oQueFazer": [
+    "Empresas que já vendem por WhatsApp podem comparar a oferta com a que já usam em três pontos: custo, limites que o lojista consegue definir e registro das conversas."
+  ],
+  "fontes": [
+    {
+      "titulo": "PicPay oferece a cliente PJ agentes de IA para vendas no WhatsApp",
+      "origem": "Mobile Time · 27 out 2026",
+      "url": "https://www.mobiletime.com.br/noticias/27/10/2026/picpay-agentes-vendas/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "Mobile Time; sem comunicado do PicPay citado"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "27 out 2026"
+    }
+  ]
+}
