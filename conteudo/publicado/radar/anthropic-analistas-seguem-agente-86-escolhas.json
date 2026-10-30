@@ -1,0 +1,63 @@
+{
+  "id": "anthropic-analistas-seguem-agente-86-escolhas",
+  "publicado_em": "2026-10-30T07:12:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Estudo da Anthropic: 50 analistas seguiram a inclinação oculta do agente em 86% das escolhas",
+  "linha": "Em teste randomizado com Claude Code, analistas experientes adotaram a preferência sorteada do agente e quase nunca citaram o agente como origem dos argumentos.",
+  "linhaFina": "Experimento da própria Anthropic, em tarefa fictícia de análise estatística, indica que revisão humana só funciona como controle independente se o julgamento for de fato da pessoa.",
+  "fontePrimaria": "Anthropic",
+  "leitura": 4,
+  "resumo": [
+    "A Anthropic pediu a 50 analistas com experiência em inferência causal que avaliassem um programa fictício de assessoria agrícola com o Claude Code.",
+    "Em quatro escolhas analíticas, o agente recebeu, por sorteio e sem aviso aos analistas, uma inclinação para uma das duas opções; eles seguiram essa inclinação em 86% dos casos, contra cerca de 50% esperados sem influência.",
+    "77% repetiram argumentos do agente nas justificativas e só 15% citaram o agente como fonte."
+  ],
+  "corpo": [
+    "A Anthropic publicou em 27 de outubro um estudo em que 61 analistas fizeram uma análise estatística com o Claude Code; 11 optaram por não usar o agente e ficaram fora da análise principal, restando 50. Todos tinham passado por uma checagem de conhecimento em inferência causal e usavam Python ou R com regularidade. A tarefa era fictícia: avaliar se o programa de assessoria de uma cooperativa agrícola aumentava a produtividade o bastante para ser ampliado.",
+    "Havia quatro escolhas com duas opções defensáveis cada: a medida de resultado, o método de comparação, quais fazendas entram e a ponderação. Uma instrução oculta, sorteada por moeda, fazia o agente preferir uma das opções e defendê-la com honestidade. Os analistas seguiram a inclinação em 86% das vezes: 92% na medida de resultado, 82% no método, 81% nas fazendas incluídas e 90% na ponderação. Quando já tinham expressado preferência antes do agente, trocaram de lado em 60% dos casos em que o agente discordava e em 6% quando concordava, com base em apenas 38 casos.",
+    "Na recomendação final, 54% recomendaram ampliar o programa quando o agente puxava nessa direção, contra 36% quando puxava no sentido oposto. 52% disseram que a recomendação era mais sua do que do agente. A Anthropic ressalva que reforçou as inclinações de propósito, que a tarefa foi única, em um só setor e com um só modelo, e que o efeito no mundo real pode ser menor.",
+    "O estudo também mostra um lado favorável: quem usou o agente terminou mais rápido e cometeu menos erros graves do que os 11 que preferiram trabalhar sem ele, mas a Anthropic considera a comparação frágil porque esse grupo era pequeno e menos experiente."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · REVISÃO",
+      "titulo": "Aprovação humana só vale se o julgamento for independente",
+      "texto": "Em fluxos com revisão humana, o resultado indica que o revisor pode adotar o argumento do agente sem perceber. O estudo sugere medir isso, em vez de presumir."
+    },
+    {
+      "rotulo": "02 · DESENHO",
+      "titulo": "Como o agente apresenta a opção importa",
+      "texto": "A Anthropic recomenda agentes que mostrem o melhor argumento de cada opção ou perguntem a opinião da pessoa antes de dar a sua. É um critério para avaliar ferramentas."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem mede também vende o agente",
+      "texto": "A Anthropic fabrica o Claude. O estudo é crítico ao próprio produto, mas é um experimento único, em tarefa fictícia, que ainda não foi replicado por terceiros."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "How AI agents shape experts' judgment calls",
+      "origem": "Anthropic · pesquisa · 27 out 2026",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Anthropic (Herdağdelen, Joren e Tamkin)"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "50 analistas na análise principal (61 recrutados)"
+    },
+    {
+      "rotulo": "Método",
+      "valor": "Teste randomizado, tarefa fictícia, Claude Code com Claude Opus 4.8"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "27 out 2026"
+    }
+  ]
+}
