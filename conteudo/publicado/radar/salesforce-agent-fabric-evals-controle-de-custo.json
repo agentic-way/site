@@ -1,0 +1,63 @@
+{
+  "id": "salesforce-agent-fabric-evals-controle-de-custo",
+  "publicado_em": "2026-10-30T07:12:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Salesforce amplia o Agent Fabric com testes contínuos de agentes e limites rígidos de gasto",
+  "linha": "O Agent Evals avalia agentes em produção e pode acionar um interruptor de desligamento; os controles de custo já estão disponíveis, e os testes entram em beta em novembro.",
+  "linhaFina": "Segundo a Salesforce, o Agent Fabric, plataforma de controle de agentes da MuleSoft, ganha avaliação de qualidade, descoberta de agentes internos e limites de gasto por orçamento.",
+  "fontePrimaria": "Salesforce",
+  "leitura": 3,
+  "resumo": [
+    "A Salesforce anunciou Agent Evals, API Evals e controles de custo avançados para o Agent Fabric, sua plataforma de controle de agentes.",
+    "O Agent Evals avalia agentes, modelos e servidores MCP em produção contra limites de qualidade e pode acionar intervenções, inclusive o Agent Kill Switch, com aprovação quando a política da equipe exigir.",
+    "FinOps Dashboard, Model Wallet e Cost Optimization Policies estão disponíveis hoje; Agent Evals e API Evals entram em beta em novembro de 2026, com disponibilidade geral em janeiro de 2027."
+  ],
+  "corpo": [
+    "A Salesforce divulgou em 27 de outubro novos recursos para o Agent Fabric, que descreve como plataforma de controle para gerenciar e governar agentes de várias plataformas. O argumento da empresa é que agentes podem falhar em silêncio, entregando respostas erradas e gastando tokens antes que alguém perceba.",
+    "O Agent Evals gera testes antes da implantação e avalia agentes, modelos e servidores MCP em produção contra limites de qualidade definidos. Quando o resultado fica abaixo, aciona intervenções predefinidas, entre elas o Agent Kill Switch, com aprovação humana quando a política da equipe assim determinar. O API Evals gera testes a partir das especificações das APIs, para pegar mudanças que quebrem o agente antes de chegarem à produção.",
+    "Nos custos, o FinOps Dashboard e o Model Wallet dão uma visão única do gasto com IA e limites rígidos que barram requisições acima do orçamento. A Salesforce diz que as Cost Optimization Policies reduzem o uso de tokens em até 75%, com base em cenários de teste, número que não vem de clientes em produção.",
+    "O comunicado traz o exemplo de um varejista que troca o modelo de seu agente de pedidos por um mais barato: o Agent Evals detecta respostas incorretas sobre pedidos atrasados e pede aprovação para colocar o agente em quarentena. O texto não menciona disponibilidade no Brasil nem preços."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · MODELO",
+      "titulo": "Trocar de modelo para economizar exige teste",
+      "texto": "O próprio exemplo da Salesforce mostra que a troca por um modelo mais barato pode piorar respostas. Reavaliar o agente a cada troca é prática que não depende de comprar o produto."
+    },
+    {
+      "rotulo": "02 · CUSTO",
+      "titulo": "Limite de gasto por orçamento vira recurso de plataforma",
+      "texto": "Limites que interrompem requisições acima do orçamento respondem a um risco que empresas começam a medir: o custo de agentes crescer sem que ninguém aprove."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "A redução de 75% é de cenário de teste",
+      "texto": "O número vem da Salesforce e de cenários de teste. Antes de contar com ele, vale pedir medição no ambiente da própria empresa."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Salesforce Expands Agent Fabric to Automatically Stop Runaway Costs and AI Agent Failures Before They Impact Customers",
+      "origem": "Salesforce · comunicado · 27 out 2026",
+      "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem anunciou",
+      "valor": "Salesforce (MuleSoft)"
+    },
+    {
+      "rotulo": "Disponível hoje",
+      "valor": "Agent Kill Switch, FinOps Dashboard, Model Wallet, Cost Optimization Policies"
+    },
+    {
+      "rotulo": "Beta em novembro de 2026",
+      "valor": "Agent Evals e API Evals"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "27 out 2026"
+    }
+  ]
+}

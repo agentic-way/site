@@ -1,0 +1,66 @@
+{
+  "id": "microsoft-dynamics-365-mcp-server-sales-disponivel",
+  "publicado_em": "2026-10-30T07:12:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Microsoft torna disponível o servidor MCP do Dynamics 365 Sales, com 59 ferramentas para agentes operarem o CRM",
+  "linha": "Agentes de IA compatíveis com MCP passam a consultar e alterar oportunidades, leads, cotações e pedidos do Dynamics 365 Sales, sob as permissões já definidas no Dataverse.",
+  "linhaFina": "Segundo a Microsoft, a conexão passa pelo Agent 365 Tooling Gateway e pode ser usada por agentes do Copilot Studio e por outras ferramentas compatíveis com MCP.",
+  "fontePrimaria": "Microsoft",
+  "leitura": 3,
+  "resumo": [
+    "A Microsoft informou em 29 de outubro que o Dynamics 365 CX MCP Server – Sales está em disponibilidade geral.",
+    "O servidor reúne 59 ferramentas para oportunidades, contas, leads, atividades e e-mail, produtos e preços, cotações e pedidos.",
+    "O acesso continua regido pelos papéis e permissões do Dataverse, e a conexão é intermediada pelo Agent 365 Tooling Gateway."
+  ],
+  "corpo": [
+    "A Microsoft anunciou em seu blog do Dynamics 365 que o Dynamics 365 CX MCP Server – Sales está em disponibilidade geral. MCP é o protocolo que permite a um agente de IA descobrir e chamar ferramentas de um sistema. No caso, o sistema é o CRM de vendas da Microsoft, e cada ferramenta executa uma ação definida, como qualificar um lead ou recalcular um preço.",
+    "Segundo a Microsoft, o servidor tem 59 ferramentas na disponibilidade geral, distribuídas por gestão de oportunidades, contas e contatos, leads, atividades e e-mail, produtos e preços, e cotações e pedidos. O texto dá como exemplo um pedido de cotação para pedido que combina várias chamadas em sequência: buscar a oportunidade, encontrar produtos e lista de preços, recalcular o preço, criar a cotação e convertê-la em pedido.",
+    "A conexão usa um único endpoint hospedado pela Microsoft por ambiente, intermediado pelo Agent 365 Tooling Gateway, que cuida da autenticação no Dataverse. A Microsoft afirma que o acesso segue os papéis e permissões já existentes. Os agentes podem ser criados no Copilot Studio ou ser outras ferramentas compatíveis com MCP, como GitHub Copilot CLI e Visual Studio Code.",
+    "O texto não informa preço, licenciamento necessário nem disponibilidade por região, e não apresenta caso de cliente usando o servidor."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · INTEGRAÇÃO",
+      "titulo": "O CRM passa a aceitar agentes sem integração própria",
+      "texto": "Quem usa Dynamics 365 Sales pode, em tese, conectar agentes ao CRM por um caminho padronizado, em vez de construir e manter uma integração para cada agente."
+    },
+    {
+      "rotulo": "02 · PERMISSÃO",
+      "titulo": "O agente herda os papéis do Dataverse",
+      "texto": "Se as permissões do CRM estão frouxas, o agente herda essa frouxidão. Revisar quem pode alterar preço, cotação e pedido vem antes de ligar o servidor."
+    },
+    {
+      "rotulo": "03 · LACUNA",
+      "titulo": "Custo e região ficam em aberto",
+      "texto": "A fonte não diz o que é cobrado nem se o recurso vale no Brasil. Confirmar com o parceiro Microsoft é o primeiro passo para quem avalia."
+    }
+  ],
+  "oQueFazer": [
+    "Para empresas que usam Dynamics 365 Sales, vale perguntar ao parceiro de implantação o custo de licença, a região de hospedagem do endpoint e quais das 59 ferramentas alteram dados, e começar por um agente que só consulta."
+  ],
+  "fontes": [
+    {
+      "titulo": "Dynamics 365 CX MCP Server – Sales: Bringing headless CRM to supported AI experiences",
+      "origem": "Microsoft · blog Dynamics 365 · 29 out 2026",
+      "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/29/dynamics-365-cx-mcp-server-sales/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem anunciou",
+      "valor": "Microsoft"
+    },
+    {
+      "rotulo": "Status",
+      "valor": "Disponibilidade geral"
+    },
+    {
+      "rotulo": "Ferramentas",
+      "valor": "59"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "29 out 2026"
+    }
+  ]
+}
