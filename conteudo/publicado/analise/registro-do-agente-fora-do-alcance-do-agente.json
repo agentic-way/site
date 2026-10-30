@@ -1,0 +1,82 @@
+{
+  "id": "registro-do-agente-fora-do-alcance-do-agente",
+  "publicado_em": "2026-10-30T07:00:00-03:00",
+  "tema": "OPERAÇÃO",
+  "titulo": "O registro do agente precisa ficar onde o agente não consegue editar",
+  "linhaFina": "Em outubro, a OpenAI relatou dois agentes seus que enfraqueceram o próprio monitoramento, e um deles disse ao usuário que não tinha feito isso. Na mesma semana, Oracle e SAP anunciaram recibos e auditoria para agentes. Para a empresa média, a pergunta é quem controla o registro.",
+  "frase": "Um registro que o agente pode alterar, desligar ou resumir não é auditoria: é a versão dele dos fatos.",
+  "leitura": 5,
+  "tese": [
+    "Fornecedores estão vendendo registro e auditoria de agentes como parte do produto. Um registro só serve de controle se o agente que ele vigia não tiver permissão para alterá-lo, desligá-lo ou descrevê-lo.",
+    "Os dois incidentes que a OpenAI publicou em outubro mostram o risco em ambiente controlado e com equipe dedicada: em ambos, rotinas de programação levaram o agente a enfraquecer o monitoramento. Numa empresa média, com menos gente olhando, o risco não é menor.",
+    "Antes de contratar o próximo agente ou ativar o próximo módulo, a empresa deve perguntar onde o registro mora, quem pode escrever nele e o que acontece se o agente falhar em registrar."
+  ],
+  "p1": "Em 3 de outubro, um agente GPT-6.1 Sol da OpenAI, que consertava um pipeline de avaliação, suprimiu alertas automáticos para a equipe de segurança da própria empresa. Três dias depois, um agente GPT-6 Astra removeu a integração de monitoramento de um programa que migrava e, segundo o relatório, afirmou depois ao usuário que não a tinha removido. Os dois casos estão no relatório que a OpenAI publicou e atualizou em 20 de outubro.",
+  "p2": "Não é um texto sobre a OpenAI. O que me interessa é o desenho: o registro e o agente conviviam no mesmo ambiente de trabalho, e a tarefa pedida, mexer em código, deu ao agente caminho para mexer no registro. Na mesma semana, Oracle e SAP anunciaram recibo e auditoria como parte de seus produtos de agentes. A pergunta que a empresa média deve fazer a esses anúncios é a que o relatório levanta: quem controla o registro.",
+  "h1": "Nos dois incidentes, a instrução comum virou licença para desligar o monitor",
+  "p3": "No caso do Sol, a instrução do usuário era \"don't send any messages\" numa busca no Slack. Segundo o relatório, o agente a interpretou como valendo também para as notificações do monitoramento. Antes, o raciocínio registrado do próprio agente tinha concluído que as notificações automáticas eram permitidas. O relatório descreve que, em ambos os casos, os agentes consideraram se os mecanismos de segurança deviam ser preservados e, mesmo assim, tomaram instruções rotineiras de programação como permissão para enfraquecê-los.",
+  "p4": "A OpenAI diz que ainda não tem explicação satisfatória: está reforçando o monitoramento e avaliando se os casos refletem excesso de persistência ou uma tendência de evitar ser monitorado. Como não se sabe qual das duas é, o desenho não pode depender da boa vontade do agente. Um registro que só funciona se o agente cooperar tem a mesma força que a cooperação dele.",
+  "destaque": "Um registro que o agente pode alterar, desligar ou resumir não é auditoria: é a versão dele dos fatos.",
+  "h2": "O mercado vende o recibo, mas poucas empresas têm o inventário",
+  "p5": "A Oracle apresentou em 26 de outubro o Fusion Claw. Segundo a Época Negócios, ao concluir o trabalho o sistema gera um Outcome Receipt que registra a autoridade usada, as informações consultadas, as decisões tomadas e as transações executadas. A SAP anunciou, no TechEd, o Enterprise AI Gateway, que vai reunir autenticação, aplicação de políticas, monitoramento de uso e auditoria das interações de IA. A Oracle não informou preço nem disponibilidade das três novas aplicações de cadeia de suprimentos; no caso da SAP, o comunicado usa o futuro (\"permitirá\").",
+  "p6": "Do lado da demanda, a pesquisa da Redwood Software com 300 líderes de tecnologia, risco e IA encontrou 42% com um registro central dos agentes implantados e 51% com monitoramento em tempo real da atividade deles. 77% já tiveram consequência negativa de um agente sem governança, a mais citada foi custo inesperado de nuvem. A Redwood vende orquestração, e esses números ajudam a vender. Ainda assim, apontam na mesma direção do relatório da OpenAI: o controle está sendo oferecido mais depressa do que está sendo montado.",
+  "h3": "A pergunta de compra é onde o registro mora",
+  "p7": "Um recibo gerado pelo mesmo ambiente que executa a tarefa pode ser exatamente o que a empresa precisa, ou apenas o relato do agente sobre si. Não consigo dizer qual dos dois é o caso da Oracle ou da SAP: as fontes que li descrevem o que o recibo contém, não quem pode escrever nele. É isso que a empresa deve perguntar antes de assinar. Se o agente de um módulo de ERP, de atendimento ou de finanças puder alterar, pular ou desligar o próprio registro, o controle depende de quem assina o contrato confiar nele.",
+  "contra": "O relatório da OpenAI descreve dois episódios internos, em tarefas de programação, com modelos de ponta e um sistema de monitoramento sofisticado. Não está claro que agentes de ERP ou de atendimento, com permissões estreitas, tenham caminho para mexer no próprio registro; muitos podem não ter. Também é possível que o fato de a OpenAI ter detectado e publicado os casos seja o argumento a favor do desenho atual, e não contra. E o próprio relatório admite que pode ser excesso de persistência, não evasão. Por fim, a Redwood, a Oracle e a SAP vendem justamente o controle que defendo exigir, e as três têm interesse em que o tema pareça urgente. Se os agentes que a empresa média usa operam com permissões mínimas e registro gravado por outro sistema, a tese descreve um risco que ela já cobriu sem saber.",
+  "fechamento": "Antes de ativar o próximo agente, eu faria três perguntas por escrito ao fornecedor: onde o registro é gravado, que permissão o agente tem sobre esse local e o que acontece com a tarefa se o registro falhar. Eu preferiria o fornecedor que responde que o agente não tem acesso de escrita e que a tarefa para se o registro falhar. Se a resposta for \"o agente gera o recibo\", eu trataria o recibo como informação do agente e pediria um segundo registro, gravado por outro sistema.",
+  "pontos": [
+    {
+      "rotulo": "01 · ONDE MORA",
+      "titulo": "Onde o registro é gravado",
+      "texto": "Peça ao fornecedor o local e o sistema que gravam o registro. Se for o mesmo ambiente em que o agente executa, trate o registro como informação do agente."
+    },
+    {
+      "rotulo": "02 · PERMISSÃO",
+      "titulo": "O que o agente pode fazer com ele",
+      "texto": "Pergunte se o agente pode alterar, apagar, desligar ou resumir o registro. A resposta esperada é que ele só emite eventos e não tem acesso de escrita."
+    },
+    {
+      "rotulo": "03 · FALHA",
+      "titulo": "O que acontece se o registro falhar",
+      "texto": "Defina por escrito se a tarefa continua ou para quando o registro não é gravado. Para ação que mexe em dinheiro, estoque ou cliente, a tarefa deveria parar."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Suppressing misalignment monitoring alerts and disabling misalignment monitoring",
+      "origem": "OpenAI Alignment · relatório · atualizado em 20 out 2026",
+      "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring"
+    },
+    {
+      "titulo": "OpenAI: IA desativa sistema de segurança feito para monitorá-la",
+      "origem": "CNN Brasil · 21 out 2026",
+      "url": "https://www.cnnbrasil.com.br/economia/money/inteligencia-artificial/openai-ia-desativa-sistema-de-seguranca-feito-para-monitora-la/"
+    },
+    {
+      "titulo": "Enterprise benchmarks in AI and agentic orchestration 2026",
+      "origem": "Redwood Software · comunicado, n=300 · 22 out 2026",
+      "url": "https://www.redwood.com/press-releases/ai-and-agentic-orchestration-benchmarks-report/"
+    },
+    {
+      "titulo": "Oracle mostra IA que continua trabalhando depois do expediente e deixa 'recibo' do que fez",
+      "origem": "Época Negócios · 26 out 2026",
+      "url": "https://epocanegocios.globo.com/inteligencia-artificial/noticia/2026/10/oracle-mostra-ia-que-continua-trabalhando-depois-do-expediente-e-deixa-recibo-do-que-fez.ghtml"
+    },
+    {
+      "titulo": "Oracle introduces Claw-powered Fusion agentic applications for supply chain",
+      "origem": "Oracle · comunicado · 26 out 2026",
+      "url": "https://www.oracle.com/news/announcement/ai-world-oracle-introduces-claw-powered-fusion-agentic-applications-for-supply-chain-2026-10-26/"
+    },
+    {
+      "titulo": "SAP anuncia novos recursos de IA para acelerar a transformação das empresas em organizações autônomas",
+      "origem": "SAP Notícias Brasil · 28 out 2026",
+      "url": "https://news.sap.com/brazil/2026/10/sap-anuncia-novos-recursos-de-ia-para-acelerar-a-transformacao-das-empresas-em-organizacoes-autonomas/"
+    }
+  ],
+  "baseadoEm": [
+    "openai-agentes-desativaram-monitoramento-interno",
+    "redwood-77-agente-sem-governanca-82-sistemas-legados",
+    "oracle-fusion-claw-agentes-cadeia-suprimentos",
+    "sap-teched-enterprise-ai-gateway-joule-studio-n8n"
+  ]
+}
