@@ -1,0 +1,53 @@
+{
+  "id": "totvs-mit-sloan-93-ia-desestruturada-8-erp",
+  "publicado_em": "2026-10-31T07:15:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Estudo encomendado pela TOTVS: 93% das empresas brasileiras usam IA de forma desestruturada, e só 8% a integram amplamente ao ERP",
+  "linha": "A MIT Sloan Management Review Brasil ouviu 583 empresas: 88% não medem o resultado financeiro da IA e 14% têm política formal de governança para toda a organização.",
+  "linhaFina": "O levantamento foi feito pela MIT Sloan Management Review Brasil por encomenda da TOTVS, fornecedora de ERP, e apresentado em coletiva de imprensa.",
+  "fontePrimaria": "TOTVS / MIT Sloan Management Review Brasil, via ITShow",
+  "leitura": 3,
+  "resumo": [
+    "93% das empresas brasileiras pesquisadas usam IA de forma desestruturada, segundo estudo da MIT Sloan Management Review Brasil encomendado pela TOTVS.",
+    "86% não mensuram os custos da IA e 88% não medem os resultados financeiros obtidos com ela.",
+    "Somente 8% incorporam amplamente a IA aos sistemas ERP, e 14% têm política formal de governança de IA aplicada a toda a organização."
+  ],
+  "corpo": [
+    "Segundo o ITShow, que acompanhou a apresentação e a coletiva de imprensa, o estudo foi realizado pela MIT Sloan Management Review Brasil por encomenda da TOTVS e entrevistou 583 empresas de diferentes portes, segmentos e regiões do Brasil. 80% das organizações já testam ou usam IA de alguma maneira, mas apenas uma parcela reduzida conseguiu incorporá-la aos principais processos de negócio.",
+    "Sobre medição, 40% das empresas desenvolvem iniciativas de IA sem coordenação entre áreas, 86% não mensuram os custos relacionados à IA e 88% não medem os resultados financeiros. Na integração, 68% já consideram a migração para a nuvem uma realidade, mas só 46% das que relatam usar IA conseguem acessar automaticamente seus dados empresariais, e somente 8% incorporam a IA amplamente ao ERP.",
+    "Na governança, 14% têm política formal aplicada a toda a organização, e 46% apontam vazamento ou uso indevido de dados como o principal risco. 43% dos profissionais temem errar por confiar demais na IA, 37% dizem não saber usar corretamente as ferramentas, e 7% das empresas oferecem capacitação estruturada em IA para todos os colaboradores.",
+    "Para Gustavo Bastos, vice-presidente de Plataformas e TI da TOTVS, citado na matéria, o desafio deixou de ser a adoção de ferramentas e passou a ser a conexão lógica entre dados, sistemas e IA."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · MEDIDA",
+      "titulo": "Sem custo e resultado medidos, não há como decidir se o agente continua",
+      "texto": "Os números de 86% e 88% apontam para a mesma lacuna: antes de ampliar o uso, vale registrar quanto a IA custa e que resultado ela entrega em cada processo."
+    },
+    {
+      "rotulo": "02 · INTEGRAÇÃO",
+      "titulo": "Agente que não enxerga o ERP fica restrito a tarefas individuais",
+      "texto": "Com 8% de integração ampla ao ERP, a maior parte do uso descrito no estudo é produtividade individual, não automação de processo. Esse é o ponto que separa um assistente de um agente que executa tarefas nos sistemas da empresa."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem encomendou vende o ERP onde a IA deveria entrar",
+      "texto": "A TOTVS é fornecedora de ERP e tem interesse na conclusão de que a IA precisa estar integrada aos sistemas de gestão. Os números podem estar corretos e ainda assim favorecer quem encomendou o estudo."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem já usa IA em alguma área, o estudo sugere duas perguntas simples: quanto isso custa por mês e que resultado de negócio se mede hoje. Se a resposta for nenhuma das duas, é o primeiro ponto a resolver."
+  ],
+  "fontes": [
+    {
+      "titulo": "TOTVS revela que 93% das empresas brasileiras ainda utilizam inteligência artificial de forma desestruturada",
+      "origem": "ITShow · matéria · 29 out 2026",
+      "url": "https://itshow.com.br/totvs-inteligencia-artificial-empresas-brasileiras/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "MIT Sloan Management Review Brasil, por encomenda da TOTVS" },
+    { "rotulo": "Amostra", "valor": "583 empresas de diferentes portes, segmentos e regiões do Brasil" },
+    { "rotulo": "Divulgação", "valor": "29 out 2026" }
+  ]
+}
