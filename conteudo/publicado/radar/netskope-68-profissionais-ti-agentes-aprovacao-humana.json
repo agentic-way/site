@@ -1,0 +1,59 @@
+{
+  "id": "netskope-68-profissionais-ti-agentes-aprovacao-humana",
+  "publicado_em": "2026-10-31T07:15:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Pesquisa citada pela Netskope: 68% dos profissionais de TI e segurança não deixariam agentes alterar sistemas sem aprovação humana",
+  "linha": "Levantamento com 921 profissionais: 29% das equipes já usam agentes em produção, mas só 9% confiam plenamente na capacidade da empresa de controlá-los.",
+  "linhaFina": "O estudo 2026 State of AI Agents in Security and Network Operations ouviu 921 profissionais de segurança, redes e TI. A Netskope, que vende agentes para essas equipes, divulgou os resultados.",
+  "fontePrimaria": "Netskope, via TI Inside",
+  "leitura": 3,
+  "resumo": [
+    "68% dos 921 profissionais ouvidos não permitiriam que agentes alterassem sistemas sem restrições ou aprovação humana: 38% não aceitariam a mudança feita por agente e 30% exigiriam aprovação antes da execução.",
+    "29% das equipes já usam agentes de IA em ambientes de produção.",
+    "Apenas 9% confiam plenamente na capacidade da empresa de controlar esses agentes, e 45% têm pouca ou nenhuma confiança."
+  ],
+  "corpo": [
+    "Segundo o TI Inside, a Netskope divulgou o relatório 2026 State of AI Agents in Security and Network Operations, feito em 2026 com 921 profissionais de segurança, redes e TI de diferentes setores e portes de empresa. O blog da Netskope cita o mesmo relatório e o atribui à Cybersecurity Insiders.",
+    "O que impulsiona o interesse é a sobrecarga: nos últimos 12 meses, 81% das equipes tiveram aumento de demanda, mas só 11% conseguiram acompanhá-lo de forma consistente. 42% relataram alertas ou chamados sem investigação, e 24% identificaram situações em que dados, sistemas ou usuários ficaram expostos por mais tempo que o necessário.",
+    "Entre os riscos citados, 48% temem ações inseguras ou não intencionais, 40% apontam permissões excessivas e 35% receiam decisões baseadas em informações incorretas ou manipuladas. A triagem e a priorização de alertas aparecem como porta de entrada: 46% se sentem confortáveis em delegar essas tarefas, em que os agentes organizam os casos sem modificar os sistemas.",
+    "O relatório recomenda começar por tarefas delimitadas, limitar permissões, exigir aprovação para mudanças críticas e testar mecanismos de interrupção e recuperação antes de ampliar a autonomia."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · PERMISSÃO",
+      "titulo": "Ler e propor é diferente de alterar",
+      "texto": "O conforto maior com triagem de alertas do que com mudança de sistema sugere um caminho de adoção: agente que lê e recomenda primeiro, agente que executa depois, com aprovação."
+    },
+    {
+      "rotulo": "02 · CONTROLE",
+      "titulo": "Interrupção e recuperação precisam ser testadas antes",
+      "texto": "Com 9% de confiança plena no controle, o relatório trata o botão de parada e a reversão como pré-requisito, não como detalhe."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem divulga vende agentes para essas equipes",
+      "texto": "A Netskope anunciou, junto com os números, a expansão do AgentSkope Marketplace, catálogo de agentes para segurança e redes. O público ouvido é de TI e segurança, não de decisores de negócio."
+    }
+  ],
+  "oQueFazer": [
+    "Ao liberar um agente em sistemas da empresa, defina por escrito quais ações ele pode executar sozinho e quais exigem aprovação, e confirme com a TI como interromper o agente e desfazer o que ele fez."
+  ],
+  "fontes": [
+    {
+      "titulo": "68% dos profissionais não dariam autonomia a agentes de IA para alterar sistemas",
+      "origem": "TI Inside · matéria · 28 out 2026",
+      "url": "https://tiinside.com.br/28/10/2026/68-dos-profissionais-nao-dariam-autonomia-a-agentes-de-ia-para-alterar-sistemas/"
+    },
+    {
+      "titulo": "Find the AI Risks That Matter in a Flood of AI Activity",
+      "origem": "Netskope · blog · 29 out 2026",
+      "url": "https://www.netskope.com/blog/find-the-ai-risks-that-matter-in-a-flood-of-ai-activity"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Relatório divulgado pela Netskope; o blog da empresa o atribui à Cybersecurity Insiders" },
+    { "rotulo": "Amostra", "valor": "921 profissionais de segurança, redes e TI, de diferentes setores e portes" },
+    { "rotulo": "Campo", "valor": "2026 (mês não informado)" },
+    { "rotulo": "Divulgação", "valor": "28 out 2026" }
+  ]
+}
