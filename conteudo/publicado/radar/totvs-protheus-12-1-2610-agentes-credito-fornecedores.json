@@ -1,0 +1,72 @@
+{
+  "id": "totvs-protheus-12-1-2610-agentes-credito-fornecedores",
+  "publicado_em": "2026-11-01T07:15:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "TOTVS diz que agente de crédito do Protheus reduz em cerca de 77% o tempo de análise de pedidos",
+  "linha": "A versão 12.1.2610 do Protheus traz agentes de crédito, fornecedores e classificação fiscal, e um quarto, de cobrança por WhatsApp, em piloto. O número de 77% é da TOTVS.",
+  "linhaFina": "A release será apresentada na Semana Protheus, online, de 3 a 6 de novembro. Casos complexos de crédito seguem para validação humana.",
+  "fontePrimaria": "TOTVS, via Revista Fator Brasil",
+  "leitura": 3,
+  "resumo": [
+    "A TOTVS apresenta de 3 a 6 de novembro a release 12.1.2610 do ERP Protheus, com agentes de IA autônomos para o backoffice.",
+    "O Agente de Liberação de Crédito analisa pedidos de venda e, segundo a TOTVS, reduz em cerca de 77% o tempo de análise; exceções complexas vão para validação humana.",
+    "O Agente de Sugestão de Fornecedores indica parceiros nas cotações, com economia potencial de 5% a 15% por compra elegível. O Agente de Negociação, de cobrança por WhatsApp e e-mail, está em fase piloto."
+  ],
+  "corpo": [
+    "A TOTVS apresenta na Semana Protheus, evento online e gratuito de 3 a 6 de novembro, a release 12.1.2610 do ERP TOTVS Backoffice, Linha Protheus. A empresa organiza a versão em quatro pilares: usabilidade, inteligência artificial, segurança e evolução funcional com redução do custo total de propriedade.",
+    "Entre os agentes citados, o de Liberação de Crédito automatiza a análise financeira de pedidos de venda e, segundo a TOTVS, reduz o tempo de análise em cerca de 77%, direcionando exceções complexas para validação humana. O de Sugestão de Fornecedores usa a base de dados da TOTVS para indicar novos parceiros durante a cotação, com potencial de economia entre 5% e 15% por compra elegível. O de Classificação Fiscal sugere o NCM e apoia a definição de impostos no cadastro de produtos.",
+    "O quarto agente, de Negociação (gestão de receitas), está em fase piloto. Foi desenhado para renegociar inadimplência e cobrar clientes finais por canais como WhatsApp e e-mail.",
+    "A release também traz tela inicial redesenhada, um assistente de chat integrado ao sistema, rotinas para a Reforma Tributária (notas de crédito e débito de IBS e CBS), integração nativa com o Conta+ Techfin, que permite capturar DDA e fazer baixas automáticas sem entrar nos portais dos bancos, e o registro automatizado de duplicata escritural, exigência do Banco Central prevista para o próximo ano.",
+    "Os números de ganho de tempo e de economia vêm do material de lançamento da TOTVS. As fontes lidas não informam como foram medidos nem em quantos clientes."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · MEDIDA",
+      "titulo": "O 77% é uma promessa do fornecedor, não um resultado medido em cliente",
+      "texto": "As fontes não dizem em que base de pedidos o número foi calculado. Para decidir, vale pedir à TOTVS o critério e testar em uma carteira própria."
+    },
+    {
+      "rotulo": "02 · HUMANO NO FLUXO",
+      "titulo": "A liberação de crédito mantém exceções com pessoas",
+      "texto": "A TOTVS diz que casos complexos seguem para validação humana. Falta saber que regra define o que é complexo e quem pode alterá-la na empresa."
+    },
+    {
+      "rotulo": "03 · COBRANÇA",
+      "titulo": "O agente que fala com o cliente final ainda é piloto",
+      "texto": "Cobrança por WhatsApp e e-mail envolve contato direto com o devedor. Enquanto estiver em piloto, a decisão de ligá-lo ou não continua com a empresa."
+    }
+  ],
+  "oQueFazer": [
+    "Quem usa Protheus pode acompanhar a Semana Protheus e levar três perguntas: como o tempo de análise de crédito foi medido, que registro de ações cada agente deixa e se a atualização para a 12.1.2610 tem custo adicional pelos agentes."
+  ],
+  "fontes": [
+    {
+      "titulo": "Totvs revoluciona usabilidade do ERP Protheus e estreia agentes de IA para automatizar operações de backoffice",
+      "origem": "Revista Fator Brasil · 29 out 2026",
+      "url": "https://www.revistafatorbrasil.com.br/2026/10/29/totvs-revoluciona-usabilidade-do-erp-protheus-e-estreia-agentes-de-ia-para-automatizar-operacoes-de-backoffice/"
+    },
+    {
+      "titulo": "TOTVS põe agente de IA no ERP Protheus que corta cerca de 77% do tempo de análise de crédito",
+      "origem": "Mundo das Fintechs · 30 out 2026",
+      "url": "https://mundodasfintechs.com/totvs-agente-ia-protheus-corta-77-por-cento-tempo-liberacao-credito-techfin.html"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "TOTVS"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não confirmada pelo cliente"
+    },
+    {
+      "rotulo": "Disponibilidade",
+      "valor": "Apresentação de 3 a 6 nov 2026; Brasil, depois Argentina e Colômbia"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "29 out 2026"
+    }
+  ]
+}
