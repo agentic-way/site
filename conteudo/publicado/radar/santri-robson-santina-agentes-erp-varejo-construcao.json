@@ -1,0 +1,59 @@
+{
+  "id": "santri-robson-santina-agentes-erp-varejo-construcao",
+  "publicado_em": "2026-11-02T07:20:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Santri, via Uberlândia No Foco, diz que seus agentes no ERP liberam pedidos e ajustam preços dentro de limites definidos pelo cliente",
+  "linha": "A fornecedora de ERP para lojas de materiais de construção descreve dois agentes embutidos no sistema: um orienta o uso e outro consulta indicadores e, se configurado, executa tarefas.",
+  "linhaFina": "Segundo a Santri, que atende cerca de 1.500 lojas, os agentes Santina e Robson passaram por testes com clientes em 2026 e devem chegar a toda a base a partir de outubro.",
+  "fontePrimaria": "Santri, via Uberlândia No Foco",
+  "leitura": 3,
+  "resumo": [
+    "A Santri, empresa de tecnologia para o varejo de materiais de construção, desenvolveu dois agentes de IA integrados ao seu ERP: Santina e Robson.",
+    "A Santina orienta o usuário a achar funções, relatórios e procedimentos no sistema. O Robson consulta indicadores de loja, estoque e vendas em linguagem natural e envia alertas.",
+    "Quando configurado para isso, o Robson pode executar tarefas sozinho, como liberar pedidos bloqueados por condições comerciais e ajustar preço de produtos parados por um período definido, dentro de parâmetros e limites estabelecidos pela empresa.",
+    "A Santri diz atender cerca de 1.500 estabelecimentos, com mais de 100 mil usuários, e prevê liberar os dois agentes para toda a base a partir de outubro."
+  ],
+  "corpo": [
+    "Segundo reportagem do Uberlândia No Foco publicada em 2 de novembro, o desenvolvimento dos agentes começou há cerca de dois anos e entrou em nova etapa em 2026, com testes junto a clientes. A matéria reproduz declarações dos cofundadores Fábio Santri (CEO) e Márcio Oliveira (desenvolvimento e inovação). Não encontramos comunicado da empresa com os mesmos detalhes.",
+    "A Santina funciona como assistente do sistema: o usuário pergunta como fazer uma operação ou qual relatório serve a uma necessidade. O Robson trabalha com os dados da operação, compara estoque e vendas, avalia desempenho de produtos e campanhas e identifica situações de risco, sem que o gestor precise cruzar telas manualmente.",
+    "O ponto operacional é a ação autônoma. De acordo com a Santri, o Robson pode liberar pedidos bloqueados por condições comerciais e ajustar o preço de produtos sem venda durante um período predefinido, desde que a empresa tenha configurado parâmetros e limites. Segundo Oliveira, isso não substitui o gestor.",
+    "Sobre acesso a dados, a empresa afirma que o Robson não consulta o banco de dados diretamente: as informações passam antes por uma camada de pré-processamento da Santri, que define o que o agente pode ver e em que formato. A reportagem não traz números de resultado, nem de clientes que já usam os agentes em produção."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · LIMITES",
+      "titulo": "O limite de ação é configuração do cliente",
+      "texto": "Liberar pedido e mexer em preço tem efeito financeiro direto. Quem contratar precisa saber quem define os limites, onde ficam registrados e como se desfaz uma ação do agente."
+    },
+    {
+      "rotulo": "02 · DADOS",
+      "titulo": "Camada intermediária é o que se pode auditar",
+      "texto": "A descrição de que o agente só vê dados pré-processados é um desenho de controle de acesso. Vale pedir ao fornecedor a documentação de quais campos passam por essa camada."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Sem número de resultado, é anúncio de produto",
+      "texto": "Todas as afirmações vêm da própria fornecedora, e a matéria não informa ganho medido nem quantos clientes testaram. A disponibilidade para toda a base é uma previsão da empresa."
+    }
+  ],
+  "oQueFazer": [
+    "Clientes de ERP com agentes embutidos podem perguntar ao fornecedor, antes de ativar ações autônomas: quais ações existem, quem configura os limites, se há log por ação e se é possível começar só com consulta e alerta."
+  ],
+  "fontes": [
+    {
+      "titulo": "Santri desenvolve agentes de IA para apoiar gestão de lojas de materiais de construção",
+      "origem": "Uberlândia No Foco · reportagem · 2 nov 2026",
+      "url": "https://uberlandianofoco.com.br/santri-desenvolve-agentes-de-ia-para-apoiar-gestao-de-lojas-de-materiais-de-construcao/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "Santri, fornecedora do ERP, por seus cofundadores"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "2 nov 2026"
+    }
+  ]
+}
