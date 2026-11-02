@@ -1,0 +1,154 @@
+{
+ "id": "algar-configuracao-campo-assistente-manu",
+ "publicado_em": "2026-11-02T08:15:00-03:00",
+ "setor": "SERVIÇOS",
+ "processo": "OPERAÇÃO",
+ "status": "em-operacao",
+ "empresa": "Algar",
+ "titulo": "Algar diz que a assistente Manu cortou em 60% o tempo das configurações de rede feitas por técnicos na casa do cliente",
+ "linhaFina": "Os números vêm da própria Algar, em comunicado repetido pela imprensa. A fonte não traz o tempo antes e depois, o que conta como tarefa nem o que a empresa deixou de gastar com pessoas.",
+ "resumo": "A operadora deu a técnicos de campo um aplicativo com a assistente Manu, que executa configurações de rede, ativações, testes e trocas de modem. Segundo a Algar, foram mais de 16 mil atendimentos entre maio e agosto de 2026, com 60% menos tempo por configuração e R$ 63 mil de economia por mês.",
+ "leitura": 5,
+ "abertura": "A Algar é uma operadora que vende internet e telefonia fixa. Quando a triagem remota não resolve a reclamação do cliente, um técnico vai à casa dele. Segundo a empresa, o atendimento agora se divide em três ferramentas de IA: o TAOS (triagem automática de ordens de serviço, em operação desde 2025), a Lina (confirmação e reagendamento de visitas) e a Manu (apoio ao técnico durante a visita). Este caso trata da Manu.",
+ "problema": "Segundo as reportagens, os técnicos precisavam ligar para a central de suporte (o backoffice) para fazer configurações de rede à mão, o que prendia o técnico e a central na mesma tarefa. A Algar não descreve o tempo médio dessas ligações nem quantas configurações eram feitas por dia.",
+ "solucao": "A Manu funciona em um aplicativo usado pelo técnico durante a visita. Segundo a Algar, ela executa configurações de rede, ativa serviços, faz testes e troca modems, sem que o técnico precise falar com o backoffice. As fontes não dizem em qual sistema da operadora a Manu escreve as configurações nem como ela se conecta aos equipamentos do cliente.",
+ "resultado": "Segundo a Algar, entre maio e agosto de 2026 a Manu fez mais de 16 mil atendimentos e reduziu em 60% o tempo de execução das configurações, o que representou mais de mil horas operacionais economizadas. As ligações dos técnicos ao backoffice para configurações manuais caíram mais de 32%. A empresa calcula economia mensal de R$ 63 mil, cerca de 35% dos custos dessa etapa, contra um investimento inicial de R$ 120 mil no desenvolvimento, e estima retorno em dois meses.",
+ "humano": "O técnico continua indo à casa do cliente e é quem usa o aplicativo. A Algar diz que a ideia é concentrar as equipes em reparos de fibra, instalações e diagnósticos que exigem presença física. As fontes não informam se algum atendimento da Manu precisa de aprovação do técnico antes de aplicar uma configuração.",
+ "citacao": {
+  "texto": "A integração entre TAOS, Lina e Manu demonstra que a automação vai além da simples execução de tarefas. Estamos redesenhando a jornada para identificar problemas, organizar o atendimento e apoiar a solução de forma mais rápida e inteligente.",
+  "quem": "Zaima Milazzo, diretora de Produtos e Tecnologia da Algar, em nota divulgada à imprensa"
+ },
+ "numeros": [
+  {
+   "valor": "−60%",
+   "legenda": "no tempo de execução das configurações técnicas feitas pelos técnicos, em mais de 16 mil atendimentos",
+   "quemMediu": "Algar, em nota divulgada à imprensa (out/2026); sem auditoria independente"
+  },
+  {
+   "valor": "R$ 63 mil",
+   "legenda": "de economia mensal na etapa de campo, cerca de 35% dos custos dela, contra R$ 120 mil investidos na Manu",
+   "quemMediu": "Algar, em nota divulgada à imprensa; a fonte não detalha o cálculo"
+  },
+  {
+   "valor": "32%",
+   "legenda": "de queda nas ligações dos técnicos ao backoffice para configurações manuais (a Tele.Síntese e o Coletivo Tech escrevem \"mais de 32%\")",
+   "quemMediu": "Algar, em nota divulgada à imprensa"
+  },
+  {
+   "valor": "16 mil",
+   "legenda": "de atendimentos feitos pela Manu entre maio e agosto de 2026 (\"mais de\" 16 mil)",
+   "quemMediu": "Algar, em nota divulgada à imprensa"
+  }
+ ],
+ "fluxo": [
+  {
+   "tipo": "ENTRADA",
+   "nome": "Visita técnica ao cliente",
+   "faz": "Uma triagem anterior (TAOS) não resolveu a reclamação à distância e o técnico vai à casa do cliente, depois de a assistente Lina confirmar o horário."
+  },
+  {
+   "tipo": "AGENTE",
+   "nome": "Manu, no aplicativo do técnico",
+   "faz": "Executa configurações de rede, ativa serviços, faz testes e apoia a troca de modems durante a visita."
+  },
+  {
+   "tipo": "SISTEMA",
+   "nome": "Sistemas de rede da operadora (não informados)",
+   "faz": "As fontes não dizem em quais sistemas ou equipamentos a Manu aplica as configurações."
+  },
+  {
+   "tipo": "SAÍDA",
+   "nome": "Serviço configurado e testado",
+   "faz": "O técnico conclui a visita sem ter de ligar para a central de suporte, segundo a Algar."
+  },
+  {
+   "tipo": "EXCEÇÃO",
+   "nome": "Chamada ao backoffice",
+   "faz": "As ligações não acabaram: caíram mais de 32%, o que indica que parte dos casos ainda passa pela central."
+  }
+ ],
+ "indicadores": [],
+ "naoConta": [
+  {
+   "valor": "Antes e depois",
+   "texto": "a Algar não divulgou o tempo médio de uma configuração antes e depois da Manu, nem como mediu os 60% (tempo no aplicativo, tempo de visita ou outra base)."
+  },
+  {
+   "valor": "Economia",
+   "texto": "a economia de R$ 63 mil por mês e o retorno em dois meses são cálculos da empresa, sem a conta aberta. Não se sabe se há custo de operação da Manu além dos R$ 120 mil de desenvolvimento, nem se a economia vem de horas de técnico, de ligações ou de ambas."
+  },
+  {
+   "valor": "Limites",
+   "texto": "não foi divulgado quanto das configurações a Manu faz sozinha, quanto o técnico confere, nem como erros são tratados. O mesmo comunicado traz dados de 83% de acionamentos no TAOS, mas as reportagens divergem sobre o que isso significa (conduzidos pela aplicação, retidos ou resolvidos), e esse número não entra nos destaques deste caso."
+  }
+ ],
+ "licoes": [
+  {
+   "titulo": "Procure o ganho onde há espera",
+   "texto": "A Manu atacou a ligação do técnico para a central, uma espera entre duas pessoas. Mapear onde o trabalho fica parado esperando alguém costuma apontar processos bons para começar."
+  },
+  {
+   "titulo": "Feche a conta com custo e retorno",
+   "texto": "A Algar abriu o investimento (R$ 120 mil) e o retorno estimado, o que é raro. Ainda assim, peça a memória de cálculo: sem ela, R$ 63 mil por mês é uma estimativa, não um resultado auditado."
+  },
+  {
+   "titulo": "Meça a ligação que sobra",
+   "texto": "A queda de 32% nas chamadas ao backoffice mostra que a central ainda atende parte dos casos. Acompanhar o que o agente não resolve diz mais sobre o limite do projeto do que o percentual de sucesso."
+  }
+ ],
+ "ficha": [
+  {
+   "rotulo": "Empresa",
+   "valor": "Algar (operadora de internet e telefonia fixa)"
+  },
+  {
+   "rotulo": "Setor",
+   "valor": "Serviços (telecomunicações)"
+  },
+  {
+   "rotulo": "Processo",
+   "valor": "Configurações de rede feitas por técnicos de campo na casa do cliente"
+  },
+  {
+   "rotulo": "Sistema",
+   "valor": "Assistente Manu em aplicativo do técnico; sistemas de rede não informados"
+  },
+  {
+   "rotulo": "Quem fez",
+   "valor": "Algar; fornecedor de tecnologia não informado"
+  },
+  {
+   "rotulo": "Status",
+   "valor": "Em operação; dados de maio a agosto de 2026"
+  },
+  {
+   "rotulo": "Divulgação",
+   "valor": "Nota da empresa à imprensa, out/2026"
+  }
+ ],
+ "comoApuramos": "Lemos três reportagens que reproduzem a nota da Algar: Tele.Síntese (19/out/2026), Teletime (22/out/2026) e Coletivo Tech (29/out/2026). Os números e a fala da diretora estão nelas. Não localizamos o comunicado original no site da Algar. Não houve visita nem entrevista: o caso foi montado apenas com fontes públicas.",
+ "transparencia": "A origem dos números é a própria Algar, divulgando o resultado do seu projeto. As três reportagens repetem a nota (a Tele.Síntese indica \"com assessoria de imprensa\") e não trazem medição de terceiros nem dados independentes, portanto não contam como confirmação independente.",
+ "fontes": [
+  {
+   "titulo": "Algar reduz em 60% tempo de configurações técnicas com automação",
+   "origem": "Tele.Síntese, 19/out/2026",
+   "url": "https://telesintese.com.br/algar-reduz-em-60-tempo-de-configuracoes-tecnicas-com-automacao/"
+  },
+  {
+   "titulo": "Algar amplia uso de IA no atendimento e em visitas técnicas",
+   "origem": "Teletime, 22/out/2026",
+   "url": "https://teletime.com.br/22/10/2026/algar-ia-atendimento-visitas-tecnicas/"
+  },
+  {
+   "titulo": "IA da Algar resolve 83% dos chamados digitais e corta custos técnicos em 35%",
+   "origem": "Coletivo Tech, 29/out/2026",
+   "url": "https://coletivo.tech/noticias/algar-uso-ia-atendimento/"
+  }
+ ],
+ "imagem": {
+  "arquivo": "img/na-operacao/algar-configuracao-campo-assistente-manu-ia.png",
+  "alt": "Corredor de uma casa com a porta aberta para uma van branca com caixa de ferramentas; sobre uma mesa dobrável, um modem, um cabo de fibra laranja e um tablet virado para baixo, com um técnico de costas.",
+  "modelo": "gemini-3.1-flash-image",
+  "prompt": "A telecom field technician workspace: a van with an open toolbox, a modem and fiber cable on a table in a home hallway, a tablet lying face down, soft daylight. Computer monitors turned away or out of focus with no readable content. No text, no lettering, no logos, no signage, no readable screens, no identifiable faces. Style: realistic editorial photo, shallow depth of field, calm, not staged, not stock-photo, muted navy and warm paper tones"
+ }
+}
