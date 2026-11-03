@@ -1,0 +1,60 @@
+{
+  "id": "mit-snowflake-48-insights-agentes-analytics-acao",
+  "publicado_em": "2026-11-03T07:15:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Pesquisa da MIT Technology Review Insights com a Snowflake: 48% dos insights de agentes de analytics levam a ação que melhora o negócio",
+  "linha": "Levantamento com 400 executivos de dados e tecnologia, patrocinado pela Snowflake, aponta falta de contexto de negócio como principal causa de insights ruins. Em 52% das empresas, os agentes geram mais insights do que a organização consegue avaliar.",
+  "linhaFina": "O relatório ouviu executivos de empresas com receita anual de US$ 500 milhões ou mais. Em um ano, a taxa média de insights que viram ação subiu de 37% para 48%, segundo os respondentes.",
+  "fontePrimaria": "MIT Technology Review Insights / Snowflake",
+  "leitura": 3,
+  "resumo": [
+    "Em média, 48% dos insights gerados por agentes de analytics nas empresas pesquisadas levam a ações que melhoram o negócio; um ano antes, os respondentes estimavam 37%.",
+    "83% avaliam como bons ou excelentes os insights descritivos (o que aconteceu), mas só 45% dizem o mesmo dos prescritivos (o que fazer).",
+    "55% citam a falta de contexto de negócio como principal motivo de insights fracos, e 52% dizem que seus agentes geram mais insights do que a empresa consegue avaliar."
+  ],
+  "corpo": [
+    "A MIT Technology Review Insights, braço de conteúdo sob encomenda da revista, publicou em 2 de novembro um relatório produzido em parceria com a Snowflake sobre a qualidade do que agentes de analytics entregam. O conteúdo é patrocinado e foi produzido pelo Insights, não pela redação editorial da revista.",
+    "A pesquisa foi feita em julho e agosto de 2026 com 400 executivos seniores de dados e tecnologia (diretores de dados, de TI, de tecnologia e de IA, entre outros), em empresas de oito setores com receita anual de US$ 500 milhões ou mais; em 36% delas, a receita passa de US$ 10 bilhões.",
+    "O relatório identifica um grupo pequeno de 'líderes em insights', no qual mais de 70% dos insights dos agentes levam a ação que melhora o negócio. Segundo a página da Snowflake, esse grupo representa 7% dos pesquisados. Quando a qualidade é fraca, 55% apontam a falta de contexto de negócio e 45%, dados fragmentados ou inacessíveis.",
+    "Em 52% das organizações, os agentes geram insights demais para serem avaliados e acionados. Só 24% conseguem avaliar todos; a maioria faz a revisão caso a caso, e o processo ainda depende muito de pessoas. Para melhorar, 60% priorizam governança de IA e de dados, e 45% planejam adicionar uma camada semântica à arquitetura de dados."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · MEDIDA",
+      "titulo": "Agente de análise precisa de taxa de ação, não só de volume de relatórios",
+      "texto": "A métrica da pesquisa é a parcela de insights que vira ação com melhora para o negócio. Quem não mede isso não sabe se o agente entrega ou apenas produz material para revisar."
+    },
+    {
+      "rotulo": "02 · CONTEXTO",
+      "titulo": "O gargalo apontado é o contexto de negócio, não o modelo",
+      "texto": "Definições de métricas, regras e significado dos dados são o que 55% dos respondentes dizem faltar. Para empresa média, isso significa organizar os dados antes de ampliar o número de agentes."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "A pesquisa é patrocinada por quem vende a solução",
+      "texto": "A Snowflake vende plataforma de dados com camada semântica e governança, exatamente o que o relatório recomenda. O número pode estar certo, mas a amostra é de grandes empresas e a metodologia completa está no relatório, que exige cadastro."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem já usa agente que gera relatórios ou recomendações, vale registrar, por um mês, quantas recomendações viraram decisão e qual foi o resultado. Esse número é a versão própria da taxa de 48%."
+  ],
+  "fontes": [
+    {
+      "titulo": "Raising the quality of insights in agentic analytics",
+      "origem": "MIT Technology Review Insights · conteúdo patrocinado pela Snowflake · 2 nov 2026",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/"
+    },
+    {
+      "titulo": "Raising the quality of insights in agentic analytics (página do relatório)",
+      "origem": "Snowflake · 2026",
+      "url": "https://www.snowflake.com/en/lp/raising-the-quality-of-insights-in-agentic-analytics/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "MIT Technology Review Insights, em parceria com a Snowflake" },
+    { "rotulo": "Amostra", "valor": "400 executivos seniores de dados e tecnologia, em 8 setores" },
+    { "rotulo": "Perfil das empresas", "valor": "receita anual de US$ 500 milhões ou mais" },
+    { "rotulo": "Campo", "valor": "julho e agosto de 2026" },
+    { "rotulo": "Divulgação", "valor": "2 nov 2026" }
+  ]
+}
