@@ -1,0 +1,152 @@
+{
+  "id": "agentforce-ou-joule-studio-plataformas-agentes",
+  "publicado_em": "2026-11-03T08:00:00-03:00",
+  "consultadoEm": "nov/2026",
+  "tipo": "COMPARATIVO",
+  "categoria": "PLATAFORMAS DE AGENTES",
+  "titulo": "Agentforce ou Joule Studio: o que a Salesforce e a SAP documentam para pôr agentes no CRM e no ERP",
+  "linhaFina": "As duas plataformas nasceram dentro de sistemas que a empresa média já usa. Lemos documentação, preços e relatos públicos de cada uma, critério por critério.",
+  "linha": "A Salesforce publica preço por ação e por conversa; a SAP publica AI Units por ação, mas não o valor da unidade nas páginas lidas.",
+  "leitura": 6,
+  "abertura": "Quem já roda o CRM na Salesforce ou o ERP na SAP recebe a mesma oferta do fornecedor: montar agentes sobre o sistema que a empresa já tem. Nas duas, a pergunta de integração parece resolvida na demonstração, porque o agente nasce dentro da casa. Ela só se resolve com quatro respostas de operação: como o agente entra no sistema e com que permissão, o que fica registrado do que ele fez, onde passam os dados da empresa e quanto custa cada ação quando o volume cresce.",
+  "metodo": "Lemos, em novembro de 2026, a página de preços e a documentação de ajuda do Agentforce (Salesforce) e, do Joule Studio (SAP), as páginas de produto e de preços, o registro de auditoria e posts técnicos da SAP Community, além de um relato de membro da comunidade sobre dados. Escolhemos as duas porque são as plataformas de agentes dos fornecedores de CRM e ERP mais comuns em empresas médias que operam sistemas desses fornecedores, e porque a rodada anterior deixou a Agentforce de fora. Ficaram fora ServiceNow, Oracle e plataformas independentes. Nenhuma ferramenta foi instalada ou usada; cada marca reflete o que a página citada descreve, não comportamento observado. Ausência de documentação não significa ausência do recurso.",
+  "ferramentas": [
+    {
+      "nome": "Salesforce Agentforce",
+      "fornecedor": "Salesforce",
+      "tipo": "SaaS (nuvem do fornecedor)",
+      "preco": "Flex Credits: US$ 500 por 100 mil créditos; ou US$ 2 por conversa; licença de usuário Agentforce a US$ 5/mês (exige Flex Credits). A página diz que os valores podem mudar e remete a vendas. Preço de página dos EUA; não há reais",
+      "resumo": "Preço público por crédito e por conversa; agente roda com usuário próprio ou com o do cliente logado",
+      "texto": "O Agentforce é cobrado por Flex Credits consumidos por ação, por conversa ou por licença de usuário, conforme o modelo contratado. A página de preços traz um exemplo em que duas ações consomem 40 créditos e custam US$ 0,20. Na documentação de ajuda, um agente de serviço roda, para visitantes não identificados ou clientes sem usuário, com o próprio Agent User e suas permissões, e, para cliente logado em site, com o perfil e as permissões desse usuário. A escalada para uma pessoa passa por um subagente de Escalação e um fluxo do Omni-Channel. O Trust Layer cita acordos de retenção zero com provedores de modelos."
+    },
+    {
+      "nome": "SAP Joule Studio",
+      "fornecedor": "SAP",
+      "tipo": "SaaS (SAP Business Technology Platform)",
+      "preco": "Agentes cobrados em AI Units por ação: 0,02 (padrão) ou 0,05 (avançado). O valor da AI Unit não aparece nas páginas lidas; a execução em produção é cobrada à parte, por consumo, no contrato BTP",
+      "resumo": "Preço por ação em AI Units, sem o valor da unidade nas páginas lidas; OAuth e destinos no BTP",
+      "texto": "O Joule Studio é o ambiente da SAP para criar agentes e fluxos n8n, dentro do SAP Build e da BTP. A página de preços da SAP diz que cada ação de um agente consome AI Units, que se compram por contrato anual e expiram em 12 meses. Segundo um guia de especialista da SAP Community, os agentes se autenticam com OAuth via SAP Cloud Identity Services, e há um padrão que propaga a identidade do usuário ao S/4HANA. Conexões com ferramentas externas usam MCP por destinos configurados no BTP Cockpit. O registro de auditoria da documentação cobre eventos de configuração."
+    }
+  ],
+  "criterios": [
+    {
+      "criterio": "Autenticação",
+      "pergunta": "Usa o usuário e a permissão do sistema da empresa (SSO, perfis)?",
+      "celulas": [
+        {
+          "marca": "documentado",
+          "nota": "Agente roda com Agent User próprio ou, com cliente logado, com as permissões dele; Agent User não herda perfis",
+          "fonte": 1
+        },
+        {
+          "marca": "ressalva",
+          "nota": "OAuth via IAS; padrão JWT propaga o usuário ao S/4HANA. Fonte é post técnico de especialista SAP, não manual",
+          "fonte": 8
+        }
+      ]
+    },
+    {
+      "criterio": "Log por ação",
+      "pergunta": "Registra o que o agente consultou e o que fez, e por quanto tempo?",
+      "celulas": [
+        {
+          "marca": "ressalva",
+          "nota": "Página de produto cita rastreio de cada sessão e turno; retenção e forma de exportar não lidas",
+          "fonte": 2
+        },
+        {
+          "marca": "ressalva",
+          "nota": "Auditoria lida cobre eventos de configuração (implantar capacidades); registro por execução do agente não achado",
+          "fonte": 9
+        }
+      ]
+    },
+    {
+      "criterio": "Conector",
+      "pergunta": "Liga ao ERP, CRM ou WhatsApp sem código, com conector mantido pelo fornecedor?",
+      "celulas": [
+        {
+          "marca": "ressalva",
+          "nota": "Cliente MCP embutido; servidores MuleSoft e da própria Salesforce via API Catalog. Lista de ERPs não lida",
+          "fonte": 3
+        },
+        {
+          "marca": "ressalva",
+          "nota": "Acesso a conectores do SAP Build e MCP externo por destinos no BTP Cockpit, que a TI precisa configurar",
+          "fonte": 10
+        }
+      ]
+    },
+    {
+      "criterio": "Humano no fluxo",
+      "pergunta": "Escala exceção para uma pessoa, com motivo, antes de agir?",
+      "celulas": [
+        {
+          "marca": "ressalva",
+          "nota": "Subagente de Escalação transfere a conversa a fila ou pessoa com o histórico; sem ele, não escala. Não é aprovação antes da ação",
+          "fonte": 4
+        },
+        {
+          "marca": "ressalva",
+          "nota": "Post de lançamento da SAP diz que há supervisão humana para decisões críticas; manual de configuração não lido",
+          "fonte": 10
+        }
+      ]
+    },
+    {
+      "criterio": "Dados",
+      "pergunta": "Onde ficam, o que vai para o modelo, se é usado para treino, há DPA ou cláusula LGPD?",
+      "celulas": [
+        {
+          "marca": "ressalva",
+          "nota": "Trust Layer: retenção zero acordada com provedores de modelo e mascaramento. Região e DPA não lidos",
+          "fonte": 5
+        },
+        {
+          "marca": "ressalva",
+          "nota": "Só por relato de membro: provedores de modelo não treinam, por contrato; dados passam por eles. Sem fonte oficial lida",
+          "fonte": 12
+        }
+      ]
+    },
+    {
+      "criterio": "Custo por tarefa",
+      "pergunta": "Preço público e previsível com o volume?",
+      "celulas": [
+        {
+          "marca": "documentado",
+          "nota": "US$ 500 por 100 mil créditos; exemplo: 2 ações = 40 créditos = US$ 0,20; US$ 2 por conversa",
+          "fonte": 6
+        },
+        {
+          "marca": "ressalva",
+          "nota": "0,02 ou 0,05 AI Unit por ação, mas valor da unidade não achado; execução cobrada à parte por consumo",
+          "fonte": 11
+        }
+      ]
+    }
+  ],
+  "conclusao1": "Para quem precisa estimar o custo antes de contratar, a Salesforce publica mais: dá para multiplicar ações por créditos, ou conversas por US$ 2, e chegar a uma ordem de grandeza, lembrando que a página é a dos EUA, não lista reais e remete a vendas. Na SAP, a tabela de AI Units por ação existe, mas o valor da unidade e a cobrança de execução da BTP ficam para o contrato; a conta só fecha com a proposta do fornecedor.",
+  "conclusao2": "Para a decisão de fundo, a escolha tende a seguir o sistema que a empresa já opera: o Agentforce parte do CRM, e o Joule Studio parte do ERP e da BTP. Nas duas, três perguntas ficaram sem resposta nas páginas lidas e valem por escrito antes de ligar o agente a dados reais: onde ficam o registro por execução e por quanto tempo, em que região passam os dados, e qual contrato de tratamento de dados (DPA) vale para a LGPD.",
+  "ficha": [
+    { "rotulo": "Ferramentas", "valor": "Salesforce Agentforce e SAP Joule Studio" },
+    { "rotulo": "Categoria", "valor": "Plataformas de agentes" },
+    { "rotulo": "Documentação consultada", "valor": "Salesforce Help e páginas de produto e preços; SAP Help, páginas de produto e preços e SAP Community" },
+    { "rotulo": "Fontes", "valor": "12 páginas (11 de fornecedores e 1 post de membro da comunidade), lidas em nov/2026" },
+    { "rotulo": "Método", "valor": "Leitura de documentação; nenhuma ferramenta foi instalada ou usada" }
+  ],
+  "fontes": [
+    { "titulo": "Agent User and Running User for Agentforce Service Agents", "origem": "Salesforce Help", "url": "https://help.salesforce.com/s/articleView?id=ai.agent_user.htm&type=5" },
+    { "titulo": "Agentforce Observability", "origem": "Salesforce", "url": "https://www.salesforce.com/agentforce/observability/" },
+    { "titulo": "MCP for Agentforce", "origem": "Salesforce Help", "url": "https://help.salesforce.com/s/articleView?language=en_US&id=ai.agent_mcp.htm&type=5" },
+    { "titulo": "Transfer Conversations from an Agent with an Omni-Channel Flow", "origem": "Salesforce Help", "url": "https://help.salesforce.com/s/articleView?language=en_US&id=ai.service_agent_escalation.htm&type=5" },
+    { "titulo": "Trust Layer", "origem": "Salesforce Developers", "url": "https://developer.salesforce.com/docs/ai/agentforce/guide/trust.html" },
+    { "titulo": "Agentforce pricing", "origem": "Salesforce", "url": "https://www.salesforce.com/agentforce/pricing/" },
+    { "titulo": "Joule Studio | Build AI Agents and Workflows", "origem": "SAP", "url": "https://www.sap.com/products/artificial-intelligence/joule-studio.html" },
+    { "titulo": "OAuth for Joule Agents: Step-by-Step Developer Guide", "origem": "SAP Community (especialista SAP)", "url": "https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/oauth-for-joule-agents-step-by-step-developer-guide/ba-p/14471643" },
+    { "titulo": "Audit Logging - Joule Studio, classic edition", "origem": "SAP Help Portal", "url": "https://help.sap.com/docs/joule-studio-classic/joule-studio-classic-edition/audit-logging" },
+    { "titulo": "Agent builder in Joule Studio is now generally available", "origem": "SAP Community", "url": "https://community.sap.com/t5/artificial-intelligence-blogs-posts/agent-builder-in-joule-studio-is-now-generally-available-build-your-own/ba-p/14289282" },
+    { "titulo": "Software Packages and Pricing | SAP Business AI", "origem": "SAP", "url": "https://www.sap.com/products/artificial-intelligence/pricing.html" },
+    { "titulo": "What Happens to Your Data When You Enable SAP's AI Features?", "origem": "SAP Community (post de membro)", "url": "https://community.sap.com/t5/technology-blog-posts-by-members/what-happens-to-your-data-when-you-enable-sap-s-ai-features/ba-p/14375483" }
+  ]
+}
