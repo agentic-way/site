@@ -1,0 +1,57 @@
+{
+  "id": "salesforce-compra-cresta-agentes-de-voz-service-cloud",
+  "publicado_em": "2026-11-04T07:11:00-03:00",
+  "tema": "MERCADO",
+  "titulo": "Salesforce assina acordo para comprar a Cresta e levar agentes de voz ao Service Cloud",
+  "linha": "A Cresta faz agentes de voz que atendem ligações de ponta a ponta. A Salesforce não divulgou o preço; o fechamento depende de aprovações regulatórias.",
+  "linhaFina": "A Salesforce diz que a Cresta continuará compatível com as plataformas de central de atendimento e telefonia que seus clientes usam hoje.",
+  "fontePrimaria": "Salesforce",
+  "leitura": 2,
+  "resumo": [
+    "A Salesforce assinou acordo definitivo para comprar a Cresta, que desenvolve agentes de voz e apoio em tempo real a atendentes humanos.",
+    "O preço não foi divulgado pela Salesforce. O Portal da AI relata, a partir do The Next Web e do The Information, o valor de US$ 2,7 bilhões, que o próprio The Next Web não conseguiu confirmar.",
+    "O fechamento é esperado no primeiro trimestre do ano fiscal 2028 da Salesforce, sujeito a aprovações regulatórias."
+  ],
+  "corpo": [
+    "Em comunicado, a Salesforce descreve a Cresta como um sistema operacional de voz para a experiência do cliente: seus agentes de voz resolvem chamadas complexas de ponta a ponta, e a mesma plataforma orienta atendentes humanos em tempo real e analisa as interações. Entre os clientes citados estão Marriott, Comcast e Alaska Airlines.",
+    "A Salesforce afirma que fornecerá o histórico do cliente e os sistemas para executar o trabalho, e a Cresta, a compreensão das conversas e a capacidade de agir por agentes de voz, com o objetivo de ligar cada conversa a um resultado: resolução, retenção e receita. Depois do fechamento, a Cresta continuará a dar suporte às plataformas de central de atendimento e telefonia que seus clientes usam.",
+    "Segundo o Portal da AI, o anúncio foi feito em 2 de novembro de 2026 e o prazo equivale, no calendário da Salesforce, a fevereiro a abril de 2027. A compra segue outras aquisições da Salesforce ligadas a IA nas últimas semanas."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CANAL",
+      "titulo": "A voz entra na disputa dos agentes de atendimento",
+      "texto": "Quem hoje usa Agentforce e Service Cloud só em chat e mensagem passa a ter, depois do fechamento, uma rota própria da fornecedora para a ligação telefônica."
+    },
+    {
+      "rotulo": "02 · PRAZO",
+      "titulo": "Nada muda para o cliente antes de 2027",
+      "texto": "O negócio depende de aprovações e a Salesforce não detalhou produto, preço de licença nem disponibilidade no Brasil. Não há razão para decidir compra com base neste anúncio."
+    },
+    {
+      "rotulo": "03 · REGRA",
+      "titulo": "Voz com agente continua sujeita ao decreto do SAC",
+      "texto": "Empresas obrigadas pelo novo decreto do SAC devem manter atendimento humano das 8h às 20h; agente de voz não substitui essa exigência."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Salesforce Signs Definitive Agreement to Acquire Cresta",
+      "origem": "Salesforce · comunicado",
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
+    },
+    {
+      "titulo": "Salesforce compra a Cresta e põe agentes de voz com IA no Service Cloud",
+      "origem": "Portal da AI · 3 nov 2026",
+      "url": "https://www.portaldaai.com.br/noticias/salesforce-compra-cresta-agentes-de-voz-ia-service-cloud"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem afirma", "valor": "Salesforce" },
+    { "rotulo": "Preço", "valor": "não divulgado pela Salesforce" },
+    { "rotulo": "Divulgação", "valor": "2 nov 2026" }
+  ],
+  "datas": [
+    { "quando": "1º tri do ano fiscal 2028 da Salesforce", "evento": "Fechamento previsto, sujeito a aprovações regulatórias" }
+  ]
+}
