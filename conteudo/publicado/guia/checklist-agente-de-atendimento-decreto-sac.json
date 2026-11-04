@@ -1,0 +1,84 @@
+{
+  "id": "checklist-agente-de-atendimento-decreto-sac",
+  "publicado_em": "2026-11-04T08:00:00-03:00",
+  "atualizado_em": "2026-11-04T08:00:00-03:00",
+  "versao": "1.0",
+  "assunto": "RISCO E LGPD",
+  "formato": "CHECKLIST",
+  "titulo": "Sete itens para conferir se o agente do seu atendimento convive com o novo decreto do SAC",
+  "linhaFina": "O Decreto nº 13.135/2026 permite inteligência artificial no atendimento, mas exige saída para uma pessoa em todos os níveis, protocolo, histórico e gravação. Este checklist ajuda a levar essas perguntas ao jurídico e ao fornecedor.",
+  "resumo": "O que conferir no agente de atendimento (chat, WhatsApp, telefone) depois que o decreto do SAC entrou em vigor, antes de decidir se precisa mudar o desenho ou a equipe.",
+  "leitura": 7,
+  "paraQuem": "Quem responde pelo atendimento ao cliente: diretor de operações, de atendimento ou de relacionamento, com apoio do jurídico. Não é preciso saber configurar o agente; basta saber quais canais a empresa mantém e quem fornece a ferramenta.",
+  "comoUsar": "Primeiro leve o item 1 ao jurídico: é ele que diz se a empresa está sujeita ao decreto. Se estiver, percorra os demais itens com o fornecedor do agente, peça as respostas por escrito e teste você mesmo cada canal, como cliente. Este guia lista o que perguntar e verificar; não afirma o que é obrigatório no caso da sua empresa.",
+  "abertura": "O Decreto nº 13.135, de 9 de outubro de 2026, foi publicado no Diário Oficial em 13 de outubro e, pelo artigo 25, entra em vigor vinte dias depois, ou seja, em 2 de novembro. Ele revoga o decreto de 2022 e diz, no artigo 3º, que o fornecedor pode usar procedimentos automatizados, inclusive inteligência artificial, para triagem, distribuição interna e resolução das demandas, desde que o consumidor tenha a opção de falar em tempo real com uma pessoa. Quem já colocou um agente na linha de frente do atendimento precisa saber se ele deixa essa porta aberta, o tempo todo.",
+  "itens": [
+    {
+      "curta": "Estamos sujeitos?",
+      "pergunta": "A nossa empresa e os nossos canais de atendimento entram no alcance do decreto?",
+      "porque": "O decreto regulamenta o Serviço de Atendimento ao Consumidor e prevê que agências e órgãos reguladores podem fixar regras complementares por setor, respeitado o mínimo que ele estabelece (art. 12, §§ 3º e 4º). Mudar o desenho do atendimento sem saber se a norma se aplica gera custo à toa; não mudar quando se aplica expõe a empresa à fiscalização da Secretaria Nacional do Consumidor (art. 23).",
+      "boa": "Parecer curto do jurídico, por escrito, dizendo se a empresa está sujeita, a qual regulador responde e se há regra setorial complementar.",
+      "ruim": "Ouvir que \"é só para banco e telecom\" sem que ninguém tenha conferido o texto e o regulador do seu setor.",
+      "anote": "Resposta do jurídico, data, regulador do setor e quais canais (telefone, chat, WhatsApp) são considerados SAC."
+    },
+    {
+      "curta": "Saída para humano",
+      "pergunta": "Em qualquer ponto da conversa com o agente, inclusive na primeira mensagem, o cliente consegue pedir uma pessoa e cancelar o contrato?",
+      "porque": "O artigo 13 exige, nos canais eletrônicos, a opção de cancelamento imediato e a de atendimento em tempo real por pessoa, a qualquer tempo e em qualquer nível, inclusive o primeiro. O artigo 8º veda condicionar o início do atendimento ou o encaminhamento ao humano ao fornecimento prévio de dados.",
+      "boa": "Você testa como cliente: escreve \"quero falar com uma pessoa\" e \"quero cancelar\" logo na primeira mensagem, sem informar nome nem CPF, e o agente encaminha sem rodeio.",
+      "ruim": "O agente pede cadastro antes de encaminhar, insiste em resolver sozinho ou só mostra a opção de humano depois de várias trocas.",
+      "anote": "Resultado do teste em cada canal, com data, e quantas mensagens foram necessárias para chegar a uma pessoa."
+    },
+    {
+      "curta": "Horário humano",
+      "pergunta": "Há uma pessoa disponível em tempo real nos canais eletrônicos, das 8h às 20h, todos os dias, e o cliente é avisado do tempo estimado de espera?",
+      "porque": "Pelo artigo 12, um canal eletrônico precisa funcionar 24 horas por dia, sete dias por semana, e o atendimento por pessoa em tempo real vale das 8h às 20h. O artigo 13, § 2º, manda informar o tempo estimado de espera. O ganho de cobrir a noite com agente continua, mas a cobertura humana diurna passa a ser parte do custo.",
+      "boa": "Escala de atendentes por canal que cobre o período todo, e uma mensagem do agente que informa a espera estimada ao encaminhar.",
+      "ruim": "Agente que atende o dia inteiro e fila humana só em horário comercial de segunda a sexta, ou encaminhamento sem estimativa de espera.",
+      "anote": "Escala por canal e dia da semana, tempo médio de espera medido e quem responde fora do horário comercial."
+    },
+    {
+      "curta": "Telefone e menu",
+      "pergunta": "No telefone, o menu eletrônico ou o agente de voz oferece a opção de falar com uma pessoa em todos os níveis, e a espera respeita os prazos do decreto?",
+      "porque": "O artigo 15 exige a opção de atendimento por pessoa em todos os níveis do atendimento telefônico, com espera de até 20 segundos para no mínimo 80% das demandas e até 300 segundos para as demais, salvo regra setorial específica. O artigo 14 torna o atendimento telefônico obrigatório. Agente de voz é, para o decreto, uma etapa automatizada do canal telefônico (art. 3º, § 1º).",
+      "boa": "Relatório do tempo de espera por atendente, com a parcela de chamadas atendidas em até 20 segundos, e opção de pessoa no primeiro nível.",
+      "ruim": "Opção de pessoa escondida em submenus ou sem medição do tempo de espera.",
+      "anote": "Percentual de chamadas atendidas por pessoa em até 20 segundos e tempo máximo registrado no último mês."
+    },
+    {
+      "curta": "Sem recomeçar",
+      "pergunta": "Quando a conversa passa do agente para uma pessoa, o atendente vê o histórico, e o cliente evita repetir o pedido?",
+      "porque": "O artigo 6º veda pedir que o consumidor repita a demanda após o registro no primeiro atendimento, salvo razão técnica fundamentada, e o artigo 7º veda exigir que ele reinicie o atendimento ou faça novos contatos pelo mesmo assunto. O artigo 18, § 1º, manda o sistema dar ao atendente o histórico das demandas ativas e das ligadas ao mesmo fato. Uma transferência que apaga o contexto é o tipo de falha que o agente produz com facilidade.",
+      "boa": "Você faz o teste: abre um pedido com o agente, pede humano e confere se o atendente já sabe do que se trata, sem perguntar de novo.",
+      "ruim": "A pessoa recebe o chamado em branco, ou o cliente tem de informar de novo dados e motivo.",
+      "anote": "Se o histórico completo aparece para o atendente e em quais canais a transferência perde informação."
+    },
+    {
+      "curta": "Protocolo e histórico",
+      "pergunta": "Cada contato gera protocolo, e conseguimos enviar o histórico ao cliente em cinco dias úteis, manter o registro por seis meses e guardar as conversas por 90 dias?",
+      "porque": "O artigo 18 dá ao consumidor o direito de acompanhar suas demandas por protocolo, de receber o histórico sem custo em até cinco dias úteis e prevê guarda do histórico por no mínimo seis meses após a resolução. O artigo 19 manda guardar por no mínimo 90 dias as gravações e o conteúdo das mensagens de voz ou texto, com acesso para o consumidor e para os órgãos de fiscalização. Para o agente de IA, isso inclui as respostas que ele deu.",
+      "boa": "O fornecedor mostra onde o protocolo aparece, como o histórico é exportado e por quanto tempo as conversas ficam guardadas, com prazos iguais ou maiores que os do decreto.",
+      "ruim": "Conversas que se apagam após poucos dias, histórico que só o fornecedor consegue extrair, ou protocolo que só existe em parte dos canais.",
+      "anote": "Prazo de guarda de conversas e histórico em cada canal, formato de exportação e quem atende o pedido do cliente."
+    },
+    {
+      "curta": "Prazo e conclusão",
+      "pergunta": "O agente fecha a demanda com resposta clara e conclusiva, dentro de sete dias corridos, e suspende cobrança indevida em até 48 horas?",
+      "porque": "O artigo 21 exige resposta às demandas não urgentes em até sete dias corridos, clara, objetiva, conclusiva e que aborde todos os pontos, e, no caso de serviço não solicitado ou cobrança indevida, providências imediatas para concluir a suspensão em no máximo 48 horas. Agente que dá resposta rápida mas não resolve não cumpre a finalidade do artigo 4º, que inclui a resolutividade da demanda.",
+      "boa": "Medição de quantas demandas foram concluídas no prazo, separando as que o agente resolveu das que passaram para uma pessoa, e um fluxo próprio para cobrança indevida.",
+      "ruim": "Indicador de \"conversas encerradas\" sem saber se o problema foi resolvido, ou cobrança indevida tratada na fila comum.",
+      "anote": "Demandas concluídas em até sete dias, tempo de suspensão de cobrança indevida e quantas voltaram a abrir o mesmo pedido."
+    }
+  ],
+  "fechamento": "Monte uma linha por canal: o que o teste mostrou em cada item, o que o fornecedor respondeu por escrito e o que precisa mudar, com responsável e data. Os itens 2 e 3 são os que o cliente percebe primeiro; os itens 5 e 6 só aparecem quando alguém reclama. Leve o quadro ao jurídico antes de alterar contrato ou escala: o decreto prevê que reguladores podem fixar regras complementares por setor, e só o jurídico pode dizer o que vale para a sua empresa.",
+  "historico": [
+    {"data": "nov/2026", "versao": "1.0", "texto": "Publicação. Parte da nota do Radar \"Novo decreto do SAC permite IA na triagem e na resolução, mas exige atendente humano das 8h às 20h, todos os dias\"; os artigos foram relidos no texto publicado no Diário Oficial da União."}
+  ],
+  "fontes": [
+    {
+      "titulo": "Decreto nº 13.135, de 9 de outubro de 2026",
+      "origem": "Diário Oficial da União · Imprensa Nacional · seção 1 · 13 out 2026",
+      "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.135-de-9-de-outubro-de-2026-737787837"
+    }
+  ]
+}

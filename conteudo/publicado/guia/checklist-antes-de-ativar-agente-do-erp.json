@@ -1,8 +1,8 @@
 {
   "id": "checklist-antes-de-ativar-agente-do-erp",
   "publicado_em": "2026-10-21T08:00:00-03:00",
-  "atualizado_em": "2026-10-28T08:00:00-03:00",
-  "versao": "1.1",
+  "atualizado_em": "2026-11-04T08:00:00-03:00",
+  "versao": "1.2",
   "assunto": "CONTRATAÇÃO",
   "formato": "CHECKLIST",
   "titulo": "Seis itens para conferir antes de ativar o agente de IA que vem no seu ERP",
@@ -31,11 +31,11 @@
     },
     {
       "curta": "Registro por agente",
-      "pergunta": "Cada ação do agente fica registrada com o nome do agente, e eu consigo ver esse registro?",
-      "porque": "No Gemini agent, ainda em prévia privada, o Google Cloud descreve identidade própria por agente e cada ação gravada numa trilha atribuída ao agente, e não a uma pessoa. A SAP cita trilhas de auditoria existentes. Sem esse registro, depois de um erro ninguém sabe se foi o agente ou um colega.",
-      "boa": "Um registro com data, agente, ação e dado afetado, que a empresa exporta sem abrir chamado.",
-      "ruim": "Ações do agente gravadas sob o usuário que o ativou, ou registro que só o fornecedor consegue consultar.",
-      "anote": "Campos do registro, prazo de guarda, quem acessa."
+      "pergunta": "Cada ação do agente fica registrada com o nome do agente, eu consigo ver esse registro, e o agente não tem permissão para alterá-lo ou desligá-lo?",
+      "porque": "No Gemini agent, ainda em prévia privada, o Google Cloud descreve identidade própria por agente e cada ação gravada numa trilha atribuída ao agente, e não a uma pessoa. A SAP cita trilhas de auditoria existentes. Sem esse registro, depois de um erro ninguém sabe se foi o agente ou um colega. O registro também só vale como controle se o agente que ele vigia não puder mexer nele: a OpenAI relatou, em outubro, dois casos internos em que agentes de programação enfraqueceram o próprio monitoramento ao cumprir tarefas rotineiras, e um deles afirmou depois que não havia removido o monitor.",
+      "boa": "Um registro com data, agente, ação e dado afetado, que a empresa exporta sem abrir chamado. O registro fica fora do alcance do agente: ele não tem permissão para editar, apagar nem desativar a gravação, e falha de gravação gera alerta para uma pessoa.",
+      "ruim": "Ações do agente gravadas sob o usuário que o ativou, ou registro que só o fornecedor consegue consultar. Também preocupa um agente com permissão de administrador sobre as configurações de log, ou um registro que só existe se o agente \"lembrar\" de escrevê-lo.",
+      "anote": "Campos do registro, prazo de guarda, quem acessa, e quem pode alterar ou desligar o registro."
     },
     {
       "curta": "Uso dos dados",
@@ -64,8 +64,21 @@
   ],
   "fechamento": "Se duas ou mais respostas forem ruins, adie a ativação e leve o contrato ao jurídico. Se forem boas, comece por um processo só, com aprovação humana em cada ação, e compare o registro do agente com o trabalho feito à mão nas primeiras semanas. Guarde as respostas: elas serão sua referência na renovação seguinte.",
   "historico": [
-    {"data": "out/2026", "versao": "1.1", "texto": "Item 05 (Custo) ampliado: passou a perguntar se o fornecedor pode trocar o modelo que executa a tarefa, e a pedir aviso prévio e direito de retestar. Motivo: o Citi, segundo o Times Brasil, diz que a Totvs pode alternar entre modelos aprovados, e a VentureBeat apurou que 59% das empresas que trocaram o modelo de um app em produção viram o desempenho cair."},
-    {"data": "out/2026", "versao": "1.0", "texto": "Publicação. Parte da análise \"O agente da empresa média vai chegar como atualização do ERP, não como compra\"."}
+    {
+      "data": "nov/2026",
+      "versao": "1.2",
+      "texto": "Item 03 (Registro por agente) ampliado: passou a perguntar se o agente tem permissão para alterar ou desligar o próprio registro. Motivo: relatório da OpenAI (atualizado em 20 out 2026) descreve dois agentes que enfraqueceram o monitoramento em tarefas internas, tema da Análise \"O registro do agente precisa ficar onde o agente não consegue editar\"."
+    },
+    {
+      "data": "out/2026",
+      "versao": "1.1",
+      "texto": "Item 05 (Custo) ampliado: passou a perguntar se o fornecedor pode trocar o modelo que executa a tarefa, e a pedir aviso prévio e direito de retestar. Motivo: o Citi, segundo o Times Brasil, diz que a Totvs pode alternar entre modelos aprovados, e a VentureBeat apurou que 59% das empresas que trocaram o modelo de um app em produção viram o desempenho cair."
+    },
+    {
+      "data": "out/2026",
+      "versao": "1.0",
+      "texto": "Publicação. Parte da análise \"O agente da empresa média vai chegar como atualização do ERP, não como compra\"."
+    }
   ],
   "fontes": [
     {
@@ -102,6 +115,11 @@
       "titulo": "Totvs avança na monetização de IA, mas impacto maior deve vir a partir de 2027",
       "origem": "InfoMoney · 14 out 2026",
       "url": "https://www.infomoney.com.br/mercados/totvs-avanca-na-monetizacao-de-ia-mas-impacto-maior-deve-vir-a-partir-de-2027/"
+    },
+    {
+      "titulo": "Suppressing misalignment monitoring alerts and disabling misalignment monitoring",
+      "origem": "OpenAI Alignment · relatório · atualizado em 20 out 2026",
+      "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring"
     }
   ]
 }
