@@ -1,0 +1,61 @@
+{
+  "id": "gartner-modelos-abertos-90-etapas-agentes",
+  "publicado_em": "2026-11-04T07:11:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Gartner projeta que modelos de pesos abertos executarão 90% das etapas de agentes nas empresas até 2030",
+  "linha": "Em documento restrito a clientes, a Gartner diz que 9 em cada 10 etapas de um fluxo com agentes são rotineiras. A economia por tarefa estimada é de cinco a seis vezes, não de vinte.",
+  "linhaFina": "Segundo o The Register, que relatou o documento, a Gartner trata o custo como bônus e o controle dos dados como o argumento principal.",
+  "fontePrimaria": "Gartner, via The Register",
+  "leitura": 3,
+  "resumo": [
+    "A Gartner afirma que 9 em cada 10 etapas dos fluxos de trabalho com agentes são rotineiras e que modelos de pesos abertos as executam com desempenho equivalente por um quarto do preço do modelo fechado mais barato.",
+    "Contra um modelo de fronteira usado em todas as etapas, o custo pode ser de até um vigésimo. A própria Gartner admite que, hoje, a economia por tarefa fica mais perto de cinco a seis vezes, porque os modelos abertos são mais prolixos e repetem mais tentativas.",
+    "A previsão é que, até 2030, 90% das etapas operacionais de agentes nas empresas rodem em modelos de pesos abertos."
+  ],
+  "corpo": [
+    "O documento \"Open-Weight Models Will Run 90% of Enterprise Agentic Workflow Steps\" é assinado por Mark Petty, diretor sênior, e Raymond Paquet, vice-presidente de grupo da Gartner. O texto completo é restrito a clientes; os trechos citados aqui vêm da reportagem do The Register, publicada em 3 de novembro de 2026.",
+    "O argumento é que fluxos operacionais típicos reúnem centenas de execuções rotineiras, como classificar, chamar ferramentas, passar, validar e conciliar dados, para cada passo que exige raciocínio de fronteira. Nas etapas rotineiras, segundo os autores, o modelo aberto tem desempenho equivalente: custa um quarto do modelo fechado mais barato com a mesma pontuação e, no melhor caso, um vigésimo do modelo de fronteira usado em todas as etapas.",
+    "Esses são os melhores números. Os autores escrevem que os modelos abertos atuais podem ser mais prolixos e repetir mais tentativas, e que a economia por tarefa contra um modelo de fronteira fica mais perto de cinco a seis vezes.",
+    "A Gartner diz que o custo é um bônus. O argumento central é o controle: cada etapa rotineira enviada à API de um modelo de fronteira leva uma parte do histórico do fluxo de trabalho da empresa para fora do seu perímetro. A projeção, que a Gartner chama de premissa de planejamento estratégico, é de 90% das etapas operacionais em modelos de pesos abertos até 2030."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CUSTO",
+      "titulo": "Pergunte à fornecedora qual modelo roda cada etapa",
+      "texto": "Quem contrata agente por tarefa ou por uso paga o modelo escolhido pela fornecedora. Saber quais etapas exigem um modelo caro e quais não exigem é base para negociar preço."
+    },
+    {
+      "rotulo": "02 · DADOS",
+      "titulo": "O argumento da Gartner é controle, não só economia",
+      "texto": "Para empresas com dados de clientes e contratos, onde cada etapa roda importa tanto quanto o preço. É uma pergunta de contrato e de arquitetura, não só de TI."
+    },
+    {
+      "rotulo": "03 · PREVISÃO",
+      "titulo": "É projeção de analista, sem acesso público ao método",
+      "texto": "O documento não é público e a meta de 2030 é uma premissa de planejamento. A Gartner vende assessoria a empresas que decidem esse tipo de compra; trate os números como hipótese para testar com a sua carga de trabalho."
+    }
+  ],
+  "oQueFazer": [
+    "Antes de renegociar qualquer contrato de agentes, peça à fornecedora a lista de modelos usados e o custo por tarefa concluída, com as repetições de tentativa incluídas. O número de cinco a seis vezes da própria Gartner mostra que o preço por token não basta como comparação."
+  ],
+  "fontes": [
+    {
+      "titulo": "Open models can do 90% of agentic work at a twentieth of the cost of a frontier LLM: Gartner",
+      "origem": "The Register · 3 nov 2026",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132"
+    },
+    {
+      "titulo": "Gartner: modelos abertos farão 90% do trabalho dos agentes de IA",
+      "origem": "Portal da AI · 3 nov 2026",
+      "url": "https://www.portaldaai.com.br/noticias/gartner-modelos-abertos-90-por-cento-etapas-agentes-custo"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem afirma", "valor": "Gartner (Mark Petty e Raymond Paquet)" },
+    { "rotulo": "Acesso ao documento", "valor": "restrito a clientes; citado pelo The Register" },
+    { "rotulo": "Divulgação", "valor": "3 nov 2026" }
+  ],
+  "datas": [
+    { "quando": "2030", "evento": "Ano da previsão da Gartner para 90% das etapas operacionais de agentes em modelos de pesos abertos" }
+  ]
+}

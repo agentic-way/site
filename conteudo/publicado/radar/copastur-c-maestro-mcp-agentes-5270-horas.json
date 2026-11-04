@@ -1,0 +1,50 @@
+{
+  "id": "copastur-c-maestro-mcp-agentes-5270-horas",
+  "publicado_em": "2026-11-04T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Biosfera Copastur lança o C+ Maestro, que liga Copilot, ChatGPT, Claude e Gemini a seus serviços de viagem e despesas",
+  "linha": "A conexão usa o protocolo MCP. A empresa diz ter mais de 100 automações com agentes, cerca de 40 em produção contínua, e economia estimada de 5.270 horas de trabalho por mês.",
+  "linhaFina": "Os números de resultado são da própria Copastur, divulgados pelo Panrotas; não há confirmação de cliente ou de terceiro.",
+  "fontePrimaria": "Biosfera Copastur, via Panrotas",
+  "leitura": 3,
+  "resumo": [
+    "A Biosfera Copastur lançou o C+ Maestro, tecnologia baseada no protocolo MCP que permite a assistentes como Microsoft Copilot, ChatGPT, Claude e Gemini, e a agentes próprios do cliente, acessar serviços de viagens, mobilidade, despesas e política corporativa da empresa.",
+    "Segundo a Copastur, o uso respeita as permissões e os processos de aprovação definidos por cada organização, e as chamadas ficam registradas.",
+    "A empresa diz ter desenvolvido mais de 100 automações com agentes, cerca de 40 em produção contínua, com mais de 94 mil execuções desde maio de 2026 e economia estimada de 5.270 horas de trabalho por mês."
+  ],
+  "corpo": [
+    "A notícia foi publicada pelo Panrotas em 3 de novembro de 2026. O C+ Maestro reúne uma biblioteca de conexões, e cada empresa escolhe quais habilitar. Conforme as conexões ativas, um assistente pode consultar alertas de viagem, apoiar um fluxo de hotel, mobilidade e aéreo, verificar a política corporativa e encaminhar uma solicitação para aprovação, ou consultar despesas por centro de custo e transações do Expense Management.",
+    "O protocolo MCP (Model Context Protocol) é um padrão aberto para que aplicações de IA se comuniquem com ferramentas e fontes de dados externas. A Copastur diz que a integração dispensa substituir o ambiente tecnológico existente, desde que haja compatibilidade técnica.",
+    "Sobre resultados, a empresa informa mais de 100 automações com agentes, das quais cerca de 40 em produção contínua, e mais de 94 mil execuções desde maio de 2026. A economia de 5.270 horas por mês é uma estimativa que considera o tempo que as atividades levariam se feitas manualmente. Uma das soluções, que tira dúvidas de colaboradores sobre políticas de cada cliente, passou de 27 mil consultas.",
+    "A Copastur prevê investir R$ 130 milhões em tecnologia em 2026."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · PADRÃO",
+      "titulo": "Fornecedores brasileiros começam a expor serviços por MCP",
+      "texto": "Quando o fornecedor publica o serviço por um padrão aberto, a empresa pode usar o assistente que já tem, em vez de adotar a interface de cada fornecedor."
+    },
+    {
+      "rotulo": "02 · CONTROLE",
+      "titulo": "Peça o registro das chamadas e as regras de aprovação",
+      "texto": "A Copastur afirma que há permissões, aprovação e registro. Para uma empresa cliente, o que importa é conseguir ver quem pediu o quê, e isso se confirma em contrato e em teste, não em comunicado."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "A economia de horas é estimativa da própria empresa",
+      "texto": "O cálculo parte do tempo manual hipotético. Sem metodologia publicada, serve como ordem de grandeza, não como resultado auditado."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Copastur investe R$ 130 milhões em tecnologia e anuncia nova solução de IA",
+      "origem": "Panrotas · 3 nov 2026",
+      "url": "https://www.panrotas.com.br/viagens-corporativas/tmcs/2026/11/copastur-investe-r-130-milhoes-em-tecnologia-e-anuncia-nova-solucao-de-ia_233338.html"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem afirma", "valor": "Biosfera Copastur" },
+    { "rotulo": "Confirmação", "valor": "não confirmada pelo cliente" },
+    { "rotulo": "Divulgação", "valor": "3 nov 2026" }
+  ]
+}
