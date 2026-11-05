@@ -1,0 +1,77 @@
+{
+  "id": "aprovacao-humana-so-controla-se-julgamento-for-proprio",
+  "publicado_em": "2026-11-06T07:00:00-03:00",
+  "tema": "OPERAÇÃO",
+  "titulo": "Aprovação humana só é controle quando a pessoa já tinha opinião própria",
+  "linhaFina": "Em estudo da Anthropic, 50 analistas experientes seguiram em 86% das escolhas a inclinação que o agente tinha recebido, sem saber. Quase 7 em cada 10 profissionais de TI exigem alguém aprovando o que o agente faz. A pergunta é o que essa pessoa está de fato decidindo.",
+  "frase": "A assinatura de quem aprova prova que passou por uma pessoa, não que a pessoa decidiu.",
+  "leitura": 5,
+  "tese": [
+    "A empresa média está usando a aprovação humana como principal garantia de que o agente é seguro. Ela só garante isso se a pessoa que aprova formar a própria opinião antes de ver a do agente.",
+    "O estudo da Anthropic mostra o oposto do esperado: analistas experientes seguiram o agente na grande maioria das escolhas, repetiram os argumentos dele como seus e se disseram tão confiantes quanto quem decidiu sozinho.",
+    "Antes de contar o aprovador como controle, a empresa deve medir se ele discorda do agente alguma vez, e desenhar o fluxo para que ele decida primeiro nos pontos que importam."
+  ],
+  "p1": "Em pesquisa da Netskope com 921 profissionais de segurança, redes e TI, 68% disseram que não deixariam agentes alterar sistemas sem aprovação humana: 38% não aceitariam a mudança feita por agente, e 30% exigiriam aprovação antes da execução. Só 9% se dizem muito confiantes na capacidade da empresa de controlar os agentes. A saída que quase todo mundo escolhe é a mesma: pôr uma pessoa para aprovar.",
+  "p2": "É uma saída razoável, e em muitos casos é a certa. O que me interessa é a suposição escondida nela: a de que a pessoa que aprova está, de fato, decidindo. Um estudo publicado pela Anthropic em 27 de outubro testou essa suposição de um jeito incomum, e o resultado deveria entrar em qualquer conversa sobre autonomia de agentes.",
+  "h1": "O aprovador seguiu o agente, e achou que a decisão era dele",
+  "p3": "A Anthropic pediu a 50 analistas com experiência em inferência causal que avaliassem, com o Claude Code, se um programa fictício de assessoria agrícola deveria continuar. Em quatro escolhas em que havia duas opções razoáveis, o agente de cada analista recebeu, por sorteio e sem aviso, uma inclinação para um dos lados. Os analistas seguiram essa inclinação em 86% das escolhas; sem influência, o esperado seria cerca de 50%.",
+  "p4": "Quando o analista já tinha dito qual opção preferia e o agente discordou, ele mudou de lado em 60% dos casos; quando o agente concordou, mudou em 6%. São só 38 casos, e a própria Anthropic ressalva que a estimativa é imprecisa. Na hora de justificar as escolhas, 77% repetiram argumentos do agente, às vezes palavra por palavra, e só 15% citaram o agente como origem. Os que seguiram o agente em todas as quatro escolhas deram, em média, nota 71 de confiança na recomendação; os demais, 73.",
+  "destaque": "A assinatura de quem aprova prova que passou por uma pessoa, não que a pessoa decidiu.",
+  "h2": "Revisar o que o agente propôs não é o mesmo que decidir",
+  "p5": "O agente do estudo foi instruído a não enganar e a mudar de posição se os dados exigissem. Os analistas não foram enganados. O que faltou, segundo os autores, é que os agentes raramente faziam um bom argumento a favor da outra opção, e com um lado só bem defendido o analista adotou as premissas do agente sem chegar às suas. Quem recebe a proposta pronta avalia a proposta, e avaliar é diferente de formular.",
+  "p6": "Há um sinal parecido em revisão de código. Um estudo de 11.429 avaliações feitas por 400 revisores recorrentes, ao longo de 207 dias, encontrou a taxa de aprovação de pull requests subindo de 30,5% no início para 36,6% no fim do período. Os autores leem isso como adaptação do revisor à exposição repetida, e o dado, por si, não diz se a qualidade da revisão caiu. Mas aponta na mesma direção: quanto mais propostas do agente uma pessoa vê, mais a aprovação tende a virar rotina.",
+  "h3": "Os fornecedores já vendem o aprovador como parte do produto",
+  "p7": "A Salesforce descreveu, ao ampliar o Agent Fabric, um fluxo em que o sistema de avaliação sinaliza um problema de qualidade e pede aprovação humana para colocar o agente em quarentena, conforme a política da equipe. A TOTVS afirma que seu agente de liberação de crédito reduz em cerca de 77% o tempo de análise de pedidos e que exceções complexas vão para validação humana. Os dois desenhos são sensatos. Ambos tratam o humano como a camada final de segurança, e nenhum diz como a empresa verifica que essa camada está funcionando.",
+  "contra": "O estudo da Anthropic tem limites que a própria empresa lista. As inclinações dos agentes foram reforçadas de propósito, para medir o efeito; a tarefa durou cerca de uma hora, era sobre agricultura, e os analistas conheciam o campo pouco; e foi um só modelo. No trabalho real, o especialista tem opinião mais firme e pode consultar outras pessoas, o que reduziria a influência. Além disso, o mesmo estudo traz um dado a favor do agente: quem trabalhou sem ele cometeu mais erros graves (6 de 11, contra 3 de 50), embora os grupos não sejam comparáveis. A Anthropic também vende os agentes cuja influência está medindo, e a Netskope vende produtos de segurança para agentes. Há ainda a possibilidade de que, em decisões de rotina, seguir o agente seja o resultado certo, e a deferência não seja problema nenhum. Meu argumento vale para decisões em que existe mais de uma resposta defensável, e nem toda aprovação é assim.",
+  "fechamento": "Eu separaria as aprovações em duas classes. Na primeira, há resposta certa e verificável, como conferir um cálculo ou um cadastro: o aprovador pode revisar o que o agente propôs. Na segunda, há julgamento, como conceder crédito fora do padrão, mudar preço ou isolar um sistema: o aprovador deveria registrar a própria decisão antes de ver a do agente, e a empresa deveria acompanhar com que frequência os dois divergem. Se ninguém nunca discorda, a aprovação está funcionando como carimbo, e a empresa não deveria contá-la como controle.",
+  "pontos": [
+    {
+      "rotulo": "01 · DIVERGÊNCIA",
+      "titulo": "Meça quantas vezes o aprovador discorda",
+      "texto": "Some aprovações, rejeições e correções por aprovador e por tipo de decisão. Uma taxa de discordância próxima de zero por meses indica carimbo, não revisão."
+    },
+    {
+      "rotulo": "02 · ORDEM",
+      "titulo": "Peça a decisão antes da recomendação",
+      "texto": "Nas decisões de julgamento, o aprovador registra a própria escolha antes de ver a sugestão do agente. O custo é de alguns minutos; o ganho é uma opinião que seja dele."
+    },
+    {
+      "rotulo": "03 · TESTE",
+      "titulo": "Teste o aprovador com erros plantados",
+      "texto": "Misture de vez em quando um caso que o agente deveria ter recusado e veja se a pessoa recusa. Se passar, o controle não está cobrindo o que se pensa."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "How AI agents shape experts' judgment calls",
+      "origem": "Anthropic · pesquisa · 27 out 2026",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls"
+    },
+    {
+      "titulo": "68% dos profissionais não dariam autonomia a agentes de IA para alterar sistemas",
+      "origem": "TI Inside · pesquisa Netskope, n=921 · 28 out 2026",
+      "url": "https://tiinside.com.br/28/10/2026/68-dos-profissionais-nao-dariam-autonomia-a-agentes-de-ia-para-alterar-sistemas/"
+    },
+    {
+      "titulo": "Beyond Lexical Metrics: Sentence-Embedding Detection of Reviewer Habituation in AI Code Review",
+      "origem": "arXiv · Yu, Liu e Zhang · 5 set 2026",
+      "url": "https://arxiv.org/abs/2609.06213"
+    },
+    {
+      "titulo": "Salesforce expands Agent Fabric to catch agent failures and control AI costs",
+      "origem": "Salesforce · comunicado · 27 out 2026",
+      "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/"
+    },
+    {
+      "titulo": "TOTVS revoluciona usabilidade do ERP Protheus e estreia agentes de IA para automatizar operações de backoffice",
+      "origem": "Revista Fator Brasil · 29 out 2026",
+      "url": "https://www.revistafatorbrasil.com.br/2026/10/29/totvs-revoluciona-usabilidade-do-erp-protheus-e-estreia-agentes-de-ia-para-automatizar-operacoes-de-backoffice/"
+    }
+  ],
+  "baseadoEm": [
+    "anthropic-analistas-seguem-agente-86-escolhas",
+    "netskope-68-profissionais-ti-agentes-aprovacao-humana",
+    "salesforce-agent-fabric-evals-controle-de-custo",
+    "totvs-protheus-12-1-2610-agentes-credito-fornecedores"
+  ]
+}
