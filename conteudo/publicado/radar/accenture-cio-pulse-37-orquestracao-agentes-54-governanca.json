@@ -1,0 +1,54 @@
+{
+  "id": "accenture-cio-pulse-37-orquestracao-agentes-54-governanca",
+  "publicado_em": "2026-11-05T07:10:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Accenture: só 37% dos CIOs usam agentes para orquestrar processos de ponta a ponta, e 54% veem governança como principal barreira",
+  "linha": "Pesquisa da Accenture com 300 CIOs de empresas com mais de US$ 1 bilhão de receita: 70% usam IA sobretudo para produtividade individual, e só 32% chegaram a maturidade avançada em governança.",
+  "linhaFina": "A primeira edição do CIO Pulse ouviu 300 líderes de tecnologia em 19 setores, entre agosto e setembro de 2026. 97% das organizações tiveram aumento no consumo de tokens nos últimos 12 meses.",
+  "fontePrimaria": "Accenture",
+  "leitura": 3,
+  "resumo": [
+    "70% dos CIOs ouvidos dizem que a IA na empresa serve principalmente a produtividade individual e copilotos; 37% a usam para orquestração de ponta a ponta por agentes.",
+    "54% apontam governança, risco e IA responsável como principal barreira para escalar; só 32% chegaram a maturidade avançada ou líder em governança de IA.",
+    "97% das organizações tiveram aumento no consumo de tokens em 12 meses, com alta média de 47%. Só 27% dos CIOs têm arquitetura agêntica no escopo da reformulação de arquitetura prevista."
+  ],
+  "corpo": [
+    "A Accenture divulgou em 3 de novembro a primeira edição do CIO Pulse, pesquisa que pretende repetir. Foram 300 CIOs e líderes de TI de 19 setores, em três regiões (Américas, Europa/Oriente Médio/África e Ásia-Pacífico), de organizações com mais de US$ 1 bilhão de receita global. O campo foi feito em agosto e setembro de 2026.",
+    "Segundo a Accenture, 64% dos respondentes dizem estar escalando a implantação de IA, e só 7% estão otimizando em escala. Para 70%, a IA é usada sobretudo para produtividade individual e copilotos dentro de uma tarefa; 37% a usam para orquestração de ponta a ponta por agentes. Em operações de TI, 49% ainda rodam agentes com aprovação manual.",
+    "Sobre barreiras, 54% citam governança, risco e IA responsável como principal obstáculo para escalar, e só 32% declaram maturidade avançada ou líder em governança de IA. Já 36% colocam a conformidade de IA responsável como prioridade número um nos próximos 12 a 24 meses, à frente de escalar IA (33%) e de crescimento e inovação (33%).",
+    "Sobre custo, 97% das organizações tiveram aumento no consumo de tokens nos últimos 12 meses, com alta média de 47%. A Accenture descreve um modelo em que a conta chega a cada interação, sem marco contratual. Entre os CIOs, 61% esperam transformação significativa ou redesenho da arquitetura corporativa em três anos, mas só 27% têm arquitetura agêntica no escopo desse redesenho."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · PROFUNDIDADE",
+      "titulo": "Ter IA em muitas mesas não é o mesmo que ter processo redesenhado",
+      "texto": "A distância entre os 70% que usam IA para produtividade individual e os 37% que orquestram processos com agentes sugere medir fluxos transformados, não licenças ou usuários."
+    },
+    {
+      "rotulo": "02 · CUSTO",
+      "titulo": "Agente cobra por interação, e o orçamento ainda é desenhado por contrato",
+      "texto": "O aumento de consumo de tokens relatado por 97% dos respondentes indica que a visibilidade de custo por processo precisa existir antes de ampliar o uso."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "A amostra é de grandes empresas e a Accenture vende consultoria",
+      "texto": "Os respondentes são de organizações com mais de US$ 1 bilhão de receita, bem maiores que a empresa média brasileira. A Accenture vende serviços de governança e de implantação de IA, então a ênfase nessas barreiras convém a quem divulga."
+    }
+  ],
+  "oQueFazer": [
+    "Para a empresa média, a leitura útil é comparativa: quantos processos hoje têm agente com resultado medido, quem aprova as ações dele e quanto cada processo consome por mês."
+  ],
+  "fontes": [
+    {
+      "titulo": "CIO Pulse November 2026",
+      "origem": "Accenture · pesquisa · 3 nov 2026",
+      "url": "https://www.accenture.com/en/insights/ai-data/cio-pulse-survey"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Accenture" },
+    { "rotulo": "Amostra", "valor": "300 CIOs e líderes de TI, 19 setores, empresas com mais de US$ 1 bilhão de receita" },
+    { "rotulo": "Campo", "valor": "agosto e setembro de 2026" },
+    { "rotulo": "Divulgação", "valor": "3 nov 2026" }
+  ]
+}
