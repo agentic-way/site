@@ -1,0 +1,51 @@
+{
+  "id": "nubank-clientes-sinteticos-ciclo-agentes-4-dias",
+  "publicado_em": "2026-11-06T07:20:00-03:00",
+  "tema": "CASOS",
+  "titulo": "Nubank diz que testar agentes com clientes sintéticos cortou o ciclo de atualização de 21,2 para 4,4 dias",
+  "linha": "Segundo o time de pesquisa do Nubank, simular conversas com clientes fictícios antes de liberar uma versão acelerou o desenvolvimento de um agente de atendimento de cartão.",
+  "linhaFina": "O banco descreve em artigo de pesquisa um teste A/B com clientes reais: o agente desenvolvido com simulação teve autoatendimento 4,9 pontos percentuais maior que o agente de comparação.",
+  "fontePrimaria": "Nubank (AI Research)",
+  "leitura": 3,
+  "resumo": [
+    "Cada nova versão do agente levou em média 4,4 dias para ser desenvolvida com simulação, contra 21,2 dias no fluxo anterior sem esse recurso, segundo o Nubank.",
+    "No teste A/B com clientes reais, o agente Card Management teve taxa de autoatendimento 4,9 pontos percentuais maior e tNPS 36,7 pontos maior que o Card Delivery, usado como comparação.",
+    "O próprio Nubank ressalta que os agentes atendem conjuntos de tarefas diferentes, então o ganho reflete o novo agente e o processo de desenvolvimento."
+  ],
+  "corpo": [
+    "Em comunicado de 5 de novembro de 2026, o Nubank apresentou um artigo de pesquisa em que clientes sintéticos, com perfis e necessidades diferentes, conversam em várias etapas com agentes de IA em um ambiente controlado. A ideia é avaliar mudanças no agente antes de elas chegarem a clientes reais.",
+    "O estudo acompanhou dois agentes de atendimento do ciclo do cartão de crédito: o Card Delivery (status de entrega e segunda via) e o Card Management (atualização de endereço e pedido de nova via). A simulação orientou as mudanças no Card Management. Na avaliação offline, uma versão reduziu os encaminhamentos desnecessários para atendimento humano de 22,4% para 16,0%.",
+    "No teste A/B ao vivo, o Card Management apresentou taxa de autoatendimento 4,9 pontos percentuais maior e tNPS 36,7 pontos maior que o Card Delivery. O Nubank afirma que o Card Management atende a um conjunto mais amplo de tarefas, de modo que os ganhos refletem tanto o novo agente quanto o processo orientado por simulação. A taxa de autoatendimento, diz o banco, não comprova sozinha que o problema foi resolvido.",
+    "A mesma abordagem foi usada para comparar 29 configurações de modelos em mais de 16 mil conversas simuladas. A configuração escolhida (Qwen, com raciocínio habilitado) elevou o autoatendimento em 8,8 pontos percentuais e reduziu a latência no percentil 95 em 25%, sem alteração estatisticamente significativa no tNPS, em teste A/B separado."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · TESTE",
+      "titulo": "Avaliar agente exige mais do que checar se a resposta está certa",
+      "texto": "O método do Nubank trata a simulação como forma de ordenar alternativas antes de expor clientes. Quem opera agentes de atendimento pode perguntar ao fornecedor como cada versão é testada antes de entrar no ar."
+    },
+    {
+      "rotulo": "02 · COMPARAÇÃO",
+      "titulo": "O comparativo de 4,9 pontos não isola o efeito da simulação",
+      "texto": "Os dois agentes têm escopos diferentes, como o próprio banco reconhece. O número mostra o resultado do conjunto, não quanto vem do método."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Número medido e divulgado pelo próprio Nubank",
+      "texto": "Não há confirmação independente. O estudo é do banco sobre os próprios agentes, e o artigo de pesquisa é a fonte para quem quiser conferir a metodologia."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Nubank reduz de três semanas para menos de cinco dias o ciclo de atualização de agentes de IA ao testá-los primeiro com clientes sintéticos",
+      "origem": "Nubank · sala de imprensa · 5 nov 2026",
+      "url": "https://nu.com/pt/sala-de-imprensa/companhia/nubank-reduz-de-tres-semanas-para-menos-de-cinco-dias-o-ciclo-de-atualizacao-de-agentes-de-ia-ao-testa-los-primeiro-com-clientes-sinteticos"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Nubank (time de AI Research)" },
+    { "rotulo": "Escopo", "valor": "dois agentes de atendimento de cartão; teste A/B com clientes reais" },
+    { "rotulo": "Confirmação", "valor": "não confirmada por terceiros" },
+    { "rotulo": "Divulgação", "valor": "5 nov 2026" }
+  ]
+}
