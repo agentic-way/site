@@ -1,0 +1,51 @@
+{
+  "id": "netlex-agentes-contratos-magalu-89-gupy",
+  "publicado_em": "2026-11-06T07:21:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "netLex lança agentes para contratos e diz que ciclo jurídico do Magalu caiu 89%",
+  "linha": "A fornecedora lançou o Review Agent e o Creation Agent e atribui ao Magalu a queda de 176 para cerca de 20 dias úteis na análise de contratos. O número é da empresa, via IT Forum.",
+  "linhaFina": "Os agentes operam com limites definidos pelo time jurídico e acionam um responsável humano quando precisam ultrapassar a alçada configurada.",
+  "fontePrimaria": "netLex, via IT Forum",
+  "leitura": 3,
+  "resumo": [
+    "Segundo a netLex, o ciclo de análise jurídica de contratos no Magalu caiu 89%, de 176 para cerca de 20 dias úteis, entre janeiro de 2024 e junho de 2026.",
+    "A empresa lançou em 5 de novembro o Review Agent (compara contratos com playbooks e sugere alterações) e o Creation Agent (elabora contratos a partir de modelos).",
+    "Na Gupy, segundo a netLex, o prazo para criar aditivos comerciais foi de 38 para 25 dias."
+  ],
+  "corpo": [
+    "A netLex, fornecedora de gestão de contratos, apresentou em 5 de novembro novos agentes de IA para o ciclo contratual, em matéria do IT Forum. O dado que ancora o lançamento é o do Magalu: a análise jurídica caiu de 176 para cerca de 20 dias úteis entre janeiro de 2024 e junho de 2026, e a média mensal de análises concluídas passou de oito para 444, segundo a empresa.",
+    "Na Gupy, o prazo para criar aditivos comerciais recuou de 38 para 25 dias (34%), o tempo de resposta do jurídico caiu de 1,58 para 0,31 dia, e a proporção de aditivos assinados sem alterações subiu de 16% para 60%. Os casos foram desenvolvidos no programa Front Runners, lançado pela netLex em maio, com Magalu, VLI e Gupy entre os participantes.",
+    "O Review Agent permite que cada empresa crie um playbook com suas regras, aponta cláusulas de risco e sugere alterações com justificativa; a netLex diz oferecer mais de 40 modelos de playbook. O Creation Agent elabora contratos a partir de modelos-padrão e permite ajustes por linguagem natural.",
+    "O diretor de receitas, Luiz Bemfica, descreve o conceito de autonomia controlada: o agente não acessa dados nem executa aprovações fora da permissão do usuário e aciona um responsável humano quando precisa ir além do limite. O módulo de gestão de obrigações contratuais está previsto para uma fase seguinte e ainda não integra os produtos disponíveis."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ALÇADA",
+      "titulo": "Limite de permissão é o critério a perguntar em qualquer agente jurídico",
+      "texto": "A promessa de autonomia controlada, com aprovação humana quando excede a alçada, é o ponto que a área jurídica e a TI podem verificar em demonstração antes de contratar."
+    },
+    {
+      "rotulo": "02 · MEDIDA",
+      "titulo": "O ganho de 89% vem da plataforma inteira, não dos agentes novos",
+      "texto": "Os números cobrem janeiro de 2024 a junho de 2026, antes do lançamento dos agentes. Eles mostram o efeito da gestão contratual, que a netLex usa para sustentar o produto novo."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Números do fornecedor, de clientes grandes",
+      "texto": "Magalu e Gupy participaram do programa de cocriação da netLex. Para empresa média, o resultado depende do volume de contratos e do quanto os playbooks já estão escritos."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Ciclo jurídico do Magalu cai 89% com plataforma de contratos do netLex; empresa lança novos agentes de IA",
+      "origem": "IT Forum · 5 nov 2026",
+      "url": "https://itforum.com.br/noticias/novos-agentes-de-ia-netlex-otimizam-magalu-e-gupy/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "netLex, com Magalu e Gupy" },
+    { "rotulo": "Período", "valor": "janeiro de 2024 a junho de 2026" },
+    { "rotulo": "Confirmação", "valor": "não confirmada pelo cliente" },
+    { "rotulo": "Divulgação", "valor": "5 nov 2026" }
+  ]
+}

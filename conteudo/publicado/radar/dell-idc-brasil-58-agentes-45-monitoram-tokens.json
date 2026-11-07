@@ -1,0 +1,51 @@
+{
+  "id": "dell-idc-brasil-58-agentes-45-monitoram-tokens",
+  "publicado_em": "2026-11-06T07:22:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Pesquisa da IDC para a Dell: 58% das empresas brasileiras já usam agentes de IA, e 45% monitoram o consumo de tokens",
+  "linha": "O levantamento com 250 organizações mostra IA em escala em 72% das grandes e 42% das pequenas e médias. A Dell, que encomendou a pesquisa, vende infraestrutura.",
+  "linhaFina": "Segundo a pesquisa, 93% esperam aumento no volume de tokens processados nos próximos 12 meses e 45% planejam adotar práticas de FinOps.",
+  "fontePrimaria": "IDC, por encomenda da Dell Technologies, via Época Negócios",
+  "leitura": 3,
+  "resumo": [
+    "57% das empresas pesquisadas usam IA em escala: 72% das grandes e 42% das pequenas e médias.",
+    "58% já usam agentes de IA, percentual que deve chegar a 80% em dois anos.",
+    "45% monitoram o consumo de tokens sem práticas estruturadas para otimizar o gasto, e 93% esperam aumento no volume nos próximos 12 meses."
+  ],
+  "corpo": [
+    "A pesquisa foi feita pela IDC a pedido da Dell Technologies entre setembro e outubro de 2026, com 250 organizações no Brasil, segundo a Época Negócios (5 de novembro). Entre as pequenas e médias empresas, 42% usam IA em escala, com expectativa de 46% em dois anos; entre as grandes, 72%, com expectativa de 86%.",
+    "A IA representa em média 28% do investimento em TI das empresas ouvidas, e a projeção é de 42% em 24 meses. Sobre agentes, 58% já os utilizam, com projeção de 80% em dois anos.",
+    "No custo, 45% das empresas monitoram o consumo de tokens, mas sem práticas estruturadas de otimização, e 93% esperam mais volume. A proteção de dados é obstáculo à nuvem para IA para 48%, e a imprevisibilidade dos custos para 35%. Ainda segundo a pesquisa, 43% pretendem adotar infraestrutura híbrida e 45% planejam práticas de FinOps.",
+    "Entre os resultados relatados, 52% citam ganho de eficiência nos processos, 51% melhora da produtividade e 51% da satisfação dos clientes. A matéria não detalha a definição de \"em escala\" usada pela pesquisa."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CUSTO",
+      "titulo": "O gasto com tokens tende a ser a próxima conta a surpreender",
+      "texto": "Quem já mede consumo, mas não tem prática de otimização, pode começar por um teto por processo e um responsável pelo acompanhamento mensal."
+    },
+    {
+      "rotulo": "02 · PORTE",
+      "titulo": "Médias empresas aparecem atrás das grandes no uso em escala",
+      "texto": "A diferença de 30 pontos (72% contra 42%) indica espaço para observar o que as grandes aprenderam antes de replicar o investimento."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Pesquisa encomendada por quem vende infraestrutura",
+      "texto": "A Dell tem interesse em que o custo e a segurança da IA apareçam como motivo para investir em infraestrutura própria ou híbrida. Os números podem estar corretos e ainda assim servir a essa mensagem."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Pesquisa IDC: mais da metade das empresas brasileiras já usa IA em escala, mas custos e segurança preocupam",
+      "origem": "Época Negócios · 5 nov 2026",
+      "url": "https://epocanegocios.globo.com/inteligencia-artificial/noticia/2026/11/pesquisa-idc-mais-da-metade-das-empresas-brasileiras-ja-usa-ia-em-escala-mas-custos-e-seguranca-preocupam.ghtml"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "IDC, por encomenda da Dell Technologies" },
+    { "rotulo": "Amostra", "valor": "250 organizações no Brasil" },
+    { "rotulo": "Campo", "valor": "setembro e outubro de 2026" },
+    { "rotulo": "Divulgação", "valor": "5 nov 2026" }
+  ]
+}
