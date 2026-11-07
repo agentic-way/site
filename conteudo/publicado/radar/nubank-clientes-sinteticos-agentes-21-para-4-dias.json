@@ -1,0 +1,66 @@
+{
+  "id": "nubank-clientes-sinteticos-agentes-21-para-4-dias",
+  "publicado_em": "2026-11-07T07:11:00-03:00",
+  "tema": "CASOS",
+  "titulo": "Nubank diz que testar agentes com clientes sintéticos reduziu o ciclo de nova versão de 21,2 para 4,4 dias",
+  "linha": "Em estudo do próprio time de pesquisa, o Nubank afirma que simular conversas antes de ir ao cliente acelerou o desenvolvimento de um agente de atendimento de cartão e elevou o autoatendimento em 4,9 pontos percentuais.",
+  "linhaFina": "O número é do time de AI Research do Nubank, em comunicado de 5 de novembro de 2026 e artigo de pesquisa. A comparação no teste A/B é entre dois agentes com escopos diferentes.",
+  "fontePrimaria": "Nubank (comunicado da sala de imprensa)",
+  "leitura": 3,
+  "resumo": [
+    "O Nubank diz que cada nova versão do agente levou em média 4,4 dias com simulação, contra 21,2 dias no fluxo anterior sem esse recurso.",
+    "Em teste A/B com clientes reais, o agente desenvolvido com apoio da simulação (Card Management) teve taxa de autoatendimento 4,9 pontos percentuais maior e tNPS 36,7 pontos maior que o agente de comparação (Card Delivery).",
+    "Offline, uma versão do agente reduziu encaminhamentos desnecessários ao atendimento humano de 22,4% para 16,0%."
+  ],
+  "corpo": [
+    "O time de AI Research do Nubank divulgou em 5 de novembro de 2026 um estudo sobre como testar agentes de IA de atendimento com clientes sintéticos: perfis simulados, com necessidades diferentes, que conversam em várias etapas com o agente em ambiente controlado, antes de qualquer cliente real. O estudo está descrito em artigo de pesquisa citado no comunicado.",
+    "Foram acompanhados dois agentes de atendimento do ciclo do cartão de crédito. O Card Delivery trata de status de entrega e segunda via; o Card Management permite atualizar endereço e pedir nova via. A simulação orientou as mudanças no Card Management, e o Card Delivery serviu de comparação no teste A/B. O próprio Nubank ressalva que o Card Management atende um conjunto mais amplo de tarefas, e que os ganhos refletem o novo agente e o processo de desenvolvimento juntos. Depois do teste, o agente foi disponibilizado à base de clientes do Nubank no Brasil.",
+    "A mesma abordagem foi usada para avaliar modelos de pesos abertos: 29 configurações em mais de 16 mil conversas simuladas, com escolha do Qwen com raciocínio habilitado. Em outro teste A/B com clientes reais, a configuração aprimorada elevou o autoatendimento em 8,8 pontos percentuais e reduziu a latência de resposta no percentil 95 em 25%, sem mudança estatisticamente significativa no tNPS.",
+    "O comunicado define autoatendimento como a parcela das sessões concluídas sem que o cliente peça atendimento humano, e diz que, isoladamente, a taxa não comprova que os problemas foram resolvidos. Por isso a análise inclui satisfação e avaliações de qualidade. O Nubank também afirma que o simulador serve para ordenar alternativas, não para reproduzir perfeitamente o comportamento humano, e que os simuladores precisam ser validados."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · TESTE",
+      "titulo": "Avaliar agente antes de soltar é uma etapa de trabalho",
+      "texto": "O ganho citado vem de encurtar o ciclo entre mudar o agente e saber se a mudança melhorou. Quem atualiza agentes só em produção paga esse ciclo com cliente real."
+    },
+    {
+      "rotulo": "02 · ESCOPO",
+      "titulo": "Compare agentes do mesmo tamanho de tarefa",
+      "texto": "O A/B do Nubank põe lado a lado dois agentes com escopos diferentes. O resultado é indicativo, e o comunicado diz isso."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem mediu é quem desenvolveu",
+      "texto": "Os números vêm do time do Nubank, sem auditoria externa citada no comunicado. O artigo de pesquisa é o lugar para conferir o método."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem opera agente de atendimento, a pergunta prática é como cada mudança é testada antes de chegar ao cliente e que critério decide se ela segue. Registrar a hipótese e o critério de sucesso de cada alteração, como o Nubank descreve, também deixa trilha para auditoria."
+  ],
+  "fontes": [
+    {
+      "titulo": "Nubank reduz de três semanas para menos de cinco dias o ciclo de atualização de agentes de IA ao testá-los primeiro com clientes sintéticos",
+      "origem": "Nubank · sala de imprensa · 5 nov 2026",
+      "url": "https://nu.com/pt/sala-de-imprensa/companhia/nubank-reduz-de-tres-semanas-para-menos-de-cinco-dias-o-ciclo-de-atualizacao-de-agentes-de-ia-ao-testa-los-primeiro-com-clientes-sinteticos"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Time de AI Research do Nubank"
+    },
+    {
+      "rotulo": "Teste",
+      "valor": "A/B com clientes reais no Brasil, entre dois agentes de escopos diferentes"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "5 nov 2026"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não confirmada por terceiros"
+    }
+  ]
+}
