@@ -1,0 +1,61 @@
+{
+  "id": "netlex-review-creation-agent-contratos-magalu-176-20-dias",
+  "publicado_em": "2026-11-07T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "netLex lança agentes de revisão e criação de contratos, com aprovação humana, segundo o Economia SP",
+  "linha": "A plataforma de gestão de contratos diz que o Review Agent compara contratos a playbooks da empresa e que o Creation Agent monta documentos a partir dos modelos já usados. Um agente de obrigações pós-assinatura ainda não está disponível.",
+  "linhaFina": "Informações do anúncio da netLex, publicadas pelo Economia SP em 5 de novembro de 2026. Não há comunicado da empresa lido nesta apuração.",
+  "fontePrimaria": "netLex, via Economia SP",
+  "leitura": 3,
+  "resumo": [
+    "O Review Agent compara contratos aos playbooks jurídicos da empresa, aponta pontos de atenção e sugere alterações; as sugestões trazem justificativa e dependem de aprovação humana.",
+    "O Creation Agent elabora contratos a partir dos modelos que a empresa já usa, com ajustes por comando em linguagem natural.",
+    "O netLex AI passa a permitir criar e alterar fluxos de trabalho por linguagem natural. Um agente de gestão de obrigações após a assinatura está previsto para uma próxima fase."
+  ],
+  "corpo": [
+    "Segundo o Economia SP, a netLex, plataforma de gestão do ciclo de vida de contratos na América Latina, anunciou agentes de IA para revisão e criação de documentos e para configuração de fluxos de trabalho. A proposta é automatizar etapas considerando regras de negócio, cláusulas preferenciais e estratégias de negociação de cada empresa, com aprovação final humana.",
+    "O Review Agent reúne, segundo a reportagem, mais de 40 modelos de playbooks desenvolvidos por especialistas da legaltech. O agente de gestão de obrigações contratuais, que identificaria compromissos, responsáveis e prazos e emitiria alertas antes dos vencimentos, ainda não integra os lançamentos disponíveis.",
+    "A matéria cita o Magalu como exemplo de resultado da digitalização de contratos: o ciclo de um fluxo jurídico caiu 89%, de 176 para cerca de 20 dias úteis, e a média mensal de análises jurídicas concluídas subiu de oito para 444 entre janeiro de 2024 e junho de 2026. O texto atribui esses resultados à digitalização e à padronização de processos, e não especificamente aos novos agentes."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · HUMANO",
+      "titulo": "A aprovação final continua com a pessoa",
+      "texto": "Os agentes sugerem e justificam; quem aplica é o jurídico. Isso define quanto tempo de revisão realmente sai do processo."
+    },
+    {
+      "rotulo": "02 · PLAYBOOK",
+      "titulo": "O agente é tão bom quanto as regras que recebe",
+      "texto": "Empresa sem posição escrita sobre cláusulas terá pouco o que dar ao Review Agent. Os playbooks prontos ajudam, mas não substituem a política interna."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Número de cliente não é número dos novos agentes",
+      "texto": "O resultado do Magalu vem da matéria e se refere ao período anterior ao lançamento. Não prova ganho do Review Agent ou do Creation Agent."
+    }
+  ],
+  "oQueFazer": [
+    "Quem avalia a ferramenta pode pedir à netLex a documentação dos agentes, o registro de cada sugestão aceita ou recusada e as condições de preço, informações que a reportagem não traz."
+  ],
+  "fontes": [
+    {
+      "titulo": "netLex lança agentes de IA para automatizar gestão de contratos",
+      "origem": "Economia SP · reportagem · 5 nov 2026",
+      "url": "https://economiasp.com/2026/11/05/netlex-lanca-agentes-de-ia-para-automatizar-gestao-de-contratos/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "netLex, segundo o Economia SP"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "5 nov 2026"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não confirmada pelo cliente"
+    }
+  ]
+}

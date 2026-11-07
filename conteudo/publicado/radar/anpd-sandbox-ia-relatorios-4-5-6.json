@@ -1,0 +1,61 @@
+{
+  "id": "anpd-sandbox-ia-relatorios-4-5-6",
+  "publicado_em": "2026-11-07T07:11:00-03:00",
+  "tema": "REGULAÇÃO",
+  "titulo": "ANPD publica os três últimos relatórios do sandbox de IA e diz que eles servirão de base para futuras normas",
+  "linha": "Os relatórios 4, 5 e 6 mostram o que a autoridade testou em soluções de IA nos setores financeiro, de mobilidade e de saúde: explicabilidade de decisões automatizadas, rastreabilidade de fontes e anonimização.",
+  "linhaFina": "A publicação é de 3 de novembro de 2026. A ANPD descreve o sandbox como experimental, preventivo e sem fins fiscalizatórios diretos.",
+  "fontePrimaria": "ANPD",
+  "leitura": 3,
+  "resumo": [
+    "A ANPD publicou em 3 de novembro de 2026 os relatórios parciais de monitoramento nº 4, 5 e 6 do Sandbox Regulatório em IA e Proteção de Dados, feito com o CIAAM/USP.",
+    "Participam Metatext, Synapse AI e Prevvine Tecnologia, em testes nos setores financeiro, de mobilidade e de saúde.",
+    "A agência diz que o sandbox é experimental e preventivo, sem fins fiscalizatórios diretos, e que busca subsidiar futuras balizas normativas para a IA no Brasil."
+  ],
+  "corpo": [
+    "Os relatórios consolidam os ciclos 4, 5 e 6 do projeto-piloto, selecionado pelo Edital nº 2/2025. Segundo a ANPD, eles mostram a evolução das testagens técnicas, a validação de controles de segurança e o nível de maturidade regulatória das soluções acompanhadas.",
+    "No setor financeiro, os ciclos testaram os mecanismos de explicabilidade de decisões automatizadas em bloqueios preventivos e o reforço da segurança cibernética em algoritmos antifraude. Na saúde, a agência cita avisos transparentes sobre os limites das recomendações clínicas automatizadas, mais rastreabilidade das fontes consultadas pela IA e melhor governança de dados sensíveis de pacientes. Em mobilidade, os pontos foram acessibilidade, riscos no compartilhamento de dados com fornecedores e parceiros de mapeamento e auditoria da anonimização em fluxos de localização em tempo real.",
+    "A ANPD também realizou em 22 de outubro um workshop internacional com mais de 15 representantes de autoridades estrangeiras de proteção de dados, entre elas as da Espanha, do Canadá, de Angola e da Argentina, além de representantes da Eslovênia e do Equador."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · SINAL",
+      "titulo": "Não é norma, mas mostra o que a autoridade examina",
+      "texto": "O sandbox não cria obrigação nova. Os itens testados indicam o que a ANPD tende a perguntar a quem usa IA com dados pessoais: explicação da decisão, origem da informação e destino dos dados."
+    },
+    {
+      "rotulo": "02 · DECISÃO",
+      "titulo": "Explicar uma decisão automática é ponto de atenção",
+      "texto": "O teste financeiro tratou de bloqueios preventivos. Empresa que usa agente para recusar, bloquear ou priorizar precisa conseguir reconstituir o motivo."
+    },
+    {
+      "rotulo": "03 · FORNECEDOR",
+      "titulo": "Dado compartilhado com parceiro entrou na checagem",
+      "texto": "O caso de mobilidade examinou o que vai para fornecedores e parceiros. Vale mapear que agentes enviam dados pessoais a serviços de terceiros."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem já usa agentes que tocam dados pessoais, um passo possível é listar as decisões automáticas que afetam clientes ou funcionários e verificar se a empresa consegue explicá-las e registrá-las. Os relatórios completos estão no site da ANPD."
+  ],
+  "fontes": [
+    {
+      "titulo": "ANPD publica os três últimos Relatórios Parciais de Monitoramento do Sandbox em IA e proteção de dados",
+      "origem": "ANPD · notícia · 3 nov 2026",
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-os-tres-ultimos-relatorios-parciais-de-monitoramento-do-sandbox-em-ia-e-protecao-de-dados"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Órgão",
+      "valor": "ANPD, com o CIAAM/USP"
+    },
+    {
+      "rotulo": "Participantes",
+      "valor": "Metatext, Synapse AI e Prevvine Tecnologia"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "3 nov 2026"
+    }
+  ]
+}
