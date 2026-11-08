@@ -1,0 +1,59 @@
+{
+  "id": "capgemini-financeiro-59-multiagente-10-orquestracao",
+  "publicado_em": "2026-11-08T07:21:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Capgemini: 59% das instituições financeiras testam ou usam IA multiagente, e só 10% orquestram em toda a empresa",
+  "linha": "Pesquisa com 1.100 executivos de serviços financeiros em 14 mercados: cerca de metade não consegue demonstrar retorno de forma consistente, e 90% usam ou planejam rotear tarefas entre modelos para controlar custo.",
+  "linhaFina": "O Capgemini Research Institute ouviu executivos de bancos, seguradoras e pagamentos em junho e julho de 2026. A Capgemini vende serviços de nuvem e de IA ao setor.",
+  "fontePrimaria": "Capgemini Research Institute",
+  "leitura": 3,
+  "resumo": [
+    "59% das instituições financeiras estão testando ou implantando IA multiagente em produção, mas só 10% chegaram à orquestração completa em toda a empresa.",
+    "Cerca de metade não consegue demonstrar retorno de forma consistente das iniciativas de IA agêntica.",
+    "90% usam ou planejam usar roteamento inteligente de modelos para otimizar desempenho e custo de tokens."
+  ],
+  "corpo": [
+    "O Capgemini Research Institute divulgou em 5 de novembro o World Cloud Report for Financial Services 2027. A base é a pesquisa 2026 Global Financial Services Executive Survey, feita de junho a julho de 2026 com 1.100 líderes de serviços financeiros em 14 mercados, de bancos de varejo e seguradoras a pagamentos e gestão de patrimônio. O relatório também usa entrevistas com executivos de instituições financeiras e de provedores de nuvem, feitas de junho a setembro.",
+    "Segundo a Capgemini, 59% das empresas pilotam ou implantam IA multiagente em produção, mas só uma em cada dez tem a orquestração completa necessária para operá-la de forma autônoma na empresa inteira. O grupo que já institucionalizou as capacidades para operar IA agêntica em escala representa 5% dos entrevistados.",
+    "Sobre retorno e custo: aproximadamente metade das empresas não consegue demonstrar retorno de forma consistente e não tem estruturas claras para avaliar se as iniciativas justificam o investimento. A maioria usa ou espera adotar, em até um ano, o roteamento inteligente, que direciona cada tarefa ao modelo mais econômico e preciso. Até 2028, o número de executivos que priorizam resultado de negócio como critério de financiamento deve crescer 141%, e o dos que priorizam eficiência deve cair 42%.",
+    "Na escolha de parceiros, 52% dos bancos e seguradoras apontam os grandes provedores de nuvem como preferidos para governar implantações multiagente, citando certificações regulatórias, residência de dados, segurança e identidade, e capacidade de auditoria. Três quartos dos entrevistados esperam que agentes sejam parte central do atendimento ao cliente em três anos, em gestão de contas, concessão de crédito e recomendação de produtos."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ESCALA",
+      "titulo": "Testar vários agentes é diferente de coordená-los",
+      "texto": "A distância entre 59% e 10% mostra que o gargalo declarado está na orquestração e na governança, não na entrada. Vale o mesmo para empresas de outros setores que somam agentes sem desenho de conjunto."
+    },
+    {
+      "rotulo": "02 · RETORNO",
+      "titulo": "Sem medida de valor, o investimento fica sem defesa",
+      "texto": "Se cerca de metade das instituições financeiras não prova retorno de forma consistente, definir a métrica antes de implantar é decisão de gestão, não de tecnologia."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem publica vende nuvem e serviços de IA",
+      "texto": "A Capgemini presta serviços de nuvem e de IA a instituições financeiras e o relatório conclui que a nuvem é a base da operação autônoma. A pesquisa é global e do setor financeiro, sem recorte para o Brasil."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem opera agentes em mais de um processo, o estudo sugere listar quais agentes existem, quais decisões cada um toma e como o resultado de cada um é medido, antes de ligar um ao outro."
+  ],
+  "fontes": [
+    {
+      "titulo": "Financial institutions accelerate transition to multi-agent AI in drive for bottom-line value",
+      "origem": "Capgemini · comunicado · 5 nov 2026",
+      "url": "https://www.capgemini.com/news/press-releases/financial-institutions-accelerate-transition-to-multi-agent-ai-in-drive-for-bottom-line-value/"
+    },
+    {
+      "titulo": "59% dos bancos e seguradoras testam IA multiagente, mas só 10% chegaram à escala empresarial",
+      "origem": "TI Inside · 5 nov 2026",
+      "url": "https://tiinside.com.br/05/11/2026/59-dos-bancos-e-seguradoras-testam-ia-multiagente-mas-so-10-chegaram-a-escala-empresarial/"
+    }
+  ],
+  "ficha": [
+    {"rotulo": "Quem mediu", "valor": "Capgemini Research Institute"},
+    {"rotulo": "Amostra", "valor": "1.100 executivos de serviços financeiros em 14 mercados"},
+    {"rotulo": "Campo", "valor": "junho a julho de 2026"},
+    {"rotulo": "Divulgação", "valor": "5 nov 2026"}
+  ]
+}
