@@ -1,0 +1,59 @@
+{
+  "id": "tcs-estudo-10-agentes-sem-aprovacao-humana",
+  "publicado_em": "2026-11-08T07:20:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Estudo da TCS: só 10% das empresas deixam agentes de IA decidir sem aprovação humana em várias áreas",
+  "linha": "Pesquisa da TCS com 1.333 líderes em 25 países: 84% veem produtividade como principal ganho da IA, e só 9% têm agentes que coordenam fluxos entre aplicações com segurança.",
+  "linhaFina": "A consultoria indiana ouviu executivos de empresas com receita de US$ 500 milhões a mais de US$ 20 bilhões. Segurança, risco e governança lideram os critérios de implantação, à frente de custo e velocidade.",
+  "fontePrimaria": "Tata Consultancy Services (TCS)",
+  "leitura": 3,
+  "resumo": [
+    "84% dos executivos ouvidos apontam melhoria de produtividade como principal fonte de valor dos investimentos em IA.",
+    "Só 10% permitem que agentes executem decisões sem aprovação humana em várias funções ou áreas, e só 9% relatam agentes capazes de orquestrar fluxos entre aplicações da empresa com segurança.",
+    "39% ainda avaliam se as iniciativas geram valor suficiente diante do custo de tokens e computação."
+  ],
+  "corpo": [
+    "A Tata Consultancy Services (TCS) divulgou em 4 de novembro o estudo TCS Enterprise AI Study: Intelligence that is Real. A pesquisa ouviu 1.333 líderes de negócio e de tecnologia em 25 países e 12 setores, de diretoria executiva a vice-presidência, em organizações com receita anual de US$ 500 milhões a mais de US$ 20 bilhões.",
+    "Segundo a TCS, segurança, risco e governança são o principal fator que molda como e onde os sistemas de IA são desenvolvidos e implantados, à frente de custo, velocidade e facilidade de implantação. Só 10% das empresas permitem que agentes executem decisões sem aprovação humana em várias funções ou áreas, e 9% dos executivos relatam agentes capazes de orquestrar fluxos entre aplicações da empresa com segurança.",
+    "Sobre custo e dependência de fornecedor: 39% das empresas dizem que continuam avaliando se as iniciativas de IA geram valor suficiente em relação ao custo de tokens e computação. 90% consideram importante a independência de modelo nas decisões de investimento, mas só 7% têm planos de continuidade, em toda a organização, para trocar de provedor.",
+    "Outros números do comunicado: 44% dizem que conhecimento importante do negócio está na cabeça das pessoas ou em documentação fragmentada, e 46% usam IA de código aberto de forma direcionada em alguns casos. A parcela dos que dizem ser cedo para medir o efeito da IA sobre empregos subiu de 4%, em 2024, para 19%, em 2026."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · AUTONOMIA",
+      "titulo": "Aprovação humana ainda é a regra na maioria das empresas",
+      "texto": "Quem mantém uma pessoa no fluxo está na posição da maioria dos entrevistados. A questão prática é definir quais decisões o agente toma sozinho, quais sobem para aprovação e quem responde pelo resultado."
+    },
+    {
+      "rotulo": "02 · CUSTO",
+      "titulo": "Produtividade é o ganho citado, mas a conta de uso segue em aberto",
+      "texto": "Com 39% ainda avaliando o retorno frente ao custo de tokens e computação, vale medir custo por tarefa antes de ampliar o uso de um agente."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem publica vende serviços de IA",
+      "texto": "A TCS é uma consultoria de tecnologia e diz querer ser a maior empresa de serviços de TI baseada em IA. Os números descrevem a experiência relatada por executivos, não uma medição independente de produtividade ou retorno, e a amostra é de empresas grandes, não de médias."
+    }
+  ],
+  "oQueFazer": [
+    "Para a empresa média, o dado serve de régua: antes de dar a um agente permissão para agir em sistemas conectados, registre o que ele pode fazer sem aprovação, o limite de valor ou de risco e quem revisa o que passa do limite."
+  ],
+  "fontes": [
+    {
+      "titulo": "TCS Enterprise AI Study: 84% say productivity is AI's top benefit; just 10% let AI act without human oversight",
+      "origem": "Tata Consultancy Services · comunicado · 4 nov 2026",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/productivity-top-benefit-tcs-enterprise-ai-study"
+    },
+    {
+      "titulo": "84% rank productivity as AI's top benefit, only 10% allow autonomy: TCS study",
+      "origem": "DQ India · 5 nov 2026",
+      "url": "https://www.dqindia.com/data-and-ai/84-rank-productivity-as-ais-top-benefit-only-10-allow-autonomy-tcs-study-12785269"
+    }
+  ],
+  "ficha": [
+    {"rotulo": "Quem mediu", "valor": "Tata Consultancy Services (TCS)"},
+    {"rotulo": "Amostra", "valor": "1.333 líderes de negócio e tecnologia, 25 países, 12 setores"},
+    {"rotulo": "Perfil das empresas", "valor": "receita anual de US$ 500 milhões a mais de US$ 20 bilhões"},
+    {"rotulo": "Divulgação", "valor": "4 nov 2026"}
+  ]
+}
