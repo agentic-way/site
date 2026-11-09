@@ -1,0 +1,67 @@
+{
+ "id": "grupo-boticario-revendedores-agentes-atendimento",
+ "publicado_em": "2026-11-09T08:30:00-03:00",
+ "setor": "VAREJO",
+ "processo": "ATENDIMENTO",
+ "status": "em-operacao",
+ "empresa": "Grupo Boticário",
+ "titulo": "Grupo Boticário diz, em estudo de caso da OpenAI, que agentes resolvem até 80% dos pedidos operacionais de revendedoras no app e no WhatsApp",
+ "linhaFina": "O número vem da própria empresa, divulgado pela fornecedora do modelo; as fontes não dizem como \"resolvido\" foi definido, em que período foi medido nem quanto o projeto custou.",
+ "resumo": "O Grupo Boticário opera uma plataforma própria de agentes, com modelos da OpenAI, para atender revendedoras e qualificar candidatas. Segundo a OpenAI, os agentes resolvem sozinhos até 80% dos pedidos operacionais e recebem 90% dos leads da venda direta.",
+ "leitura": 5,
+ "abertura": "O Grupo Boticário tem mais de 10 marcas, mais de 4.000 lojas físicas e um canal de venda direta com revendedoras. Segundo a OpenAI, o grupo construiu uma plataforma própria de orquestração de agentes, que combina modelos de fundação com regras de negócio. Só na jornada da revendedora há mais de 30 agentes.",
+ "problema": "Segundo a diretora executiva de Tecnologia do grupo, Maria Isabel Miranda, em painel do Meetup Itaú Tech noticiado pelo TI Inside, as revendedoras dependiam de equipes de atendimento com horário definido e, em certas situações, esperavam de 15 a 20 minutos por resposta. O cadastro de novas revendedoras também passava por essas equipes.",
+ "solucao": "A jornada tem duas frentes, segundo a OpenAI. No cadastro, a IA recebe o lead que chega por canal digital, tira dúvidas sobre como entrar e, quando a pessoa sinaliza intenção de fechar um pedido, transfere para o atendimento humano. No suporte, agentes resolvem pedidos do dia a dia: envio de catálogo, dúvidas sobre boleto, dúvidas sobre o aplicativo e assuntos gerais. Há ainda agentes dedicados a validar o conteúdo e a eficácia das respostas dos outros. As fontes não dizem a quais sistemas internos os agentes têm acesso.",
+ "resultado": "Segundo a OpenAI, desde novembro de 2025 os agentes cobrem 100% das conversas geradas no appchat e no WhatsApp Enterprise, com resolução autônoma de até 80% dos pedidos operacionais, e 90% dos leads da venda direta são recebidos e qualificados inicialmente pela IA, com atendimento 24 horas no primeiro contato. O TI Inside, que cobre uma fala da executiva em evento, confirma a automação e a ampliação da disponibilidade, mas não traz esses percentuais.",
+ "humano": "O repasse a pessoas acontece quando a candidata sinaliza intenção de fechar pedido. A equipe de negócio (vendas, atendimento e suporte) passou a gerenciar os prompts da plataforma, com testes A/B, segundo a OpenAI. Na fala publicada pelo TI Inside, a executiva diz que o cliente que quer falar com humano não pode ficar preso num ciclo sem saída.",
+ "citacao": {
+  "texto": "Se ele quer falar com um humano, a gente também não pode deixá-lo entrar naquele loop de que o cliente não consegue sair dali.",
+  "quem": "Maria Isabel Miranda, diretora executiva de Tecnologia do Grupo Boticário, no Meetup Itaú Tech, segundo o TI Inside"
+ },
+ "numeros": [
+  {"valor": "80%", "legenda": "é o teto de resolução autônoma de pedidos operacionais de revendedoras (\"até 80%\")", "quemMediu": "Grupo Boticário, divulgado pela OpenAI em estudo de caso de 16/out/2026; sem auditoria independente"},
+  {"valor": "100%", "legenda": "das conversas no appchat e no WhatsApp Enterprise cobertas pelos agentes desde nov/2025", "quemMediu": "Grupo Boticário, divulgado pela OpenAI"},
+  {"valor": "90%", "legenda": "dos leads da venda direta recebidos e qualificados inicialmente pela IA", "quemMediu": "Grupo Boticário, divulgado pela OpenAI"},
+  {"valor": "30+", "legenda": "agentes só na jornada da revendedora, do cadastro ao suporte", "quemMediu": "Grupo Boticário, divulgado pela OpenAI"},
+  {"valor": "15–20 min", "legenda": "de espera por resposta em certas situações, antes da IA generativa", "quemMediu": "Maria Isabel Miranda, em painel de evento, segundo o TI Inside"}
+ ],
+ "fluxo": [
+  {"tipo": "ENTRADA", "nome": "Revendedora ou candidata no app ou WhatsApp", "faz": "Faz uma pergunta operacional (catálogo, boleto, aplicativo) ou chega como lead interessada em vender."},
+  {"tipo": "AGENTE", "nome": "Agentes da plataforma própria", "faz": "Respondem sozinhos ao pedido do dia a dia ou esclarecem dúvidas de quem quer ingressar; outros agentes validam o conteúdo das respostas."},
+  {"tipo": "SISTEMA", "nome": "Sistemas internos (não informados)", "faz": "As fontes não dizem de onde vêm os dados de boleto, catálogo e cadastro que os agentes consultam."},
+  {"tipo": "SAÍDA", "nome": "Pedido resolvido ou lead qualificado", "faz": "A revendedora recebe a resposta na hora; a candidata é qualificada e segue na jornada."},
+  {"tipo": "EXCEÇÃO", "nome": "Transferência para a equipe humana", "faz": "Quando a lead sinaliza intenção de fechar pedido, a conversa vai para o atendimento humano."}
+ ],
+ "indicadores": [],
+ "naoConta": [
+  {"valor": "Definição", "texto": "as fontes não explicam o que conta como pedido \"resolvido\" nem como o \"até 80%\" foi calculado: se é a melhor semana, a média ou um tipo de pedido específico."},
+  {"valor": "Custo e prazo", "texto": "não foram divulgados o custo da plataforma, o consumo de modelos nem o tempo de implantação. A OpenAI é fornecedora e também quem publica o resultado."},
+  {"valor": "Antes e depois", "texto": "a taxa de resolução do atendimento anterior, o tamanho atual das equipes e o efeito sobre vendas ou satisfação das revendedoras não aparecem."}
+ ],
+ "licoes": [
+  {"titulo": "Separe qualificar lead de resolver pedido", "texto": "O Boticário trata as duas jornadas à parte e define de antemão o ponto de repasse: a intenção de fechar pedido. Critérios de sucesso diferentes pedem medição diferente."},
+  {"titulo": "Quem atende é quem ajusta o agente", "texto": "Segundo a OpenAI, a equipe de negócio gerencia os prompts e roda testes A/B. Em empresas menores, vale decidir quem tem esse papel antes de ligar o agente."},
+  {"titulo": "Desconfie do \"até\"", "texto": "\"Até 80%\" descreve um teto. Peça a média, o período e a definição de resolvido antes de usar o número como meta."}
+ ],
+ "ficha": [
+  {"rotulo": "Empresa", "valor": "Grupo Boticário"},
+  {"rotulo": "Setor", "valor": "Varejo (beleza, venda direta e franquias)"},
+  {"rotulo": "Processo", "valor": "Atendimento e cadastro de revendedoras no app e no WhatsApp"},
+  {"rotulo": "Sistema", "valor": "Plataforma própria de agentes com modelos da OpenAI; sistemas internos não informados"},
+  {"rotulo": "Quem fez", "valor": "Grupo Boticário, com tecnologia da OpenAI"},
+  {"rotulo": "Status", "valor": "Em operação desde nov/2025, segundo a OpenAI"},
+  {"rotulo": "Divulgação", "valor": "Estudo de caso da OpenAI, 16/out/2026; reportagem do TI Inside, 30/out/2026"}
+ ],
+ "comoApuramos": "Lemos o estudo de caso publicado pela OpenAI em 16 de outubro de 2026 e a reportagem do TI Inside de 30 de outubro de 2026 sobre a fala da diretora executiva de Tecnologia do grupo no Meetup Itaú Tech. Os percentuais vêm só da OpenAI; o TI Inside traz o contexto e o tempo de espera anterior. Não houve visita nem entrevista: o caso foi montado apenas com fontes públicas.",
+ "transparencia": "A fonte principal é a OpenAI, fornecedora dos modelos, divulgando um cliente, com falas do CTO do grupo. O TI Inside cobre uma fala da diretora de Tecnologia em evento e não traz os percentuais. Não há medição de terceiros.",
+ "fontes": [
+  {"titulo": "How Grupo Boticário uses AI to strengthen human connections", "origem": "OpenAI, estudo de caso, 16/out/2026", "url": "https://openai.com/index/grupo-boticario/"},
+  {"titulo": "Grupo Boticário utiliza agentes de IA para transformar a jornada de compra e atendimento", "origem": "TI Inside, 30/out/2026", "url": "https://tiinside.com.br/30/10/2026/o-grupo-boticario-utiliza-agentes-de-ia-para-transformar-a-jornada-de-compra-e-atendimento/"}
+ ],
+ "imagem": {
+  "arquivo": "img/na-operacao/grupo-boticario-revendedores-agentes-atendimento-ia.png",
+  "alt": "Mesa de madeira com um celular virado para baixo, um catálogo aberto de maquiagem e um caderno azul; ao fundo, fora de foco, pessoas ao telefone em baias de um escritório de atendimento.",
+  "modelo": "gemini-3.1-flash-image",
+  "prompt": "A calm customer support office of a large beauty and cosmetics company, a smartphone lying face down next to a sample cosmetics catalog and a notebook on a desk in the foreground, a few people working softly in the blurred background. Computer monitors turned away or out of focus with no readable content. No text, no lettering, no logos, no signage, no readable screens, no identifiable faces. Style: realistic editorial photo, shallow depth of field, calm, not staged, not stock-photo, muted navy and warm paper tones"
+ }
+}
