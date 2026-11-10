@@ -1,0 +1,56 @@
+{
+  "id": "axa-agentes-corretores-cotacao-sinistro-zappts",
+  "publicado_em": "2026-11-10T07:20:00-03:00",
+  "tema": "CASOS",
+  "titulo": "AXA diz que agentes de IA lerão e-mails de corretores para cotação e sinistro e projeta alta de 3% a 5% no prêmio, segundo o TI Inside",
+  "linha": "A seguradora afirma que três agentes, feitos com a Zappts, vão tratar cotações, sinistros e atendimento recebidos por e-mail. O ganho de 3% a 5% é estimativa da própria AXA, não resultado medido.",
+  "linhaFina": "Segundo Thales Chieco, superintendente de TI da AXA, hoje 200 a 300 cotações por dia chegam por e-mail e são tratadas à mão, com atraso de dois a três dias.",
+  "fontePrimaria": "AXA, via TI Inside",
+  "leitura": 3,
+  "resumo": [
+    "A AXA projeta alta de 3% a 5% nos prêmios com uma solução de múltiplos agentes de IA que interpretam e-mails de corretores, segundo o TI Inside.",
+    "Há três agentes: cotação, sinistro e atendimento (segunda via de boleto e de apólice, dúvidas sobre produtos).",
+    "O projeto foi desenvolvido com a Zappts e integrado a uma plataforma de gestão de e-mails e tickets.",
+    "A matéria não apresenta resultado medido: o ganho é estimativa e os prazos menores são metas."
+  ],
+  "corpo": [
+    "O TI Inside publicou em 9 de novembro entrevista com Thales Chieco, superintendente de TI da AXA, sobre uma solução baseada em múltiplos agentes de IA. Os agentes interpretam automaticamente e-mails de corretores para gerar cotações, tratar sinistros e responder solicitações de atendimento, processo que hoje é majoritariamente manual.",
+    "Segundo a matéria, as equipes leem cada e-mail, abrem os anexos um a um, conferem a documentação obrigatória e transportam os dados para os sistemas da companhia. Parte do volume vem dos grandes corretores, que não preenchem formulários em portais de seguradoras e enviam um único e-mail com PDFs de pedido de cotação. A AXA opera carteiras de cyber, frota, property e aviation, e o agente precisa identificar o produto cotado a partir do conteúdo do e-mail antes de decidir o que fazer.",
+    "A AXA cadastra 100% das cotações recebidas, mas o volume, de 200 a 300 por dia, gera atrasos de dois a três dias. Pedidos de segunda via de apólice, que hoje levam de dois a três dias, devem ser resolvidos em poucas horas. A meta é responder a 100% dos e-mails de cotação. Esses prazos são metas declaradas, não medições.",
+    "A estimativa de ganho de 3% a 5% em prêmio varia conforme a carteira de produtos. Segundo o superintendente, o Brasil tende a ter ganho maior que outros países do grupo porque a operação nasceu muito manual, com cotação negociada por e-mail. O CEO da Zappts, Pablo Augusto, descreve o projeto como exemplo de \"headcount híbrido\": o agente assume o trabalho repetitivo e a pessoa decide, negocia e cuida do corretor.",
+    "A matéria também descreve a governança de IA da AXA: quatro pilares (pessoas, captação de ideias, tecnologia e governança), um chat interno chamado SecureGPT e um comitê de VPs, CISO, TI e compliance que avalia projetos e prompts."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · PROCESSO",
+      "titulo": "O candidato a agente é o fluxo que chega por e-mail e anexo",
+      "texto": "A AXA justifica o agente pela dificuldade de transformar um pedido com vários anexos em dado estruturado, algo que ferramentas de regras não fazem. Empresas com cotação, pedido ou sinistro por e-mail têm o mesmo ponto de partida."
+    },
+    {
+      "rotulo": "02 · MEDIDA",
+      "titulo": "Ainda é projeção",
+      "texto": "O 3% a 5% e os prazos de horas são estimativas e metas. Vale esperar a AXA divulgar o resultado medido, com tempo de resposta e taxa de cotações respondidas, antes de usar o número como referência."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "A história vem da AXA e da fornecedora",
+      "texto": "As falas citadas são do superintendente da AXA e do CEO da Zappts, que vendeu o projeto. A matéria não traz dado independente nem informa o que acontece quando o agente erra o produto ou a documentação."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem recebe pedidos por e-mail, o primeiro passo indicado pelo caso é medir o fluxo atual: quantas solicitações por dia, quanto tempo até a primeira resposta e quantas dependem de ler anexos."
+  ],
+  "fontes": [
+    {
+      "titulo": "AXA investe em agentes de IA e projeta alta de 3% a 5% no prêmio com resposta mais rápida a corretores",
+      "origem": "TI Inside · 9 nov 2026",
+      "url": "https://tiinside.com.br/09/11/2026/axa-investe-em-agentes-de-ia-e-projeta-alta-de-3-a-5-no-premio-com-resposta-mais-rapida-a-corretores/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem afirma", "valor": "AXA (Thales Chieco) e Zappts (Pablo Augusto), via TI Inside" },
+    { "rotulo": "Status", "valor": "projeção e metas; sem resultado medido na matéria" },
+    { "rotulo": "Divulgação", "valor": "9 nov 2026" },
+    { "rotulo": "Confirmação", "valor": "não confirmada pelo cliente" }
+  ]
+}

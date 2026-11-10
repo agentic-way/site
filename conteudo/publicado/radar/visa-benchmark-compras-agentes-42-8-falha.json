@@ -1,0 +1,56 @@
+{
+  "id": "visa-benchmark-compras-agentes-42-8-falha",
+  "publicado_em": "2026-11-10T07:20:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Visa diz que 22 modelos de IA falharam em 42,8% dos testes de compra em nome do consumidor",
+  "linha": "No benchmark da Visa, 22 modelos de 12 laboratórios passaram em 57,2% das tentativas em 15 cenários de compra. Em 54% das falhas, a IA concluiu a compra mesmo assim.",
+  "linhaFina": "Primeira rodada do Visa Agentic Commerce Benchmark, divulgada em 5 de novembro. Cada modelo teve três tentativas por cenário, e as três passaram em só 34,2% dos casos.",
+  "fontePrimaria": "Visa",
+  "leitura": 3,
+  "resumo": [
+    "A Visa lançou um benchmark em que a IA deve descobrir, por conversa, o que o consumidor precisa e decidir a compra; se nada servir, deve não comprar.",
+    "A primeira rodada pôs 22 modelos de 12 laboratórios em 15 cenários, como comprar TV, notebook ou aparelho de cuidados pessoais.",
+    "A taxa de aprovação geral foi de 57,2%. Os melhores modelos passaram em 82,2% das tentativas e os piores em 28,9%.",
+    "54% das tentativas reprovadas terminaram em compra, e só 34,2% dos casos tiveram as três tentativas aprovadas."
+  ],
+  "corpo": [
+    "A Visa divulgou em 5 de novembro o Visa Agentic Commerce Benchmark, que põe modelos de IA diante de situações de compra em que o consumidor não sabe todas as especificações no início. O modelo precisa levantar as necessidades por conversa e, se nenhum produto atender, deve optar por não comprar. Para evitar acerto por sorte, precisa descobrir informação suficiente para justificar a decisão.",
+    "A primeira rodada reuniu 22 modelos de 12 laboratórios em 15 desafios, como a compra de uma TV, um notebook ou um aparelho de cuidados pessoais. A taxa geral de aprovação foi de cerca de 57,2%, e 42,8% das tentativas falharam. Os melhores modelos passaram em 82,2% das tentativas e os piores em 28,9%. O Valor Econômico noticiou os resultados em 9 de novembro e indica que a rodada foi feita nos Estados Unidos.",
+    "Segundo a Visa, os cinco modelos que mais descobriram fatores ocultos de compra tiveram média de 70,2% de aprovação, contra 44,4% dos cinco que menos descobriram. Os cinco de maior custo médio por execução passaram em 67,1% das execuções, e os cinco mais baratos, em 50,2%.",
+    "Cada modelo teve três tentativas por cenário. Considerando todos os modelos e cenários, as três tentativas passaram em apenas 34,2% dos casos. Em 54% das execuções reprovadas, a IA ainda assim concluiu uma compra, seja por recomendar produto que não atendia aos requisitos, seja por não levantar todos os requisitos do cliente."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CONSISTÊNCIA",
+      "titulo": "Passar uma vez não é o mesmo que passar sempre",
+      "texto": "O número de 34,2% de casos com as três tentativas aprovadas é o que mais importa para quem pensa em agente que compra ou fecha pedido sem revisão: o mesmo modelo, na mesma tarefa, não responde igual."
+    },
+    {
+      "rotulo": "02 · TRAVA",
+      "titulo": "Compra em nome de cliente pede ponto de aprovação",
+      "texto": "Como mais da metade das falhas terminou em compra, o risco está em executar com dado incompleto. Empresas que testam agentes de venda ou de compra no Brasil podem exigir confirmação humana antes de pagamento ou pedido."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "A Visa mede e também vende pagamento",
+      "texto": "A Visa tem interesse em que o comércio por agentes ganhe confiança em sua rede. O teste foi desenhado e divulgado por ela, com produtos de consumo nos Estados Unidos; não mede compra corporativa nem o mercado brasileiro."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Visa Releases First-of-Its-Kind Industry Benchmark for AI Shopping; Almost Half of Test Runs Fail",
+      "origem": "Visa · comunicado · 5 nov 2026",
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Releases-First-of-Its-Kind-Industry-Benchmark-for-AI-Shopping-Almost-Half-of-Test-Runs-Fail/default.aspx"
+    },
+    {
+      "titulo": "Visa testa modelos de IA em compras e identifica falhas em 42,8% dos casos",
+      "origem": "Valor Econômico · 9 nov 2026",
+      "url": "https://valor.globo.com/financas/noticia/2026/11/09/visa-testa-modelos-de-ia-em-compras-e-identifica-falhas-em-428-pontos-percentuais-dos-casos.ghtml"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Visa" },
+    { "rotulo": "Amostra", "valor": "22 modelos de 12 laboratórios, 15 cenários de compra, 3 tentativas por cenário" },
+    { "rotulo": "Divulgação", "valor": "5 nov 2026" }
+  ]
+}
