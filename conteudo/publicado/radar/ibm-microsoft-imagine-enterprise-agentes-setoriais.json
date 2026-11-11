@@ -1,0 +1,50 @@
+{
+  "id": "ibm-microsoft-imagine-enterprise-agentes-setoriais",
+  "publicado_em": "2026-11-11T07:10:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "IBM e Microsoft lançam o Imagine Enterprise, plataforma de agentes vendida com consultoria",
+  "linha": "A plataforma parte de mais de 6.000 agentes prontos da IBM Consulting e de tecnologia Microsoft. Os modelos por setor começam em serviços financeiros, seguros e varejo.",
+  "linhaFina": "Segundo o comunicado de 10 de novembro, o acesso é feito pela IBM Consulting, em implantação operada por ela ou em co-inovação. Há também opção de autogestão. O comunicado não traz preço nem disponibilidade por país.",
+  "fontePrimaria": "IBM / Microsoft",
+  "leitura": 3,
+  "resumo": [
+    "IBM e Microsoft anunciaram em 10 de novembro o Imagine Enterprise, plataforma para criar, executar e governar agentes de IA em processos de cada setor.",
+    "A IBM Consulting entra com mais de 6.000 agentes e ativos pré-construídos; a Microsoft, com Foundry, Copilot Studio, GitHub Copilot, Fabric, Entra, Purview, Defender e Azure.",
+    "Os modelos por setor cobrem inicialmente serviços financeiros, seguros e varejo. Manufatura, energia, setor público e mobilidade são citados como possibilidade futura."
+  ],
+  "corpo": [
+    "O comunicado da IBM descreve o Imagine Enterprise como uma plataforma agêntica para empresas construírem, operarem e governarem agentes que ajudam pessoas a executar processos específicos de cada setor, com foco em setores regulados. A plataforma inclui controles, observabilidade e suporte a conformidade de IA.",
+    "A IBM Consulting contribui com mais de 6.000 agentes e ativos construídos sobre o IBM Consulting Advantage, sua plataforma de entrega. A Microsoft fornece Microsoft Foundry, GitHub Copilot e Microsoft Copilot Studio para coordenar agentes e sistemas, além de Microsoft Fabric, Entra, Purview, Defender e Azure para dados, identidade, governança e segurança.",
+    "O acesso se dá por contratação da IBM Consulting, que implanta e opera a plataforma pelo cliente, ou por co-inovação em implementações de grande porte. O comunicado cita também opções de autogestão e diz que engenheiros das duas empresas dão apoio em contratos qualificados. A SEI, provedora de tecnologia financeira, é citada como cliente que explora a plataforma com a IBM Consulting e a Microsoft; o comunicado diz que ela está explorando as capacidades, sem resultado divulgado.",
+    "O comunicado traz a ressalva de que declarações sobre direção futura das empresas estão sujeitas a mudança e representam apenas objetivos."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ACESSO",
+      "titulo": "É um produto de consultoria, não de prateleira",
+      "texto": "A entrada é por contrato com a IBM Consulting. Para empresa média brasileira, o comunicado não informa disponibilidade local, preço nem porte mínimo de contrato."
+    },
+    {
+      "rotulo": "02 · AGENTES PRONTOS",
+      "titulo": "Os 6.000 agentes são ponto de partida, não prova de resultado",
+      "texto": "O comunicado não traz métricas de desempenho. O único cliente citado, a SEI, está explorando a plataforma e não divulgou ganho."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem anuncia vende a implantação",
+      "texto": "A IBM Consulting ganha com o serviço de implantação e a Microsoft com a infraestrutura em nuvem. Vale pedir referências de clientes no seu setor antes de comparar com alternativas."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "IBM and Microsoft Announce a New AI Agent Platform Designed for Industry-Specific Transformation",
+      "origem": "IBM Newsroom · comunicado · 10 nov 2026",
+      "url": "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem anunciou", "valor": "IBM e Microsoft" },
+    { "rotulo": "Setores iniciais", "valor": "Serviços financeiros, seguros e varejo" },
+    { "rotulo": "Divulgação", "valor": "10 nov 2026" }
+  ]
+}
