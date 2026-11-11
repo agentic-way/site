@@ -1,0 +1,53 @@
+{
+  "id": "amcham-panorama-2027-52-sem-retorno-mensuravel-ia",
+  "publicado_em": "2026-11-11T07:10:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Amcham e Humanizadas: 52% das empresas não relatam retorno mensurável com IA",
+  "linha": "Pesquisa com 662 executivos mostra que 61% das empresas estão em uso inicial ou em piloto. A falta de integração entre áreas e sistemas é o principal obstáculo, citada por 39%.",
+  "linhaFina": "O levantamento Panorama 2027, da Amcham Brasil e da Humanizadas, foi apresentado em 10 de novembro, em Campinas. Trata de IA em geral, não só de agentes.",
+  "fontePrimaria": "Amcham Brasil / Humanizadas, via C-Level (Folha)",
+  "leitura": 3,
+  "resumo": [
+    "Para 52% das empresas, o retorno dos investimentos em IA ainda não é mensurável, segundo pesquisa da Amcham Brasil e da Humanizadas com 662 executivos.",
+    "26% descrevem o uso como inicial e 35% têm projetos-piloto que não entraram na rotina; somados, são 61%. Só 12% usam IA em escala com resultados tangíveis e 10% dizem que ela transformou a estratégia ou o modelo de negócio.",
+    "A falta de integração entre áreas e sistemas lidera os obstáculos, com 39% das respostas."
+  ],
+  "corpo": [
+    "O levantamento Panorama 2027 foi apresentado na terça-feira, 10 de novembro, durante o Amcham Talks IA, em Campinas, segundo reportagem do C-Level, site de negócios da Folha. A pesquisa ouviu 662 executivos.",
+    "Na pergunta sobre retorno financeiro, 52% disseram que ele ainda não é mensurável. Outros 15% relatam resultados parciais, insuficientes para recuperar o investimento, 21% apontam retorno positivo em processos ou áreas específicas, 7% dizem ter ampliado os ganhos para várias áreas e 5% consideram a IA uma vantagem competitiva mensurável.",
+    "Sobre o estágio de adoção, 26% descrevem o uso como inicial, com aplicações pontuais ou nenhuma iniciativa estruturada, e 35% relatam pilotos que ainda não viraram rotina. Na outra ponta, 17% integraram a IA a processos críticos com ganhos ainda isolados, 12% usam em escala com resultados tangíveis e 10% afirmam que ela transformou a estratégia ou o modelo de negócio. Na pesquisa anterior, a projeção era de que 42% das empresas permanecessem nos estágios inicial e emergente em 2026; o levantamento atual encontrou 61%.",
+    "Entre os obstáculos, a falta de integração entre áreas e sistemas aparece em 39% das respostas, a pouca clareza sobre onde usar a tecnologia em 33%, os processos excessivamente manuais em 31% e dados ruins ou desorganizados em 26%. Para 40%, a empresa não tem políticas internas de uso, e 39% apontam falta de governança sobre riscos legais e éticos. A automatização de processos foi citada como prioridade para os próximos dois anos por 65%."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · MEDIDA",
+      "titulo": "Sem indicador definido antes, não há retorno a medir",
+      "texto": "Mais da metade dos executivos não consegue dizer se a IA se pagou. Para um agente, isso significa fixar antes do início qual tempo, custo ou erro ele deve reduzir."
+    },
+    {
+      "rotulo": "02 · INTEGRAÇÃO",
+      "titulo": "O gargalo citado é o sistema, não o modelo",
+      "texto": "A falta de integração entre áreas e sistemas (39%) e os processos manuais (31%) pesam mais que qualquer limite de tecnologia. É o terreno onde agentes que se conectam a ERP, planilhas e e-mail precisam provar valor."
+    },
+    {
+      "rotulo": "03 · ESCOPO",
+      "titulo": "A pesquisa mede IA em geral",
+      "texto": "As perguntas não separam agentes de outras formas de IA. Os números indicam o ambiente em que agentes entram nas empresas brasileiras, não a taxa de sucesso deles."
+    }
+  ],
+  "oQueFazer": [
+    "Antes de contratar o próximo piloto, registre a linha de base do processo (tempo, custo, retrabalho) e quem vai conferir o resultado. Sem esse registro, o piloto entra nos 52%."
+  ],
+  "fontes": [
+    {
+      "titulo": "52% das empresas não relatam retorno mensurável com IA",
+      "origem": "C-Level (Folha) · Laura Intrieri · 10 nov 2026",
+      "url": "https://c-level.folha.uol.com.br/ia/2026/11/mais-da-metade-das-empresas-ainda-nao-tem-retorno-mensuravel-com-ia-aponta-pesquisa.shtml"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Amcham Brasil e Humanizadas" },
+    { "rotulo": "Amostra", "valor": "662 executivos" },
+    { "rotulo": "Divulgação", "valor": "10 nov 2026" }
+  ]
+}
