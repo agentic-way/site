@@ -1,0 +1,59 @@
+{
+  "id": "centauro-900-agentes-60-pos-venda-estoque-230-lojas",
+  "publicado_em": "2026-11-12T07:15:00-03:00",
+  "tema": "CASOS",
+  "titulo": "Centauro diz que seus agentes resolvem mais de 60% dos chamados de pós-venda sem atendente, segundo a Exame",
+  "linha": "A varejista do Grupo SBF afirma operar mais de 900 agentes de IA e ter reduzido de quatro horas para cinco minutos a atualização das regras de estoque de 230 lojas. A empresa não informou período nem volume da medição de pós-venda.",
+  "linhaFina": "Plataforma lançada no primeiro trimestre de 2026 permite que as próprias equipes criem agentes. Os números são da Centauro, relatados pela Exame, sem verificação independente.",
+  "fontePrimaria": "Centauro (Grupo SBF), via Exame",
+  "leitura": 3,
+  "resumo": [
+    "A Centauro diz operar mais de 900 agentes de IA em vendas, pós-venda, catálogo, operação de lojas e engenharia de software, em plataforma lançada no primeiro trimestre de 2026.",
+    "Segundo a empresa, mais de 60% dos chamados de pós-venda são resolvidos sem atendente, mas ela não informou o período nem quantos chamados entraram na conta.",
+    "O tempo para atualizar as regras que definem quanto do estoque de cada uma das 230 lojas pode atender pedidos online teria caído de quatro horas para cinco minutos."
+  ],
+  "corpo": [
+    "A Exame publicou em 11 de novembro uma reportagem sobre a plataforma de agentes da Centauro, rede do Grupo SBF. Segundo a empresa, a plataforma foi lançada no primeiro trimestre de 2026 e reúne mais de 900 agentes. Ela foi criada para que as próprias equipes desenvolvam agentes para tarefas que conhecem de perto. A Centauro diz usar tecnologia de parceiros como base e criar internamente as aplicações de cada área.",
+    "Desde o lançamento, a Centauro diz ter capacitado mais de 2.300 pessoas em 59 treinamentos. A plataforma tem 1.400 usuários ativos e 14 integrações. Segundo a empresa, a ideia é acompanhar em um só lugar quem tem acesso à ferramenta, quanto ela é usada e quanto custa mantê-la.",
+    "Entre os resultados citados: mais de 60% dos chamados de pós-venda resolvidos sem atendente; redução de quatro horas para cinco minutos no tempo de atualizar as regras de estoque para pedidos online em 230 lojas; alta na proporção de lojas que seguem as regras de atualização de 65% para 90%; redução de 42% no prazo para lançar novos itens no catálogo; e acerto de 95% na classificação automática dos itens avaliados.",
+    "A reportagem registra os limites das medições. No pós-venda, a Centauro não informou quantas solicitações entraram na conta, qual foi o período analisado nem quais problemas mais exigiram a equipe. No assistente de compras, o tíquete médio teria sido 46% maior em um teste na categoria de chuteiras, sem detalhar a base de comparação. A redução de mais de 30% no erro de previsão de demanda é uma projeção da varejista."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · MEDIDA",
+      "titulo": "Percentual sem base não permite comparar com a sua operação",
+      "texto": "Sem período, volume e tipo de chamado, o 60% diz pouco. Ao medir o seu pós-venda, registre o que entra na conta de chamado resolvido e o que fica de fora."
+    },
+    {
+      "rotulo": "02 · PLATAFORMA",
+      "titulo": "A Centauro construiu um ponto único de acesso, uso e custo",
+      "texto": "O relato dá peso ao controle de quem usa, quanto usa e quanto custa. É o tipo de controle que falta quando agentes são criados de forma dispersa pelas áreas."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Os números são da própria empresa",
+      "texto": "A Exame relata o que a Centauro informou e aponta o que ficou sem detalhe. Não há verificação independente dos resultados."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Centauro coloca 900 agentes de IA para trabalhar e resolve 60% dos chamados sem humanos",
+      "origem": "Exame · reportagem · 11 nov 2026",
+      "url": "https://exame.com/inteligencia-artificial/centauro-coloca-900-agentes-de-ia-para-trabalhar-e-resolve-60-dos-chamados-sem-humanos/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Centauro (Grupo SBF), segundo a Exame"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "11 nov 2026"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não verificada de forma independente"
+    }
+  ]
+}

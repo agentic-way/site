@@ -1,0 +1,59 @@
+{
+  "id": "cnp-seguradora-isis-gft-custos-10x",
+  "publicado_em": "2026-11-12T07:15:00-03:00",
+  "tema": "CASOS",
+  "titulo": "GFT diz que plataforma de IA da CNP Seguradora reduziu em até 10x o custo de processos específicos",
+  "linha": "Segundo comunicado da GFT, a plataforma ÍSIS foi implantada em quatro meses, tem mais de 330 usuários ativos e 33 casos em andamento. Os números de resultado são da GFT.",
+  "linhaFina": "A ÍSIS orquestra funções de IA com governança e rastreabilidade por interação. O comunicado é do fornecedor e não traz os números na voz da seguradora.",
+  "fontePrimaria": "GFT Technologies (comunicado)",
+  "leitura": 3,
+  "resumo": [
+    "A GFT diz ter ajudado a CNP Seguradora a implantar a ÍSIS, plataforma de IA que opera desde novembro de 2025, com quatro meses do desenho à produção.",
+    "Segundo a GFT, o custo operacional caiu até 10x em processos específicos, com economia de mais de 4 mil horas anuais e análises de sinistro que levavam semanas passando a levar horas, com supervisão humana.",
+    "A plataforma tem mais de 330 usuários ativos e 33 casos de uso em implantação."
+  ],
+  "corpo": [
+    "Em comunicado de 9 de novembro, a GFT Technologies afirma ter apoiado a CNP Seguradora, do grupo francês CNP Assurances, no desenvolvimento e na implantação da ÍSIS, infraestrutura de IA da seguradora. A plataforma é de orquestração sem servidor, consumida como API, e decide em tempo real qual função acionar, a que custo e sob quais regras de governança. A AWS é a parceira de tecnologia da infraestrutura.",
+    "A arquitetura descrita parte de um único ponto de entrada, autenticado e auditável, com seleção automática de modelos por complexidade da tarefa e custo em tokens, e rastreabilidade de cada interação. A integração é feita com sistemas já existentes da empresa, como Confluence e Datalake, e há camada de observabilidade e de controle de custo de IA.",
+    "Os resultados informados são: redução de até 10x nos custos operacionais em processos específicos, economia de mais de 4 mil horas anuais em tarefas, buscas até 100x mais rápidas e aumento de 20% na precisão das transcrições de áudio e imagem. Em três exemplos, a GFT cita contas a pagar com tempo médio de operação de 80 minutos para 5, compras com redução de 93 para 15 dias, e movimentação de vidas com prazo de 7 dias para 1.",
+    "O comunicado cita dados da RAND Corporation e da Pertama Partners, de fevereiro de 2026, segundo os quais 80,3% dos projetos de IA não entregam o valor pretendido. A GFT usa o dado para posicionar a ÍSIS, e o texto não detalha como cada resultado foi medido."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · GOVERNANÇA",
+      "titulo": "Ponto único de entrada antes de multiplicar casos",
+      "texto": "O desenho descrito trata acesso, escolha de modelo, custo e registro por interação como camada comum. É uma pergunta útil a fazer antes de a segunda e a terceira área contratarem IA por conta própria."
+    },
+    {
+      "rotulo": "02 · MEDIDA",
+      "titulo": "Até 10x vale para processos específicos",
+      "texto": "O comunicado não diz quais processos nem qual a base de comparação. Ao ver um número assim, pergunte onde ele vale e onde não vale."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem divulga vende a implantação",
+      "texto": "A GFT presta serviços de implantação de IA. Os executivos da CNP aparecem no texto falando de arquitetura, sem repetir os números de resultado."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "CNP Seguradora reduz custos operacionais em até 10x com nova plataforma de IA",
+      "origem": "GFT Technologies · comunicado · 9 nov 2026",
+      "url": "https://www.gft.com/br/pt/about-us/newsroom/press-and-news/2026/press-releases/cnp-seguradora-reduz-custos-operacionais"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "GFT Technologies, segundo o comunicado"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "9 nov 2026"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não confirmada pelo cliente"
+    }
+  ]
+}
