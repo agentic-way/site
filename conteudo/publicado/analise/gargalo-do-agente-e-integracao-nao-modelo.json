@@ -1,0 +1,78 @@
+{
+  "id": "gargalo-do-agente-e-integracao-nao-modelo",
+  "publicado_em": "2026-11-13T07:00:00-03:00",
+  "tema": "MERCADO",
+  "titulo": "O que trava o agente na empresa é integração, e o mercado já vende a saída com consultoria",
+  "linhaFina": "Na pesquisa da Amcham, 52% das empresas não conseguem medir o retorno da IA, e a falta de integração entre áreas e sistemas é o obstáculo mais citado (39%). Na mesma semana, IBM e Microsoft lançaram uma plataforma de agentes vendida com engenheiros próprios dentro do cliente.",
+  "frase": "Quem hoje diz ter IA \"em escala\" e quem diz ter IA \"em escala com resultados tangíveis\" estão falando de empresas diferentes: 57% de um lado, 12% do outro.",
+  "leitura": 5,
+  "tese": [
+    "O obstáculo mais citado pelas empresas brasileiras para aplicar IA é a falta de integração entre áreas e sistemas, não a falta de modelo ou de plataforma.",
+    "Os grandes fornecedores estão respondendo a isso com pacote: plataforma de agentes, agentes prontos e equipe de engenharia do próprio fornecedor dentro do cliente. A integração vira serviço contratado, não etapa do projeto.",
+    "A empresa média deve decidir quem fica com a integração, e onde ela está documentada, antes de assinar a plataforma, porque é ali que a medição do retorno nasce ou não."
+  ],
+  "p1": "Em 10 de novembro, a Amcham Brasil e a Humanizadas apresentaram o Panorama 2027, com 662 executivos. Para 52% deles, o retorno dos investimentos em IA ainda não é mensurável. Entre as barreiras à aplicação da tecnologia, a que lidera é a falta de integração entre áreas e sistemas, com 39% das respostas. Pouca clareza sobre onde usar vem em seguida, com 33%, depois processos excessivamente manuais, com 31%, e dados ruins ou desorganizados, com 26%.",
+  "p2": "A leitura habitual desse tipo de número é que as empresas ainda estão aprendendo e que o retorno virá com o tempo. Pode ser. O que me interessa é o que o mercado fez no dia seguinte, e o que isso diz sobre onde ele acha que está o problema.",
+  "h1": "O número de adoção depende do que se chama de escala",
+  "p3": "Uma pesquisa da IDC encomendada pela Dell, feita em setembro e outubro com 250 organizações brasileiras, encontrou 57% das empresas usando IA em escala: 72% das grandes e 42% das pequenas e médias. Na Amcham, 61% das empresas estão no uso inicial (26%) ou em projetos-piloto que não entraram na rotina (35%). Só 12% dizem usar IA em escala e com resultados tangíveis.",
+  "p4": "Os dois levantamentos têm amostras, perguntas e interesses diferentes, e não devem ser somados nem subtraídos. Mas a distância entre 57% e 12% mostra que \"em escala\" pode significar \"muita gente usa\" ou \"o resultado aparece na operação\". A segunda definição é a que importa para quem paga a conta, e a segunda é a que quase ninguém atingiu.",
+  "destaque": "Quem diz ter IA em escala e quem diz ter IA em escala com resultados tangíveis estão falando de empresas diferentes.",
+  "h2": "Integração é o ponto em que as pesquisas convergem",
+  "p5": "O estudo da TCS ouviu 1.333 líderes de empresas com receita anual entre US$ 500 milhões e mais de US$ 20 bilhões, em 25 países. Só 9% relatam agentes capazes de orquestrar fluxos entre aplicações da empresa com segurança, e 10% permitem que agentes executem decisões sem aprovação humana em várias áreas. A Capgemini, com 1.100 executivos de serviços financeiros, achou 59% testando ou implantando IA multiagente em produção e só 10% com a orquestração completa em toda a empresa. Oito em cada dez dão prioridade a reduzir dívida técnica.",
+  "p6": "As amostras são de países e setores diferentes, e nenhuma delas mede diretamente a relação entre integração e retorno. O que elas mostram juntas é que fazer o agente falar com mais de um sistema é o ponto em que a maioria ainda não chegou. Para a empresa média, que costuma ter menos sistemas modernos e menos gente de TI, é razoável supor que a distância seja maior, mas nenhum desses estudos mede isso.",
+  "h3": "O mercado vende a integração dentro do pacote",
+  "p7": "Em 10 de novembro, IBM e Microsoft lançaram o Imagine Enterprise, plataforma para criar, executar e governar agentes em processos de cada setor. A IBM Consulting entra com mais de 6.000 agentes e ativos pré-construídos, a Microsoft com Foundry, Copilot Studio, Entra, Purview e Azure, e há engenharia de implantação das duas empresas em contratos que se qualifiquem. A plataforma está disponível por contratação da IBM Consulting, que implanta e opera em nome do cliente, ou em co-desenvolvimento; também há opções de autogestão. Os modelos setoriais cobrem serviços financeiros, seguros e varejo. Não há nada de errado nisso: se integração é o gargalo, vender gente que integra é uma resposta lógica. O que muda é que o cliente passa a depender do fornecedor para saber como o agente se liga aos seus sistemas, como o retorno é medido e quanto custa sair.",
+  "contra": "O argumento mistura levantamentos que não foram feitos para se comparar e tira deles uma causa que nenhum mede. A Amcham mostra que a integração lidera os obstáculos citados, não que ela explique a dificuldade de medir retorno. Pode ser que medir retorno falhe por falta de métrica, de dono ou de linha de base, problemas que existem mesmo com sistemas perfeitamente integrados. Há também interesse em quase todas as fontes: a Dell encomendou a pesquisa da IDC e vende infraestrutura; a TCS e a Capgemini vendem serviços de integração e transformação; a IBM e a Microsoft vendem exatamente o pacote que discuto. Os números podem ser exatos e o enquadramento ainda assim favorecer quem os publica. Por fim, uma plataforma com agentes prontos e engenheiros do fornecedor pode, sim, encurtar o caminho para uma empresa média que não tem equipe própria, e dependência de fornecedor é um custo conhecido, não necessariamente um erro. Se for assim, o pacote é a melhor opção, e a pergunta passa a ser só o preço e a saída.",
+  "fechamento": "Antes de assinar uma plataforma de agentes, eu pediria ao fornecedor, por escrito, a lista de sistemas da empresa a que cada agente vai se conectar, quem faz e mantém cada conexão, e como o resultado do processo, antes e depois, será medido com os dados da própria empresa. Se a resposta for \"a equipe do fornecedor cuida\", eu aceitaria desde que a documentação e a saída estejam no contrato. Se a empresa não consegue dizer hoje qual número deveria mudar, o problema é anterior a qualquer plataforma.",
+  "pontos": [
+    {
+      "rotulo": "01 · SISTEMAS",
+      "titulo": "Liste a que cada agente se conecta",
+      "texto": "Para cada agente proposto, registre os sistemas que ele lê e em que escreve, e quem mantém cada conexão. Se a lista não existe, a integração ainda não foi desenhada."
+    },
+    {
+      "rotulo": "02 · MEDIÇÃO",
+      "titulo": "Defina o número antes da plataforma",
+      "texto": "Escolha o indicador do processo que o agente deve mudar e registre o valor de hoje. Sem linha de base, o retorno não é mensurável, com ou sem integração."
+    },
+    {
+      "rotulo": "03 · SAÍDA",
+      "titulo": "Exija documentação e portabilidade",
+      "texto": "Se a equipe do fornecedor integra, a documentação das conexões e o acesso aos registros precisam ser da empresa e constar no contrato."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Mais da metade das empresas ainda não tem retorno mensurável com IA, aponta pesquisa",
+      "origem": "C-Level (Folha) · pesquisa Amcham e Humanizadas, n=662 · 10 nov 2026",
+      "url": "https://c-level.folha.uol.com.br/ia/2026/11/mais-da-metade-das-empresas-ainda-nao-tem-retorno-mensuravel-com-ia-aponta-pesquisa.shtml"
+    },
+    {
+      "titulo": "Pesquisa IDC: mais da metade das empresas brasileiras já usa IA em escala, mas custos e segurança preocupam",
+      "origem": "Época Negócios · pesquisa IDC encomendada pela Dell, n=250 · 5 nov 2026",
+      "url": "https://epocanegocios.globo.com/inteligencia-artificial/noticia/2026/11/pesquisa-idc-mais-da-metade-das-empresas-brasileiras-ja-usa-ia-em-escala-mas-custos-e-seguranca-preocupam.ghtml"
+    },
+    {
+      "titulo": "TCS Enterprise AI Study: 84% say productivity is AI's top benefit; just 10% let AI act without human oversight",
+      "origem": "Tata Consultancy Services · comunicado, n=1.333 · 4 nov 2026",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/productivity-top-benefit-tcs-enterprise-ai-study"
+    },
+    {
+      "titulo": "Financial institutions accelerate transition to multi-agent AI in drive for bottom-line value",
+      "origem": "Capgemini Research Institute · comunicado, n=1.100 · 5 nov 2026",
+      "url": "https://www.capgemini.com/news/press-releases/financial-institutions-accelerate-transition-to-multi-agent-ai-in-drive-for-bottom-line-value/"
+    },
+    {
+      "titulo": "IBM and Microsoft announce a new AI agent platform designed for industry-specific transformation",
+      "origem": "IBM Newsroom · comunicado · 10 nov 2026",
+      "url": "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+    }
+  ],
+  "baseadoEm": [
+    "amcham-panorama-2027-52-sem-retorno-mensuravel-ia",
+    "dell-idc-brasil-58-agentes-45-monitoram-tokens",
+    "tcs-estudo-10-agentes-sem-aprovacao-humana",
+    "capgemini-financeiro-59-multiagente-10-orquestracao",
+    "ibm-microsoft-imagine-enterprise-agentes-setoriais"
+  ]
+}
