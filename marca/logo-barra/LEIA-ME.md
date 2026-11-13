@@ -25,3 +25,10 @@ A barra fica solta do resto da letra, é mais fina e passa um pouco acima e abai
 - Cópia usada pela newsletter: `site/img/logo-agenticway.png`.
 
 Os arquivos antigos em `marca/` (`Logo.png`, `Favicon.png` e outros) são as imagens originais geradas no início do projeto e ficam como histórico. O ícone (`Favicon.png`) é só o símbolo, sem a escrita, então não muda.
+
+## Ícone da aba do navegador (favicon), desde 13/nov/2026
+- `site/favicon.svg`: o símbolo (infinito com as duas cabeças), sem a escrita. É o ícone principal.
+- `site/favicon.png` e `site/favicon.ico` (48×48): para navegadores que não usam SVG.
+- `site/apple-touch-icon.png` (180×180, fundo papel): ícone ao salvar o site na tela do celular.
+- Os PNG saem de `icone.html` (`?t=48` e `?t=180&fundo=1`), fotografado pelo Chrome como o logo.
+- Toda página do site aponta para eles no `<head>`. Página nova precisa das três linhas `<link rel="icon" ...>`.
