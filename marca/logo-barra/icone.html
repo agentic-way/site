@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<!-- Fonte dos ícones do site. ?t=48 gera o ícone da aba (fundo transparente); ?t=180&fundo=1 gera o ícone de celular (fundo papel). -->
+<html><head><meta charset="utf-8"><style>html,body{margin:0;background:transparent}img{display:block}</style></head>
+<body><script>
+const q=new URLSearchParams(location.search), t=+q.get('t')||48, m=q.get('fundo')?Math.round(t*0.14):0;
+document.body.style.cssText=`width:${t}px;height:${t}px;background:${q.get('fundo')?'#F7F5F0':'transparent'}`;
+document.body.innerHTML=`<img src="../../site/favicon.svg" width="${t-2*m}" height="${t-2*m}" style="padding:${m}px">`;
+</script></body></html>
