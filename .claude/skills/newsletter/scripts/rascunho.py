@@ -104,6 +104,7 @@ def bloco_titulo(rotulo):
 def monta(ed, numero):
     partes = [
         f'<div style="max-width:600px;margin:0 auto;font-family:{SERIF};color:#1A2733;font-size:16px;line-height:1.6">',
+        f'<p style="margin:0 0 18px"><a href="{SITE}"><img src="{SITE}img/logo-agenticway.png" alt="AgenticWay" width="220" style="display:block;width:220px;height:auto;border:0"></a></p>',
         f'<p style="margin:0 0 16px;font-family:{MONO};font-size:12px;color:{CINZA}">EDIÇÃO {numero} · A SEMANA DOS AGENTES DE IA, PARA QUEM DECIDE</p>',
     ]
     for par in ed["abertura"].split("\n\n"):
