@@ -15,7 +15,7 @@ Marca de Domiciano Rossi. Pivô (set/2026): começar como **mídia especializada
 
 ## Identidade visual
 - Símbolo: infinito contínuo com duas cabeças (humano + agente), traço geométrico, sem 3D. SVG path: `M50,70 C50,42 80,42 100,70 C120,98 150,98 150,70 C150,42 120,42 100,70 C80,98 50,98 50,70 Z` (viewBox 30 0 140 110, stroke 15, cabeças r=11 em (72,16) e (128,16)).
-- Wordmark: Montserrat 600, "Agentic" navy + "Way" coral.
+- Wordmark: Montserrat 600, "Agentic" navy + "Way" coral. Desde 13/nov/2026 a perna esquerda do "A" é a barra "/" de chamar skill (opção C: barra em azul-marinho, 65% da espessura, solta e passando da linha). O A é um SVG embutido nas páginas; arquivos, medidas e as reservas D (azul claro) e E (coral) em `marca/logo-barra/`.
 - Cores: Navy #0F2A44 · Azul #1F4E79 · Azul claro #4A8FC7 · Coral #E8785A · Coral claro #F08A6E (sobre escuro) · Papel #F7F5F0 · Cinza #5B6572 · Linha #DDD9D0. Regra: um coral por tela.
 - Tipografia: Montserrat (títulos), Source Serif 4 (corpo), IBM Plex Mono (datas, editorias, metadados).
 - Imagens: padrão completo em `conteudo/padroes/imagens.md` (ler antes de criar qualquer imagem ou página). Resumo: capa tipográfica (`site/aw.css`) na Home e nas listagens; imagem do Gemini só em matéria de Na Operação, cena genérica, com legenda 8px "Imagem ilustrativa gerada por IA (Gemini). Não retrata a empresa do caso."; nunca foto de terceiros.
@@ -66,6 +66,7 @@ Marca de Domiciano Rossi. Pivô (set/2026): começar como **mídia especializada
 
 ### marca/pranchas/
 - `AgenticWay Marca.dc.html` — prancha de marca (1a–1e)
+- `AgenticWay Logo Barra.html` — estudo do "A" com a barra de chamada (opções A a E; a C está em uso)
 - `DNA da Marca v2.dc.html` — documento imprimível (usa `doc-page.js`, na mesma pasta)
 - `AgenticWay Posts.dc.html` — prancha de templates de post LinkedIn/Instagram (2a–2i, canvas em 50%)
 - `AgenticWay Newsletter.dc.html` — template da newsletter semanal (e-mail 600 px + painel de envio)

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AgenticWay · estudo do A com barra</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#F7F5F0;color:#0F2A44;font-family:'IBM Plex Mono',monospace;padding:32px clamp(16px,4vw,48px)}
+  h1{font-family:Montserrat,sans-serif;font-weight:600;font-size:22px;margin:0 0 6px}
+  p{font-size:13px;color:#5B6572;margin:0 0 28px;max-width:760px;line-height:1.6}
+  .op{border-top:1px solid #DDD9D0;padding:26px 0;display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
+  .rot{font-size:12px;color:#1F4E79}
+  .desc{font-size:12px;color:#5B6572;line-height:1.5;max-width:720px}
+  .linha{display:flex;align-items:center;gap:40px;flex-wrap:wrap}
+  .escuro{background:#0F2A44;padding:14px 20px;border-radius:4px}
+  svg{display:block;max-width:100%;height:auto}
+</style>
+</head>
+<body>
+<h1>O "A" de Agentic com a barra de chamada</h1>
+<p>A perna esquerda do A vira a barra "/" de chamar uma skill: solta do resto da letra e mais fina. Cada opção aparece grande, no tamanho do menu do site (com o símbolo) e sobre fundo escuro. A primeira linha é o logo atual, para comparar.</p>
+<div id="lista"></div>
+<script>
+// Medidas em "em" (1 = tamanho da fonte). Montserrat 600: altura da maiúscula ~0.70, haste ~0.125.
+const CAP = 0.70, HASTE = 0.128, LARG = 0.775, BARRA_Y = 0.50; // BARRA_Y: topo da travessa, medido do topo
+const SIMBOLO = '<svg viewBox="30 0 140 110" width="W" style="display:inline-block"><defs><linearGradient id="gID" x1="0" x2="1"><stop offset="0.35" stop-color="#1F4E79"/><stop offset="0.65" stop-color="#E8785A"/></linearGradient></defs><path d="M50,70 C50,42 80,42 100,70 C120,98 150,98 150,70 C150,42 120,42 100,70 C80,98 50,98 50,70 Z" fill="none" stroke="url(#gID)" stroke-width="15"/><circle cx="72" cy="16" r="11" fill="#1F4E79"/><circle cx="128" cy="16" r="11" fill="#E8785A"/></svg>';
+let n = 0;
+
+// Desenha a marca escrita. o = null: logo atual. Senão: {peso, folga, sobra, cor}
+function marca(S, o, corTexto) {
+  const pad = S * 0.16, base = pad + CAP * S, H = base + pad, id = 'c' + (n++);
+  const W = LARG * S, meio = W / 2, hw = HASTE * S;
+  const incl = (meio - hw / 2) / (CAP * S);            // inclinação das pernas (dx por dy)
+  // perna: paralelogramo cortado reto em cima e embaixo
+  const perna = (xBase, larg, sinal, y0, y1) => {      // sinal -1 = sobe para a direita
+    const xa = xBase + sinal * incl * (base - y1) * -1, xb = xBase + sinal * incl * (base - y0) * -1;
+    return `M${xb},${y0} L${xb + larg},${y0} L${xa + larg},${y1} L${xa},${y1} Z`;
+  };
+  let a = '', x0 = 0;
+  if (!o) {
+    a = `<text x="0" y="${base}" font-family="Montserrat" font-weight="600" font-size="${S}" fill="${corTexto}" letter-spacing="${-0.025 * S}">A</text>`;
+  } else {
+    const wb = hw * o.peso, folga = o.folga * S, sobra = o.sobra * S;
+    // perna direita e travessa (a parte "grossa" do A)
+    const dir = perna(W - hw, hw, 1, pad, base);
+    const yT = pad + BARRA_Y * S, hT = hw * 0.86;
+    const xEsqInterno = incl * (base - yT);  // a travessa começa a uma folga da barra, cortada na mesma inclinação
+    const xDirInterno = W - hw - incl * (base - (yT + hT / 2)) + 1;
+    const trav = `M${xEsqInterno},${yT} L${xDirInterno},${yT} L${xDirInterno},${yT + hT} L${xEsqInterno - incl * hT},${yT + hT} Z`;
+    // barra: paralela à perna esquerda, encostada na borda de fora, afastada do vértice pela folga
+    const barra = perna(-(wb + folga), wb, -1, pad - sobra, base + sobra);  // solta: uma folga inteira até a perna direita e a travessa
+    a = `<path d="${dir} ${trav}" fill="${corTexto}"/><path d="${barra}" fill="${o.cor === 'texto' ? corTexto : o.cor}"/>`;
+    x0 = 0;
+  }
+  const xG = W + (o ? -0.012 * S : -0.02 * S);
+  const resto = `<text x="${xG}" y="${base}" font-family="Montserrat" font-weight="600" font-size="${S}" letter-spacing="${-0.025 * S}"><tspan fill="${corTexto}">gentic</tspan><tspan fill="${corTexto === '#0F2A44' ? '#E8785A' : '#F08A6E'}">Way</tspan></text>`;
+  const larguraTotal = S * 6.4;
+  return `<svg viewBox="${-S * 0.3} 0 ${larguraTotal} ${H}" width="${larguraTotal}" height="${H}">${a}${resto}</svg>`;
+}
+
+const OPCOES = [
+  { nome: 'ATUAL', desc: 'Logo de hoje, sem alteração.', o: null },
+  { nome: 'A · barra com metade da espessura', desc: 'Como você descreveu: a barra tem metade da espessura da letra, fica solta e tem a altura da letra.', o: { peso: 0.5, folga: 0.06, sobra: 0, cor: 'texto' } },
+  { nome: 'B · barra com metade da espessura, passando da linha', desc: 'Igual à A, mas a barra passa um pouco acima e abaixo das outras letras, como a "/" de um teclado. Fica mais claro que é uma barra.', o: { peso: 0.5, folga: 0.06, sobra: 0.07, cor: 'texto' } },
+  { nome: 'C · barra um pouco mais grossa (65%)', desc: 'A barra fica mais presente. Em tamanho pequeno, lê melhor que a de 50%.', o: { peso: 0.65, folga: 0.06, sobra: 0.07, cor: 'texto' } },
+  { nome: 'D · barra em azul claro', desc: 'Igual à B, com a barra em azul claro (#4A8FC7) para destacar sem usar um segundo coral.', o: { peso: 0.5, folga: 0.06, sobra: 0.07, cor: '#4A8FC7' } },
+  { nome: 'E · barra em coral', desc: 'Igual à B, com a barra em coral. Chama mais atenção, mas a marca passa a ter dois pontos de coral (a barra e o "Way").', o: { peso: 0.5, folga: 0.06, sobra: 0.07, cor: '#E8785A' } },
+];
+
+document.fonts.load('600 40px Montserrat').then(() => {
+  document.getElementById('lista').innerHTML = OPCOES.map(op => `
+    <div class="op">
+      <div class="rot">${op.nome}</div>
+      <div class="desc">${op.desc}</div>
+      ${marca(96, op.o, '#0F2A44')}
+      <div class="linha">
+        <span style="display:flex;align-items:center;gap:10px">${SIMBOLO.replace('W', 40).replace(/gID/g, 'g' + (n++))}${marca(20, op.o, '#0F2A44')}</span>
+        <span class="escuro" style="display:flex;align-items:center;gap:10px">${marca(28, op.o && op.o.cor === '#E8785A' ? Object.assign({}, op.o, { cor: '#F08A6E' }) : op.o, '#F7F5F0')}</span>
+      </div>
+    </div>`).join('');
+});
+</script>
+</body>
+</html>
