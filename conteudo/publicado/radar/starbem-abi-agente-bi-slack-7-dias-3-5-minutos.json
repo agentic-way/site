@@ -1,0 +1,66 @@
+{
+  "id": "starbem-abi-agente-bi-slack-7-dias-3-5-minutos",
+  "publicado_em": "2026-11-14T07:10:00-03:00",
+  "tema": "CASOS",
+  "titulo": "Starbem diz que agente de BI no Slack cortou a resposta a análises de 7 dias para 3,5 minutos, segundo o starten.tech",
+  "linha": "A healthtech afirma que o agente ABI respondeu mais de 500 perguntas desde junho e gerou mais de R$ 80 mil de economia líquida, com acurácia de 95,2% medida por analista sênior.",
+  "linhaFina": "A ABI recebe perguntas em português no Slack, divide as mais complexas entre cinco subagentes e passa cada resposta não trivial por um verificador sem acesso ao banco. Os números são da empresa.",
+  "fontePrimaria": "Starbem, via starten.tech",
+  "leitura": 3,
+  "resumo": [
+    "A Starbem colocou em operação em junho de 2026 a ABI, agente de Business Intelligence que responde perguntas de qualquer área no Slack.",
+    "Antes, cada análise entrava na fila do time de dados e levava em média 7 dias; agora a mediana é de 3,5 minutos.",
+    "A empresa informa mais de 500 perguntas respondidas, cerca de R$ 2,7 mil por mês de custo de operação e mais de R$ 80 mil de economia líquida em cinco meses."
+  ],
+  "corpo": [
+    "A Starbem, healthtech de saúde e bem-estar corporativo, ficou entre os quatro melhores cases do Think Tank AI 2026, premiação da Koru com Wellhub e Flash, com a ABI. A cerimônia foi em 10 de novembro, em São Paulo, e reuniu 31 cases inscritos, dos quais dez chegaram à final.",
+    "Segundo a reportagem, um agente coordenador distribui as perguntas mais complexas entre cinco subagentes especialistas, e um verificador sem acesso ao banco revisa a lógica de cada resposta não trivial antes da entrega. A ABI tem acesso somente leitura aos dados e recusa perguntas que pedem dados pessoais, em linha com a LGPD.",
+    "Os números informados: mais de 500 perguntas desde junho, mediana de 3,5 minutos por resposta, cerca de R$ 2,7 mil por mês para operar (modelo de IA e infraestrutura) e mais de R$ 80 mil de economia líquida. A acurácia de 95,2% foi medida por um analista sênior que revisou as respostas uma a uma, antes da liberação do modelo.",
+    "A economia é uma estimativa: parte do tempo que um analista levaria para cada tipo de pergunta (de uma hora, nas consultas simples, a seis horas, nas investigações complexas) e do custo-hora de R$ 95, descontado o custo de operação e sem incluir o investimento de desenvolvimento."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · VERIFICAÇÃO",
+      "titulo": "O desenho previu quem confere a resposta",
+      "texto": "Subagentes e um verificador independente aparecem como parte da arquitetura, não como etapa opcional. É o tipo de controle que vale perguntar a qualquer fornecedor de agente de dados."
+    },
+    {
+      "rotulo": "02 · MEDIDA",
+      "titulo": "A economia é estimada, e a acurácia foi medida antes do uso",
+      "texto": "As horas poupadas partem de tempos assumidos por tipo de pergunta, e os 95,2% foram apurados antes da liberação. Nenhum dos dois mede o desempenho do agente em produção."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Números da própria empresa, em contexto de premiação",
+      "texto": "Os dados vêm da Starbem e foram avaliados numa premiação da qual ela participou. Não há auditoria independente citada na reportagem."
+    }
+  ],
+  "oQueFazer": [
+    "Quem pensa em um agente de consulta a dados pode copiar o método, não o número: medir hoje o tempo de espera na fila de análises, definir quem revisa uma amostra das respostas e registrar o custo mensal de operação."
+  ],
+  "fontes": [
+    {
+      "titulo": "De 7 dias para 3,5 minutos: agente de IA da Starbem é premiado entre os melhores cases de inteligência artificial do país",
+      "origem": "starten.tech · 13 nov 2026",
+      "url": "https://starten.tech/2026/11/13/de-7-dias-para-35-minutos-agente-de-ia-da-starbem-e-premiado-entre-os-melhores-cases-de-inteligencia-artificial-do-pais/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Starbem (acurácia revisada por analista sênior da própria empresa)"
+    },
+    {
+      "rotulo": "Período",
+      "valor": "junho a novembro de 2026"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "13 nov 2026"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não confirmada pelo cliente"
+    }
+  ]
+}
