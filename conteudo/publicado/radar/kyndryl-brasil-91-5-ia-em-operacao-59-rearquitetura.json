@@ -1,0 +1,62 @@
+{
+  "id": "kyndryl-brasil-91-5-ia-em-operacao-59-rearquitetura",
+  "publicado_em": "2026-11-14T07:10:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Kyndryl: 91,5% dos líderes brasileiros ouvidos usam IA além de pilotos, mas 59% dizem que a base de TI exige rearquitetura, segundo a Forbes Brasil",
+  "linha": "O recorte brasileiro do Readiness Report 2026-27 ouviu 200 líderes: 56% têm mais pilotos do que conseguem escalar e 62% sentem mais pressão para provar retorno da IA agêntica.",
+  "linhaFina": "A edição global da pesquisa ouviu 3.700 líderes em 21 países entre julho e setembro. O relatório é produzido pela própria Kyndryl, fornecedora de serviços de TI.",
+  "fontePrimaria": "Kyndryl, via Forbes Brasil",
+  "leitura": 3,
+  "resumo": [
+    "91,5% dos 200 líderes brasileiros ouvidos dizem aplicar IA em fluxos de trabalho além dos pilotos, e 36,5% ainda classificam a empresa na fase de experimentação.",
+    "59% afirmam que a base tecnológica precisa de rearquitetura significativa para sustentar IA em escala; 66,5% dizem que ela precisa ser modernizada.",
+    "56% têm mais pilotos do que conseguem escalar, e 62% sentem mais pressão para provar o retorno da IA agêntica."
+  ],
+  "corpo": [
+    "A Forbes Brasil publicou em 13 de novembro o recorte brasileiro do Readiness Report 2026-27, da Kyndryl, que ouviu 200 líderes no país. A edição global ouviu 3.700 líderes em 21 países, com entrevistas entre julho e setembro. A Kyndryl é provedora de serviços de infraestrutura de TI e produz o relatório.",
+    "No Brasil, 72% dizem que a IA já gerou retorno positivo (64% na média global) e 90% afirmam conseguir demonstrar valor de negócio mensurável. A reportagem observa que são medidas diferentes: uma registra percepção de retorno; a outra, a capacidade de demonstrar valor.",
+    "Sobre a base de TI, 75,5% consideram o ambiente central total ou majoritariamente modernizado, mas 66,5% dizem que ele precisa ser modernizado para aproveitar a IA, e 38% afirmam que problemas nessa base já atrasam a inovação. Para o diretor-geral da Kyndryl Brasil, Wagner Jesus, a empresa deve definir primeiro a decisão que quer melhorar e só depois escolher a tecnologia."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ESCALA",
+      "titulo": "Piloto que não escala é o gargalo declarado",
+      "texto": "Com 56% dizendo ter mais pilotos do que conseguem escalar, priorizar poucos casos com dono e métrica tende a render mais que abrir novos testes."
+    },
+    {
+      "rotulo": "02 · BASE",
+      "titulo": "Sistemas legados entram na conta do agente",
+      "texto": "Se a base de TI precisa de rearquitetura para sustentar IA, o custo do projeto inclui integração e dados, não só a ferramenta."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem mede vende infraestrutura",
+      "texto": "A Kyndryl vende serviços de TI, e a conclusão de que a base precisa de reforma favorece esse negócio. A amostra brasileira é de 200 líderes, e a reportagem não detalha o porte das empresas."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "91,5% das empresas já levam IA à operação, mas 59% precisam rever a TI",
+      "origem": "Forbes Brasil · 13 nov 2026",
+      "url": "https://forbes.com.br/forbes-money/2026/11/ia-empresas-brasil-infraestrutura/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Kyndryl"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "200 líderes no Brasil; 3.700 em 21 países na edição global"
+    },
+    {
+      "rotulo": "Campo",
+      "valor": "julho a setembro de 2026 (edição global)"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "13 nov 2026"
+    }
+  ]
+}
