@@ -1,0 +1,54 @@
+{
+  "id": "genpact-79-agentes-producao-15-pl",
+  "publicado_em": "2026-11-15T07:15:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Genpact: 79% das empresas têm agentes em produção, mas só 15% ligaram totalmente o investimento em IA ao resultado financeiro",
+  "linha": "Pesquisa da Genpact com mais de 2.000 executivos: só 20% usam agentes de forma ampla entre as áreas e, em média, 49% das iniciativas de IA financiadas em 24 meses entregaram o valor esperado.",
+  "linhaFina": "O levantamento ouviu executivos de empresas com faturamento anual de US$ 1 bilhão ou mais, em 17 setores. Os dados são autodeclarados.",
+  "fontePrimaria": "Genpact",
+  "leitura": 3,
+  "resumo": [
+    "79% das empresas pesquisadas têm agentes de IA em produção, mas só 20% os usam de forma ampla e consistente entre as áreas.",
+    "Só 15% ligaram totalmente o investimento em IA a resultados no P&L, e apenas 9% concluíram uma transformação relevante do modelo operacional.",
+    "Em média, 49% das iniciativas de IA financiadas nos últimos 24 meses entregaram o valor esperado."
+  ],
+  "corpo": [
+    "A Genpact, empresa de serviços e operações para grandes companhias, divulgou em 12 de novembro de 2026 o relatório \"Autonomy in Practice\". A pesquisa ouviu mais de 2.000 executivos seniores de empresas com faturamento anual de US$ 1 bilhão a mais de US$ 50 bilhões, em 17 setores e 14 funções de negócio, com entrevistas em profundidade como complemento. O trabalho foi feito em 2026; a empresa informa que os resultados são autodeclarados e os percentuais, arredondados.",
+    "Segundo o relatório, 79% das empresas têm agentes em produção, mas só 20% os usam de forma ampla e consistente entre as funções. Só 15% ligaram totalmente o investimento em IA aos resultados no P&L, e 9% concluíram uma transformação significativa do modelo operacional.",
+    "A IA lidera ou executa por completo 40% das decisões, mais que o dobro de um ano antes. Mesmo assim, humanos decidem ou auditam em pelo menos 87% dos casos em cada etapa de decisão. Entre os respondentes com agentes em produção, 92% mantiveram o quadro de pessoas do mesmo tamanho ou o ampliaram.",
+    "A Genpact chama de \"líderes de IA\" os 17% do topo do seu índice de maturidade. Segundo ela, esses líderes têm mandato do CEO, redesenham o trabalho na empresa inteira, criam funções como especialista em exceções e treinador de agentes, e atribuem os ganhos a responsáveis e linhas do P&L."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · RESULTADO",
+      "titulo": "Agente em produção não é o mesmo que resultado medido",
+      "texto": "A distância entre os 79% com agentes e os 15% com investimento totalmente ligado ao P&L sugere que a pergunta útil é qual linha de resultado cada agente deve mover."
+    },
+    {
+      "rotulo": "02 · HUMANO",
+      "titulo": "Autonomia, na prática, ainda passa por aprovação",
+      "texto": "Humanos decidem ou auditam em ao menos 87% dos casos. Quem planeja o agente como substituto total parte de uma premissa que a própria pesquisa não observa."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem publica vende operação com agentes",
+      "texto": "A Genpact se descreve como a empresa de \"Agentic Operations\" e vende esse serviço. A amostra é de empresas muito grandes, então os percentuais valem como referência, não como retrato da empresa média brasileira."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem já tem agentes rodando, vale registrar, para cada um, o responsável e o indicador financeiro que ele deveria mover. Sem isso, não há como saber de que lado dos 15% a empresa está."
+  ],
+  "fontes": [
+    {
+      "titulo": "79% of Enterprises Report AI Agents in Production, but Only 15% Have Fully Tied AI Investment to P&L Outcomes",
+      "origem": "Genpact · comunicado via PR Newswire · 12 nov 2026",
+      "url": "https://www.prnewswire.com/news-releases/79-of-enterprises-report-ai-agents-in-production-but-only-15-have-fully-tied-ai-investment-to-pl-outcomes-302937385.html"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Genpact" },
+    { "rotulo": "Amostra", "valor": "mais de 2.000 executivos seniores, empresas com faturamento de US$ 1 bilhão ou mais, 17 setores" },
+    { "rotulo": "Campo", "valor": "2026 (datas não informadas no comunicado)" },
+    { "rotulo": "Divulgação", "valor": "12 nov 2026" }
+  ]
+}
