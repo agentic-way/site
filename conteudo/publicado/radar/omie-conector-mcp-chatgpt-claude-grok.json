@@ -1,0 +1,58 @@
+{
+  "id": "omie-conector-mcp-chatgpt-claude-grok",
+  "publicado_em": "2026-11-15T07:16:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Omie lança conector MCP que opera o ERP pelo ChatGPT, Claude e Grok; números de uso são da empresa, via Jornal Contábil",
+  "linha": "O conector permite consultar contas a vencer e cadastrar pedidos de venda em linguagem natural. A Omie diz que mais de 5 mil empresas já o usam, sem confirmação independente.",
+  "linhaFina": "Conector em padrão aberto, sem custo de licença próprio, respeita os perfis de permissão do ERP. A divulgação é de 10 de novembro de 2026.",
+  "fontePrimaria": "Omie, via Jornal Contábil",
+  "leitura": 3,
+  "resumo": [
+    "A Omie, ERP voltado a pequenas e médias empresas, lançou um conector em padrão MCP que liga o sistema ao ChatGPT, ao Claude e ao Grok.",
+    "O recurso cobre contas a pagar e a receber, pedidos de venda, estoque, ordens de serviço e cadastros, conforme as permissões do perfil do usuário.",
+    "A empresa diz que mais de 5 mil empresas usam o conector, com mais de 2 milhões de operações e economia de cerca de 10 horas de trabalho por mês."
+  ],
+  "corpo": [
+    "Segundo o texto de divulgação reproduzido pelo Jornal Contábil em 10 de novembro de 2026, a Omie lançou um conector baseado em MCP, padrão aberto de conexão entre modelos de IA e sistemas, que permite a empreendedores e contadores executar rotinas financeiras e operacionais do ERP pelo ChatGPT, pelo Claude e pelo Grok.",
+    "O exemplo dado é um comando como \"verifique as contas a vencer hoje e registre um novo pedido de venda para o cliente X\". A IA consulta as informações em tempo real e executa as ações conforme as permissões de acesso do perfil. O recurso cobre contas a pagar e a receber, pedidos de venda, estoque, ordens de serviço e cadastros.",
+    "A empresa diz que o conector não tem custo de licença próprio e pode ser ativado como conector no Claude e no Grok ou integrado ao ChatGPT. Sobre a segurança, afirma que as operações são protegidas pela estrutura de APIs e pelos perfis de permissão da Omie. O texto não descreve registro das ações feitas pelo agente nem etapa de aprovação humana.",
+    "Ricardo Leite, diretor de marketing de produtos da Omie, afirma que, em pouco tempo desde o lançamento, mais de 5 mil empresas usam o conector, com mais de 2 milhões de operações e economia de cerca de 10 horas de trabalho por mês. Os números são da Omie; o texto não diz como foram medidos nem se as 10 horas são por empresa."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ACESSO",
+      "titulo": "O ERP passa a ser operado de fora da sua própria tela",
+      "texto": "Quem usa a Omie pode dar a um assistente de IA o mesmo alcance do perfil do usuário. A empresa decide quem recebe esse acesso e com qual perfil."
+    },
+    {
+      "rotulo": "02 · CONTROLE",
+      "titulo": "A fonte não informa log nem aprovação por ação",
+      "texto": "Antes de liberar o conector para um perfil que cria pedidos ou mexe em financeiro, vale perguntar à Omie como as ações do agente ficam registradas e se há confirmação humana."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Os números de adoção e economia são do fornecedor",
+      "texto": "A Omie vende o ERP e o conector. Os 5 mil usuários, os 2 milhões de operações e as 10 horas por mês não foram confirmados por clientes ou por terceiros."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem usa a Omie, o teste mais seguro é começar por um perfil só de consulta (contas a vencer, estoque) e só depois liberar escrita, como cadastro de pedido."
+  ],
+  "fontes": [
+    {
+      "titulo": "Omie integra ERP a ChatGPT, Claude e Grok para automatizar rotinas de PMEs",
+      "origem": "Jornal Contábil · divulgação da Omie · 10 nov 2026",
+      "url": "https://jornalcontabil.com.br/noticia/omie-integra-erp-a-chatgpt-claude-e-grok-para-automatizar-rotinas-de-pmes/amp/"
+    },
+    {
+      "titulo": "Omie integra ERP a ChatGPT, Claude e Grok para automatizar rotinas de PMEs",
+      "origem": "Contadores.cnt.br · 12 nov 2026",
+      "url": "https://www.contadores.cnt.br/noticias/artigos/2026/11/12/omie-integra-erp-a-chatgpt-claude-e-grok-para-automatizar-rotinas-de-pmes.html"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Omie (números de uso informados pela empresa)" },
+    { "rotulo": "Divulgação", "valor": "10 nov 2026" },
+    { "rotulo": "Confirmação", "valor": "não confirmada pelo cliente" }
+  ]
+}
