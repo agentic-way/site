@@ -1,0 +1,135 @@
+{
+  "id": "centauro-pos-venda-agentes-atendimento",
+  "publicado_em": "2026-11-16T08:30:00-03:00",
+  "setor": "VAREJO",
+  "processo": "ATENDIMENTO",
+  "status": "em-operacao",
+  "empresa": "Centauro",
+  "titulo": "Centauro diz que agentes resolvem mais de 60% dos chamados de pós-venda no aplicativo sem atendente, em medição de julho e agosto",
+  "linhaFina": "A varejista do Grupo SBF tem mais de 900 agentes na plataforma lançada no primeiro trimestre de 2026, mas só o pós-venda no aplicativo tem essa taxa, e a empresa não informou o volume de chamados nem o investimento.",
+  "resumo": "A Centauro mede como resolvido o chamado que o agente conclui sem encaminhar a uma pessoa: mais de 60% no aplicativo, entre julho e agosto de 2026. O volume de chamados e o custo não foram divulgados.",
+  "leitura": 5,
+  "abertura": "A Centauro é a rede de artigos esportivos do Grupo SBF. No primeiro trimestre de 2026 lançou uma plataforma para que as próprias equipes criem agentes de IA para tarefas que conhecem de perto, usando tecnologia de parceiros como base e aplicações feitas internamente. Segundo a empresa, a plataforma tem mais de 900 agentes em produção, cerca de 310 deles usados todos os dias, e 1.400 usuários ativos.",
+  "problema": "Segundo o diretor digital do grupo, a rede passou a precisar de menos contratações extras nos períodos de pico de vendas. A matéria não descreve o tamanho da fila nem o tempo de resposta antes dos agentes.",
+  "solucao": "No aplicativo da Centauro, um agente atende a solicitação do cliente e, quando consegue concluir a demanda, encerra o chamado sem encaminhá-lo a uma pessoa. A empresa chama de resolvido o chamado nessas condições. A matéria não detalha quais sistemas o agente consulta nem quais tipos de pedido ele executa. A mesma plataforma abriga agentes de outras áreas: catálogo, estoque, remarcação de preços e engenharia de software.",
+  "resultado": "A Centauro afirma que mais de 60% dos chamados de pós-venda são resolvidos sem atendente. A taxa foi medida entre julho e agosto de 2026 e vale apenas para o aplicativo, segundo Ariovaldo Carmona, vice-presidente e Chief Digital Officer do Grupo SBF. Fora do pós-venda, a empresa diz que o tempo para atualizar as regras de estoque em 230 lojas caiu de quatro horas para cinco minutos e que a automação reduziu em 42% o prazo para lançar novos itens no catálogo. A empresa também diz ter otimizado mais de 3.600 horas de trabalho, em um cálculo que compara o tempo médio de cada atividade antes e depois do agente.",
+  "humano": "O atendimento ficou mais rápido, segundo Carmona, e as equipes passam a concentrar esforços em situações que exigem análise, decisão e interação humana. No catálogo, o time foi direcionado para curadoria e revisão. A matéria não informa quantas pessoas atuam no pós-venda nem o que acontece com os chamados que o agente encaminha.",
+  "citacao": {
+    "texto": "A inteligência artificial assume atividades mais operacionais e repetitivas, enquanto as equipes podem concentrar seus esforços em situações que exigem análise, tomada de decisão e interação humana.",
+    "quem": "Ariovaldo Carmona, vice-presidente e Chief Digital Officer do Grupo SBF, à Exame"
+  },
+  "numeros": [
+    {
+      "valor": "60%+",
+      "legenda": "dos chamados de pós-venda no aplicativo resolvidos pelo agente sem atendente, entre julho e agosto de 2026",
+      "quemMediu": "Centauro, em declaração do diretor digital à Exame"
+    },
+    {
+      "valor": "5 min",
+      "legenda": "para atualizar as regras de estoque em 230 lojas, contra 4 horas antes",
+      "quemMediu": "Centauro, segundo a Exame"
+    },
+    {
+      "valor": "42%",
+      "legenda": "de redução no prazo para lançar novos itens no catálogo",
+      "quemMediu": "Centauro, segundo a Exame"
+    },
+    {
+      "valor": "900+",
+      "legenda": "agentes em produção na plataforma, cerca de 310 usados diariamente",
+      "quemMediu": "Centauro, segundo a Exame"
+    },
+    {
+      "valor": "3.600 h",
+      "legenda": "de trabalho otimizadas, pela comparação do tempo médio de cada atividade antes e depois do agente",
+      "quemMediu": "Centauro, cálculo explicado por Carmona à Exame"
+    }
+  ],
+  "fluxo": [
+    {
+      "tipo": "ENTRADA",
+      "nome": "Solicitação no aplicativo",
+      "faz": "O cliente abre um chamado de pós-venda no aplicativo da Centauro."
+    },
+    {
+      "tipo": "AGENTE",
+      "nome": "Agente de pós-venda",
+      "faz": "Atende a solicitação e, quando consegue, conclui a demanda sem encaminhar a uma pessoa."
+    },
+    {
+      "tipo": "SISTEMA",
+      "nome": "Sistemas da Centauro (não informados)",
+      "faz": "A matéria não diz quais sistemas o agente consulta ou altera. A plataforma reúne 14 integrações."
+    },
+    {
+      "tipo": "SAÍDA",
+      "nome": "Chamado resolvido sem atendente",
+      "faz": "Conta como resolvido o chamado em que o agente atende e conclui sem encaminhamento."
+    },
+    {
+      "tipo": "EXCEÇÃO",
+      "nome": "Encaminhamento a uma pessoa",
+      "faz": "O chamado que o agente não conclui vai para um atendente. A matéria não descreve o critério nem o prazo."
+    }
+  ],
+  "indicadores": [
+    {
+      "nome": "Tempo para atualizar regras de estoque em 230 lojas",
+      "antes": "4 horas",
+      "depois": "5 minutos",
+      "medida": "Centauro, segundo a Exame"
+    },
+    {
+      "nome": "Lojas que seguiam as regras de atualização de preços",
+      "antes": "65%",
+      "depois": "90%",
+      "medida": "Centauro, segundo a Exame"
+    }
+  ],
+  "naoConta": [
+    {
+      "valor": "Base",
+      "texto": "a Centauro não informou o volume de chamados da medição nem a taxa de resolução sem atendente antes dos agentes. Sem isso, mais de 60% descreve o presente, não o ganho."
+    },
+    {
+      "valor": "Custo",
+      "texto": "a empresa não revelou quanto investiu na plataforma nem quanto custa mantê-la, embora diga acompanhar custo de uso em um só lugar."
+    },
+    {
+      "valor": "Escopo",
+      "texto": "a taxa vale só para o aplicativo, não para site, WhatsApp ou lojas. A fonte também não diz se o cliente ficou satisfeito nem se voltou a chamar depois de o chamado ser dado como resolvido."
+    }
+  ],
+  "licoes": [
+    {
+      "titulo": "Defina resolvido por escrito",
+      "texto": "A Centauro conta como resolvido o chamado que o agente conclui sem encaminhar. É uma definição operacional clara, mas não mede satisfação nem recontato. Quem copiar a métrica pode acrescentar essa checagem."
+    },
+    {
+      "titulo": "Meça o recorte, não o total",
+      "texto": "Mais de 900 agentes é o total da plataforma; cerca de 310 são usados todo dia e a matéria só detalha a taxa do pós-venda no aplicativo. Ao ler o número de uma empresa, confira qual parte dele vale para o processo que você quer automatizar."
+    },
+    {
+      "titulo": "Quem cria o agente é a área que conhece a tarefa",
+      "texto": "A plataforma foi desenhada para as equipes criarem seus agentes, com acompanhamento central de acesso, uso e custo. Em empresa média, vale decidir cedo quem enxerga o custo de cada agente."
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Empresa", "valor": "Centauro (Grupo SBF)" },
+    { "rotulo": "Setor", "valor": "Varejo (artigos esportivos)" },
+    { "rotulo": "Processo", "valor": "Atendimento de pós-venda no aplicativo" },
+    { "rotulo": "Sistema", "valor": "Plataforma própria de agentes sobre tecnologia de parceiros; sistemas integrados não informados" },
+    { "rotulo": "Quem fez", "valor": "Equipes da Centauro, com parceiros de tecnologia não nomeados" },
+    { "rotulo": "Status", "valor": "Em operação; plataforma lançada no primeiro trimestre de 2026" },
+    { "rotulo": "Divulgação", "valor": "Reportagem da Exame, 11/nov/2026, com declarações do diretor digital" }
+  ],
+  "comoApuramos": "Lemos a reportagem da Exame publicada em 11 de novembro de 2026 e atualizada no mesmo dia. Todos os números, datas e falas deste caso estão nela e são atribuídos à Centauro e ao diretor digital do Grupo SBF. Não encontramos comunicado da empresa nem segunda fonte independente. Não houve visita nem entrevista: o caso foi montado apenas com fontes públicas.",
+  "transparencia": "A fonte é uma reportagem que traz os números como declarados pela Centauro, sem auditoria de terceiros. A página da Exame exibe um patrocinador (TOTVS) que não aparece como parte do caso. A AgenticWay não tem relação comercial com a Centauro.",
+  "fontes": [
+    {
+      "titulo": "Centauro coloca 900 agentes de IA para trabalhar e resolve 60% dos chamados sem humanos",
+      "origem": "Exame, 11/nov/2026",
+      "url": "https://exame.com/inteligencia-artificial/centauro-coloca-900-agentes-de-ia-para-trabalhar-e-resolve-60-dos-chamados-sem-humanos/"
+    }
+  ]
+}
