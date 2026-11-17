@@ -14,8 +14,9 @@ A AgenticWay é um site de notícias sobre agentes de IA nas empresas, **apurado
 | Na Operação | segunda, 8h | 1 caso de empresa | merge do PR |
 | Ferramentas | terça, 8h, a cada 2 semanas | 1 comparativo de ferramentas | merge do PR |
 | Guia | quarta, 8h | guia novo a cada 2 semanas e revisão dos existentes | merge do PR |
-| Análise | quinta, 17h (sai na sexta, 7h) | 1 artigo de opinião | merge do PR |
-| Newsletter | sexta, 7h | rascunho do e-mail da semana | clique em **Publish** no Buttondown |
+| Análise | quinta, 8h (sai na sexta, 7h) | 1 artigo de opinião | merge do PR, até sexta 7h |
+| Newsletter | sexta, 7h; segunda passada às 13h | rascunho do e-mail da semana | clique em **Publish** no Buttondown |
+| Pautas para aprovar | todo dia, 9h30 | e-mail com cada pauta aberta, já conferida | ler e aprovar pelo link |
 
 **O ciclo de cada rotina, em quatro passos:**
 
@@ -163,7 +164,7 @@ A AgenticWay é um site de notícias sobre agentes de IA nas empresas, **apurado
 
 ## 5. Análise: onde a AgenticWay toma posição
 
-**Quando:** toda quinta às 17h, com publicação marcada para sexta às 7h.
+**Quando:** toda quinta às 8h, com publicação marcada para sexta às 7h. O editor tem a quinta inteira para aprovar; se o merge não sair até sexta às 7h, a newsletter sai sem a análise e é refeita às 13h, se a aprovação vier até lá.
 
 **Para quê:** as outras editorias relatam; esta opina. Uma afirmação clara, que nem todo mundo faria, sustentada por fatos com fonte, e que admite onde pode estar errada.
 
@@ -194,7 +195,7 @@ A AgenticWay é um site de notícias sobre agentes de IA nas empresas, **apurado
 
 ## 6. Newsletter: o resumo da semana
 
-**Quando:** toda sexta às 7h.
+**Quando:** toda sexta às 7h, com uma segunda passada às 13h, que refaz o rascunho se uma análise ou um caso foi aprovado depois das 7h e a edição ainda não foi publicada.
 
 **Para quê:** levar o melhor da semana a quem não entrou no site. Sete minutos de leitura, cada item com link para o texto completo.
 
@@ -217,6 +218,25 @@ A AgenticWay é um site de notícias sobre agentes de IA nas empresas, **apurado
 **O editor:** na sexta, abre buttondown.com/emails, lê o rascunho (pela metade direita da tela, que mostra o e-mail como o assinante vê) e clica em **Publish** para enviar. Pode corrigir uma frase antes ou apagar o rascunho.
 
 **Assinatura:** o botão "Assinar" do site inscreve no Buttondown. A pessoa recebe um e-mail para confirmar. Dá para sair da lista a qualquer momento pelo link no rodapé de cada edição.
+
+---
+
+## 7. Pautas para aprovar: o aviso diário
+
+**Quando:** todo dia às 9h30, depois das rotinas da manhã.
+
+**Para quê:** o editor não lê as pautas no GitHub e não quer ficar perguntando o que há para aprovar. Esta rotina leva as pautas até o e-mail dele, já conferidas.
+
+**O que o agente faz:**
+
+1. Lista os pedidos de aprovação (PRs) abertos.
+2. Para cada um, relê o texto e abre as fontes, conferindo números, nomes, datas e quem afirma o quê. É uma segunda leitura, feita por um agente que não escreveu a pauta.
+3. Registra a conferência num comentário do próprio PR, para não repetir no dia seguinte.
+4. Manda um e-mail só para o editor com, para cada pauta: resumo, o que foi conferido, pontos de atenção, recomendação (pode aprovar, aprovar depois de corrigir, melhor segurar), link da prévia e link para aprovar.
+
+**O que não faz:** não aprova, não corrige e não recusa nada. Sem pauta aberta, não manda e-mail.
+
+**O editor:** lê o e-mail, abre a prévia se quiser e toca em "Abrir para aprovar", que leva ao botão de merge. Para corrigir ou recusar, fala com o Claude.
 
 ---
 

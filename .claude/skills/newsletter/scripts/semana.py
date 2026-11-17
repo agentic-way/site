@@ -41,3 +41,17 @@ for pasta, nome in EDITORIAS:
                 print(f"   {campo}: {v if isinstance(v, str) else ' '.join(v)}")
     print()
 print(f"== TOTAL: {total} itens")
+
+# Análise escrita e ainda não aprovada: o PR existe, mas o merge não aconteceu.
+import subprocess
+try:
+    subprocess.run(["git", "fetch", "-q", "origin"], cwd=RAIZ, timeout=60)
+    ramos = subprocess.run(["git", "branch", "-r", "--no-merged", "origin/main"], cwd=RAIZ, capture_output=True,
+                           text=True, timeout=30).stdout.split()
+    pend = [r for r in ramos if r.startswith("origin/analise/")]
+    if pend:
+        print()
+        print(f"== ATENÇÃO: ANÁLISE AINDA NÃO APROVADA ({', '.join(pend)}). Ela não entra nesta edição.")
+        print("   Crie a edição sem 'opiniao' e avise o editor (ver SKILL.md, 'Análise pendente').")
+except Exception as ex:  # sem git ou sem rede: segue sem o aviso
+    print(f"(não foi possível verificar análise pendente: {ex})")

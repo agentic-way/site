@@ -15,3 +15,5 @@ __pycache__/
 
 # gerado pelo Vercel a cada publicação (scripts/build_dados.py); não vai nos PRs
 site/dados/*.js
+pautas.json
+pautas-previa.html
