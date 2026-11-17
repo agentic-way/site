@@ -1,0 +1,48 @@
+{
+  "id": "inter-xai-seven-85-sem-humano",
+  "publicado_em": "2026-11-17T07:14:00-03:00",
+  "tema": "MERCADO",
+  "titulo": "Inter escolhe a xAI como fornecedora da Seven, agente que o banco diz resolver 85% dos pedidos sem humano, segundo o Comenta",
+  "linha": "O CEO do Inter apresentou a xAI como fornecedora estratégica na teleconferência do terceiro trimestre. Valor do contrato, prazo e tratamento dos dados dos clientes não foram divulgados.",
+  "linhaFina": "O número de 85% é do banco, sem metodologia pública nem auditoria independente. A informação chega por matéria do Comenta, que acompanhou a teleconferência de 13 de novembro.",
+  "fontePrimaria": "Inter&Co, via Comenta",
+  "leitura": 3,
+  "resumo": [
+    "O Inter escolheu a xAI como principal fornecedora de tecnologia da Seven, agente de IA multiagente do banco.",
+    "Segundo o banco, a Seven resolve cerca de 85% das solicitações dos clientes sem apoio humano; o número não vem com metodologia pública.",
+    "Contrato, prazo, modelos usados, país de processamento e categorias de dados enviadas ao fornecedor não foram informados."
+  ],
+  "corpo": [
+    "O Inter escolheu a xAI, empresa de IA fundada por Elon Musk e hoje parte da SpaceX, como principal fornecedora de tecnologia da Seven, o agente de IA que o banco coloca no centro do atendimento. A decisão foi apresentada pelo CEO global do Inter&Co, João Vitor Menin, na teleconferência de resultados do terceiro trimestre, em 13 de novembro, segundo o Comenta.",
+    "De acordo com o próprio Inter, a Seven já resolve cerca de 85% das solicitações dos clientes sem apoio humano. A matéria registra que o número é da empresa, consta do comunicado de resultados e não foi acompanhado de metodologia pública nem de auditoria independente.",
+    "Na teleconferência, Menin disse que não há divisão de receitas com a xAI e que ela é tratada como fornecedora estratégica. O banco descreve a Seven como uma ferramenta multiagente, que conversa com o cliente e executa tarefas no aplicativo, e afirma ter mais de 700 modelos de IA em produção em frentes como crédito, cobrança e operações.",
+    "Segundo o Comenta, nem o comunicado, nem a entrevista, nem a teleconferência trouxeram o valor do contrato, o prazo, os modelos da xAI que serão usados, o país em que os dados serão processados ou a data em que a Seven passará a rodar sobre a nova plataforma. O anúncio descreve uma escolha de fornecedor e uma ambição, não um produto novo com data."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · MÉTRICA",
+      "titulo": "Resolução sem humano vira vitrine em balanço, mas cada empresa define a sua",
+      "texto": "Sem saber o que o banco conta como pedido resolvido, o 85% não é comparável com o de outra empresa."
+    },
+    {
+      "rotulo": "02 · FORNECEDOR",
+      "titulo": "Trocar o fornecedor do modelo é decisão de dados, não só de tecnologia",
+      "texto": "A matéria lembra que bancos brasileiros estão sujeitos à LGPD, ao sigilo bancário e a regras do Banco Central para contratação de processamento de dados, inclusive no exterior. O Inter não informou como isso será tratado."
+    }
+  ],
+  "oQueFazer": [
+    "Quem estuda agentes de atendimento pode usar o caso como lista de perguntas ao próprio fornecedor: como a resolução é medida, para onde vão os dados e quais modelos processam as conversas."
+  ],
+  "fontes": [
+    {
+      "titulo": "Inter escolhe xAI, de Elon Musk, para turbinar a Seven, agente de IA que diz resolver 85% dos pedidos sem humanos",
+      "origem": "Comenta · 15 nov 2026",
+      "url": "https://comenta.com.br/inter-xai-elon-musk-seven-agente-ia-banco/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Inter&Co, sem metodologia pública" },
+    { "rotulo": "Divulgação", "valor": "13 nov 2026" },
+    { "rotulo": "Auditoria", "valor": "nenhuma independente informada" }
+  ]
+}
