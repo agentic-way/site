@@ -27,7 +27,7 @@ Marca de Domiciano Rossi. Pivô (set/2026): começar como **mídia especializada
 - `conteudo/` — produção editorial: `publicado/<editoria>/` (JSON do que está no ar), `pesquisas/` (dossiês, copies, carrosséis; PNG e PDF fora do git) e `padroes/` (**`decisoes.md`: todas as decisões e o porquê — ler antes de mudar algo**; `imagens.md`).
 
 ## Skills do projeto (fonte: este repositório)
-- `.claude/skills/`: `radar`, `na-operacao`, `analise`, `guia`, `ferramentas`, `newsletter` (editorias, usadas pelas rotinas) e `pesquisa-conteudo`, `copy-conteudo`, `design-conteudo` (carrossel e peças avulsas). Versionadas no GitHub; a nuvem (rotinas) e o computador local usam estas cópias.
+- `.claude/skills/`: `radar`, `na-operacao`, `analise`, `guia`, `ferramentas`, `newsletter` (editorias, usadas pelas rotinas), `pautas` (rotina diária 9h30: confere os PRs abertos e manda o e-mail "Pautas para aprovar" só para o editor, por `scripts/email_editor.py`) e `pesquisa-conteudo`, `copy-conteudo`, `design-conteudo` (carrossel e peças avulsas). Versionadas no GitHub; a nuvem (rotinas) e o computador local usam estas cópias.
 - As cópias do repositório gravam em `conteudo/pesquisas/` a partir da raiz e chamam os scripts por `.claude/skills/design-conteudo/scripts/`.
 - Existem cópias globais antigas em `~/.claude/skills/` (e `.skill` em `C:	emp`) para uso fora deste projeto. Alteração feita aqui não chega lá sozinha.
 - Chaves ficam fora do repositório: `FIRECRAWL_API_KEY`, `GEMINI_API_KEY`, `BUTTONDOWN_API_KEY` e `EXA_API_KEY` como variáveis do ambiente "Radar AgenticWay" na nuvem; localmente, login do Firecrawl e `~/api_keys.env`.
@@ -44,8 +44,8 @@ Marca de Domiciano Rossi. Pivô (set/2026): começar como **mídia especializada
 
 ## Decisões e rotinas
 - Registro completo em `conteudo/padroes/decisoes.md` (proposta editorial, rotinas, arquitetura, padrões de página, como trabalhar com o editor).
-- Rotinas na nuvem (conta Max do app): Radar diário 7h, Na Operação segunda 8h, Ferramentas terça 8h (a cada 2 semanas), Guia quarta 8h, Análise quinta 17h. Todas abrem PR; o merge é a aprovação.
-- Newsletter: Buttondown (buttondown.com/agenticway); rotina de sexta 7h cria rascunho e o editor envia. `BUTTONDOWN_API_KEY` no ambiente da nuvem e em `~/api_keys.env`. O formulário "Assinar" inscreve com confirmação por e-mail.
+- Rotinas na nuvem (conta Max do app): Radar diário 7h, Na Operação segunda 8h, Ferramentas terça 8h (a cada 2 semanas), Guia quarta 8h, Análise quinta 8h (era 17h até 17/nov/2026). Todas abrem PR; o merge é a aprovação.
+- Newsletter: Buttondown (buttondown.com/agenticway); rotina de sexta 7h cria rascunho e o editor envia; segunda passada às 13h refaz o rascunho se algo foi aprovado depois (`rascunho.py --situacao`/`--substituir`). `BUTTONDOWN_API_KEY` no ambiente da nuvem e em `~/api_keys.env`. O formulário "Assinar" inscreve com confirmação por e-mail.
 
 ## Arquivos
 ### site/

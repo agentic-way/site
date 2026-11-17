@@ -26,6 +26,8 @@ API = "https://api.buttondown.com/v1/emails"
 # Pode ser trocado pela variável NEWSLETTER_COPIA, com endereços separados por vírgula.
 # Atenção: o Buttondown só entrega a cópia a assinantes confirmados; um endereço fora da lista é aceito e ignorado.
 COPIA_PADRAO = "domiciano@agenticway.com.br,domiciano.rossi@gmail.com"
+# Rascunhos que não são edição: e-mails internos de scripts/email_editor.py (pautas e avisos).
+INTERNOS = ("Pautas para aprovar", "Aviso da redação")
 ASSINATURA = "Apurado e escrito por agentes AgenticWay · editor responsável: Domiciano Rossi"
 PAGINAS = {"radar": "Radar", "na-operacao": "Na%20Operacao", "analise": "Analise",
            "guia": "Guia", "ferramentas": "Ferramentas"}
@@ -179,15 +181,62 @@ def situacao(k):
         for x in d.get("results", []):
             if x.get("status") in ("sent", "about_to_send", "scheduled", "in_flight"):
                 enviados += 1
-            elif x.get("status") == "draft":
+            elif x.get("status") == "draft" and not str(x.get("subject", "")).startswith(INTERNOS):
                 rascunhos.append(x)
         endereco = d.get("next")
     return enviados + 1, rascunhos
 
 
+def quando(x, campo):
+    return datetime.fromisoformat(str(x.get(campo) or "1970-01-01T00:00:00+00:00").replace("Z", "+00:00"))
+
+
+def mostra_situacao():
+    """Para a segunda passada de sexta: diz se a edição da semana já saiu, se há rascunho e o que falta nele."""
+    k = chave()
+    agora = datetime.now(timezone.utc)
+    todos, endereco = [], API
+    while endereco:
+        d = pede("GET", endereco, k)
+        todos += d.get("results", [])
+        endereco = d.get("next")
+    enviada = [x for x in todos if x.get("status") in ("sent", "about_to_send", "scheduled", "in_flight")
+               and quando(x, "publish_date") > agora - timedelta(days=3)]
+    rasc = [x for x in todos if x.get("status") == "draft" and not str(x.get("subject", "")).startswith(INTERNOS)
+            and quando(x, "creation_date") > agora - timedelta(days=6)]
+    if enviada:
+        print(f"SITUAÇÃO: EDIÇÃO JÁ ENVIADA ({enviada[0].get('subject')}). Não fazer nada.")
+        return
+    if not rasc:
+        print("SITUAÇÃO: SEM RASCUNHO nesta semana. Criar a edição normalmente (sem --substituir).")
+        return
+    r = rasc[0]
+    ids = set(re.findall(r"\?id=([a-z0-9-]+)", r.get("body", "")))
+    falta = []
+    for editoria, nome in (("analise", "análise"), ("na-operacao", "caso")):
+        itens = []
+        for arq in (PUB / editoria).glob("*.json"):
+            d = json.loads(arq.read_text(encoding="utf-8"))
+            pub = datetime.fromisoformat(d["publicado_em"])
+            if agora - timedelta(days=7) < pub <= agora:
+                itens.append((pub, d["id"], d["titulo"]))
+        if itens:
+            _, id_, titulo = max(itens)
+            if id_ not in ids:
+                falta.append(f"{nome} '{titulo}' [{id_}]")
+    print(f"RASCUNHO DESTA SEMANA: {r.get('subject')} (criado em {str(r.get('creation_date'))[:16]})")
+    if falta:
+        print("SITUAÇÃO: FALTA NO RASCUNHO -> " + "; ".join(falta))
+        print("Refazer a edição incluindo o que falta e rodar com --substituir.")
+    else:
+        print("SITUAÇÃO: RASCUNHO COMPLETO. Não fazer nada.")
+
+
 def main():
+    if "--situacao" in sys.argv:
+        return mostra_situacao()
     if len(sys.argv) < 2:
-        erro("uso: rascunho.py edicao.json [--previa]")
+        erro("uso: rascunho.py edicao.json [--previa | --substituir | --novo]  |  rascunho.py --situacao")
     ed = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     valida(ed)
     previa = "--previa" in sys.argv
@@ -201,6 +250,9 @@ def main():
         if criado < limite and not previa:
             pede("DELETE", f"{API}/{x['id']}", k)
             print(f"rascunho antigo apagado (não publicado, superado pela edição nova): {x.get('subject')}")
+        elif "--substituir" in sys.argv and not previa:
+            pede("DELETE", f"{API}/{x['id']}", k)
+            print(f"rascunho desta semana substituído: {x.get('subject')}")
         elif "--novo" not in sys.argv:
             erro(f"já há rascunho desta semana no Buttondown ({x.get('subject')}). Não crio outro; "
                  "para criar mesmo assim, rode com --novo")

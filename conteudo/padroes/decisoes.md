@@ -20,9 +20,10 @@ Registro das decisões tomadas e do porquê, para valer em situações semelhant
 | Radar | até 5 notas curtas por rodada, Brasil primeiro, mundo se mudar algo para empresa média brasileira | todo dia 7h (`0 10 * * *` UTC) | `/radar` |
 | Na Operação | 1 caso por semana, empresa nomeada, fontes públicas, imagem do Gemini | segunda 8h (`0 11 * * 1`) | `/na-operacao` |
 | Guia | guia novo a cada 2 semanas + revisão semanal com versão e histórico | quarta 8h (`0 11 * * 3`); `situacao.py` decide o modo | `/guia` |
-| Análise | 1 opinião por semana, tese a partir do que saiu na semana | quinta 17h (`0 20 * * 4`), publica na sexta 7h | `/analise` |
+| Análise | 1 opinião por semana, tese a partir do que saiu na semana | quinta 8h (`0 11 * * 4`; era 17h até 17/nov/2026), publica na sexta 7h | `/analise` |
 | Ferramentas | 1 comparativo ou avaliação a cada 2 semanas, seis critérios fixos, marcas documentado / com ressalva / não documentado, cada uma com fonte; nunca teste próprio | terça 8h (`0 11 * * 2`); `situacao.py` decide se é semana | `/ferramentas` |
-| Newsletter | resumo da semana (3–5 fatos do Radar, 1 caso, 1 opinião, até 4 "também no site"); só o que já foi publicado, números conferidos contra o item; rascunho no Buttondown, o editor envia | sexta 7h (`0 10 * * 5`) | `/newsletter` |
+| Newsletter | resumo da semana (3–5 fatos do Radar, 1 caso, 1 opinião, até 4 "também no site"); só o que já foi publicado, números conferidos contra o item; rascunho no Buttondown, o editor envia | sexta 7h (`0 10 * * 5`) e segunda passada às 13h (`0 16 * * 5`) | `/newsletter` |
+| Pautas para aprovar | e-mail só para o editor: cada PR aberto conferido nas fontes, com resumo, pontos de atenção, prévia e link para aprovar; sem PR, sem e-mail | todo dia 9h30 (`30 12 * * *`) | `/pautas` |
 
 - **Toda rotina abre PR; nunca faz merge nem push no `main`.** O merge é a aprovação do editor.
 - **Rodada sem material bom não abre PR** ("rodada sem notas", "semana sem caso"…). Melhor nenhum do que fraco.
@@ -40,6 +41,11 @@ Registro das decisões tomadas e do porquê, para valer em situações semelhant
 - **Newsletter, modelo B (23/out/2026):** toda sexta a rotina cria o rascunho e manda uma cópia de revisão só para o editor (domiciano@agenticway.com.br e domiciano.rossi@gmail.com); ele publica no Buttondown. Rascunho de semana anterior não publicado é apagado em vez de travar a edição nova. Para a cópia funcionar, o editor liberou **Sending** na chave da rotina (o Buttondown exige isso até para o "Send draft"). *Consequência:* a chave poderia publicar para todos; a garantia agora é de regra, não técnica: o script só chama `send-draft`, a rotina proíbe publicar e não lê a web. Se isso mudar, rever. *Descoberto no teste:* a cópia só é entregue a assinantes confirmados, por isso os dois e-mails do editor estão inscritos na newsletter. *Alternativa registrada:* um serviço de e-mail que só fala com o dono da conta (ex.: Resend), se quisermos a garantia técnica de volta.
 
 - **Pesquisa com Exa e Firecrawl juntos (23/out/2026).** No teste com o mesmo objetivo e a mesma janela da rotina de Na Operação de 19/out, o Exa achou 5 candidatos com empresa nomeada e número (BV, Riachuelo, BB, São Salvador Alimentos, Sicoob) em 3 buscas; o Firecrawl tinha achado 2 em 6, entre posts de rede social e opinião. O Exa entra para **achar** (Na Operação, Análise e Guia começam por ele; no Radar é busca extra); o Firecrawl continua para **ler**, porque os trechos do Exa vêm cortados. Chave `EXA_API_KEY` no ambiente da nuvem.
+
+- **Processo de sexta, revisto em 17/nov/2026.** Três mudanças, depois que em 13/nov a análise foi aprovada às 16h e a newsletter das 7h saiu sem ela: (1) a Análise roda quinta às 8h, e o editor tem o dia para aprovar; (2) a rotina **Pautas** confere todo dia os PRs abertos e manda o e-mail "Pautas para aprovar" às 9h30, para o editor não precisar perguntar; (3) a newsletter avisa quando sai sem a análise e tem uma segunda passada às 13h que refaz o rascunho se algo foi aprovado depois (`rascunho.py --situacao` e `--substituir`).
+- **E-mails internos saem pelo Buttondown** (`scripts/email_editor.py`): rascunho, `send-draft` só para os endereços do editor, rascunho apagado. Chegam com "[PREVIEW]" no assunto. *Por quê:* não exige conta nova; a alternativa registrada continua sendo um serviço que só escreve para o dono.
+- **Aprovar continua sendo o merge.** O e-mail leva ao PR no GitHub. Aprovar respondendo ao e-mail exigiria dar a uma rotina acesso à caixa de entrada do editor, o que foi evitado de propósito.
+- **Claude só faz merge quando o editor pede com todas as letras** ("pode fazer o merge"); o sistema de permissões bloqueia o contrário.
 
 ## 3. Arquitetura do site
 

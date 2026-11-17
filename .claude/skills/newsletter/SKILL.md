@@ -7,7 +7,7 @@ description: Monta a newsletter semanal da AgenticWay (sexta) a partir do que o 
 
 A newsletter é o resumo da semana para quem não entrou no site: sete minutos de leitura, sem hype, cada item com link para o texto completo. Ela **não traz fato novo**: tudo o que diz já foi publicado e aprovado pelo editor no site. *Por quê:* a aprovação editorial acontece no merge de cada item; a newsletter só reorganiza, e assim não precisa de outra rodada de checagem.
 
-**Quem envia é o editor.** A skill cria um rascunho no Buttondown (`status: draft`); Domiciano revisa e clica em enviar. A chave da API não tem permissão de envio.
+**Quem envia é o editor.** A skill cria um rascunho no Buttondown (`status: draft`); Domiciano revisa e clica em Publish. A chave da API tem permissão de envio (necessária para a cópia de revisão), mas a skill nunca publica: os scripts só criam rascunho e mandam cópia ao editor.
 
 ## Passo 1 — O que saiu na semana
 
@@ -55,6 +55,31 @@ python .claude/skills/newsletter/scripts/rascunho.py edicao.json            # cr
 ```
 
 O script valida tamanhos (em caracteres, contando tudo), tom e números, numera a edição pelo que já foi **enviado** (rascunhos não contam) e cria o rascunho. Depois manda **uma cópia de revisão só para o editor** (o "Send draft" do Buttondown; padrão domiciano@agenticway.com.br e domiciano.rossi@gmail.com, ou a variável `NEWSLETTER_COPIA`), para ele ler na caixa de entrada; os assinantes não recebem nada. Um rascunho de **semana anterior** que não foi publicado é apagado e substituído pela edição nova (não trava mais a semana). Se já houver rascunho **desta semana**, o script para e avisa: na rotina, relate isso e não crie outro. O Buttondown aceita o pedido de cópia para qualquer endereço, mas **só entrega para quem é assinante confirmado** (descoberto em 23/out/2026); os endereços do editor precisam estar inscritos. Se a cópia de revisão falhar, o rascunho continua criado: relate o aviso do script. A janela é de 7 dias até a hora em que o `semana.py` roda; a rotina roda sexta às 7h.
+
+## Análise pendente (sexta às 7h)
+
+Se o `semana.py` avisar **"ANÁLISE AINDA NÃO APROVADA"**, a análise da semana foi escrita mas o editor ainda não fez o merge. Ela não está no site, então não pode entrar: crie a edição com `"opiniao": null` e, depois de criar o rascunho, avise o editor:
+
+```bash
+python scripts/email_editor.py "Aviso da redação: newsletter sem a análise" --texto "O rascunho da newsletter de hoje saiu sem a análise da semana, porque ela ainda não foi aprovada.\nSe você aprovar a análise até 13h, o rascunho é refeito sozinho com ela e uma prévia nova chega no seu e-mail.\nSe preferir publicar sem a análise, é só publicar o rascunho que já está no Buttondown."
+```
+
+*Por quê:* em 13/nov/2026 a análise foi aprovada às 16h, a edição das 7h saiu sem a opinião e o rascunho teve de ser refeito à mão.
+
+## Segunda passada (sexta às 13h)
+
+A rotina roda de novo às 13h para pegar o que foi aprovado depois das 7h. Comece por:
+
+```bash
+python .claude/skills/newsletter/scripts/rascunho.py --situacao
+```
+
+Faça o que a linha `SITUAÇÃO` disser:
+- **EDIÇÃO JÁ ENVIADA** ou **RASCUNHO COMPLETO**: não faça nada. Responda isso e encerre.
+- **FALTA NO RASCUNHO**: refaça a edição pelos passos 1 e 2, incluindo o que falta, e rode `rascunho.py edicao.json --substituir`. O rascunho antigo sai, o novo entra e a prévia nova vai para o editor. Mantenha o assunto e os fatos da edição das 7h se ainda fizerem sentido: o editor pode já ter lido a primeira prévia.
+- **SEM RASCUNHO**: a passada das 7h não criou a edição. Siga os passos 1 a 3 normalmente.
+
+O `--substituir` só troca rascunho; uma edição já publicada nunca é refeita.
 
 ## Resposta final
 
