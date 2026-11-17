@@ -1,0 +1,100 @@
+{
+  "id": "omie-ou-bling-conectores-erp",
+  "publicado_em": "2026-11-17T08:00:00-03:00",
+  "consultadoEm": "nov/2026",
+  "tipo": "COMPARATIVO",
+  "categoria": "CONECTORES ERP",
+  "titulo": "Omie ou Bling: o que cada ERP documenta para ligar o sistema a um assistente de IA",
+  "linhaFina": "Os dois ERPs para pequenas e médias empresas lançaram conector MCP em 2026. Lemos ajuda, preços, limites e política de privacidade de cada um, critério por critério.",
+  "linha": "A Omie publica quais ações exigem aprovação e quais executam direto; o Bling diz que toda escrita pede confirmação, mas a documentação técnica lida não detalha.",
+  "leitura": 6,
+  "abertura": "Quem roda o financeiro, o estoque e a emissão de notas no Omie ou no Bling recebe agora a mesma oferta: ligar o ERP ao ChatGPT, ao Claude ou ao Gemini por um conector MCP, sem código. A demonstração mostra consultas. A decisão de verdade está em cinco respostas: com que permissão o assistente entra, o que fica registrado do que ele fez, quais ações ele executa sem pedir nada, para onde vão os dados consultados e quanto isso custa.",
+  "metodo": "Lemos, em novembro de 2026, o artigo de ajuda do MCP da Omie, a página de limites da API, o artigo de planos e o de segurança e privacidade; e, do Bling, o comunicado de lançamento no blog, a página de planos e preços, a página de limites da API e o aviso de privacidade do grupo LWSA, que traz uma cláusula sobre MCP. Escolhemos os dois porque ambos publicam conector oficial, têm preço público e são ERPs de pequenas e médias empresas no Brasil. Ficaram de fora a Conta Azul, cujo MCP, pelo que encontramos, está em fase de testes para clientes liberados e sem página pública do fornecedor, e o TOTVS Protheus, cujos agentes aparecem em notas do Radar, mas sem conector comparável documentado. Parte das páginas da Omie (preços e política de privacidade) não carregou na leitura automática; a leitura delas veio por resumo de página, e isso está dito nas células. Nenhuma ferramenta foi instalada ou usada.",
+  "ferramentas": [
+    {
+      "nome": "Omie MCP",
+      "fornecedor": "Omie",
+      "tipo": "Conector MCP oficial do ERP (nuvem do fornecedor)",
+      "preco": "Sem cobrança à parte pelo MCP. Mensalidade do ERP: Omie ERP Padrão a partir de R$ 309/mês e Omie.Multivarejo a partir de R$ 419/mês, por faixa de faturamento. Quem paga mensalidade precisa do pacote de APIs, cujo preço não foi encontrado",
+      "resumo": "Aprovação só para saída de dinheiro, serviços pagos e cobrança; incluir, alterar e faturar executam direto",
+      "texto": "O conector fica em api.omie.com.br/mcp e entra com o mesmo login do Omie, por OAuth 2.1 com PKCE, sem chave de integração. A ajuda diz que o assistente só faz o que o usuário já pode no sistema e lista as ferramentas: consultar (só leitura), executar alterações e repetir ambas em até 40 empresas de uma vez. É a documentação mais explícita sobre aprovação: pagamentos que tiram dinheiro da conta, serviços com custo, negativação e protesto sempre pedem aprovação na Omie; excluir e cancelar só pedem em sequência (mais de 20 em poucos minutos); registrar baixas, incluir, alterar e faturar executam direto. Funciona hoje com Claude e ChatGPT; Grok entra com client ID da Omie; Cursor e Gemini CLI ainda não conectam."
+    },
+    {
+      "nome": "Bling MCP",
+      "fornecedor": "Bling (grupo LWSA)",
+      "tipo": "Conector MCP oficial do ERP (nuvem do fornecedor)",
+      "preco": "Incluído em todos os planos, sem custo adicional. Planos na página de preços: Cobalto R$ 60/mês, Titânio a partir de R$ 120/mês, Diamante R$ 650/mês, Elite a partir de R$ 1.250/mês. A página mostra também valores anuais; a periodicidade de cobrança não ficou clara na leitura",
+      "resumo": "Incluído nos planos; o fornecedor diz que toda escrita pede confirmação, sem detalhar as ações",
+      "texto": "O Bling apresenta o conector como incluído em todos os planos, funcionando no Claude, no ChatGPT, no Gemini e em plataformas de automação como o n8n: adiciona-se o link, autoriza-se com o login e o uso segue os limites de requisições da API do plano e as permissões dos usuários. O comunicado cita 18 habilidades prontas (como Cockpit Diário e Sentinela de Expedição) e diz que qualquer escrita, como faturar pedidos em lote ou emitir nota fiscal, só acontece com o clique de confirmação. O aviso de privacidade traz uma cláusula própria sobre MCP. Não encontramos uma página técnica com a lista de ferramentas do conector."
+    }
+  ],
+  "criterios": [
+    {
+      "criterio": "Autenticação",
+      "pergunta": "Usa o usuário e a permissão do sistema da empresa (SSO, perfis)?",
+      "celulas": [
+        {"marca": "documentado", "nota": "Login Omie com OAuth 2.1 e PKCE; assistente só faz o que o usuário já pode; sem chave de integração", "fonte": 1},
+        {"marca": "documentado", "nota": "Autorização por login e obediência às permissões já definidas no Bling, segundo o comunicado do fornecedor", "fonte": 5}
+      ]
+    },
+    {
+      "criterio": "Log por ação",
+      "pergunta": "Registra o que o agente consultou e o que fez, e por quanto tempo?",
+      "celulas": [
+        {"marca": "ressalva", "nota": "Auditoria de cadastro (só admin) mostra origem 'integração via API'; registro por execução do assistente não achado", "fonte": 1},
+        {"marca": "nao-documentado", "nota": "Procuramos no comunicado, na página de planos e no aviso de privacidade; só há menção genérica a logs de segurança", "fonte": null}
+      ]
+    },
+    {
+      "criterio": "Conector",
+      "pergunta": "Liga ao ERP, CRM ou WhatsApp sem código, com conector mantido pelo fornecedor?",
+      "celulas": [
+        {"marca": "documentado", "nota": "MCP oficial: plugin no ChatGPT, conector no Claude, Grok com client ID; Cursor e Gemini CLI ainda não conectam", "fonte": 1},
+        {"marca": "documentado", "nota": "Conector oficial para ChatGPT, Claude, Gemini e n8n, sem código, incluído nos planos", "fonte": 6}
+      ]
+    },
+    {
+      "criterio": "Humano no fluxo",
+      "pergunta": "Escala exceção para uma pessoa, com motivo, antes de agir?",
+      "celulas": [
+        {"marca": "ressalva", "nota": "Aprovação para saída de dinheiro, serviços pagos e cobrança; incluir, alterar, faturar e baixas executam direto", "fonte": 1},
+        {"marca": "ressalva", "nota": "Comunicado diz que toda escrita pede confirmação; lista de ações e regras não lida em documentação técnica", "fonte": 5}
+      ]
+    },
+    {
+      "criterio": "Dados",
+      "pergunta": "Onde ficam, o que vai para o modelo, se é usado para treino, há DPA ou cláusula LGPD?",
+      "celulas": [
+        {"marca": "ressalva", "nota": "Dados consultados passam a seguir a política do provedor de IA; página de segurança só afirma alinhamento à LGPD, sem região nem DPA", "fonte": 1},
+        {"marca": "documentado", "nota": "Cláusula MCP: IA externa não é suboperadora do Bling; tratamento nela é do cliente; dados podem ir aos EUA", "fonte": 8}
+      ]
+    },
+    {
+      "criterio": "Custo por tarefa",
+      "pergunta": "Preço público e previsível com o volume?",
+      "celulas": [
+        {"marca": "ressalva", "nota": "Sem cobrança do MCP, mas exige pacote de APIs cujo preço não achamos; limite de 240 requisições/min por app e método", "fonte": 2},
+        {"marca": "documentado", "nota": "MCP incluído; limites da API: 3 requisições por segundo e 120 mil por dia por conta", "fonte": 7}
+      ]
+    }
+  ],
+  "conclusao1": "Para quem precisa saber o que o assistente pode fazer sem pedir licença, a Omie documenta mais: separa o que executa direto (incluir, alterar, faturar, baixar) do que exige aprovação (saída de dinheiro, serviços pagos, cobrança). O Bling afirma que toda escrita pede confirmação, o que seria mais restritivo, mas a afirmação vem de um comunicado e não de uma lista de ações; vale pedir ao fornecedor a regra por escrito. Em custo, o Bling é mais previsível: o conector está nos planos e os limites de requisição são públicos. Na Omie, falta o preço do pacote de APIs.",
+  "conclusao2": "Nenhum dos dois documenta, nas páginas lidas, registro por execução do que o assistente fez, e isso importa para quem vai liberar escrita em financeiro ou nota fiscal. Antes de liberar, três perguntas por escrito: onde fica o registro do que cada assistente alterou e por quanto tempo, qual contrato de tratamento de dados vale quando os dados saem para uma IA externa, e que perfil de usuário a conexão vai usar. Os dois fornecedores dizem que o assistente herda as permissões do usuário; o ponto de partida mais seguro é um perfil só de consulta.",
+  "ficha": [
+    {"rotulo": "Ferramentas", "valor": "Omie MCP e Bling MCP"},
+    {"rotulo": "Categoria", "valor": "Conectores ERP"},
+    {"rotulo": "Documentação consultada", "valor": "Ajuda e blog da Omie; blog, página de preços, documentação de API e aviso de privacidade do Bling"},
+    {"rotulo": "Fontes", "valor": "8 páginas de fornecedores, lidas em nov/2026; a página de planos e a de segurança da Omie foram lidas por resumo automático"},
+    {"rotulo": "Método", "valor": "Leitura de documentação; nenhuma ferramenta foi instalada ou usada"}
+  ],
+  "fontes": [
+    {"titulo": "Conectando o Omie a um assistente de IA (MCP)", "origem": "Ajuda Omie", "url": "https://ajuda.omie.com.br/pt-BR/articles/17173343-conectando-o-omie-a-um-assistente-de-ia-mcp"},
+    {"titulo": "Limites de Consumo da API do Omie", "origem": "Ajuda Omie", "url": "https://ajuda.omie.com.br/pt-BR/articles/8112984-limites-de-consumo-da-api-do-omie"},
+    {"titulo": "Planos Omie: como contratar o nosso sistema de gestão", "origem": "Blog da Omie", "url": "https://www.omie.com.br/blog/planos-omie-como-contratar-o-nosso-sistema-de-gestao/"},
+    {"titulo": "Segurança e privacidade em sistema ERP: como a Omie protege seu negócio", "origem": "Blog da Omie", "url": "https://www.omie.com.br/blog/gestao-empresarial-com-seguranca-e-privacidade-com-omie-erp/"},
+    {"titulo": "Bling no Claude: a 1ª plataforma de gestão conectada à IA da Anthropic", "origem": "Blog do Bling", "url": "https://blog.bling.com.br/claude-bling-mcp/"},
+    {"titulo": "Planos e preços", "origem": "Bling", "url": "https://www.bling.com.br/planos-e-precos"},
+    {"titulo": "Limites da API", "origem": "Bling Developer", "url": "https://developer.bling.com.br/limites"},
+    {"titulo": "Aviso de privacidade", "origem": "Bling (LWSA)", "url": "https://www.bling.com.br/politica-de-privacidade"}
+  ]
+}
