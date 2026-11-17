@@ -1,0 +1,56 @@
+{
+  "id": "zenvia-agents-lancamento-crm-erp-interactionz",
+  "publicado_em": "2026-11-17T07:15:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Zenvia lança o Zenvia Agents, que atualiza CRM e ERP e cobra por resolução em vez de por mensagem",
+  "linha": "A Zenvia diz que os agentes foram validados com 18 clientes e reduziram em 70% os chamados de nível 1 no suporte da própria empresa. A cobrança passa a ser por InteractionZ, que cobre 24 horas de conversa.",
+  "linhaFina": "Camada de agentes da Zenvia Customer Cloud conecta-se a sistemas por API REST, webhooks e MCP. Os números de resultado são da própria fornecedora, divulgados pelo IT Section.",
+  "fontePrimaria": "Zenvia, via IT Section",
+  "leitura": 3,
+  "resumo": [
+    "A Zenvia lançou oficialmente o Zenvia Agents, camada de agentes integrada à Zenvia Customer Cloud para jornadas de vendas e atendimento.",
+    "Os agentes atualizam registros em CRMs e ERPs e abrem chamados de suporte; a conexão com sistemas é feita por APIs REST, webhooks e protocolo MCP.",
+    "Segundo a empresa, os pilotos com 18 clientes e a operação de suporte da própria Zenvia reduziram em 70% o volume de chamados de nível 1.",
+    "A cobrança muda de mensagem para InteractionZ, unidade em reais que cobre a janela de 24 horas necessária para o agente resolver a demanda."
+  ],
+  "corpo": [
+    "A Zenvia lançou oficialmente o Zenvia Agents, uma camada de agentes de IA integrada à plataforma Zenvia Customer Cloud. Segundo o IT Section, que publicou a notícia em 16 de novembro, a solução permite que empresas configurem agentes para conduzir jornadas de vendas e atendimento, executar tarefas em sistemas corporativos e resolver demandas dentro das conversas com clientes.",
+    "A diferença em relação aos assistentes virtuais tradicionais, de acordo com a notícia, é que os agentes interpretam contexto, atualizam registros em CRMs e ERPs e abrem chamados de suporte quando necessário. A configuração é feita em ambiente visual sem programação, com prompts, regras de negócio e bases de conhecimento, e os agentes podem ser testados sem interferir na operação. A conexão com os sistemas usa APIs REST, webhooks e o protocolo MCP.",
+    "Entre os controles citados estão isolamento de dados por empresa, autenticação em duas etapas antes de ações críticas, mascaramento de credenciais e proteções contra manipulação de instruções e vazamento de informações pessoais.",
+    "Antes do lançamento comercial, a tecnologia passou por validação interna e por projetos-piloto com 18 clientes. Na operação de suporte instantâneo da Zenvia, os agentes reduziram em 70% o volume de chamados de nível 1, e o tempo médio de resolução caiu de horas para poucos segundos. O texto não informa como a redução foi medida nem traz resultados individuais dos clientes.",
+    "A Zenvia também trocou a unidade de cobrança. Em vez do volume bruto de mensagens, passa a cobrar o InteractionZ, unidade em reais que cobre toda a janela de 24 horas necessária para o agente resolver a demanda do usuário. A notícia não informa o preço do InteractionZ."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · COBRANÇA",
+      "titulo": "Quem usa WhatsApp para atendimento passa a comparar preço por resolução, não por mensagem",
+      "texto": "A unidade InteractionZ muda a conta de custo por conversa. Sem o preço publicado na notícia, a comparação com o modelo anterior só é possível pedindo a tabela à Zenvia."
+    },
+    {
+      "rotulo": "02 · INTEGRAÇÃO",
+      "titulo": "Escrever em CRM e ERP exige saber o que o agente pode alterar",
+      "texto": "O agente que atualiza registros age sobre dados da empresa. A autenticação em duas etapas citada vale para ações críticas, mas a notícia não diz quais ações entram nessa categoria nem se há log por ação."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "O 70% é medição da própria fornecedora",
+      "texto": "O número vem da operação de suporte da Zenvia, que vende a solução. Os 18 clientes dos pilotos não têm resultados divulgados."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem usa a Zenvia hoje, vale pedir a definição de ação crítica, o registro das ações do agente em CRM e ERP e o preço do InteractionZ antes de qualquer migração."
+  ],
+  "fontes": [
+    {
+      "titulo": "Zenvia lança agentes de IA para vendas e atendimento",
+      "origem": "IT Section · 16 nov 2026",
+      "url": "https://itsection.com.br/2026/11/16/zenvia-lanca-agentes-de-ia-para-vendas-e-atendimento/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Zenvia, na própria operação de suporte" },
+    { "rotulo": "Amostra", "valor": "Pilotos com 18 clientes; metodologia não informada" },
+    { "rotulo": "Divulgação", "valor": "16 nov 2026" },
+    { "rotulo": "Confirmação", "valor": "não confirmada pelo cliente" }
+  ]
+}

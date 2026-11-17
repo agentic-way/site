@@ -1,0 +1,51 @@
+{
+  "id": "google-netquest-64-delegariam-troca-fornecedor-agente",
+  "publicado_em": "2026-11-17T07:13:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Pesquisa do Google com a Netquest: 64% dos consumidores brasileiros aceitariam que um agente de IA troque seu fornecedor, mas 48,7% exigiriam aprovação",
+  "linha": "Com 4.947 consumidores ouvidos em setembro, o estudo mostra que só 15,3% deixariam a troca acontecer de forma automática. O Google vende IA e busca.",
+  "linhaFina": "Estudo do Google em parceria com a Netquest, divulgado pelo Valor Econômico, mede como o consumidor usa IA para escolher serviços. A amostra é de consumidores, não de empresas.",
+  "fontePrimaria": "Google / Netquest, via Valor Econômico",
+  "leitura": 3,
+  "resumo": [
+    "A pesquisa foi feita em setembro de 2026 com 4.947 consumidores brasileiros.",
+    "64% aceitariam que um agente de IA trocasse seu fornecedor de serviço; 48,7% exigiriam aprovação antes e 15,3% permitiriam a execução automática.",
+    "52% já pedem à IA recomendação direta de qual serviço contratar, e 70% usam assistentes de IA toda semana ou todos os dias."
+  ],
+  "corpo": [
+    "O Valor Econômico publicou em 17 de novembro uma pesquisa do Google, feita em parceria com a Netquest em setembro de 2026 com 4.947 consumidores brasileiros. O estudo trata de como a IA entra na escolha e na contratação de serviços.",
+    "Segundo o Valor, 52% dos entrevistados já pedem recomendações diretas à IA sobre qual serviço contratar, 60% usam a ferramenta para comparar preços e planos e 59% para pesquisar opções. Ainda de acordo com a matéria, 74% dizem que ficou mais fácil trocar de fornecedor e 70% usam assistentes de IA semanalmente ou todos os dias.",
+    "Sobre agentes: 64% aceitariam deixar um agente de IA trocar seu fornecedor de serviço. Desse total, 48,7% exigiriam aprovação antes da mudança e 15,3% permitiriam que a operação fosse feita automaticamente. Fernanda Doria, líder de negócios para serviços do Google Brasil, disse ao Valor que o consumidor quer estar no controle.",
+    "A matéria diz que o uso varia por setor: empresas de tecnologia para o mercado corporativo, classificados, imobiliário e saúde têm maior participação da IA na escolha do serviço, enquanto em finanças e telecomunicações o consumidor segue recorrendo principalmente aos canais das próprias empresas. O Valor não informa margem de erro nem detalha como a amostra foi composta."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · RETENÇÃO",
+      "titulo": "Se o cliente delega a comparação a um agente, a empresa passa a competir com ele",
+      "texto": "Quem vende serviço recorrente enfrenta um intermediário que compara preço e plano e, em parte dos casos, pode propor a troca. Preço, condições e informação clara ficam mais expostos."
+    },
+    {
+      "rotulo": "02 · APROVAÇÃO",
+      "titulo": "A maioria quer aprovar antes",
+      "texto": "Entre os que aceitam delegar, 48,7% pedem aprovação contra 15,3% que aceitam execução automática. É o mesmo desenho de humano no fluxo que as empresas aplicam aos próprios agentes."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem divulga vende IA e busca",
+      "texto": "O Google tem interesse em mostrar o uso de IA na escolha de serviços. A amostra é de consumidores e declaração de intenção não é comportamento medido."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Consumidor usa IA para pesquisar serviços, mas não abre mão da decisão final, diz pesquisa do Google",
+      "origem": "Valor Econômico · 17 nov 2026",
+      "url": "https://valor.globo.com/empresas/marketing/noticia/2026/11/17/consumidor-usa-ia-para-pesquisar-servicos-mas-nao-abre-mao-da-decisao-final-diz-pesquisa-do-google.ghtml"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Google, em parceria com a Netquest" },
+    { "rotulo": "Amostra", "valor": "4.947 consumidores brasileiros" },
+    { "rotulo": "Campo", "valor": "setembro de 2026" },
+    { "rotulo": "Divulgação", "valor": "17 nov 2026" }
+  ]
+}
