@@ -1,0 +1,94 @@
+{
+  "id": "perguntas-numero-resolvido-sem-atendente",
+  "publicado_em": "2026-11-18T08:00:00-03:00",
+  "atualizado_em": "2026-11-18T08:00:00-03:00",
+  "versao": "1.0",
+  "assunto": "MEDIÇÃO",
+  "formato": "PERGUNTAS",
+  "titulo": "Sete perguntas para ler o número de \"resolvido sem atendente\" que o fornecedor mostra",
+  "linhaFina": "Três empresas citaram taxas de 60% a 84% de atendimento resolvido por agente de IA. As fontes não explicam como cada uma foi contada. Estas perguntas ajudam a descobrir o que o número do seu fornecedor mede.",
+  "resumo": "O que perguntar ao fornecedor ou à diretoria quando alguém apresenta uma taxa de resolução por agente de IA, para saber o que ela inclui, o que deixa de fora e se serve de base para a sua decisão.",
+  "leitura": 6,
+  "paraQuem": "Quem avalia ou renova um agente de atendimento e ouve que ele \"resolve 70%\" ou \"até 80%\": diretor de operações, de atendimento, de tecnologia ou financeiro. Não é preciso conhecer o sistema; basta saber qual indicador o fornecedor está mostrando.",
+  "comoUsar": "Leve as perguntas à reunião em que o número for apresentado e peça as respostas por escrito. Se o fornecedor não souber responder a alguma, anote em branco: a lacuna também é informação. Depois use a coluna de anotações para comparar com a sua operação e com outras propostas.",
+  "abertura": "Em novembro, a Centauro disse à Exame que agentes resolvem mais de 60% dos chamados de pós-venda no aplicativo sem atendente. A Genesys diz que 84% dos clientes do autoatendimento da Riachuelo no WhatsApp resolvem sem funcionário. O Grupo Boticário, em estudo de caso da OpenAI, fala em até 80% dos pedidos operacionais das revendedoras. São três números parecidos, medidos por quem tem interesse em mostrá-los, e as fontes não detalham como cada um foi calculado. Um deles foi medido só no aplicativo, outro é um teto. Antes de usar uma taxa dessas para decidir compra, renovação ou meta, vale saber o que ela conta.",
+  "itens": [
+    {
+      "curta": "O que é resolvido",
+      "pergunta": "Em que momento o atendimento passa a contar como resolvido?",
+      "porque": "A Centauro explicou à Exame que conta como resolvido o chamado em que o agente atende à solicitação e conclui sem encaminhar a uma pessoa. As fontes sobre Riachuelo e Boticário não dizem se o cliente que desistiu, ou que voltou no dia seguinte, entra na conta. Sem a definição, duas taxas iguais podem medir coisas diferentes.",
+      "boa": "Definição escrita: quem entra no denominador, o que fecha o atendimento e como se trata o cliente que abandona a conversa.",
+      "ruim": "\"Resolvido\" sem definição, ou uma definição que só diz que a conversa não foi transferida.",
+      "anote": "A definição, com as palavras do fornecedor, e se o cliente que abandona conta como resolvido."
+    },
+    {
+      "curta": "Média ou teto",
+      "pergunta": "A taxa é uma média de um período ou o melhor resultado que o agente atingiu?",
+      "porque": "O estudo de caso do Boticário diz \"até 80%\". Essa expressão descreve um limite, não o que a operação entrega em média. A fonte não diz se o 80% é de uma semana, de um tipo de pedido ou do período todo.",
+      "boa": "Média do período, com o mínimo e o máximo semanais ao lado e as datas de início e fim.",
+      "ruim": "Um número com \"até\", sem período, ou o melhor mês apresentado como se fosse o normal.",
+      "anote": "Período medido, média e pior semana."
+    },
+    {
+      "curta": "Canal e tipo de pedido",
+      "pergunta": "A taxa vale para qual canal e para quais tipos de pedido?",
+      "porque": "A Centauro disse que os 60% valem só para o aplicativo, não para site, WhatsApp ou lojas. No Boticário, a taxa se refere a pedidos operacionais do dia a dia, como segunda via de boleto e envio de catálogo, e a conversa passa a uma pessoa quando a revendedora quer fechar um pedido. Pedido simples resolve mais fácil que reclamação.",
+      "boa": "Taxa separada por canal e pelos cinco tipos de pedido mais frequentes, com o volume de cada um.",
+      "ruim": "Uma taxa única para \"o atendimento\", sem dizer quais canais e pedidos entram.",
+      "anote": "Canais e tipos de pedido incluídos e excluídos, com o volume de cada um."
+    },
+    {
+      "curta": "Base de comparação",
+      "pergunta": "Qual era a taxa antes do agente, medida do mesmo jeito?",
+      "porque": "A Centauro não informou o volume de chamados nem a taxa anterior, então o \"mais de 60%\" descreve o presente, não o ganho. A Genesys compara os 84% da Riachuelo com 30% do chatbot anterior, mas não diz se as duas taxas usam a mesma definição nem o mesmo período.",
+      "boa": "Taxa anterior com a mesma definição e o mesmo tipo de pedido, de um período comparável.",
+      "ruim": "Comparação com um sistema antigo medido de outro jeito, ou nenhuma base.",
+      "anote": "Taxa antes, taxa depois, definição de cada uma e período."
+    },
+    {
+      "curta": "Volta do cliente",
+      "pergunta": "Quantos clientes voltam a pedir o mesmo em até sete dias, e como o cliente avaliou o atendimento?",
+      "porque": "O fim da conversa não prova que o problema acabou. A Genesys cita aumento de 60% na satisfação com o agente da Riachuelo, mas na mesma página não informa base, amostra nem a pergunta usada. A fonte sobre a Centauro também não diz se o cliente voltou depois do chamado dado como resolvido.",
+      "boa": "Taxa de recontato em janela fixa e uma pergunta de satisfação com base e amostra conhecidas.",
+      "ruim": "Satisfação em percentual de aumento, sem a nota de partida, ou nenhuma medida de recontato.",
+      "anote": "Taxa de recontato, janela de dias, nota de satisfação e quantos clientes responderam."
+    },
+    {
+      "curta": "Quem mediu",
+      "pergunta": "Quem calculou o número, com que dados, e alguém de fora conferiu?",
+      "porque": "Os três números vêm das próprias empresas ou do fornecedor da tecnologia: a OpenAI publica o resultado do Boticário, a Genesys o da Riachuelo. Nada nas fontes indica auditoria independente. Isso não invalida o dado, mas muda o peso que ele tem numa decisão sua.",
+      "boa": "Acesso à consulta ou ao relatório de origem, com os dados da sua própria operação num teste, e conferência por alguém da sua equipe.",
+      "ruim": "Número de apresentação comercial, sem acesso ao dado de origem.",
+      "anote": "Quem produziu o número, a fonte do dado e se alguém fora do fornecedor conferiu."
+    },
+    {
+      "curta": "Custo por resolvido",
+      "pergunta": "Quanto custou cada atendimento resolvido, somando modelo, plataforma e equipe que ainda atua?",
+      "porque": "A Centauro disse acompanhar o custo de uso dos agentes, mas não informou quanto investiu nem quanto custa mantê-los. Taxa de resolução alta com custo desconhecido não diz se o agente compensa. A conta precisa incluir também a equipe que continua cuidando dos casos que o agente encaminha.",
+      "boa": "Custo por atendimento resolvido com as parcelas abertas, mesmo que estimado, e a explicação do cálculo.",
+      "ruim": "Só a taxa de resolução, sem custo, ou economia calculada só sobre as horas \"otimizadas\".",
+      "anote": "Custo total do mês, atendimentos resolvidos, custo por atendimento e as parcelas de cada um."
+    }
+  ],
+  "fechamento": "Monte uma linha por proposta, com definição de resolvido, período, canal, taxa anterior, recontato e custo por atendimento resolvido. Onde o fornecedor não respondeu, deixe a célula vazia e peça um teste curto no seu próprio atendimento, com a definição combinada por escrito antes de começar. Se a diretoria vai usar a taxa como meta, comece pela pergunta 1: a meta vale o que a definição vale.",
+  "historico": [
+    {"data": "nov/2026", "versao": "1.0", "texto": "Publicação. Parte dos casos de Na Operação sobre Centauro, Grupo Boticário e Riachuelo."}
+  ],
+  "fontes": [
+    {
+      "titulo": "Centauro coloca 900 agentes de IA para trabalhar e resolve 60% dos chamados sem humanos",
+      "origem": "Exame · 11 nov 2026",
+      "url": "https://exame.com/inteligencia-artificial/centauro-coloca-900-agentes-de-ia-para-trabalhar-e-resolve-60-dos-chamados-sem-humanos/"
+    },
+    {
+      "titulo": "How Grupo Boticário uses AI to strengthen human connections",
+      "origem": "OpenAI · estudo de caso · 16 out 2026",
+      "url": "https://openai.com/index/grupo-boticario/"
+    },
+    {
+      "titulo": "Riachuelo aumenta a satisfação dos clientes em 60% com IA Agêntica",
+      "origem": "Genesys · estudo de caso",
+      "url": "https://www.genesys.com/pt-br/customer-stories/riachuelo"
+    }
+  ]
+}
