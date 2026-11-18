@@ -1,0 +1,65 @@
+{
+  "id": "snaplogic-54-abandonaram-projetos-agentes-valor-incerto",
+  "publicado_em": "2026-11-18T07:12:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "SnapLogic diz que 54% das empresas já abandonaram projetos de agentes de IA por falta de valor claro, e 89% já gastaram além do previsto",
+  "linha": "Pesquisa encomendada pela SnapLogic à 3GEM ouviu 1.000 decisores de TI nos EUA, Reino Unido e Alemanha. Só 42% dizem conseguir prever o gasto futuro com IA e tokens.",
+  "linhaFina": "Amostra sem empresas brasileiras, divulgada por fornecedor de plataforma de integração. O dado de custo é o que mais interessa a quem vai contratar agentes por consumo.",
+  "fontePrimaria": "SnapLogic / 3GEM",
+  "leitura": 3,
+  "resumo": [
+    "54% dos 1.000 decisores de TI ouvidos já abandonaram projetos de IA porque o valor para o negócio não estava claro.",
+    "89% tiveram algum nível de gasto acima do previsto com agentes, e 64% relatam estouro moderado ou significativo.",
+    "81% dizem medir com precisão o custo de cada agente, mas só 42% dizem conseguir prever o gasto futuro com IA e tokens."
+  ],
+  "corpo": [
+    "A SnapLogic, fornecedora de plataforma de integração e orquestração de agentes, divulgou em 17 de novembro o 2026 Agentic Enterprise Readiness Index. A pesquisa foi feita pela 3GEM entre 21 de julho e 4 de agosto de 2026, com 1.000 tomadores de decisão de TI em empresas dos Estados Unidos, do Reino Unido e da Alemanha.",
+    "O resultado central é o contraste entre confiança e prova de valor: 85% dizem estar muito ou extremamente confiantes em escalar a adoção de IA e 93% afirmam ter uma política ou estrutura abrangente para agentes, mas 54% já abandonaram projetos de IA por valor pouco claro. Metade (50%) diz sentir pressão para continuar investindo em agentes mesmo quando o valor é difícil de provar, e 48% têm ou esperam ter dificuldade para medir o retorno.",
+    "Em custo, 89% relatam algum gasto acima do previsto com agentes e 64% falam em estouro moderado ou significativo. Embora 88% digam que a responsabilidade pelo orçamento dos agentes é clara e 81% digam medir o custo de cada agente, só 42% afirmam conseguir prever o gasto futuro com IA e tokens. Para 36%, o investimento em IA avança mais rápido do que a capacidade de governar e operar os agentes."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · PREVISÃO",
+      "titulo": "Medir o custo de ontem não garante prever o de amanhã",
+      "texto": "A distância entre os 81% que medem o custo por agente e os 42% que conseguem projetá-lo indica que o problema está na previsão, importante para quem contrata agentes cobrados por uso ou por tarefa."
+    },
+    {
+      "rotulo": "02 · VALOR",
+      "titulo": "Projeto sem indicador de resultado é candidato a ser abandonado",
+      "texto": "O principal motivo de abandono citado é a falta de clareza de valor, não falha técnica. Definir antes o que o agente deve melhorar e como será medido reduz esse risco."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem publica vende a camada que promete resolver",
+      "texto": "A SnapLogic vende integração e visibilidade de custo de agentes. A amostra também não inclui o Brasil, então os percentuais indicam tendência, não retrato do mercado local."
+    }
+  ],
+  "oQueFazer": [
+    "Antes de ampliar um agente, registre o custo por tarefa concluída e o indicador de resultado que justifica mantê-lo. Se o contrato for cobrado por consumo, peça ao fornecedor a estimativa de gasto para o volume previsto do próximo trimestre."
+  ],
+  "fontes": [
+    {
+      "titulo": "New Research Reveals 54% of Enterprises Have Abandoned Agentic AI Projects Due to Unclear Business Value",
+      "origem": "SnapLogic · comunicado via GlobeNewswire · 17 nov 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/11/17/3404301/0/en/new-research-reveals-54-of-enterprises-have-abandoned-agentic-ai-projects-due-to-unclear-business-value.html"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "3GEM, a pedido da SnapLogic"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "1.000 decisores de TI nos EUA, Reino Unido e Alemanha"
+    },
+    {
+      "rotulo": "Campo",
+      "valor": "21 de julho a 4 de agosto de 2026"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "17 nov 2026"
+    }
+  ]
+}

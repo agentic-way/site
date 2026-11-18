@@ -1,0 +1,65 @@
+{
+  "id": "zucchetti-zweb-copiloto-23-agentes-erp-varejo",
+  "publicado_em": "2026-11-18T07:11:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Zucchetti lança o ZWeb Copiloto, com 23 agentes que emitem notas e consultam contas dentro do ERP do pequeno varejo, segundo a Exame",
+  "linha": "A ferramenta aceita comando por voz ou texto no ZWeb e chega ao cliente no fim de novembro. A Exame não informa preço nem se as ações passam por confirmação.",
+  "linhaFina": "Anúncio feito na convenção da Zucchetti, em 13 e 14 de novembro, para um público de 100 mil clientes do pequeno varejo brasileiro.",
+  "fontePrimaria": "Zucchetti Latam, via Exame",
+  "leitura": 3,
+  "resumo": [
+    "A Zucchetti Latam lançou o ZWeb Copiloto, interface conversacional integrada ao ERP e à automação comercial ZWeb, com 23 agentes de IA divididos por áreas.",
+    "O usuário poderá consultar a situação financeira, emitir notas, acompanhar documentos fiscais e pedir cancelamentos por voz ou texto.",
+    "A disponibilização está prevista para o fim de novembro, no computador e no aplicativo do ZWeb."
+  ],
+  "corpo": [
+    "Segundo a Exame, a Zucchetti Latam apresentou o ZWeb Copiloto na Convenção Nacional Zucchetti 2026, realizada em 13 e 14 de novembro em Balneário Camboriú (SC). A ferramenta fica dentro do ZWeb, sistema de gestão (ERP) e automação comercial da empresa, operado na nuvem, e reúne 23 agentes de IA organizados por área, como financeiro e caixa.",
+    "As funções descritas incluem consultar a situação financeira, verificar contas em aberto, registrar recebimento de parcelas e quitar débitos. Na área fiscal, o usuário poderá emitir notas, acompanhar o status dos documentos e solicitar cancelamentos. A ferramenta também gera relatórios de vendas, lista os produtos mais vendidos e consulta comissões e metas. Segundo a reportagem, os agentes podem executar operações ou apresentar sugestões com base nos dados do sistema.",
+    "A Zucchetti diz atender mais de 100 mil clientes do segmento em 27 estados, com rede de mais de 3 mil parceiros; a unidade de ponto de venda soma 112 mil usuários e 389,5 milhões de notas fiscais emitidas por ano. O desenvolvimento faz parte de um financiamento de R$ 35 milhões do BNDES, pelo Programa Mais Inovação, anunciado em 2025. O acesso exige conexão com a internet e conta ativa no sistema."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · PERMISSÃO",
+      "titulo": "Emitir e cancelar nota é ação com efeito fiscal",
+      "texto": "A reportagem não diz se há confirmação humana antes da emissão ou do cancelamento, nem como as ações ficam registradas. Para o cliente do ZWeb, é a primeira pergunta a fazer ao revendedor."
+    },
+    {
+      "rotulo": "02 · ESCALA",
+      "titulo": "Agente dentro do ERP chega pela base instalada",
+      "texto": "Com mais de 100 mil clientes, o recurso chega ao pequeno varejo sem projeto de integração, o que muda o ponto de partida de quem ainda não usa IA."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Descrição vem da empresa, sem teste independente",
+      "texto": "As funções e os números de base instalada são da Zucchetti, relatados pela Exame. Preço, limites e desempenho ainda não foram divulgados."
+    }
+  ],
+  "oQueFazer": [
+    "Quem usa o ZWeb deve perguntar ao revendedor, antes de ativar, quais ações o copiloto executa sozinho, quais pedem confirmação do usuário e onde fica o registro do que foi feito."
+  ],
+  "fontes": [
+    {
+      "titulo": "Zucchetti lança IA que automatiza tarefas de pequenos e médios lojistas por comandos de voz",
+      "origem": "Exame · 17 nov 2026",
+      "url": "https://exame.com/negocios/zucchetti-lanca-ia-que-automatiza-tarefas-de-pequenos-e-medios-lojistas-por-comandos-de-voz/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "Zucchetti Latam, relatada pela Exame"
+    },
+    {
+      "rotulo": "Disponibilidade",
+      "valor": "fim de novembro de 2026"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "17 nov 2026"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não confirmada pelo cliente"
+    }
+  ]
+}

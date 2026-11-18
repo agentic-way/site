@@ -1,0 +1,66 @@
+{
+  "id": "sap-business-one-v11-ia-agentica-previa-2027-mcp",
+  "publicado_em": "2026-11-18T07:10:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "SAP diz que o Business One 11 trará IA agêntica, mas a primeira prévia para parceiros só sai em 2027; agentes de parceiros já usam MCP",
+  "linha": "Hoje o ERP para PMEs tem os recursos Ask AI e AI user-defined query, de agosto de 2026. Agentes que executam ações vêm de parceiros, ligados por servidores MCP.",
+  "linhaFina": "Em comunicado dos 30 anos do Business One, a SAP Brasil descreve o que existe agora e o que depende da versão 11.",
+  "fontePrimaria": "SAP",
+  "leitura": 3,
+  "resumo": [
+    "A SAP prepara o SAP Business One 11, alinhado à estratégia Autonomous Enterprise, com recursos de IA agêntica para o Web client; a primeira versão prévia para parceiros está prevista para 2027.",
+    "Desde agosto de 2026 o produto tem Ask AI, que responde perguntas sobre dados conforme as permissões do usuário, e AI user-defined query, que cria listas por comando em linguagem natural.",
+    "Parceiros já desenvolvem agentes integrados por servidores MCP; o playbook da SAP reúne 54 soluções de IA do ecossistema."
+  ],
+  "corpo": [
+    "A SAP Brasil publicou em 16 de novembro um comunicado pelos 30 anos do SAP Business One, solução de gestão para pequenas e médias empresas, que a empresa diz ter mais de 85 mil clientes em mais de 170 países, cerca de 1,2 milhão de usuários e mais de mil parceiros. A venda e a implantação são feitas exclusivamente por parceiros.",
+    "No que está disponível, a SAP cita as funções de IA generativa Ask AI e AI user-defined query, introduzidas em agosto de 2026. A primeira permite perguntas contextualizadas, como custos de frete e prazos de entrega, respeitando as permissões de acesso. A segunda permite que pessoas sem conhecimento técnico criem listas por comando, como os cinco clientes com maiores pagamentos em aberto.",
+    "A versão 11 terá, segundo Peter Dominik, líder global de gerenciamento de produtos, recursos de IA agêntica para o Web client e mais extensibilidade para parceiros. A primeira versão prévia para parceiros está prevista para 2027. O comunicado não traz data de disponibilidade geral nem informação específica sobre o Brasil.",
+    "Enquanto isso, a SAP amplia o desenvolvimento de agentes por parceiros com a integração a servidores MCP (Model Context Protocol). O Global AI Partner Innovations Playbook reúne 54 soluções do ecossistema. Dois exemplos citados: o Forge AI, da Third Wave, que consulta faturas, registra entradas de mercadorias, abre chamados ou cancela pedidos e pede confirmação antes de ações irreversíveis; e o AXeLANT Chat, da Cloudiax, que roda em infraestrutura na Alemanha, com supervisão humana, e pode criar ofertas de vendas."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · PRAZO",
+      "titulo": "Agente nativo no Business One só a partir da versão 11",
+      "texto": "Quem espera IA agêntica embutida no produto deve contar com 2027 ou depois para uma prévia de parceiros, sem data de disponibilidade geral."
+    },
+    {
+      "rotulo": "02 · PARCEIRO",
+      "titulo": "O agente que executa ação hoje vem do parceiro, não da SAP",
+      "texto": "Forge AI e AXeLANT Chat são soluções de parceiros norte-americano e alemão. O comunicado não diz se estão disponíveis no Brasil, então a pergunta vai ao parceiro local."
+    },
+    {
+      "rotulo": "03 · CONFIRMAÇÃO",
+      "titulo": "Pedir confirmação antes de ação irreversível é um critério de escolha",
+      "texto": "Dos dois exemplos, o comunicado diz que o Forge AI confirma antes de ações irreversíveis e que o AXeLANT Chat opera com supervisão humana."
+    }
+  ],
+  "oQueFazer": [
+    "Cliente do Business One pode perguntar ao parceiro de implantação quais recursos de IA estão ativos na versão em uso, se há agentes via MCP disponíveis no Brasil e como cada um registra e confirma as ações."
+  ],
+  "fontes": [
+    {
+      "titulo": "SAP Business One completa 30 anos e avança em inteligência artificial para PMEs",
+      "origem": "SAP Notícias Brasil · 16 nov 2026",
+      "url": "https://news.sap.com/brazil/2026/11/sap-business-one-completa-30-anos-e-avanca-em-inteligencia-artificial-para-pmes/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "SAP"
+    },
+    {
+      "rotulo": "Disponível agora",
+      "valor": "Ask AI e AI user-defined query (ago 2026)"
+    },
+    {
+      "rotulo": "Versão 11",
+      "valor": "primeira prévia para parceiros em 2027"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "16 nov 2026"
+    }
+  ]
+}
