@@ -1,0 +1,78 @@
+{
+  "id": "custo-do-agente-se-mede-valor-nao",
+  "publicado_em": "2026-11-20T07:00:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "A empresa já mede o custo do agente. O que falta é a medida de antes.",
+  "linhaFina": "Na pesquisa da SnapLogic, 81% dizem medir com precisão o custo de cada agente, e 54% já abandonaram projetos por falta de valor claro. Os números de sucesso que circulam na semana têm o mesmo defeito: ninguém mostra a linha de base.",
+  "frase": "Medir o custo de um agente é questão de fatura. Medir o valor exige ter registrado como o processo funcionava antes dele.",
+  "leitura": 5,
+  "tese": [
+    "As empresas sabem quanto o agente custa, mas não conseguem mostrar o que ele entrega. O problema não é a medição de custo, que existe, e sim a falta de registro de como o processo funcionava antes.",
+    "Os números de sucesso divulgados nas últimas semanas por empresas brasileiras são autodeclarados e, quando a fonte permite checar, sem base de comparação ou método informado. Servem de vitrine, não de referência para a sua conta.",
+    "Antes de ligar o próximo agente, a empresa média deve gravar a linha de base do processo: volume, tempo, taxa de erro e custo de hoje. Sem isso, o ganho só existe na apresentação do fornecedor."
+  ],
+  "p1": "A SnapLogic ouviu 1.000 decisores de TI nos Estados Unidos, no Reino Unido e na Alemanha. 81% disseram que conseguem medir com precisão o custo de cada agente de IA, e 88% disseram que a responsabilidade pelo orçamento dos agentes está clara. Na mesma pesquisa, 54% afirmaram já ter abandonado projetos de IA porque o valor para o negócio não estava claro, e 48% têm dificuldade, ou esperam ter, para medir o retorno.",
+  "p2": "Os dois números convivem sem contradição. Custo é um dado que chega pronto, na fatura do fornecedor e na conta de nuvem. Valor depende de uma comparação com o que existia antes, e essa comparação só se faz se alguém registrou o antes. O que me interessa aqui é o que acontece quando ela não existe.",
+  "h1": "O custo vem na fatura. O valor depende de um registro que ninguém fez",
+  "p3": "A pesquisa da Genpact, com mais de 2.000 executivos de empresas com receita anual a partir de US$ 1 bilhão, encontrou 79% com agentes em produção, mas só 15% com o investimento em IA totalmente ligado ao resultado financeiro. Em média, 49% das iniciativas financiadas nos últimos 24 meses entregaram o valor esperado. A própria Genpact avisa que os resultados são autodeclarados.",
+  "p4": "A SnapLogic traz o mesmo padrão pelo lado do gasto: 89% já tiveram algum estouro de custo com agentes, e só 42% dizem conseguir prever o gasto futuro com IA e tokens. Quem não sabe prever o custo e também não sabe provar o ganho está aprovando orçamento por confiança. A SnapLogic registra que 50% sentem pressão para continuar investindo mesmo quando o valor é difícil de provar.",
+  "destaque": "Quem não registrou como o processo funcionava antes não tem como dizer, depois, quanto o agente mudou.",
+  "h2": "Os números de sucesso recentes não trazem a base",
+  "p5": "Nas duas semanas em que saíram essas pesquisas, três empresas brasileiras divulgaram resultados. A Cielo diz que o tempo médio de desenvolvimento de funções caiu de 50,5 para 12,3 dias em mais de 20 iniciativas. A Exame registra que o material da empresa não especifica as datas da base histórica nem os marcos de início e fim da medição. O Inter diz que a Seven resolve cerca de 85% das solicitações sem apoio humano, número que, segundo o Comenta, não veio com metodologia pública nem auditoria independente.",
+  "p6": "A Centauro diz que os agentes resolvem mais de 60% dos chamados de pós-venda no aplicativo sem atendente. Segundo a Exame, a empresa não informou o volume de solicitações da medição nem quanto investiu na plataforma. Nenhum desses números é falso por ser autodeclarado, e todos podem ser verdadeiros. O ponto é que, sem a base e o método, o leitor não consegue saber se o ganho vale para a operação dele. Um percentual sem volume e sem o valor anterior descreve o presente, não a mudança.",
+  "h3": "A linha de base é a parte barata do projeto",
+  "p7": "Registrar o antes custa pouco e só pode ser feito antes. Antes de ligar o agente, é preciso anotar quantas solicitações o processo recebe, quanto tempo levam, quantas voltam por erro e quanto custa cada uma. É trabalho de planilha, não de tecnologia. Sem essa foto, o fornecedor passa a ser o único com números, e a renovação do contrato é decidida pela apresentação dele.",
+  "contra": "Os dois principais números deste texto vêm de empresas que vendem a solução para o problema que apontam. A SnapLogic vende plataforma de integração e observabilidade de agentes e divulgou a pesquisa num evento da própria marca. A Genpact vende o que chama de operações agênticas, e a pesquisa conclui que o obstáculo é operacional, o que favorece quem vende operação. Nenhuma das duas pesquisas é brasileira, e a da Genpact ouviu empresas com receita acima de US$ 1 bilhão, bem maiores que a empresa média que esta análise tem em vista. Também é possível que exigir linha de base seja um luxo: em processos pequenos e baratos, o custo de medir o antes pode superar o do próprio agente, e testar por duas semanas e olhar a fatura talvez baste. E há empresas que simplesmente sabem, pelo dia a dia, que o agente ajudou, sem precisar de número. Se for o caso, parte dos 54% que abandonaram projetos pode ter cortado um agente que funcionava, por não saber demonstrá-lo.",
+  "fechamento": "Antes de ligar o próximo agente, eu gastaria uma semana registrando o processo como ele é: volume, tempo, taxa de erro e custo por unidade. Depois, nas conversas com fornecedor, trataria qualquer percentual sem base, sem período e sem método como material de venda. Se o projeto só se justifica com o número do fornecedor, a empresa ainda não tem o suficiente para decidir.",
+  "pontos": [
+    {
+      "rotulo": "01 · BASE",
+      "titulo": "Grave o processo de hoje",
+      "texto": "Volume, tempo médio e mediana, taxa de retrabalho e custo por unidade, com data. É essa foto que o resultado do agente vai ser comparado depois."
+    },
+    {
+      "rotulo": "02 · MÉTODO",
+      "titulo": "Peça método junto com o número",
+      "texto": "Para cada percentual de fornecedor ou de empresa, pergunte qual é o volume, qual é o período, qual era o valor anterior e quem mediu. Sem resposta, trate como ilustração."
+    },
+    {
+      "rotulo": "03 · DECISÃO",
+      "titulo": "Combine antes o que decide manter ou desligar",
+      "texto": "Defina a métrica e o valor que justificam seguir. Assim, desligar o agente é uma decisão sobre resultado, e não uma desistência por falta de prova."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "New Research Reveals 54% of Enterprises Have Abandoned Agentic AI Projects Due to Unclear Business Value",
+      "origem": "SnapLogic · comunicado via GlobeNewswire, n=1.000 · 17 nov 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/11/17/3404301/0/en/new-research-reveals-54-of-enterprises-have-abandoned-agentic-ai-projects-due-to-unclear-business-value.html"
+    },
+    {
+      "titulo": "79% of enterprises report AI agents in production, but only 15% have fully tied AI investment to P&L outcomes",
+      "origem": "Genpact · comunicado via PR Newswire, n>2.000 · 12 nov 2026",
+      "url": "https://www.prnewswire.com/news-releases/79-of-enterprises-report-ai-agents-in-production-but-only-15-have-fully-tied-ai-investment-to-pl-outcomes-302937385.html"
+    },
+    {
+      "titulo": "Como a Cielo usa agentes de IA para transformar reclamações de clientes em produtos em 12 dias",
+      "origem": "Exame · 18 nov 2026",
+      "url": "https://exame.com/tecnologia/como-a-cielo-usa-agentes-de-ia-para-transformar-reclamacoes-de-clientes-em-produtos-em-12-dias/"
+    },
+    {
+      "titulo": "Inter escolhe xAI como fornecedora da Seven, agente de IA do banco",
+      "origem": "Comenta · 15 nov 2026",
+      "url": "https://comenta.com.br/inter-xai-elon-musk-seven-agente-ia-banco/"
+    },
+    {
+      "titulo": "Centauro coloca 900 agentes de IA para trabalhar e resolve 60% dos chamados sem humanos",
+      "origem": "Exame · 11 nov 2026",
+      "url": "https://exame.com/inteligencia-artificial/centauro-coloca-900-agentes-de-ia-para-trabalhar-e-resolve-60-dos-chamados-sem-humanos/"
+    }
+  ],
+  "baseadoEm": [
+    "snaplogic-54-abandonaram-projetos-agentes-valor-incerto",
+    "genpact-79-agentes-producao-15-pl",
+    "cielo-agentes-discovery-produto-50-para-12-dias",
+    "inter-xai-seven-85-sem-humano",
+    "centauro-pos-venda-agentes-atendimento"
+  ]
+}
