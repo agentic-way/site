@@ -1,0 +1,55 @@
+{
+  "id": "startse-ia-nas-trincheiras-77-tempo-4-headcount",
+  "publicado_em": "2026-11-19T07:22:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "StartSe diz que 77% de 75 iniciativas de IA devolveram tempo à operação e só 4% mediram corte de equipe",
+  "linha": "Relatório da StartSe Consulting analisa 75 iniciativas em 22 empresas. A amostra são projetos da própria consultoria, não uma pesquisa representativa.",
+  "linhaFina": "Para a StartSe, 84% das iniciativas já têm valor comprovado ou retorno mensurável em curso, e decisão e direcionamento lideram os gargalos.",
+  "fontePrimaria": "StartSe Consulting",
+  "leitura": 3,
+  "resumo": [
+    "O relatório IA nas Trincheiras 2026 reúne 75 iniciativas em 22 empresas, com 78 agentes em 15 setores.",
+    "77% das iniciativas tiveram tempo devolvido à operação como retorno e 4% mediram corte de headcount.",
+    "84% (63 de 75) já têm valor comprovado ou retorno mensurável em curso; em sete casos, foram liberadas mais de 27 mil horas por ano, capacidade de cerca de 15 pessoas."
+  ],
+  "corpo": [
+    "A StartSe Consulting divulgou o relatório IA nas Trincheiras 2026, noticiado pelo TI Inside em 18 de novembro. A base é de 75 iniciativas em 22 empresas, com 78 agentes em 15 setores. Segundo a StartSe, cada caso parte de uma dor com custo conhecido, define a métrica antes de começar e vai a um comitê que decide se escala, pivota ou aguarda.",
+    "Os resultados: 77% das iniciativas tiveram tempo devolvido à operação, 4% mediram redução de quadro e 84% já têm valor comprovado ou retorno mensurável em curso. Somando sete casos, a StartSe fala em mais de 27 mil horas anuais liberadas, equivalentes à capacidade de cerca de 15 pessoas. Decisão e direcionamento lideram os gargalos, com 33%.",
+    "Matheus Garcia, Partner e Head de IA da StartSe Consulting, afirma que a principal dificuldade das empresas é incorporar a tecnologia aos fluxos existentes sem rever etapas, aprovações e responsabilidades. A StartSe propõe uma agenda de 120 dias para o planejamento orçamentário de 2027.",
+    "A página do relatório não informa o período da coleta nem a data de divulgação, e a StartSe diz que as bases de outros estudos têm definições distintas, por isso não trata os números como comparáveis."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · RETORNO",
+      "titulo": "O retorno citado é tempo, não demissão",
+      "texto": "Só 4% mediram corte de quadro. Para quem planeja orçamento, o ganho mais comum aqui é capacidade liberada, que só vira resultado se alguém decidir o que fazer com ela."
+    },
+    {
+      "rotulo": "02 · AMOSTRA",
+      "titulo": "São projetos selecionados, não o mercado",
+      "texto": "Os casos passaram por um processo da própria consultoria, com métrica definida antes. Empresas sem esse método tendem a ver resultados diferentes."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "A StartSe vende o serviço que descreve",
+      "texto": "O relatório mede o trabalho da consultoria e propõe uma agenda de 120 dias. Os números podem estar corretos e ainda assim favorecer quem os divulgou."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "IA nas Trincheiras 2026",
+      "origem": "StartSe Consulting · relatório",
+      "url": "https://pages.startse.com/ia-nas-trincheiras-2026"
+    },
+    {
+      "titulo": "77% dos projetos de IA geram ganho de tempo nas empresas, mas só 4% reduzem equipes",
+      "origem": "TI Inside · 18 nov 2026",
+      "url": "https://tiinside.com.br/18/11/2026/77-dos-projetos-de-ia-geram-ganho-de-tempo-nas-empresas-mas-so-4-reduzem-equipes/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "StartSe Consulting" },
+    { "rotulo": "Amostra", "valor": "75 iniciativas em 22 empresas, 78 agentes, 15 setores" },
+    { "rotulo": "Divulgação", "valor": "18 nov 2026 (data da matéria; a página do relatório não traz data)" }
+  ]
+}

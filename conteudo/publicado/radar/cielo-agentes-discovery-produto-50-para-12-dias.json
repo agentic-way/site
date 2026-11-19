@@ -1,0 +1,50 @@
+{
+  "id": "cielo-agentes-discovery-produto-50-para-12-dias",
+  "publicado_em": "2026-11-19T07:21:00-03:00",
+  "tema": "CASOS",
+  "titulo": "Cielo diz que agentes cortaram de 50,5 para 12,3 dias o tempo de desenvolvimento de funções, segundo a Exame",
+  "linha": "A Cielo usa agentes desde julho para preparar funcionalidades antes do desenvolvimento. Os números são da empresa e a metodologia não foi divulgada.",
+  "linhaFina": "A decisão sobre o que priorizar continua com o time de produto; os agentes reúnem sinais de clientes, propõem soluções e apontam lacunas.",
+  "fontePrimaria": "Cielo, via Exame",
+  "leitura": 3,
+  "resumo": [
+    "Desde julho de 2026, uma gerência de produtos da Cielo usa agentes para reunir sinais de clientes e checar se cada projeto está pronto para desenvolvimento.",
+    "A empresa informa que o tempo médio de desenvolvimento caiu de 50,5 para 12,3 dias em mais de 20 iniciativas, e a mediana, de 39 para 12 dias.",
+    "Os números são informados pela própria Cielo; a reportagem não identifica medição independente."
+  ],
+  "corpo": [
+    "Segundo reportagem da Exame de 18 de novembro, a Cielo usa agentes de IA em uma gerência de produtos desde julho de 2026. Eles reúnem sinais de pesquisas de satisfação, do atendimento e do uso dos produtos, propõem soluções, ajudam a montar protótipos e verificam se cada projeto tem evidências, regras de negócio, protótipo, critérios de pronto e plano de acompanhamento depois do lançamento. Quando algo falta, indicam o que é e a gravidade da lacuna. Um Assistente de Discovery coordena os demais agentes.",
+    "A Cielo informa que o tempo médio de desenvolvimento caiu de 50,5 para 12,3 dias, redução de 76%, e a mediana passou de 39 para 12 dias, em mais de 20 iniciativas. No histórico da empresa, 51,2% das demandas passavam mais de 30 dias na etapa anterior ao desenvolvimento e 23,3% ultrapassavam 45 dias; depois da adoção, nenhuma iniciativa acompanhada ficou acima de 30 dias.",
+    "Entre os exemplos, a devolução de Pix no Cielo Gestão ficou pronta em menos de uma semana, e a nova versão do Assistente Cielo para antecipação de recebíveis saiu em menos de 30 dias; a empresa diz que o volume antecipado por esse canal dobrou, sem informar valores nem o período da comparação.",
+    "A Exame registra ressalvas: não há datas da base histórica nem marcos exatos da medição, o processo vale para uma gerência e não para a empresa toda, e a decisão de priorização segue com o time de produto. Designers revisam os protótipos iniciais e a equipe de dados participa da definição de métricas desde o planejamento. Carlos Alves, vice-presidente de Tecnologia e Negócios, afirma que o ganho veio de redesenhar a preparação das decisões de produto."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ONDE",
+      "titulo": "O ganho está na etapa anterior ao código",
+      "texto": "O caso mede a preparação da demanda, não a programação. Para empresas médias, o equivalente é olhar onde as solicitações ficam paradas antes de começar."
+    },
+    {
+      "rotulo": "02 · PROCESSO",
+      "titulo": "O agente verifica uma lista de exigências fixa",
+      "texto": "Evidências, regras, protótipo, critério de pronto e plano de resultado funcionam como checklist. O ganho descrito vem tanto dessa disciplina quanto do agente."
+    },
+    {
+      "rotulo": "03 · MEDIDA",
+      "titulo": "Sem metodologia, o 76% é um número da empresa",
+      "texto": "Sem a base histórica e o período, não dá para saber se as iniciativas comparadas têm o mesmo tamanho. Trate o dado como indicação."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Como a Cielo usa agentes de IA para transformar reclamações de clientes em produtos em 12 dias",
+      "origem": "Exame · 18 nov 2026",
+      "url": "https://exame.com/tecnologia/como-a-cielo-usa-agentes-de-ia-para-transformar-reclamacoes-de-clientes-em-produtos-em-12-dias/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "a própria Cielo; metodologia não divulgada" },
+    { "rotulo": "Escopo", "valor": "mais de 20 iniciativas de uma gerência de produtos" },
+    { "rotulo": "Divulgação", "valor": "18 nov 2026" }
+  ]
+}

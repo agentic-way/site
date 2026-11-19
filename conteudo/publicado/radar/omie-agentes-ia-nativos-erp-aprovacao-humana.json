@@ -1,0 +1,58 @@
+{
+  "id": "omie-agentes-ia-nativos-erp-aprovacao-humana",
+  "publicado_em": "2026-11-19T07:20:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Omie coloca agentes de IA dentro do ERP, com aprovação do usuário antes de cada automação rodar",
+  "linha": "Os agentes da Omie consultam dados, executam tarefas e criam rotinas em linguagem natural, seguindo as permissões de cada usuário. A empresa diz que não há custo adicional no ERP.",
+  "linhaFina": "Segundo a própria Omie, a automação só passa a funcionar depois que o usuário revisa e aprova o resumo do fluxo, e toda ação que altera dados pede confirmação.",
+  "fontePrimaria": "Omie",
+  "leitura": 3,
+  "resumo": [
+    "A Omie lançou agentes de IA embarcados no ERP, acessados pelo ícone de IA no canto superior direito e pelo aplicativo.",
+    "Há agentes por módulo (Finanças, Vendas, CRM, Compras/Estoque/Produção, Serviços e Fiscal) e um Agente de Gestão que analisa a operação como um todo.",
+    "O usuário descreve uma rotina em linguagem natural, como cobrar toda semana os clientes em atraso, e a automação só roda depois da aprovação do resumo do fluxo."
+  ],
+  "corpo": [
+    "A Omie, fornecedora de ERP para pequenas e médias empresas, publicou em 17 de novembro em seu blog a descrição dos agentes de IA do sistema. Segundo o texto, são assistentes dentro do ERP que consultam dados da empresa, executam tarefas e automatizam rotinas, e vão além de um chatbot porque interpretam pedidos e executam ações no sistema. A Business Moment noticiou o lançamento em 18 de novembro, a partir de comunicado da empresa.",
+    "Os agentes de automação são criados em linguagem natural. O exemplo dado pela Omie é a cobrança semanal de clientes em atraso. Antes de cadastrar a automação, a IA apresenta um resumo para revisão e aprovação; quando uma ação altera dados ou envia informações, o sistema pede confirmação. A automação pode ser pausada.",
+    "Sobre controle, a Omie afirma que os agentes seguem as permissões de cada usuário e trabalham com um CNPJ por vez. O painel \"Meus agentes\" guarda o histórico de execuções dos últimos 30 dias, e \"Conversas\" guarda o histórico dos chats com a IA.",
+    "O texto do blog não define planos ou valores específicos para os agentes e, na comparação com o conector MCP da empresa, indica que eles não têm custo adicional no ERP. Nenhuma das duas fontes informa data de disponibilidade para todos os clientes. Este é um lançamento distinto do conector MCP que opera o ERP pelo ChatGPT, Claude e Grok, noticiado no Radar em 15 de novembro."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CONTROLE",
+      "titulo": "A aprovação antes de rodar é o desenho que mais importa",
+      "texto": "Uma rotina de cobrança que dispara sozinha toda semana mexe com cliente e com caixa. O fato de a Omie exigir aprovação do fluxo e confirmação das ações que alteram dados é o ponto a conferir em qualquer agente de ERP."
+    },
+    {
+      "rotulo": "02 · PERMISSÃO",
+      "titulo": "O agente herda o acesso de quem o usa",
+      "texto": "Se o perfil do usuário já está mal configurado, o agente herda o excesso. Vale revisar quem pode baixar títulos e atualizar cadastros antes de liberar o recurso."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Tudo o que se sabe vem da Omie",
+      "texto": "As funções e os limites descritos são da fornecedora; não há teste independente nem informação de disponibilidade. Confirme com a Omie o que já está liberado para o seu plano."
+    }
+  ],
+  "oQueFazer": [
+    "Quem usa o Omie pode pedir ao suporte a situação de liberação para sua conta e, ao testar, começar por consultas e relatórios antes de ativar automações que enviem mensagens a clientes."
+  ],
+  "fontes": [
+    {
+      "titulo": "Agentes de IA da Omie",
+      "origem": "Omie · blog · 17 nov 2026",
+      "url": "https://www.omie.com.br/blog/agentes-de-ia-omie"
+    },
+    {
+      "titulo": "Omie lança Agentes de IA nativos no ERP para automatizar rotinas operacionais de PMEs",
+      "origem": "Business Moment · 18 nov 2026",
+      "url": "https://businessmoment.com.br/omie-lanca-agentes-de-ia-nativos-no-erp-para-automatizar-rotinas-operacionais-de-pmes/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Divulgação", "valor": "17 nov 2026" },
+    { "rotulo": "Disponibilidade", "valor": "não informada nas fontes" },
+    { "rotulo": "Preço", "valor": "sem custo adicional no ERP, segundo a Omie" }
+  ]
+}
