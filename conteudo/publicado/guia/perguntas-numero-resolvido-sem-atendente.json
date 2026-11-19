@@ -1,8 +1,8 @@
 {
   "id": "perguntas-numero-resolvido-sem-atendente",
   "publicado_em": "2026-11-18T08:00:00-03:00",
-  "atualizado_em": "2026-11-18T08:00:00-03:00",
-  "versao": "1.0",
+  "atualizado_em": "2026-11-19T07:50:00-03:00",
+  "versao": "1.1",
   "assunto": "MEDIÇÃO",
   "formato": "PERGUNTAS",
   "titulo": "Sete perguntas para ler o número de \"resolvido sem atendente\" que o fornecedor mostra",
@@ -11,12 +11,12 @@
   "leitura": 6,
   "paraQuem": "Quem avalia ou renova um agente de atendimento e ouve que ele \"resolve 70%\" ou \"até 80%\": diretor de operações, de atendimento, de tecnologia ou financeiro. Não é preciso conhecer o sistema; basta saber qual indicador o fornecedor está mostrando.",
   "comoUsar": "Leve as perguntas à reunião em que o número for apresentado e peça as respostas por escrito. Se o fornecedor não souber responder a alguma, anote em branco: a lacuna também é informação. Depois use a coluna de anotações para comparar com a sua operação e com outras propostas.",
-  "abertura": "Em novembro, a Centauro disse à Exame que agentes resolvem mais de 60% dos chamados de pós-venda no aplicativo sem atendente. A Genesys diz que 84% dos clientes do autoatendimento da Riachuelo no WhatsApp resolvem sem funcionário. O Grupo Boticário, em estudo de caso da OpenAI, fala em até 80% dos pedidos operacionais das revendedoras. São três números parecidos, medidos por quem tem interesse em mostrá-los, e as fontes não detalham como cada um foi calculado. Um deles foi medido só no aplicativo, outro é um teto. Antes de usar uma taxa dessas para decidir compra, renovação ou meta, vale saber o que ela conta.",
+  "abertura": "Em novembro, a Centauro disse à Exame que agentes resolvem mais de 60% dos chamados de pós-venda no aplicativo sem atendente. A Genesys diz, em comunicado, que 84% dos clientes que usam o autoatendimento da Riachuelo no WhatsApp resolvem a demanda sem a ajuda de um funcionário; no estudo de caso, a mesma empresa escreve que o agente mantém 84% das interações no autoatendimento. O Grupo Boticário, em estudo de caso da OpenAI, fala em até 80% dos pedidos operacionais das revendedoras. São três números parecidos, medidos por quem tem interesse em mostrá-los, e as fontes não detalham como cada um foi calculado. Um deles foi medido só no aplicativo, outro é um teto. Antes de usar uma taxa dessas para decidir compra, renovação ou meta, vale saber o que ela conta.",
   "itens": [
     {
       "curta": "O que é resolvido",
       "pergunta": "Em que momento o atendimento passa a contar como resolvido?",
-      "porque": "A Centauro explicou à Exame que conta como resolvido o chamado em que o agente atende à solicitação e conclui sem encaminhar a uma pessoa. As fontes sobre Riachuelo e Boticário não dizem se o cliente que desistiu, ou que voltou no dia seguinte, entra na conta. Sem a definição, duas taxas iguais podem medir coisas diferentes.",
+      "porque": "A Centauro explicou à Exame que conta como resolvido o chamado em que o agente atende à solicitação e conclui sem encaminhar a uma pessoa. A Genesys descreve os 84% da Riachuelo de dois jeitos: clientes que resolvem a demanda, no comunicado, e interações mantidas no autoatendimento, no estudo de caso. As fontes sobre Riachuelo e Boticário não dizem se o cliente que desistiu, ou que voltou no dia seguinte, entra na conta. Sem a definição, duas taxas iguais podem medir coisas diferentes.",
       "boa": "Definição escrita: quem entra no denominador, o que fecha o atendimento e como se trata o cliente que abandona a conversa.",
       "ruim": "\"Resolvido\" sem definição, ou uma definição que só diz que a conversa não foi transferida.",
       "anote": "A definição, com as palavras do fornecedor, e se o cliente que abandona conta como resolvido."
@@ -32,7 +32,7 @@
     {
       "curta": "Canal e tipo de pedido",
       "pergunta": "A taxa vale para qual canal e para quais tipos de pedido?",
-      "porque": "A Centauro disse que os 60% valem só para o aplicativo, não para site, WhatsApp ou lojas. No Boticário, a taxa se refere a pedidos operacionais do dia a dia, como segunda via de boleto e envio de catálogo, e a conversa passa a uma pessoa quando a revendedora quer fechar um pedido. Pedido simples resolve mais fácil que reclamação.",
+      "porque": "A Centauro disse que os 60% valem só para o aplicativo, não para site, WhatsApp ou lojas. No Boticário, a taxa se refere a pedidos operacionais do dia a dia das revendedoras, como envio de catálogo e dúvidas sobre boleto e aplicativo. A passagem para uma pessoa que a fonte descreve acontece em outra etapa, a captação de novas revendedoras, quando a interessada quer fazer um pedido. Pedido simples resolve mais fácil que reclamação.",
       "boa": "Taxa separada por canal e pelos cinco tipos de pedido mais frequentes, com o volume de cada um.",
       "ruim": "Uma taxa única para \"o atendimento\", sem dizer quais canais e pedidos entram.",
       "anote": "Canais e tipos de pedido incluídos e excluídos, com o volume de cada um."
@@ -72,7 +72,16 @@
   ],
   "fechamento": "Monte uma linha por proposta, com definição de resolvido, período, canal, taxa anterior, recontato e custo por atendimento resolvido. Onde o fornecedor não respondeu, deixe a célula vazia e peça um teste curto no seu próprio atendimento, com a definição combinada por escrito antes de começar. Se a diretoria vai usar a taxa como meta, comece pela pergunta 1: a meta vale o que a definição vale.",
   "historico": [
-    {"data": "nov/2026", "versao": "1.0", "texto": "Publicação. Parte dos casos de Na Operação sobre Centauro, Grupo Boticário e Riachuelo."}
+    {
+      "data": "nov/2026",
+      "versao": "1.1",
+      "texto": "Correção. A passagem para uma pessoa no Grupo Boticário acontece na captação de novas revendedoras, não no suporte do dia a dia, como a versão 1.0 dizia. O número da Riachuelo passa a trazer as duas formulações da Genesys: clientes que resolvem a demanda, no comunicado, e interações mantidas no autoatendimento, no estudo de caso. O comunicado entrou nas fontes."
+    },
+    {
+      "data": "nov/2026",
+      "versao": "1.0",
+      "texto": "Publicação. Parte dos casos de Na Operação sobre Centauro, Grupo Boticário e Riachuelo."
+    }
   ],
   "fontes": [
     {
@@ -89,6 +98,11 @@
       "titulo": "Riachuelo aumenta a satisfação dos clientes em 60% com IA Agêntica",
       "origem": "Genesys · estudo de caso",
       "url": "https://www.genesys.com/pt-br/customer-stories/riachuelo"
+    },
+    {
+      "titulo": "Riachuelo avança na experiência autônoma do cliente com o Genesys Cloud Agentic Virtual Agent",
+      "origem": "Genesys · comunicado · 29 set 2026",
+      "url": "https://www.genesys.com/pt-br/company/newsroom/announcements/riachuelo-advances-autonomous-customer-experience-with-genesys-cloud-agentic-virtual-agent"
     }
   ]
 }
