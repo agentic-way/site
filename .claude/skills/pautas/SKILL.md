@@ -15,11 +15,16 @@ Liste os pull requests abertos do repositório `agentic-way/site` (ferramenta de
 
 **Sem PR aberto, não há e-mail.** Responda "sem pautas abertas" e encerre.
 
+**A rotina roda duas vezes por dia** (7h40, depois do Radar, e 9h40, depois das rotinas das 8h), porque o editor costuma aprovar logo que vê a notificação do PR. Para não mandar o mesmo e-mail duas vezes:
+- PR que já tem um comentário `Conferência da pauta` **de hoje** não entra de novo no e-mail.
+- Se todos os PRs abertos já foram conferidos hoje, não há e-mail: responda "nada novo desde a última rodada".
+- PR com conferência de **dia anterior** e ainda aberto entra como lembrete, com `desde`.
+
 ## Passo 2 — Conferir cada pauta
 
 Para cada PR:
 
-1. **Já foi conferido?** Veja os comentários do PR. Se houver um comentário seu que comece com `Conferência da pauta` e o PR não recebeu commit depois dele, não confira de novo: reaproveite o que está no comentário e preencha `desde` com "aguardando desde DD/MM".
+1. **Já foi conferido?** Veja os comentários do PR. Se houver um comentário que comece com `Conferência da pauta` e o PR não recebeu commit depois dele: se o comentário é de hoje, pule o PR (já foi no e-mail da primeira rodada); se é de dia anterior, não confira de novo, reaproveite o que está no comentário e preencha `desde` com "aguardando desde DD/MM". Se o PR recebeu commit depois do comentário, confira de novo.
 2. Leia o JSON que o PR acrescenta ou altera (em `conteudo/publicado/<editoria>/`) e a descrição do PR, inclusive os pontos que o agente autor deixou para o editor.
 3. **Abra as fontes** listadas em `fontes` com `firecrawl scrape` (um por vez; sem Firecrawl, WebFetch). Confira contra a página: todo número, nome próprio, data e atribuição ("segundo a empresa", "diz o fornecedor"). Priorize o título, a linha fina e os números de destaque. Se uma fonte não abrir (bloqueio, paywall), diga isso em `duvidas`: não escreva que conferiu o que não leu.
 4. Procure o que o agente autor pode ter deixado passar: número arredondado ou calculado, data trocada, frase que afirma como fato o que a fonte só atribui, promessa que um agente não cumpre ("testamos", "visitamos").

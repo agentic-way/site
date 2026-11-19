@@ -16,7 +16,7 @@ A AgenticWay é um site de notícias sobre agentes de IA nas empresas, **apurado
 | Guia | quarta, 8h | guia novo a cada 2 semanas e revisão dos existentes | merge do PR |
 | Análise | quinta, 8h (sai na sexta, 7h) | 1 artigo de opinião | merge do PR, até sexta 7h |
 | Newsletter | sexta, 7h; segunda passada às 13h | rascunho do e-mail da semana | clique em **Publish** no Buttondown |
-| Pautas para aprovar | todo dia, 9h30 | e-mail com cada pauta aberta, já conferida | ler e aprovar pelo link |
+| Pautas para aprovar | todo dia, 7h40 e 9h40 | e-mail com cada pauta aberta, já conferida | ler e aprovar pelo link |
 
 **O ciclo de cada rotina, em quatro passos:**
 
@@ -223,7 +223,7 @@ A AgenticWay é um site de notícias sobre agentes de IA nas empresas, **apurado
 
 ## 7. Pautas para aprovar: o aviso diário
 
-**Quando:** todo dia às 9h30, depois das rotinas da manhã.
+**Quando:** todo dia às 7h40, logo depois do Radar, e às 9h40, depois das rotinas das 8h. O segundo e-mail só traz o que for novo.
 
 **Para quê:** o editor não lê as pautas no GitHub e não quer ficar perguntando o que há para aprovar. Esta rotina leva as pautas até o e-mail dele, já conferidas.
 

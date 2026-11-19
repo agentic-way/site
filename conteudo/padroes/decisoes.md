@@ -23,7 +23,7 @@ Registro das decisões tomadas e do porquê, para valer em situações semelhant
 | Análise | 1 opinião por semana, tese a partir do que saiu na semana | quinta 8h (`0 11 * * 4`; era 17h até 17/nov/2026), publica na sexta 7h | `/analise` |
 | Ferramentas | 1 comparativo ou avaliação a cada 2 semanas, seis critérios fixos, marcas documentado / com ressalva / não documentado, cada uma com fonte; nunca teste próprio | terça 8h (`0 11 * * 2`); `situacao.py` decide se é semana | `/ferramentas` |
 | Newsletter | resumo da semana (3–5 fatos do Radar, 1 caso, 1 opinião, até 4 "também no site"); só o que já foi publicado, números conferidos contra o item; rascunho no Buttondown, o editor envia | sexta 7h (`0 10 * * 5`) e segunda passada às 13h (`0 16 * * 5`) | `/newsletter` |
-| Pautas para aprovar | e-mail só para o editor: cada PR aberto conferido nas fontes, com resumo, pontos de atenção, prévia e link para aprovar; sem PR, sem e-mail | todo dia 9h30 (`30 12 * * *`) | `/pautas` |
+| Pautas para aprovar | e-mail só para o editor: cada PR aberto conferido nas fontes, com resumo, pontos de atenção, prévia e link para aprovar; sem PR, sem e-mail | todo dia 7h40 e 9h40 (`40 10,12 * * *`; era só 9h30 até 19/nov/2026) | `/pautas` |
 
 - **Toda rotina abre PR; nunca faz merge nem push no `main`.** O merge é a aprovação do editor.
 - **Rodada sem material bom não abre PR** ("rodada sem notas", "semana sem caso"…). Melhor nenhum do que fraco.
@@ -46,6 +46,8 @@ Registro das decisões tomadas e do porquê, para valer em situações semelhant
 - **E-mails internos saem pelo Buttondown** (`scripts/email_editor.py`): rascunho, `send-draft` só para os endereços do editor, rascunho apagado. Chegam com "[PREVIEW]" no assunto. *Por quê:* não exige conta nova; a alternativa registrada continua sendo um serviço que só escreve para o dono.
 - **Aprovar continua sendo o merge.** O e-mail leva ao PR no GitHub. Aprovar respondendo ao e-mail exigiria dar a uma rotina acesso à caixa de entrada do editor, o que foi evitado de propósito.
 - **Claude só faz merge quando o editor pede com todas as letras** ("pode fazer o merge"); o sistema de permissões bloqueia o contrário.
+
+- **Pautas em duas rodadas, 7h40 e 9h40 (19/nov/2026).** O editor recebe a notificação do PR e aprova logo; em 18/nov o guia novo entrou no ar antes de ele ver a conferência, que pedia correção (virou a v1.1 no dia seguinte). A primeira rodada pega o Radar das 7h; a segunda, as rotinas das 8h. PR conferido no mesmo dia não se repete no segundo e-mail.
 
 ## 3. Arquitetura do site
 
