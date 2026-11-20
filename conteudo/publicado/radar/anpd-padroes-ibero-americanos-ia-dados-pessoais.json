@@ -1,0 +1,62 @@
+{
+  "id": "anpd-padroes-ibero-americanos-ia-dados-pessoais",
+  "publicado_em": "2026-11-20T07:11:00-03:00",
+  "tema": "REGULAÇÃO",
+  "titulo": "Rede de autoridades de dados presidida pela ANPD aprova padrões para uso de dados pessoais em sistemas de IA, incluindo IA agêntica",
+  "linha": "Os Padrões Ibero-Americanos são orientativos, não têm força de lei, mas indicam o que reguladores vão cobrar: transparência, supervisão humana e avaliação de impacto.",
+  "linhaFina": "A Rede Ibero-Americana de Proteção de Dados aprovou o documento por unanimidade. O texto está em espanhol.",
+  "fontePrimaria": "ANPD / Rede Ibero-Americana de Proteção de Dados",
+  "leitura": 3,
+  "resumo": [
+    "A Rede Ibero-Americana de Proteção de Dados (RIPD), presidida pela ANPD no biênio 2025-2027, aprovou por unanimidade padrões sobre o uso de dados pessoais em sistemas de IA.",
+    "O documento tem caráter orientador e complementar. Traz orientações específicas para IA generativa e agêntica, decisões automatizadas e supervisão humana.",
+    "Dado pessoal disponível publicamente não autoriza, por si só, o uso para desenvolver ou treinar sistemas de IA."
+  ],
+  "corpo": [
+    "Segundo a ANPD, que divulgou a aprovação em 18 de novembro, os Padrões Ibero-Americanos sobre o Uso de Dados Pessoais em Sistemas de Inteligência Artificial buscam uma aplicação harmonizada da proteção de dados na região, com abordagem baseada em risco, proporcionalidade, responsabilidade e neutralidade tecnológica. O documento está disponível em espanhol.",
+    "Entre os pontos tratados estão limitação de finalidades, minimização de dados, transparência, explicabilidade e proteção dos dados inferidos. Sobre transparência, os padrões dizem que não basta informar de forma genérica que a organização usa IA: o titular deve receber informação compreensível sobre a finalidade do sistema, as categorias e origens dos dados, o grau de intervenção humana e as consequências possíveis, com explicação significativa dos fatores que influenciaram o resultado quando necessário.",
+    "O texto também traz orientações para IA generativa e agêntica, biometria, reconhecimento de emoções, neurodados e sistemas de avaliação, seleção ou priorização de pessoas, além de governança algorítmica, avaliação de impacto, supervisão humana, segurança, resposta a incidentes e responsabilidades na cadeia de valor.",
+    "O trabalho foi financiado pela União Europeia, em colaboração com a FIAP, no âmbito da Aliança Digital UE-ALC. Os padrões são de caráter orientador: não criam obrigação legal nova no Brasil."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · REFERÊNCIA",
+      "titulo": "Um roteiro do que o regulador tende a perguntar",
+      "texto": "Mesmo sem força de lei, o documento é assinado por autoridades de dados, a ANPD entre elas. Serve de checklist para quem usa agentes com dados de clientes ou candidatos."
+    },
+    {
+      "rotulo": "02 · TRANSPARÊNCIA",
+      "titulo": "Aviso genérico de \"usamos IA\" não basta",
+      "texto": "O padrão pede finalidade, origem dos dados e grau de intervenção humana. Quem opera agente de atendimento ou triagem precisa saber responder a isso."
+    },
+    {
+      "rotulo": "03 · LIMITE",
+      "titulo": "Orientação não é norma",
+      "texto": "A ANPD não informa prazo para transformar o texto em regra brasileira. O que vale hoje continua sendo a LGPD."
+    }
+  ],
+  "oQueFazer": [
+    "Para empresas com agentes que tocam dados pessoais, vale mapear quais decisões o agente toma, que dados usa e onde há revisão humana, porque são os itens que os padrões listam."
+  ],
+  "fontes": [
+    {
+      "titulo": "Rede Ibero-Americana de Proteção de Dados, presidida pela ANPD, aprova padrões para uso de IA",
+      "origem": "ANPD · notícia · 18 nov 2026",
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/noticias/rede-ibero-americana-de-protecao-de-dados-presidida-pela-anpd-aprova-padroes-para-uso-de-ia"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem aprovou",
+      "valor": "Rede Ibero-Americana de Proteção de Dados (RIPD), por unanimidade"
+    },
+    {
+      "rotulo": "Natureza",
+      "valor": "orientador e complementar, sem força de lei"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "18 nov 2026"
+    }
+  ]
+}
