@@ -1,0 +1,53 @@
+{
+  "id": "postman-25-agentes-producao-13-apis-prontas",
+  "publicado_em": "2026-11-21T07:16:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Postman diz que 25% das organizações já rodam agentes em produção via APIs, mas só 13% veem suas APIs prontas para eles",
+  "linha": "Relatório anual da Postman, com mais de 8.900 desenvolvedores e profissionais de API: 25% têm agentes que usam APIs em produção, 13% dizem estar totalmente prontas e 40% não trataram credenciais e identidade de agentes.",
+  "linhaFina": "O 8º State of the API Report mede a distância entre adotar agentes e preparar os sistemas que eles acessam. A Postman vende plataforma de APIs.",
+  "fontePrimaria": "Postman",
+  "leitura": 3,
+  "resumo": [
+    "25% das organizações ouvidas rodam em produção agentes que usam APIs, mas só 13% dizem que suas APIs estão totalmente preparadas para isso.",
+    "Só 25% têm controles de segurança específicos para agentes e 22% para MCP; 40% não trataram credenciais e identidade de agentes.",
+    "56% experimentam ou usam MCP, e 24% já o usam em produção."
+  ],
+  "corpo": [
+    "A Postman, plataforma de APIs, divulgou em 18 de novembro a 8ª edição do State of the API Report, com mais de 8.900 desenvolvedores e profissionais de API. O público é técnico e a pesquisa não é restrita ao Brasil.",
+    "A conclusão central é a diferença entre adoção e preparo: 25% das organizações rodam agentes que usam APIs em produção, enquanto 13% afirmam ter APIs totalmente prontas para agentes. Organizações totalmente orientadas a API têm 2,6 vezes mais chance de rodar agentes em produção (43% contra 17%) e 4,1 vezes mais chance de ter APIs prontas (31% contra 8%).",
+    "Na segurança, 44% têm controles dedicados para APIs, mas só 25% para agentes e 22% para MCP, o protocolo que conecta agentes a ferramentas; 40% não trataram credenciais e identidade de agentes. 38% ainda não permitiram que agentes descubram as APIs disponíveis.",
+    "Os dados da própria plataforma indicam o que agentes fazem na prática: as requisições de agentes via servidor MCP da Postman cresceram 3,3 vezes entre maio e outubro de 2026, para mais de 2 milhões por mês, e 51% das chamadas criam ou alteram recursos, contra 46% que só leem."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · SISTEMAS",
+      "titulo": "O gargalo do agente costuma estar nos sistemas que ele acessa",
+      "texto": "Se o ERP ou o CRM não expõem conectores documentados e com permissão por função, o agente depende de gambiarra. A pergunta de integração pesa tanto quanto a de modelo."
+    },
+    {
+      "rotulo": "02 · IDENTIDADE",
+      "titulo": "Credencial de agente é tema de TI, não do fornecedor",
+      "texto": "40% não trataram o assunto. Defina um acesso próprio para cada agente, com o mínimo de permissão."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem mediu vende a ferramenta",
+      "texto": "A Postman vende plataforma de APIs, e a amostra é de desenvolvedores, não de decisores. Os números mostram a visão de quem opera as APIs, não o resultado de negócio."
+    }
+  ],
+  "oQueFazer": [
+    "Para o gerente de TI: antes de conectar um agente a um sistema, confirme se ele tem API documentada, controle de acesso por função e registro das chamadas."
+  ],
+  "fontes": [
+    {
+      "titulo": "One in Four Organizations Now Run AI Agents on APIs in Production, Postman's 2026 State of the API Report Finds",
+      "origem": "Postman · comunicado · 18 nov 2026",
+      "url": "https://www.businesswire.com/news/home/20261118374573/en/One-in-Four-Organizations-Now-Run-AI-Agents-on-APIs-in-Production-Postmans-2026-State-of-the-API-Report-Finds"
+    }
+  ],
+  "ficha": [
+    {"rotulo": "Quem mediu", "valor": "Postman"},
+    {"rotulo": "Amostra", "valor": "mais de 8.900 desenvolvedores e profissionais de API"},
+    {"rotulo": "Divulgação", "valor": "18 nov 2026"}
+  ]
+}
