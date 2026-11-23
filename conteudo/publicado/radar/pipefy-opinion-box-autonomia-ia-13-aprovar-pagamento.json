@@ -1,0 +1,59 @@
+{
+  "id": "pipefy-opinion-box-autonomia-ia-13-aprovar-pagamento",
+  "publicado_em": "2026-11-22T10:20:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Pesquisa da Pipefy com a Opinion Box: só 13% dos líderes deixariam a IA aprovar custo ou pagamento sem revisão prévia",
+  "linha": "Entre 449 líderes brasileiros, 36% dos que já usam IA têm agentes que executam ações sozinhos. Para aprovar pagamento, 62% querem que a IA prepare e uma pessoa decida.",
+  "linhaFina": "O levantamento ouviu 449 profissionais que lideram ao menos uma pessoa, de bancos, seguradoras, serviços financeiros e de áreas como compras, vendas e atendimento. 46% não permitiriam que a IA aprovasse nenhum valor.",
+  "fontePrimaria": "Pipefy / Opinion Box",
+  "leitura": 3,
+  "resumo": [
+    "Entre os líderes que já experimentaram IA, 36% relatam ao menos um uso em que ela executa ações sozinha; 64% usam só como apoio, com participação humana.",
+    "Para aprovar custo ou pagamento, 13% deixariam a IA agir sozinha e 62% preferem que ela prepare ou sugira e uma pessoa aprove antes. Para classificar demandas, o índice dos que deixariam agir sozinha é 25%; para conferir documentos, 22%.",
+    "46% não permitiriam que a IA aprovasse nenhum valor. Entre quem já usa agentes, 64% aceitariam delegar algum valor."
+  ],
+  "corpo": [
+    "A Pipefy, empresa de automação de processos, apresentou o levantamento \"IA e os limites da autonomia\", feito com a Opinion Box, em 18 de novembro, no Pipefy AI Awards, em São Paulo, segundo a Revista Apólice. O material de resultados da pesquisa está datado de outubro. Foram 449 entrevistas online entre 14 de setembro e 5 de outubro de 2026, com margem de erro de 4,6 pontos percentuais e intervalo de confiança de 95%. A amostra reúne líderes de bancos, seguradoras e serviços financeiros e profissionais de RH, financeiro, compras, comercial, marketing e atendimento de empresas de todos os portes.",
+    "Sobre o uso: 70% dos líderes dizem que suas áreas usam IA no dia a dia, mas 39% do total relatam uso em poucos processos. Entre os que já experimentaram a tecnologia, escrever ou revisar textos e pesquisar informações são as aplicações mais citadas (54% cada). Conferir documentos de forma autônoma aparece em 15% das respostas; aprovar ou negar solicitações, em 6%.",
+    "Sobre os limites: perguntados até onde a IA poderia ir em cada etapa, 62% escolheram \"IA prepara ou propõe, humano aprova antes\" para aprovar custo ou pagamento, e 13% aceitariam que ela agisse sozinha. Nas demais etapas, o percentual dos que deixariam a IA agir sozinha é de 17% para resolver exceções, 22% para conferir documentos, 25% para receber e classificar demandas e 26% para se comunicar com clientes ou fornecedores. Sobre valor, 46% não permitiriam aprovar nenhum, 35% aceitariam até R$ 10 mil e 12% aceitariam acima disso.",
+    "O que destrava a autonomia, segundo os entrevistados, é mais controle do que prova de desempenho: 57% citam mecanismos de controle (agir dentro de limites, escalar dúvidas, manter registro, permitir desfazer) e 22%, evidência de performance. Quando a IA ajusta os próprios critérios, 85% ainda exigem algum tipo de aprovação ou revisão humana. Sobre responsabilidade por um erro de IA autorizada, nenhuma opção reúne sequer um quarto das respostas."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ALÇADA",
+      "titulo": "Pagamento é a etapa em que o humano fica por último",
+      "texto": "Quem desenha um fluxo com agente tende a encontrar a mesma fronteira: a IA pode preparar a aprovação, e a decisão final de custo continua com uma pessoa."
+    },
+    {
+      "rotulo": "02 · CONTROLE",
+      "titulo": "Limite, registro e desfazer pesam mais do que taxa de acerto",
+      "texto": "Na pesquisa, os mecanismos de controle são citados mais de duas vezes mais do que a evidência de desempenho como condição para autorizar a IA a agir. Vale checar se a ferramenta em avaliação oferece esses itens."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem mediu vende a ferramenta",
+      "texto": "A Pipefy vende automação de processos com agentes. A amostra é de painel online, com 449 pessoas, e mistura setores e portes, então serve de termômetro de percepção, não de medida do que as empresas fazem."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem está desenhando o primeiro fluxo com agente, os números sugerem começar pelas etapas em que a abertura é maior, como triagem e conferência de documentos, e manter a aprovação de pagamento com uma pessoa, definindo desde o início quem responde quando algo der errado."
+  ],
+  "fontes": [
+    {
+      "titulo": "IA e os limites da autonomia: principais insights (out/2026)",
+      "origem": "Pipefy / Opinion Box · relatório em PDF",
+      "url": "https://go.pipefy.com/hubfs/Principais%20Insights_Pipefy_IA%20e%20os%20limites%20da%20autonomia%20_Out26__20261015.pdf"
+    },
+    {
+      "titulo": "Pesquisa mostra até onde líderes delegam à IA",
+      "origem": "Revista Apólice · 19 nov 2026",
+      "url": "https://revistaapolice.com.br/2026/11/pesquisa-mostra-ate-onde-lideres-delegam-a-ia/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Pipefy, com a Opinion Box" },
+    { "rotulo": "Amostra", "valor": "449 líderes no Brasil, entrevistas online, margem de erro de 4,6 pp" },
+    { "rotulo": "Campo", "valor": "14 de setembro a 5 de outubro de 2026" },
+    { "rotulo": "Divulgação", "valor": "18 nov 2026" }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "microsoft-agent-365-business-analytics-custo-valor-ia",
+  "publicado_em": "2026-11-22T10:25:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Microsoft lança o Agent 365 Business Analytics, painel de gasto e valor de IA, em acesso antecipado",
+  "linha": "O painel mostra o gasto com IA por agente, modelo e usuário e estima o valor em horas assistidas. Começa no programa Frontier e exige 50 licenças do Microsoft 365 Copilot no lançamento.",
+  "linhaFina": "A Microsoft diz que a estimativa de valor usa a base ocupacional O*NET, do governo dos EUA, e que as horas assistidas não medem tempo economizado nem retorno financeiro.",
+  "fontePrimaria": "Microsoft",
+  "leitura": 3,
+  "resumo": [
+    "A Microsoft apresentou o Agent 365 Business Analytics, que reúne gasto, uso e valor da IA e começa a ser disponibilizado no programa Frontier.",
+    "No lançamento, as análises de serviços da Microsoft ficam disponíveis para locatários com ao menos 50 licenças do Microsoft 365 Copilot; a ampliação para uma ou mais licenças está prevista até meados de dezembro.",
+    "A análise de serviços de IA de outros fornecedores exige licenciamento do Agent 365 e/ou do ME7."
+  ],
+  "corpo": [
+    "A Microsoft apresentou, em 19 de novembro, o Agent 365 Business Analytics, construído sobre a base de observabilidade do Agent 365. O painel mostra para onde vai o gasto com IA, por serviços, modelos, agentes e usuários, e permite aplicar limites de gasto e alertas por usuário, grupo, organização ou recurso. Também mapeia a atividade de IA em mais de 6 mil casos de uso de negócios, com custo, sessões, usuários ativos e horas assistidas lado a lado.",
+    "A parte de valor é uma estimativa. Para cada caso de uso concluído com sucesso, a ferramenta combina o tempo normalmente necessário para a tarefa com a contribuição estimada da IA e expressa o resultado em horas assistidas e em dólares. A metodologia usa o banco de dados ocupacional O*NET e dados do Departamento de Estatísticas do Trabalho dos EUA, e as organizações podem ajustar as premissas. A própria Microsoft ressalva que as horas assistidas são uma estimativa indicativa e não medem tempo economizado nem retorno financeiro.",
+    "Os recursos chegam em etapas. Parte está prevista para novembro de 2026 e parte para dezembro: a visão de custo por agente e a avaliação de valor para agentes são de dezembro, e a política de gastos com limites e alertas também. Os dados podem ser exportados, ligados ao Fabric e consultados por endpoints MCP.",
+    "O texto contextualiza o produto com dois dados de terceiros: o Applied AI Index 2026 do BCG, segundo o qual o gasto corporativo com IA dobrou em um ano, para 3,3% da receita, com mais de 80% fora do orçamento de TI; e a previsão do Gartner, de junho de 2025, de que mais de 40% dos projetos de IA agêntica serão cancelados até o fim de 2027, entre outros motivos por custo e falta de clareza de valor. O comunicado não informa a disponibilidade do programa Frontier no Brasil nem preços."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CUSTO",
+      "titulo": "Cobrança por uso pede painel de gasto por agente",
+      "texto": "Com a cobrança baseada em consumo, o gasto passa a variar por tarefa. Ter limite e alerta por usuário ou grupo vira requisito de controle, seja na Microsoft ou em outro fornecedor."
+    },
+    {
+      "rotulo": "02 · VALOR",
+      "titulo": "Horas assistidas são premissa, não resultado medido",
+      "texto": "O valor em dólares parte de tempos-padrão de uma base americana. Serve para comparar usos entre si; para decidir investimento, a empresa ainda precisa medir o resultado do próprio processo."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "A Microsoft descreve o próprio produto",
+      "texto": "Todas as funções e prazos vêm do comunicado da fornecedora, que também vende as licenças exigidas. Não há, na fonte, avaliação independente nem dado de clientes."
+    }
+  ],
+  "oQueFazer": [
+    "Quem já usa Copilot ou agentes da Microsoft pode perguntar ao parceiro se a empresa se enquadra no programa Frontier e quando o recurso chega ao Brasil. Quem não usa pode aproveitar a lista de funções como roteiro do que cobrar de qualquer fornecedor: gasto por agente, limite, alerta e exportação de dados."
+  ],
+  "fontes": [
+    {
+      "titulo": "Apresentamos o Microsoft Agent 365 Business Analytics: transforme o investimento em IA em valor para os negócios",
+      "origem": "Microsoft Source LATAM · comunicado · 19 nov 2026",
+      "url": "https://news.microsoft.com/source/latam/noticias-da-microsoft/apresentamos-o-microsoft-agent-365-business-analytics-transforme-o-investimento-em-ia-em-valor-para-os-negocios/?lang=pt-br"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem anunciou", "valor": "Microsoft" },
+    { "rotulo": "Disponibilidade", "valor": "Programa Frontier; 50 licenças do Microsoft 365 Copilot no lançamento, ampliação até meados de dezembro" },
+    { "rotulo": "Divulgação", "valor": "19 nov 2026" }
+  ]
+}
