@@ -1,0 +1,66 @@
+{
+  "id": "google-semantic-governance-policies-agentes-preview",
+  "publicado_em": "2026-11-23T07:40:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Google lança em prévia políticas em linguagem natural que barram a ação de um agente antes de ela rodar",
+  "linha": "As políticas de governança semântica, na plataforma Gemini, checam cada chamada de ferramenta do agente contra regras escritas em texto comum e contra o que o usuário pediu.",
+  "linhaFina": "O recurso está em Preview e exige que o tráfego do agente passe pelo Agent Gateway. Cada veredito vai para o Cloud Logging.",
+  "fontePrimaria": "Google",
+  "leitura": 3,
+  "resumo": [
+    "O Google anunciou em 20 de novembro as semantic governance policies, em Preview na plataforma Gemini, para checar o que um agente propõe fazer antes que a ação rode.",
+    "A checagem compara cada chamada de ferramenta com regras escritas em linguagem natural e com o pedido original do usuário; a chamada precisa passar nas duas.",
+    "Quem avalia é um modelo de linguagem, e o veredito com a justificativa fica registrado no Cloud Logging do projeto."
+  ],
+  "corpo": [
+    "Em publicação no blog para desenvolvedores, datada de 20 de novembro, o Google descreve as semantic governance policies, disponíveis em Preview na plataforma Gemini. A premissa é que permissão diz o que o agente pode fazer, não se uma chamada específica segue as regras da empresa, e que um modelo pode ser convencido a contornar instruções por um usuário com boa justificativa ou por texto escondido em um documento.",
+    "Por isso a checagem fica fora do agente. Ela é aplicada por um ponto de controle, hoje o Agent Gateway, por onde todo o tráfego de saída do agente precisa passar. Quando o modelo propõe uma chamada de ferramenta, o gateway a envia ao mecanismo de políticas, onde um modelo de linguagem a avalia contra a conversa, as instruções do agente e as políticas. Se reprova, o conteúdo da resposta é trocado por uma mensagem de recusa configurável e a chamada não roda.",
+    "As regras são escritas como a área jurídica ou de conformidade já escreve, por exemplo restringindo o envio de resultados trimestrais a endereços da própria empresa antes da divulgação pública. A verificação de intenção do usuário vem ligada por padrão e não exige política escrita. O Google afirma que o agente pode chamar o modelo pela API do Gemini, pela API de Mensagens da Anthropic, por modelos Claude na plataforma Gemini ou por APIs compatíveis com a OpenAI, inclusive servidores próprios.",
+    "O texto não informa preço, disponibilidade por país nem taxa de erro do modelo que julga as chamadas."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CONTROLE",
+      "titulo": "A regra passa a poder ser escrita por quem responde pelo risco",
+      "texto": "Jurídico e conformidade conseguem redigir e alterar políticas sem código nem nova versão do agente, o que muda quem controla o que o agente pode fazer."
+    },
+    {
+      "rotulo": "02 · LIMITE",
+      "titulo": "Quem julga é outro modelo, e isso tem margem de erro",
+      "texto": "A decisão depende de um modelo de linguagem. A fonte não traz taxa de falsos bloqueios nem de falhas, o que merece teste antes de confiar nela em processo sensível."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "O Google descreve o próprio produto",
+      "texto": "O exemplo do texto foi escolhido pelo fornecedor, e o recurso está em Preview, sem garantia de preço ou disponibilidade no Brasil."
+    }
+  ],
+  "oQueFazer": [
+    "Quem já usa a plataforma do Google pode listar as três ou quatro ações que um agente nunca deveria fazer sem aprovação, como enviar dados financeiros para fora, e testar se a política as barra antes de ligar o recurso em produção."
+  ],
+  "fontes": [
+    {
+      "titulo": "Check what your AI agents do before they do it, with Semantic governance policies",
+      "origem": "Google Developers Blog · 20 nov 2026",
+      "url": "https://developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Status",
+      "valor": "Preview"
+    },
+    {
+      "rotulo": "Ponto de controle",
+      "valor": "Agent Gateway"
+    },
+    {
+      "rotulo": "Registro",
+      "valor": "veredito e justificativa no Cloud Logging"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "20 nov 2026"
+    }
+  ]
+}
