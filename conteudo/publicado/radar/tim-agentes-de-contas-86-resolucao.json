@@ -1,0 +1,59 @@
+{
+  "id": "tim-agentes-de-contas-86-resolucao",
+  "publicado_em": "2026-11-20T07:13:00-03:00",
+  "tema": "CASOS",
+  "titulo": "TIM diz que agentes de IA cortaram 86% do tempo de resolução de demandas de conta, segundo o Minha Operadora",
+  "linha": "Os Agentes de Contas fazem 154 mil interações por mês na central da TIM; um agente de negociação no WhatsApp alcançou mais de 2 milhões de clientes.",
+  "linhaFina": "Números divulgados pela operadora com os resultados do terceiro trimestre, em 11 de novembro, e reportados pelo Minha Operadora.",
+  "fontePrimaria": "TIM, via Minha Operadora",
+  "leitura": 3,
+  "resumo": [
+    "A TIM afirma que os Agentes de Contas reduziram em 86% o tempo de resolução das solicitações relacionadas à conta do cliente.",
+    "Esses agentes registram 154 mil interações por mês na central de atendimento.",
+    "Um agente de IA de negociação de débitos no WhatsApp já alcançou mais de 2 milhões de clientes, segundo a operadora."
+  ],
+  "corpo": [
+    "De acordo com o Minha Operadora, a TIM divulgou em 11 de novembro, junto aos resultados do terceiro trimestre de 2026, que os Agentes de Contas cuidam de solicitações ligadas à conta e já somam 154 mil interações por mês. A operadora diz que o objetivo é que a IA deixe de ser apenas apoio ao atendente e passe a integrar a jornada do cliente, eliminando etapas.",
+    "No WhatsApp, um agente de negociação de débitos ofereceu jornadas personalizadas por perfil, com opções de quitação como Pix, cartão e parcelamento, e alcançou mais de 2 milhões de clientes. Auana Mattar Lima, CIO da TIM Brasil, descreve a estratégia como IA em escala, integrada ao negócio.",
+    "Fora do atendimento, a TIM diz que um sistema de manutenção preditiva evitou em média 93% das falhas nos sites monitorados no trimestre e ampliou em 47% o intervalo entre intervenções técnicas.",
+    "A matéria não informa como o tempo de resolução foi medido, qual era o tempo antes, nem que parcela das solicitações de conta os agentes resolvem sem um atendente. Todos os números são da TIM."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · BASE DE COMPARAÇÃO",
+      "titulo": "Percentual sem tempo absoluto diz pouco",
+      "texto": "Uma redução de 86% depende do ponto de partida. Ao medir o seu caso, registre o tempo antes e depois por tipo de demanda."
+    },
+    {
+      "rotulo": "02 · ESCOLHA",
+      "titulo": "Demandas de conta têm alto volume e fluxo conhecido",
+      "texto": "A TIM diz que escolheu esse tipo de solicitação pela escala. É um critério replicável: começar pelo que se repete muito."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Resultado da própria empresa, via veículo setorial",
+      "texto": "Os números foram divulgados pela TIM e reportados por um site de telecom. A fonte primária (apresentação de resultados) não foi lida nesta apuração."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "TIM usa IA no atendimento e corta 86% do tempo de resolução",
+      "origem": "Minha Operadora · matéria · 17 nov 2026",
+      "url": "https://www.minhaoperadora.com.br/2026/11/tim-usa-ia-no-atendimento-e-corta-86-do-tempo-de-resolucao.html"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "TIM (medição própria, sem metodologia divulgada)"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "11 nov 2026"
+    },
+    {
+      "rotulo": "Verificação",
+      "valor": "sem confirmação independente"
+    }
+  ]
+}

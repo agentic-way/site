@@ -1,0 +1,58 @@
+{
+  "id": "salesforce-mulesoft-hyperforce-brasil-residencia-dados",
+  "publicado_em": "2026-11-20T07:12:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Salesforce lança o MuleSoft no Hyperforce Brasil, com dados e execução das integrações no país",
+  "linha": "A plataforma que conecta agentes a sistemas da empresa passa a rodar em infraestrutura hospedada no Brasil, voltada a setores regulados.",
+  "linhaFina": "Segundo a Salesforce, plano de controle e de execução ficam no país, com trilha de auditoria para acesso privilegiado.",
+  "fontePrimaria": "Salesforce",
+  "leitura": 3,
+  "resumo": [
+    "A Salesforce anunciou o MuleSoft no Hyperforce no Brasil, para organizações que precisam manter dados em território nacional.",
+    "O MuleSoft é a plataforma da empresa que une governança e orquestração multiagente à integração corporativa.",
+    "A Salesforce diz que o público inicial são serviços financeiros, mercado de capitais, saúde e setor público."
+  ],
+  "corpo": [
+    "Em comunicado com data de 17 de novembro de 2026, a Salesforce anunciou o lançamento do MuleSoft no Hyperforce no Brasil. O Hyperforce é a infraestrutura de nuvem pública da empresa, desenhada para clientes com exigência de residência de dados e conformidade. O MuleSoft é a camada que conecta APIs, sistemas e agentes, inclusive agentes desenvolvidos em outros ambientes, segundo a empresa.",
+    "A Salesforce afirma que, com o lançamento, o armazenamento pode ser localizado no Brasil e que o plano de controle e o de execução ficam no mesmo país. O comunicado cita ainda cofre de chaves baseado em HSM, contas AWS individualizadas e acesso privilegiado com solicitação, aprovação, trilha de auditoria, prazo limitado e autenticação de dois fatores.",
+    "A empresa justifica o lançamento com três pressões: exigências de residência de dados em evolução, complexidade de auditoria em implantações distribuídas e incerteza de governança ao criar agentes em nuvem compartilhada. O comunicado não traz preço, disponibilidade por plano nem lista de clientes."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · DADOS",
+      "titulo": "Onde o agente roda passa a ser pergunta de contrato",
+      "texto": "Para empresa regulada, saber em que país ficam os dados das integrações e dos agentes pesa na escolha do fornecedor."
+    },
+    {
+      "rotulo": "02 · LACUNA",
+      "titulo": "Sem preço nem prazo no comunicado",
+      "texto": "Quem usa o MuleSoft deve pedir à Salesforce condições comerciais e o que está coberto na região antes de planejar migração."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Texto de fornecedor",
+      "texto": "As afirmações sobre segurança e conformidade são da Salesforce, que vende a plataforma."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Salesforce lança MuleSoft on Hyperforce no Brasil e leva integração com residência local de dados a setores regulados",
+      "origem": "Salesforce · comunicado · 17 nov 2026",
+      "url": "https://www.salesforce.com/br/news/press-releases/2026/11/19/mulesoft-on-hyperforce-no-brasil/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem afirma",
+      "valor": "Salesforce"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "17 nov 2026"
+    },
+    {
+      "rotulo": "Preço e disponibilidade",
+      "valor": "não informados no comunicado"
+    }
+  ]
+}
