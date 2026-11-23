@@ -1,0 +1,66 @@
+{
+  "id": "kabum-compre-com-o-ninja-whatsapp-2-milhoes",
+  "publicado_em": "2026-11-23T07:40:00-03:00",
+  "tema": "CASOS",
+  "titulo": "KaBuM! diz que agente de vendas no WhatsApp movimentou R$ 2 milhões em dois meses de teste com empresas",
+  "linha": "O KaBuM! abriu a consumidores o Compre com o Ninja, agente que recomenda, fecha o pedido e acompanha a entrega pelo WhatsApp. Os números do piloto são da própria varejista, via Exame.",
+  "linhaFina": "Segundo o KaBuM!, o piloto com clientes empresariais registrou mais de 45 mil conversas e conversão até seis vezes maior que a do site. A varejista não divulgou taxas absolutas nem custo da operação.",
+  "fontePrimaria": "KaBuM!, via Exame",
+  "leitura": 3,
+  "resumo": [
+    "O KaBuM! liberou a consumidores pessoa física o Compre com o Ninja, ferramenta de IA que consulta produtos, recebe o pagamento e acompanha pedidos pelo WhatsApp.",
+    "Em cerca de dois meses de teste com clientes empresariais, o canal teve mais de R$ 2 milhões em faturamento bruto, mais de 2 mil clientes pessoa jurídica e mais de 45 mil conversas, segundo dados enviados pela empresa à Exame.",
+    "A conversa vai para uma pessoa quando o cliente pede ou quando o sistema encontra uma situação não prevista, o que, segundo o KaBuM!, ocorre em menos de 10% das conversas."
+  ],
+  "corpo": [
+    "A Exame publicou em 22 de novembro que o KaBuM! abriu a todos os consumidores o Compre com o Ninja. O cliente descreve o que procura por texto, áudio ou imagem, recebe recomendação de produto, tira dúvidas técnicas, fecha o pedido e acompanha a entrega sem sair do WhatsApp. A ferramenta foi desenvolvida pela equipe interna de IA da varejista e usa vários agentes ligados ao WhatsApp e aos sistemas comerciais da empresa.",
+    "O piloto durou cerca de dois meses e foi restrito a clientes empresariais. Segundo Vitor Teixeira, diretor de planejamento estratégico, dados e IA do KaBuM!, a taxa de conversão pelo Ninja chegou a ser seis vezes a do site e do aplicativo, e o tíquete médio foi o dobro do observado entre quem comprou direto pelo site.",
+    "A própria Exame ressalva os limites desses números: a empresa não informou as taxas absolutas, a quantidade de pedidos concluídos nem se a comparação considerou grupos com o mesmo perfil e intenção de compra. Os mais de R$ 2 milhões são faturamento bruto do canal e não medem venda adicional nem lucro.",
+    "Teixeira também não divulgou o investimento, o custo por conversa nem os fornecedores dos modelos de linguagem. Segundo ele, uma camada de roteamento escolhe, para cada função, modelos disponíveis no mercado."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · MEDIDA",
+      "titulo": "Faturamento do canal não é resultado do agente",
+      "texto": "Sem a taxa de conversão absoluta e sem grupo de comparação equivalente, o número mostra que o canal vende, não quanto da venda existiria sem ele."
+    },
+    {
+      "rotulo": "02 · CUSTO",
+      "titulo": "Falta o custo por conversa para fechar a conta",
+      "texto": "O ganho comercial só pode ser comparado com a operação quando se conhece o custo de rodar o agente. A empresa não divulgou esse dado."
+    },
+    {
+      "rotulo": "03 · HUMANO",
+      "titulo": "A passagem para uma pessoa é parte do desenho",
+      "texto": "O agente conduz a jornada e entrega o caso quando o cliente pede ou quando algo foge do previsto. O percentual informado descreve o encaminhamento, não a satisfação do cliente."
+    }
+  ],
+  "oQueFazer": [
+    "Quem avalia um agente de vendas por mensagem pode pedir ao fornecedor ou à equipe interna, antes de comparar com o KaBuM!, três números: conversão absoluta, custo por conversa e proporção de conversas que voltam para uma pessoa."
+  ],
+  "fontes": [
+    {
+      "titulo": "IA do KaBuM! vende R$ 2 milhões pelo WhatsApp em dois meses",
+      "origem": "Exame · 22 nov 2026",
+      "url": "https://exame.com/tecnologia/kabum-ninja-ia-whatsapp/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "KaBuM!, dados enviados à Exame"
+    },
+    {
+      "rotulo": "Período do piloto",
+      "valor": "cerca de dois meses, só com clientes empresariais"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "números da própria empresa, sem medição independente"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "22 nov 2026"
+    }
+  ]
+}

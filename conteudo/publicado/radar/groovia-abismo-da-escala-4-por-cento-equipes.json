@@ -1,0 +1,66 @@
+{
+  "id": "groovia-abismo-da-escala-4-por-cento-equipes",
+  "publicado_em": "2026-11-23T07:40:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Groovia: 57% dos líderes usam IA todo dia, mas só 4% dizem que a equipe adotou de forma sistemática",
+  "linha": "Estudo da consultoria com 694 líderes brasileiros aponta distância entre o uso individual e o uso em processo coletivo. A amostra não é probabilística.",
+  "linhaFina": "Em “O Abismo da Escala”, a Groovia mede a maturidade em 59,3 de 100 pontos: 68,9 no uso individual e 50,4 na escala nas equipes.",
+  "fontePrimaria": "Groovia, via InfoMoney",
+  "leitura": 3,
+  "resumo": [
+    "57% dos 694 líderes ouvidos usam IA todos os dias, mas só 4% afirmam que suas equipes adotaram a tecnologia de forma sistemática.",
+    "61% dizem trabalhar com informações dispersas, e 56% pretendem começar automatizando a consolidação manual de dados e a elaboração de relatórios.",
+    "A Groovia ressalva que a amostra não é probabilística e reúne empresas que já investem em IA, então os índices podem ser menores no conjunto das empresas brasileiras."
+  ],
+  "corpo": [
+    "O InfoMoney divulgou em 20 de novembro o estudo “O Abismo da Escala”, da consultoria Groovia. Foram ouvidos 694 líderes ao longo de 2026, de mais de 70 organizações entre nativas digitais, corporações tradicionais e empreendedores. 48% ocupam cargos de alta liderança.",
+    "O principal descompasso: 57% usam IA todos os dias e 82% avaliam como bons ou excelentes os resultados do uso individual, mas só 4% afirmam que suas equipes adotaram a tecnologia de forma sistemática. No índice de maturidade criado pela Groovia, de zero a 100, o uso individual chega a 68,9 pontos e a escala nas equipes fica em 50,4, o pior entre os quatro pilares. A nota geral é 59,3.",
+    "Sobre as barreiras, três em cada quatro líderes apontam a capacidade das equipes como principal obstáculo, 48% citam falta de habilidade técnica e 34% dizem não saber por onde começar. Problemas de dados, TI e segurança aparecem para 26%, e 61% afirmam trabalhar com informações dispersas.",
+    "Quando o líder usa IA de forma visível e incentiva a equipe, a adoção disseminada sobe de 48% para 68%, e o uso sistematizado passa de 0,5% para 9%. Para começar, 56% pretendem automatizar a consolidação manual de dados e relatórios, 24% reuniões e acompanhamentos, e 19% atendimento e vendas."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · PROCESSO",
+      "titulo": "O ganho individual ainda não virou processo",
+      "texto": "A diferença entre 57% de uso diário e 4% de adoção sistemática nas equipes indica que licença comprada não equivale a resultado capturado."
+    },
+    {
+      "rotulo": "02 · DADOS",
+      "titulo": "Dados dispersos travam a automação antes do agente",
+      "texto": "61% dos líderes trabalham com informações dispersas. Consolidar a fonte vem antes de delegar a consolidação a um agente."
+    },
+    {
+      "rotulo": "03 · AMOSTRA",
+      "titulo": "O retrato é de quem já investe em IA",
+      "texto": "A própria Groovia diz que a amostra reúne empresas mais avançadas na adoção e que os índices podem ser menores no conjunto das empresas brasileiras."
+    }
+  ],
+  "oQueFazer": [
+    "Antes de ampliar licenças, vale levantar quais rotinas da equipe dependem de dados dispersos e escolher uma, como o relatório mensal, para automatizar com dono e métrica definidos."
+  ],
+  "fontes": [
+    {
+      "titulo": "IA já redesenha equipes, mas só 4% das empresas escalaram o uso",
+      "origem": "InfoMoney · 20 nov 2026",
+      "url": "https://www.infomoney.com.br/carreira/ia-ja-redesenha-equipes-mas-so-4-das-empresas-escalaram-o-uso/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Groovia (consultoria)"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "694 líderes, de mais de 70 organizações; não probabilística"
+    },
+    {
+      "rotulo": "Campo",
+      "valor": "ao longo de 2026"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "20 nov 2026"
+    }
+  ]
+}
