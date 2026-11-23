@@ -1,0 +1,58 @@
+{
+  "id": "salt-security-50-agente-acao-nao-autorizada",
+  "publicado_em": "2026-11-21T07:15:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Salt Security diz que 49,8% das empresas ouvidas viram um agente de IA agir sem autorização, e só 17,5% conseguem pará-lo automaticamente",
+  "linha": "Pesquisa da Salt Security com mais de 380 profissionais de segurança e tecnologia: metade confirma ou suspeita de ação não autorizada de agente, e só 12,5% rastreiam toda a sequência de ações de todos os agentes.",
+  "linhaFina": "O relatório State of Agentic AI and API Security 2H 2026 cruza a pesquisa com dados de produção da própria Salt. A empresa vende segurança de agentes e de APIs.",
+  "fontePrimaria": "Salt Security",
+  "leitura": 3,
+  "resumo": [
+    "49,8% dos respondentes confirmaram ou suspeitam que um agente de IA tomou, nos últimos 12 meses, uma ação que a organização não pretendia, não esperava ou não autorizou explicitamente.",
+    "Entre esses casos, 53,9% envolveram chamada externa de API ou transação, 49,7% mudança de configuração ou permissão e 41,9% alteração ou exclusão de dados.",
+    "Só 12,5% dizem rastrear de forma consistente toda a sequência de ações de todos os agentes, e só 17,5% conseguem interromper automaticamente um agente em produção."
+  ],
+  "corpo": [
+    "A Salt Security, empresa de segurança de agentes e de APIs, publicou o relatório State of Agentic AI and API Security 2H 2026. A pesquisa tem mais de 380 respostas de profissionais de segurança, tecnologia, arquitetura, DevOps e áreas próximas, de vários setores: tecnologia responde por 35% da amostra, serviços financeiros e seguros por 16,7%, saúde por 11% e indústria por 11%. O relatório não é restrito ao Brasil.",
+    "O dado central: 49,8% confirmaram ou suspeitam que um agente agiu fora do que a organização pretendia ou autorizou nos últimos 12 meses. Perguntados sobre o que a ação envolveu (podiam marcar mais de uma opção), 53,9% citaram chamada externa de API ou transação, 49,7% mudança de configuração ou permissão, 41,9% alteração ou exclusão de dados, 37,2% contato com cliente, parceiro ou terceiro e 32,5% acesso a dados que o agente não deveria alcançar. Só 10% disseram não ter havido impacto relevante.",
+    "A visibilidade é limitada. Apenas 12,5% rastreiam toda a sequência de ações de todos os agentes, das instruções às ferramentas, às APIs e ao resultado; 15,7% reconstroem em minutos, com ferramenta automática, o que um agente fez no dia anterior. Quanto à contenção, 17,5% conseguem parar um agente automaticamente, 56,1% fazem isso manualmente em minutos, 12% só derrubando a aplicação e 3,1% não conseguem. Segundo a cobertura da Campus Technology, 86,4% têm ao menos um agente em operação e 59,5% têm mais de dez.",
+    "A Salt ressalva que as pesquisas não usam um painel fixo e que a análise de ataques com telemetria própria é experimental. O relatório recomenda inventário de agentes, identidade própria com permissões limitadas e monitoramento das ações entre ferramentas e APIs."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · LOG",
+      "titulo": "Sem registro por ação, não há como saber o que o agente fez",
+      "texto": "Os 12,5% que rastreiam toda a sequência mostram que o registro completo ainda é exceção. Antes de dar acesso a ERP, banco ou cadastro, vale exigir do fornecedor o log de cada ação."
+    },
+    {
+      "rotulo": "02 · FREIO",
+      "titulo": "Saber desligar o agente é requisito, não detalhe",
+      "texto": "A maioria só consegue parar o agente manualmente. Quem opera agentes pode perguntar quem faz isso, em quanto tempo e com qual permissão."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem mediu vende o controle",
+      "texto": "A Salt vende segurança de agentes e de APIs, e a amostra é majoritariamente de tecnologia e de empresas fora do Brasil. O padrão ajuda a formular perguntas, mas não mede a empresa média brasileira."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem já tem agentes em uso: liste o que cada um pode fazer (ler, escrever, chamar sistema externo), confirme que cada ação fica registrada e defina quem pode interromper o agente e como."
+  ],
+  "fontes": [
+    {
+      "titulo": "The State of Agentic AI and API Security, 2H 2026",
+      "origem": "Salt Security · relatório",
+      "url": "https://content.salt.security/rs/352-UXR-417/images/Salt-Security-State-of-Agentic-AI-API-2H-2026.pdf"
+    },
+    {
+      "titulo": "Survey: Half of Companies Confirm Unauthorized AI Agent Actions",
+      "origem": "Campus Technology · 18 nov 2026",
+      "url": "https://campustechnology.com/articles/2026/11/18/survey-half-of-companies-confirm-unauthorized-ai-agent-actions.aspx"
+    }
+  ],
+  "ficha": [
+    {"rotulo": "Quem mediu", "valor": "Salt Security (fornecedora de segurança de agentes e APIs)"},
+    {"rotulo": "Amostra", "valor": "mais de 380 profissionais de segurança e tecnologia, vários países"},
+    {"rotulo": "Divulgação", "valor": "18 nov 2026"}
+  ]
+}
