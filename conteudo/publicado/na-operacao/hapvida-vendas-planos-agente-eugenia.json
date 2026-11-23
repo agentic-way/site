@@ -1,0 +1,67 @@
+{
+ "id": "hapvida-vendas-planos-agente-eugenia",
+ "publicado_em": "2026-11-23T08:30:00-03:00",
+ "setor": "SAÚDE",
+ "processo": "COMERCIAL",
+ "status": "em-operacao",
+ "empresa": "Hapvida",
+ "titulo": "Fornecedor diz que a Eugênia, agente de vendas da Hapvida, atendeu mais de 400 mil pessoas em seis meses e levou a mais de 13 mil contratos",
+ "linhaFina": "Os números vêm da KHAL, que vende a plataforma, sem auditoria; a fonte não traz custo, quanto da venda o agente fecha sozinho nem a base da comparação de conversão.",
+ "resumo": "A Hapvida colocou no ar, em 17 de abril de 2026, um agente que qualifica e atende quem quer contratar plano de saúde pessoa física. Segundo a KHAL, fornecedora da plataforma, mais de 400 mil pessoas foram atendidas e mais de 13 mil contrataram um plano.",
+ "leitura": 5,
+ "abertura": "A Hapvida é a maior operadora de planos de saúde do Brasil, segundo a KHAL: cerca de 16 milhões de beneficiários e uma rede própria de mais de 80 hospitais. Plano de saúde tem carências, segmentações, coberturas e valores que variam por perfil, o que torna a venda uma explicação longa. A empresa decidiu aplicar IA à jornada comercial do plano pessoa física.",
+ "problema": "A parte mais operacional da venda (aquecer o lead, entender o interesse, explicar segmentações, coberturas e carências) consumia o tempo do vendedor antes da negociação propriamente dita. As fontes não trazem números do processo anterior, como tempo de resposta ou taxa de conversão do canal antes do agente.",
+ "solucao": "A Eugênia é um agente construído na plataforma KHAL, da Namastex Labs. Segundo a KHAL, ela aquece o lead, qualifica o interesse, explica segmentações, coberturas e carências e organiza o contexto da conversa. O vendedor recebe o lead já qualificado. Nas vendas mais transacionais, a agente conduz a contratação de ponta a ponta. A plataforma também dá à Hapvida visão em tempo real de onde as conversas avançam ou travam. As fontes não dizem em quais canais a Eugênia atende nem a quais sistemas da Hapvida ela se conecta.",
+ "resultado": "Segundo a KHAL, em seis meses no ar (desde 17 de abril de 2026) a Eugênia atendeu mais de 400 mil pessoas e trocou mais de 4 milhões de mensagens. Foram 186 mil pessoas qualificadas, com perfil e cotação, e 94 mil encaminhadas ao time comercial com o contexto da conversa. Entre as pessoas atendidas, mais de 13 mil contrataram um plano novo, somando 27 mil vidas. A primeira resposta sai em 16 segundos na mediana, e 4 em cada 10 conversas começam fora do horário comercial. A KHAL afirma que os leads que passaram pela Eugênia convertem três vezes mais do que os que não passaram.",
+ "humano": "O vendedor continua no processo: recebe o lead qualificado, com o contexto da conversa, e cuida das negociações mais complexas e da relação com o cliente. A próxima etapa anunciada é o segmento PME, com a Eugênia também como copiloto do vendedor. As fontes não informam quantos vendedores a Hapvida tem nesse canal nem se o quadro mudou.",
+ "citacao": {
+  "texto": "O que me impressionou foi a velocidade com que a IA da KHAL compreendeu as premissas complexas do nosso produto (as segmentações, os valores, as coberturas, as carências) e passou a levar isso ao cliente de forma clara. Essa velocidade foi uma virada de chave pra gente.",
+  "quem": "Thalyta Sampaio, líder de digital da Hapvida, no estudo de caso da KHAL"
+ },
+ "numeros": [
+  {"valor": "400 mil", "legenda": "pessoas atendidas pela Eugênia em seis meses, desde 17/abr/2026", "quemMediu": "KHAL, em comunicado de 09/nov/2026 e estudo de caso; sem auditoria independente"},
+  {"valor": "13 mil", "legenda": "novos contratos de plano (27 mil vidas) entre as pessoas atendidas pela Eugênia", "quemMediu": "KHAL, em comunicado e estudo de caso; a fonte diz \"mais de 13 mil\" e não detalha a janela de atribuição dos contratos"},
+  {"valor": "16 s", "legenda": "para a primeira resposta, na mediana; 4 em cada 10 conversas começam fora do horário comercial", "quemMediu": "KHAL, em comunicado e estudo de caso"},
+  {"valor": "3 vezes", "legenda": "a taxa de conversão dos leads que passaram pela Eugênia, em relação à dos que não passaram, segundo a KHAL", "quemMediu": "KHAL, em comunicado e estudo de caso; sem base, definição de conversão nem critério de comparação"},
+  {"valor": "13 dias", "legenda": "entre a decisão de começar o projeto e o primeiro atendimento a clientes reais", "quemMediu": "KHAL, em comunicado e estudo de caso"}
+ ],
+ "fluxo": [
+  {"tipo": "ENTRADA", "nome": "Pessoa interessada em plano pessoa física", "faz": "Entra em conversa para contratar um plano de saúde; as fontes não dizem por qual canal."},
+  {"tipo": "AGENTE", "nome": "Eugênia (plataforma KHAL)", "faz": "Aquece o lead, qualifica o interesse, explica segmentações, coberturas e carências, gera perfil e cotação e organiza o contexto da conversa."},
+  {"tipo": "SISTEMA", "nome": "Sistemas da Hapvida (não informados)", "faz": "As fontes não dizem em quais sistemas a Eugênia consulta preços e registra o lead ou o contrato."},
+  {"tipo": "SAÍDA", "nome": "Lead qualificado ou contratação", "faz": "Nas vendas mais transacionais, a agente conduz a contratação de ponta a ponta; nas demais, encaminha o lead ao time comercial com o contexto."},
+  {"tipo": "EXCEÇÃO", "nome": "Vendedor humano", "faz": "O time comercial assume as negociações mais complexas, já com a conversa e o perfil do lead."}
+ ],
+ "indicadores": [],
+ "naoConta": [
+  {"valor": "Custo e prazo", "texto": "a KHAL e a Hapvida não divulgaram o custo do projeto nem o da operação. O prazo de 13 dias vai da decisão ao primeiro atendimento, não à operação plena."},
+  {"valor": "Conversão", "texto": "\"Três vezes mais\" não vem com base, período, definição de conversão nem informação sobre se os leads que falaram com a Eugênia já eram mais qualificados. Os 13 mil contratos também não têm comparação com o canal sem agente."},
+  {"valor": "Quem fecha", "texto": "as fontes não dizem quantos dos contratos foram fechados pela Eugênia sozinha e quantos passaram por vendedor depois do encaminhamento."}
+ ],
+ "licoes": [
+  {"titulo": "Entregue o lead com contexto", "texto": "O agente da Hapvida não substitui o vendedor na etapa inicial: passa a conversa e o perfil adiante. Vale desenhar o repasse antes de ligar o agente, para ninguém repetir pergunta ao cliente."},
+  {"titulo": "Peça a base da comparação", "texto": "\"Convertem três vezes mais\" só ajuda a decidir se houver o grupo de comparação e o período. Antes de usar o número como meta, peça os dois."},
+  {"titulo": "Produto complexo pede resposta rastreável", "texto": "Carência e cobertura são pontos em que erro vira reclamação. A Hapvida diz acompanhar todas as conversas em tempo real; é um bom critério para exigir de qualquer fornecedor."}
+ ],
+ "ficha": [
+  {"rotulo": "Empresa", "valor": "Hapvida"},
+  {"rotulo": "Setor", "valor": "Saúde (operadora de planos)"},
+  {"rotulo": "Processo", "valor": "Qualificação e venda de plano de saúde pessoa física"},
+  {"rotulo": "Sistema", "valor": "Plataforma KHAL (Namastex Labs); sistemas da Hapvida não informados"},
+  {"rotulo": "Quem fez", "valor": "Hapvida com a KHAL"},
+  {"rotulo": "Status", "valor": "Em operação desde 17/abr/2026"},
+  {"rotulo": "Divulgação", "valor": "Comunicado e estudo de caso da KHAL, 09/nov/2026"}
+ ],
+ "comoApuramos": "Lemos o comunicado da KHAL de 9 de novembro de 2026 e o estudo de caso da Hapvida no site da KHAL. Todos os números e a fala citada estão nessas duas páginas. Não encontramos, até a data da apuração, reportagem independente nem comunicado da Hapvida com esses números. Não houve visita nem entrevista: o caso foi montado apenas com fontes públicas.",
+ "transparencia": "As duas fontes são da KHAL, que vende a plataforma, divulgando um cliente; o estudo de caso não é medição de terceiro. A Hapvida aparece por citações de seus executivos nesse material. Não há auditoria independente.",
+ "fontes": [
+  {"titulo": "A Hapvida atende mais de 400 mil pessoas em seis meses com a Eugênia, agente de IA construída com a KHAL", "origem": "KHAL, comunicado, 09/nov/2026", "url": "https://khal.ai/pt-br/newsroom/2026-11-09-hapvida-eugenia-khal"},
+  {"titulo": "Hapvida: a Eugênia em produção", "origem": "KHAL, estudo de caso", "url": "https://khal.ai/pt-br/casos-de-sucesso/hapvida-eugenia"}
+ ],
+ "imagem": {
+  "arquivo": "img/na-operacao/hapvida-vendas-planos-agente-eugenia-ia.png",
+  "alt": "Mesa de madeira em um escritório comercial, com um celular, um caderno aberto e uma xícara; ao fundo, fora de foco, três pessoas de costas conversando entre as baias.",
+  "modelo": "gemini-3.1-flash-image",
+  "prompt": "A quiet sales office of a health insurance company, a smartphone lying face down next to an open notebook and a coffee cup on a desk in the foreground, a few people talking softly in the blurred background. Computer monitors turned away or out of focus with no readable content. No text, no lettering, no logos, no signage, no readable screens, no identifiable faces. Style: realistic editorial photo, shallow depth of field, calm, not staged, not stock-photo, muted navy and warm paper tones"
+ }
+}
