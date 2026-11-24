@@ -1,0 +1,59 @@
+{
+  "id": "motiva-motiv-ai-2100-agentes-criados-por-areas",
+  "publicado_em": "2026-11-24T07:21:00-03:00",
+  "tema": "CASOS",
+  "titulo": "Motiva diz que sua plataforma interna, com modelos da OpenAI, Anthropic e Google, tem 3 mil usuários ativos e mais de 2,1 mil agentes criados pelas áreas",
+  "linha": "A Motiva, empresa de infraestrutura de mobilidade, lançou a Motiv.AI, em que as áreas criam e compartilham agentes sobre suas próprias bases de conhecimento; a análise e a decisão ficam com as equipes.",
+  "linhaFina": "Segundo comunicado da própria Motiva, a plataforma tem mais de 3 mil usuários ativos e foi desenvolvida pelo Hub Digital da empresa. A companhia não divulga ganho de tempo ou de custo.",
+  "fontePrimaria": "Motiva",
+  "leitura": 3,
+  "resumo": [
+    "A Motiva, que se apresenta como a maior empresa de infraestrutura de mobilidade do Brasil, passou a oferecer aos colaboradores a Motiv.AI, plataforma multimodelo desenvolvida internamente.",
+    "Hoje são mais de 3 mil usuários ativos e mais de 2,1 mil agentes em funcionamento, criados pelas próprias áreas.",
+    "O comunicado não traz número de economia, tempo ganho ou retorno."
+  ],
+  "corpo": [
+    "A plataforma reúne modelos de linguagem da OpenAI (GPT), da Anthropic (Claude) e do Google (Gemini), entre outros, numa interface de chat. O colaborador escolhe o modelo para cada tarefa, cria agentes próprios e organiza bases de conhecimento para consulta. A Motiva diz que a centralização evita que informação confidencial seja usada em ferramentas sem gestão da empresa.",
+    "Entre as áreas que mais criaram agentes, o comunicado cita Tecnologia e Digital (220), engenharia, obras e capex (137), finanças e controladoria (79), manutenção (57), suprimentos (51), operação (41) e gestão de pessoas (35). Os exemplos descritos incluem um agente de leitura da pesquisa de clima, um de gestão de fornecedores a partir de planilhas e documentos, e um que analisa contratos e cláusulas para a área financeira.",
+    "A empresa afirma que, em todos esses casos, a análise e a decisão permanecem sob responsabilidade das equipes. A plataforma opera na nuvem da Motiva, com controle de acesso por perfil e registro de uso, e os dados inseridos não são usados para treinar os modelos dos fornecedores.",
+    "Para o fim do ano estão previstas a transcrição de áudios enviados pelo chat e a incorporação de agentes a outros sistemas internos. Hoje, portanto, os agentes funcionam como assistentes de consulta sobre documentos, e não como executores de tarefas dentro de ERP ou de outros sistemas."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · MODELO",
+      "titulo": "Uma porta única para vários modelos reduz o uso fora de controle",
+      "texto": "Concentrar acesso, permissões e registro de uso numa plataforma própria é o caminho que a Motiva adotou contra o uso de ferramentas sem gestão."
+    },
+    {
+      "rotulo": "02 · MEDIDA",
+      "titulo": "Contagem de agentes não é resultado",
+      "texto": "2,1 mil agentes mostram adoção, não valor. O comunicado não diz quantos são usados com frequência nem o que mudou na operação."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Todos os números vêm da própria empresa",
+      "texto": "Não há confirmação independente. A fase seguinte, de agentes ligados a outros sistemas, é a que levanta as questões de permissão e de auditoria por ação."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Motiva lança plataforma de IA Generativa para acelerar o uso da tecnologia em suas operações e já conta com mais de 2,1 mil agentes",
+      "origem": "Motiva · comunicado · 23 nov 2026",
+      "url": "https://www.motiva.com.br/noticias/motiva-lanca-plataforma-ia-generativa-motiv-ai/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Motiva (números do próprio comunicado)"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "23 nov 2026"
+    },
+    {
+      "rotulo": "Confirmação",
+      "valor": "não confirmada por terceiros"
+    }
+  ]
+}
