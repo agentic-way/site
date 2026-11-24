@@ -1,0 +1,63 @@
+{
+  "id": "zappts-panorama-ia-42-sem-politica-agentes",
+  "publicado_em": "2026-11-24T07:20:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Zappts diz que 41,9% das empresas brasileiras não têm política para agentes de IA, e só 13,8% usam agentes de forma regular",
+  "linha": "Panorama da IA no Brasil 2026, da Zappts, ouviu 167 executivos: 55,2% não têm um AI Gateway e 36,5% exigem revisão humana de 100% das ações dos agentes.",
+  "linhaFina": "Levantamento da Zappts, fornecedora de tecnologia para agentes, ouviu 167 executivos de tecnologia, inovação e negócios. Os dados foram divulgados pelo IT Forum em 23 de novembro.",
+  "fontePrimaria": "Zappts, via IT Forum",
+  "leitura": 3,
+  "resumo": [
+    "41,9% das organizações não têm políticas, frameworks ou regras de governança, segurança e ética para agentes de IA; 29,3% têm iniciativas em desenvolvimento e 26,9% se dizem totalmente estruturadas.",
+    "55,2% operam sem um AI Gateway, o ponto único de passagem entre agentes e modelos de linguagem: 27,9% não têm e não procuram, e 27,3% não sabem o que é.",
+    "32,1% têm agentes autônomos em teste, mas só 13,8% chegaram ao uso regular. 55,1% não têm mapeamento estruturado de retorno sobre investimento em IA."
+  ],
+  "corpo": [
+    "O Panorama da IA no Brasil 2026, da Zappts, ouviu 167 executivos de tecnologia, inovação e negócios em cargos de liderança. A Zappts se descreve como empresa de tecnologia especializada em transformação agêntica para grandes corporações. Os números foram publicados pelo IT Forum em 23 de novembro.",
+    "Sobre controle, 36,5% das organizações exigem que um profissional revise e aprove 100% das ações geradas pelos agentes, e 32,9% permitem execução autônoma apenas em tarefas rotineiras. Só 3,6% autorizam um agente a concluir um processo crítico de ponta a ponta.",
+    "A série histórica mostra avanço: a parcela sem nenhuma política formal foi de 76,5% em 2024 para 51,6% em 2025 e 41,9% em 2026. A parcela com frameworks consolidados subiu de 17,7% para 26,9%.",
+    "O recorte por setor é desigual. Em finanças e seguros, 45,4% se declaram totalmente estruturadas e 40,9% já têm gateway. Nos demais, a ausência de políticas atinge 72,7% das empresas de educação, 66,7% do governo, 61,5% da saúde, 60% do agronegócio e 57,1% da indústria.",
+    "Segundo o IT Forum, a revisão humana não impede que dado sensível já tenha sido enviado a um modelo externo, porque a validação ocorre depois que a chamada foi feita. O gateway, nessa descrição, é o ponto onde se aplicam bloqueios de conteúdo sensível, registro de chamadas para auditoria e medição de consumo por agente. O diretor de tecnologia da Zappts, Rodrigo Bornholdt, diz que, com agentes autônomos, parte do controle precisa ser executável durante a operação."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CONTROLE",
+      "titulo": "Revisar toda ação não substitui controlar o acesso",
+      "texto": "Segundo a pesquisa, mais de um terço das empresas aprova manualmente 100% das ações. Isso limita a escala e, segundo o IT Forum, não cobre o dado que já saiu para o modelo."
+    },
+    {
+      "rotulo": "02 · RETORNO",
+      "titulo": "Sem medida por agente, não há como separar custo de ganho",
+      "texto": "55,1% das empresas não mapeiam retorno em IA, contra 30,6% em 2025. Quem quer ampliar orçamento precisa decidir primeiro como vai medir."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem publica vende o que o estudo recomenda",
+      "texto": "A Zappts trabalha com agentes para grandes empresas, e a conclusão do estudo favorece camadas de governança. A amostra de 167 respondentes é pequena e não se sabe como foi composta."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem já tem agentes em uso, vale levantar três itens: se existe política escrita, por onde passam as chamadas aos modelos e quem acompanha o custo de cada agente."
+  ],
+  "fontes": [
+    {
+      "titulo": "Governança de IA no Brasil é defasada em quase metade das empresas",
+      "origem": "IT Forum · 23 nov 2026",
+      "url": "https://itforum.com.br/noticias/governanca-agentes-ia-empresas-brasil/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Zappts (Panorama da IA no Brasil 2026)"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "167 executivos de tecnologia, inovação e negócios"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "23 nov 2026"
+    }
+  ]
+}
