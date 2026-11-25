@@ -1,0 +1,53 @@
+{
+  "id": "bain-cfos-77-custo-inesperado-agentes-17-preocupados",
+  "publicado_em": "2026-11-25T07:10:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Bain: 77% dos CFOs ouvidos tiveram custo inesperado com agentes de IA, e só 17% estão muito preocupados em controlá-lo",
+  "linha": "Pesquisa da Bain com 150 CFOs de grandes empresas: só 10% capturam quase todo o gasto com agentes nos relatórios de custo, e só 16% preveem o custo do trimestre seguinte com erro de até 10%.",
+  "linhaFina": "A Bain ouviu 150 CFOs e líderes de finanças de empresas com mais de US$ 1 bilhão de receita anual na América do Norte e na Europa. Só 6% medem de forma consistente o custo por transação ou fluxo de trabalho.",
+  "fontePrimaria": "Bain & Company",
+  "leitura": 3,
+  "resumo": [
+    "77% dos respondentes relatam custos inesperados com IA agêntica, mas só 17% estão muito ou extremamente preocupados em controlar esse gasto.",
+    "Entre os que testam ou usam agentes, só 10% capturam quase todo o gasto relacionado nos relatórios formais de custo, e só 16% preveem o custo do trimestre seguinte com erro de até 10%.",
+    "Só 6% acompanham de forma consistente o custo por transação ou fluxo de trabalho; outros 49% fazem isso em casos selecionados."
+  ],
+  "corpo": [
+    "A Bain & Company divulgou em 23 de novembro de 2026 o relatório \"AI Agents Are Spending. Are CFOs in Control?\", baseado em pesquisa com 150 CFOs e líderes sêniores de finanças de empresas com mais de US$ 1 bilhão de receita anual, na América do Norte e na Europa. Mais da metade representa empresas com receita de US$ 5 bilhões ou mais.",
+    "Dos respondentes, 97% esperam que o gasto com IA agêntica aumente nos próximos dois anos, e 66% preveem crescimento de pelo menos 25%. A visibilidade é limitada: só 8% estão muito confiantes de enxergar todo o uso de agentes, inclusive ferramentas adotadas sem aprovação central.",
+    "Entre as empresas que já usam agentes (74%), 87% exigem que pessoas revisem cada ação relevante ou as ações acima de limites de risco ou de gasto, e só 9% deixam os agentes operar de forma majoritariamente ou totalmente autônoma. Controles em tempo real são menos comuns: 30% têm limites de gasto por agente plenamente estabelecidos, 17% conseguem frear ou parar um agente automaticamente ao atingir o limite, e 9% implantaram por completo a escolha de modelo por custo e desempenho.",
+    "Quanto ao retorno, 61% dos que testam ou implantam agentes dizem que ele atingiu ou superou o esperado, e 23% dizem que ficou abaixo. Entre quem mede a economia unitária, mesmo que em casos selecionados, 75% relatam retorno dentro ou acima do esperado, contra 45% entre quem não mede. A própria Bain ressalta que a pesquisa não estabelece causa e efeito."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CUSTO",
+      "titulo": "Custo por tarefa é a medida que quase ninguém tem",
+      "texto": "Com 6% medindo de forma consistente e 49% só em alguns casos, a maioria não consegue dizer quanto custa cada fluxo automatizado. Para empresa média, que paga por consumo, isso vale antes de ampliar o uso."
+    },
+    {
+      "rotulo": "02 · LIMITE",
+      "titulo": "Limite de gasto por agente ainda é exceção",
+      "texto": "A revisão humana, citada por 87%, protege contra ação indevida, mas não contra consumo alto. A Bain recomenda limites que atuem enquanto o agente roda, e só 17% dizem ter freio automático."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Amostra de grandes empresas, de outros países, feita por consultoria",
+      "texto": "Todas as empresas ouvidas faturam mais de US$ 1 bilhão e estão na América do Norte ou na Europa, e a Bain vende consultoria de finanças e governança. Os números indicam direção, não o retrato de uma empresa média brasileira."
+    }
+  ],
+  "oQueFazer": [
+    "Antes de liberar um novo agente, registrar quem responde por ele, a qual centro de custo o gasto vai e qual é o limite mensal, como a própria Bain recomenda. Depois, comparar o custo por tarefa com o custo atual da mesma tarefa feita por pessoas."
+  ],
+  "fontes": [
+    {
+      "titulo": "77% of CFOs and finance leaders report unexpected agentic AI costs, but only 17% are highly concerned",
+      "origem": "Bain & Company · comunicado · 23 nov 2026",
+      "url": "https://www.bain.com/about/media-center/press-releases/2026/77-of-cfos-and-finance-leaders-report-unexpected-agentic-ai-costs-but-only-17-are-highly-concerned-bain-company/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem mediu", "valor": "Bain & Company" },
+    { "rotulo": "Amostra", "valor": "150 CFOs e líderes sêniores de finanças, empresas com mais de US$ 1 bilhão de receita, América do Norte e Europa" },
+    { "rotulo": "Divulgação", "valor": "23 nov 2026" }
+  ]
+}

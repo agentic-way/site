@@ -1,0 +1,59 @@
+{
+  "id": "gpa-resolucao-ia-agentica-privacidade-supervisao-humana",
+  "publicado_em": "2026-11-25T07:10:00-03:00",
+  "tema": "REGULAÇÃO",
+  "titulo": "Autoridades de proteção de dados aprovam resolução não vinculante sobre agentes de IA, com inventário, logs e supervisão humana",
+  "linha": "A Global Privacy Assembly, que reúne mais de 130 autoridades de mais de 80 países, adotou resolução sobre IA agêntica. Segundo escritório de advocacia, ela pede inventário de agentes, logs de ponta a ponta e decisão humana antes de ações de impacto jurídico.",
+  "linhaFina": "A resolução não cria obrigação por si só. A leitura do Cescon Barrieu é que ela antecipa o que autoridades como a ANPD devem prever em orientações e fiscalizações.",
+  "fontePrimaria": "Global Privacy Assembly, via CNIL e Cescon Barrieu",
+  "leitura": 3,
+  "resumo": [
+    "A 48ª Global Privacy Assembly, realizada de 16 a 18 de novembro de 2026 em Bruxelas, adotou cinco resoluções, entre elas uma sobre IA agêntica com proteção de privacidade.",
+    "Segundo a CNIL, a resolução lembra que as obrigações de proteção de dados pessoais se aplicam a agentes e destaca a supervisão humana.",
+    "Segundo o Cescon Barrieu, o texto não é vinculante, mas indica como as autoridades devem orientar e fiscalizar o tema."
+  ],
+  "corpo": [
+    "A Global Privacy Assembly (GPA) reúne mais de 130 autoridades de proteção de dados de mais de 80 países. Em sua 48ª reunião anual, de 16 a 18 de novembro de 2026, em Bruxelas, adotou cinco resoluções e um plano estratégico para 2027-2030, segundo a CNIL, a autoridade francesa. Uma das resoluções trata de IA agêntica com proteção de privacidade: segundo a CNIL, ela reconhece a capacidade de agentes de processar dados pessoais e tomar decisões automatizadas, lembra que as obrigações de proteção de dados se aplicam e destaca a supervisão humana.",
+    "O detalhamento a seguir vem do resumo publicado em 23 de novembro pelo escritório Cescon Barrieu, e não do texto da resolução, que não foi lido para esta nota. Segundo o escritório, a resolução pede um inventário que cubra finalidades, modelos, ferramentas, fontes de dados, conexões e permissões de cada agente, e alerta para colaboradores que conectam agentes a e-mails, CRMs ou pastas corporativas sem aprovação.",
+    "Ainda segundo o escritório, a organização responde integralmente pelas ações autônomas do agente, mesmo quando ele extrapola as expectativas ou acessa bases indevidas. O texto prevê separar ou desativar a memória de trabalho entre usuários, isolar ambientes de execução e manter logs de ponta a ponta de entradas, saídas e chamadas de ferramentas.",
+    "Para decisões com impacto jurídico ou relevante sobre o titular dos dados, o resumo diz que a resolução prevê pontos de decisão com intervenção humana antes da ação, limitação a ações revogáveis ou reversíveis, possibilidade de pausar o agente e meios de contestação com revisão por pessoa qualificada. Recomenda também avaliação de impacto antes da implantação e testes funcionais e adversariais antes de colocar o agente em operação."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · INVENTÁRIO",
+      "titulo": "A lista de agentes, conexões e permissões passa a ser a base da conversa com o regulador",
+      "texto": "Quem não sabe quais agentes acessam e-mail, CRM ou pastas da empresa não consegue demonstrar controle. O ponto coincide com o que pesquisas recentes mostram sobre agentes criados fora da TI."
+    },
+    {
+      "rotulo": "02 · LOG",
+      "titulo": "Registro de cada chamada de ferramenta vira requisito de contrato",
+      "texto": "Ao avaliar fornecedor de agente, vale perguntar se há log de entradas, saídas e ações, e por quanto tempo ele é guardado."
+    },
+    {
+      "rotulo": "03 · STATUS",
+      "titulo": "Resolução não vinculante ainda não é regra para a empresa brasileira",
+      "texto": "O próprio resumo do escritório diz que ela não cria obrigações por si só. Não foi confirmado, nas fontes lidas, o que a ANPD pretende fazer com o texto."
+    }
+  ],
+  "oQueFazer": [
+    "Para empresas com agentes em contato com dados pessoais de clientes ou funcionários, a resolução serve de roteiro de perguntas ao DPO e ao fornecedor: o que cada agente acessa, o que fica registrado e em que momento uma pessoa aprova antes da ação."
+  ],
+  "fontes": [
+    {
+      "titulo": "48th Global Privacy Assembly (GPA)",
+      "origem": "CNIL · 20 nov 2026",
+      "url": "https://www.cnil.fr/en/48th-gpa"
+    },
+    {
+      "titulo": "GPA aprova resolução sobre agentes de IA, que deve direcionar regulação sobre o tema",
+      "origem": "Cescon Barrieu · 23 nov 2026",
+      "url": "https://cesconbarrieu.com.br/gpa-aprova-resolucao-sobre-agentes-de-ia-que-deve-direcionar-regulacao-sobre-o-tema/"
+    }
+  ],
+  "ficha": [
+    { "rotulo": "Quem aprovou", "valor": "Global Privacy Assembly, 48ª reunião anual" },
+    { "rotulo": "Quando", "valor": "16 a 18 nov 2026, em Bruxelas" },
+    { "rotulo": "Natureza", "valor": "resolução não vinculante" },
+    { "rotulo": "Divulgação", "valor": "20 nov 2026" }
+  ]
+}
