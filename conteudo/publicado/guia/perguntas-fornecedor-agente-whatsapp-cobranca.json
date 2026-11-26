@@ -1,8 +1,8 @@
 {
   "id": "perguntas-fornecedor-agente-whatsapp-cobranca",
   "publicado_em": "2026-10-02T00:33:00-03:00",
-  "atualizado_em": "2026-10-02T00:33:00-03:00",
-  "versao": "1.0",
+  "atualizado_em": "2026-11-25T07:50:00-03:00",
+  "versao": "1.1",
   "assunto": "CUSTO",
   "formato": "PERGUNTAS",
   "titulo": "Sete perguntas para o fornecedor do seu agente de WhatsApp depois da cobrança por mensagem",
@@ -39,11 +39,11 @@
     },
     {
       "curta": "Custo por resolução",
-      "pergunta": "Quanto custou, no último mês, cada atendimento resolvido, somando modelo de IA, plataforma de vocês e a fatura da Meta?",
-      "porque": "A própria Meta escreve que comparar o preço da mensagem de serviço com o do Meta Business Agent não é comparar igual com igual, porque quem usa IA de terceiros paga também o modelo. O número que permite comparar opções é o custo total por atendimento resolvido.",
+      "pergunta": "Qual é a unidade de cobrança de vocês (mensagem, licença, janela de conversa ou resolução) e quanto custou, no último mês, cada atendimento resolvido, somando modelo de IA, plataforma de vocês e a fatura da Meta?",
+      "porque": "A própria Meta escreve que comparar o preço da mensagem de serviço com o do Meta Business Agent não é comparar igual com igual, porque quem usa IA de terceiros paga também o modelo. O número que permite comparar opções é o custo total por atendimento resolvido. Alguns fornecedores já saíram da cobrança por mensagem: a Zenvia, por exemplo, anunciou em novembro uma unidade que cobre toda a janela de 24 horas de conversa. Nesse caso, o preço da unidade só se compara com os outros se o fornecedor disser o que conta como uma unidade e se a tarifa da Meta está dentro dela ou fora.",
       "boa": "Um custo por atendimento resolvido com as três parcelas abertas, mesmo que estimado, e a explicação de como foi calculado.",
-      "ruim": "Preço por mensagem ou por licença, sem chegar ao custo por atendimento, ou uma parcela que fica de fora.",
-      "anote": "Custo total do mês, atendimentos resolvidos e a divisão entre modelo, plataforma e Meta."
+      "ruim": "Preço por mensagem ou por licença, sem chegar ao custo por atendimento, ou uma parcela que fica de fora. Unidade própria (janela, resolução) sem definição escrita de quando uma unidade começa, termina e conta como resolvida.",
+      "anote": "Custo total do mês, atendimentos resolvidos, a divisão entre modelo, plataforma e Meta e, se houver unidade própria, a definição dela."
     },
     {
       "curta": "Recontato",
@@ -72,7 +72,16 @@
   ],
   "fechamento": "Com as respostas na mesa, monte uma linha por opção: volume mensal, mensagens por atendimento resolvido, recontato e custo total por atendimento resolvido. Repita a conta depois da primeira fatura de outubro, que é o primeiro dado real da nova cobrança. Se o provedor não consegue responder às perguntas 3 e 4, esse é o primeiro ponto a resolver antes de renovar ou trocar.",
   "historico": [
-    {"data": "out/2026", "versao": "1.0", "texto": "Publicação. Parte da nota do Radar sobre a cobrança da Meta por mensagens de serviço no WhatsApp Business e da Análise \"No WhatsApp, o agente bom agora é o que fala menos\"."}
+    {
+      "data": "nov/2026",
+      "versao": "1.1",
+      "texto": "item 4 ampliado: a Zenvia lançou em 16 de novembro o Zenvia Agents e passou a cobrar por InteractionZ, unidade em reais que cobre a janela de 24 horas de conversa, em vez de por mensagem. A pergunta agora cobre também fornecedor que cobra por resolução ou por janela."
+    },
+    {
+      "data": "out/2026",
+      "versao": "1.0",
+      "texto": "Publicação. Parte da nota do Radar sobre a cobrança da Meta por mensagens de serviço no WhatsApp Business e da Análise \"No WhatsApp, o agente bom agora é o que fala menos\"."
+    }
   ],
   "fontes": [
     {
@@ -84,6 +93,11 @@
       "titulo": "Upcoming pricing updates for Meta Business Agent, service and utility messages",
       "origem": "Meta for Developers · documentação · atualizada em 28 set 2026",
       "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/non-template-messages"
+    },
+    {
+      "titulo": "Zenvia lança agentes de IA para vendas e atendimento",
+      "origem": "IT Section · 16 nov 2026",
+      "url": "https://itsection.com.br/2026/11/16/zenvia-lanca-agentes-de-ia-para-vendas-e-atendimento/"
     }
   ]
 }
