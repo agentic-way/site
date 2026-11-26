@@ -1,0 +1,66 @@
+{
+  "id": "bain-cfos-custo-agentes-77-inesperado-17-parar",
+  "publicado_em": "2026-11-26T07:15:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Bain: 77% dos CFOs tiveram custo inesperado com agentes de IA, e só 17% conseguem frear um agente que estoura o limite",
+  "linha": "Pesquisa da Bain com 150 CFOs de empresas acima de US$ 1 bilhão de faturamento: só 17% têm como desacelerar ou parar um agente automaticamente, e só 6% medem custo por transação de forma consistente.",
+  "linhaFina": "Levantamento de outubro de 2026 mostra que o controle financeiro de agentes está atrás do uso: 74% já implantaram agentes, mas só 30% definiram limites de gasto por agente.",
+  "fontePrimaria": "Bain & Company",
+  "leitura": 3,
+  "resumo": [
+    "77% dos CFOs e líderes financeiros ouvidos relatam custos de IA agêntica inesperados ou fora do orçamento, mas só 17% estão muito ou extremamente preocupados em controlá-los.",
+    "Só 17% têm como desacelerar ou parar agentes automaticamente quando atingem limites de gasto, e 13% conseguem rastrear custo por equipe ou agente em tempo real.",
+    "Só 6% medem de forma consistente o custo por transação ou fluxo de trabalho na maior parte das implantações."
+  ],
+  "corpo": [
+    "A Bain & Company publicou em 23 de novembro os resultados do Agentic AI Cost Governance Survey, feito em outubro de 2026 com 150 CFOs e líderes financeiros de empresas com faturamento anual acima de US$ 1 bilhão. A amostra não é de empresas médias brasileiras.",
+    "Dos respondentes, 97% esperam que o gasto com IA agêntica cresça nos próximos dois anos, e 66% preveem alta de pelo menos 25%. Entre os que testam ou usam agentes, só 10% capturam quase todo o gasto na contabilidade formal, e só 16% conseguem prever o custo do próximo trimestre com margem de 10%. Dos respondentes, 19% dizem que os custos inesperados foram significativos.",
+    "Sobre controles: a aprovação humana para ações de maior custo ou risco é o mais comum, mas só 40% a têm totalmente implantada. Têm limites de gasto por agente 30%; podem frear ou parar um agente automaticamente 17%; rastreiam custo por equipe ou agente em tempo real 13%.",
+    "Entre as empresas que implantaram agentes (74% do total), 87% exigem revisão de pessoas para toda ação relevante ou para ações acima de limites de risco ou gasto, e só 9% deixam os agentes operar de forma majoritária ou totalmente autônoma. Sobre retorno, 61% dizem que ele atingiu ou superou o esperado e 23% dizem que ficou abaixo."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · LIMITE",
+      "titulo": "Relatório de gasto explica o estouro, não impede",
+      "texto": "A própria Bain diz que um painel com o gasto de ontem não evita o excesso de hoje. Limite por agente e corte automático são o que a pesquisa aponta como ausente."
+    },
+    {
+      "rotulo": "02 · MEDIDA",
+      "titulo": "Custo por tarefa é o número que falta",
+      "texto": "Só 6% medem custo por transação de forma consistente. Sem esse número, a afirmação de que o retorno foi atingido (61%) depende de percepção, não de medida."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem publica vende consultoria de governança",
+      "texto": "A Bain presta serviços de consultoria na área. A amostra é de grandes empresas globais e o número de respondentes é pequeno (150); para empresa média, vale como pergunta a fazer ao fornecedor, não como média de mercado."
+    }
+  ],
+  "oQueFazer": [
+    "Antes de ampliar o uso, pergunte ao fornecedor se é possível definir teto de gasto por agente, receber alerta de consumo e ver o custo por tarefa concluída."
+  ],
+  "fontes": [
+    {
+      "titulo": "AI Agents Are Spending. Are CFOs in Control?",
+      "origem": "Bain & Company · artigo · 23 nov 2026",
+      "url": "https://www.bain.com/insights/ai-agents-are-spending-are-cfos-in-control/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Bain & Company"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "150 CFOs e líderes financeiros de empresas com mais de US$ 1 bilhão de faturamento anual"
+    },
+    {
+      "rotulo": "Campo",
+      "valor": "outubro de 2026"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "23 nov 2026"
+    }
+  ]
+}
