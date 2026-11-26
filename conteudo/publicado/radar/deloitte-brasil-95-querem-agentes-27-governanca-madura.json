@@ -1,0 +1,63 @@
+{
+  "id": "deloitte-brasil-95-querem-agentes-27-governanca-madura",
+  "publicado_em": "2026-11-26T07:15:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Segundo a Deloitte, 95% das empresas brasileiras planejam adotar agentes de IA em até dois anos, mas só 27% têm governança madura, informa a Exame",
+  "linha": "Relatório State of AI in the Enterprise 2026 ouviu 3.235 líderes em 24 países, 115 deles brasileiros. Os números do Brasil foram reportados pela Exame.",
+  "linhaFina": "A distância entre plano de adoção (95%) e governança madura (27%) é o dado central; a amostra brasileira tem 115 executivos.",
+  "fontePrimaria": "Deloitte, via Exame",
+  "leitura": 2,
+  "resumo": [
+    "Segundo o relatório State of AI in the Enterprise 2026, da Deloitte, 95% das organizações no Brasil planejam adotar IA agêntica nos próximos dois anos.",
+    "Só 27% afirmam ter modelos de governança maduros.",
+    "A pesquisa ouviu 3.235 líderes de negócios e de TI em 24 países, entre eles 115 executivos brasileiros."
+  ],
+  "corpo": [
+    "A Exame publicou em 23 de novembro os números brasileiros do relatório State of AI in the Enterprise 2026, da Deloitte. Segundo a reportagem, 95% das organizações no país têm planos de adotar agentes de IA em até dois anos, enquanto apenas 27% afirmam ter modelos de governança maduros.",
+    "A pesquisa ouviu 3.235 líderes de negócios e de TI em 24 países, entre eles 115 executivos brasileiros. Para Jefferson Denti, Chief Disruption Officer da Deloitte, há uma corrida pela adoção, mas a governança não evolui na mesma velocidade.",
+    "A reportagem cita ainda o KPMG Global Tech Report 2026, segundo o qual 45% dos executivos brasileiros relatam múltiplos projetos de IA funcionando de maneira desconectada. A página da Exame aparece com patrocínio da TOTVS, e a nota não consegue conferir os números brasileiros no site da Deloitte, que descreve o relatório global."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · AMOSTRA",
+      "titulo": "115 executivos não representam as empresas médias",
+      "texto": "O recorte brasileiro é pequeno e a Exame não informa o porte das empresas ouvidas. O dado indica direção, não proporção do mercado."
+    },
+    {
+      "rotulo": "02 · DEFINIÇÃO",
+      "titulo": "\"Governança madura\" é autodeclaração",
+      "texto": "Os 27% são de quem afirma ter governança madura. O critério usado pela Deloitte não consta da reportagem."
+    },
+    {
+      "rotulo": "03 · RITMO",
+      "titulo": "O plano vem antes do controle",
+      "texto": "O padrão aparece também em outras pesquisas recentes do Radar: a adoção anunciada corre à frente de política, inventário e limites."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "95% das empresas brasileiras querem adotar IA agêntica, mas só 27% têm governança madura",
+      "origem": "Exame · reportagem · 23 nov 2026",
+      "url": "https://exame.com/inteligencia-artificial/95-das-empresas-brasileiras-querem-adotar-ia-agentica-mas-so-27-tem-governanca-madura/"
+    },
+    {
+      "titulo": "State of AI in the Enterprise 2026",
+      "origem": "Deloitte · página do relatório",
+      "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Deloitte"
+    },
+    {
+      "rotulo": "Amostra",
+      "valor": "3.235 líderes em 24 países, 115 deles brasileiros"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "23 nov 2026 (reportagem da Exame)"
+    }
+  ]
+}

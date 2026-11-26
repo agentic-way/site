@@ -1,0 +1,63 @@
+{
+  "id": "loadsmart-ai-11-agentes-logistica-80-por-cento-brasil",
+  "publicado_em": "2026-11-26T07:15:00-03:00",
+  "tema": "LANÇAMENTOS",
+  "titulo": "Loadsmart lança no Brasil 11 agentes de IA para logística e diz que eles resolvem cerca de 80% das tarefas sem intervenção humana",
+  "linha": "A taxa é da própria empresa, sem metodologia divulgada nem medição específica do Brasil. A plataforma conecta-se por API, EDI e MCP e tem prova de conceito gratuita.",
+  "linhaFina": "Os agentes tratam documentos, rastreamento, docas e cobranças; o que foge das regras definidas pelo cliente vai para pessoas.",
+  "fontePrimaria": "Loadsmart, via Exame",
+  "leitura": 3,
+  "resumo": [
+    "A Loadsmart apresentou no Brasil a Loadsmart AI, com 11 agentes para tarefas do ciclo do frete: acompanhamento de pedidos, rastreamento, agendamento, docas, pátio, documentos e sinistros.",
+    "A empresa afirma que cerca de 80% das tarefas recebidas pelos agentes são resolvidas sem intervenção humana.",
+    "Segundo a Exame, a empresa não detalha a metodologia nem divulga resultado específico do Brasil."
+  ],
+  "corpo": [
+    "A Exame publicou em 24 de novembro que a Loadsmart traz ao Brasil a Loadsmart AI, plataforma com 11 agentes para tarefas do transporte de cargas, como rastreamento, agendamento de docas, acompanhamento de pedidos, conciliação de cobranças e auditoria de documentos. Um dos exemplos citados é a leitura de e-mails: ao receber fatura, conhecimento de transporte ou comprovante de entrega, o sistema identifica o documento, extrai os dados e faz o lançamento nos sistemas do cliente.",
+    "A plataforma se conecta aos sistemas existentes por APIs, EDI e MCP, e os sistemas do cliente continuam como fonte oficial dos registros. Situações fora dos parâmetros definidos pelo cliente são encaminhadas a especialistas humanos. A página brasileira da empresa diz que hoje cerca de 80% do que os agentes atendem já é resolvido sem intervenção humana.",
+    "A taxa é divulgada pela própria Loadsmart. A Exame registra que o material não informa o período, o número de clientes ou o volume de tarefas usados no cálculo, nem um resultado da operação brasileira. A empresa afirma também economizar centenas de horas de trabalho manual por semana, sem informar a metodologia.",
+    "A empresa oferece prova de conceito gratuita para configurar um agente em torno de uma tarefa da operação, que segundo o material para o Brasil leva em média 60 dias. O material não divulga tabela de preços nem condições comerciais posteriores."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · TESTE",
+      "titulo": "Prova de conceito limitada a uma tarefa é o formato certo",
+      "texto": "Começar por um fluxo delimitado, como lançamento de faturas ou comprovantes, permite medir o resultado antes de ampliar."
+    },
+    {
+      "rotulo": "02 · INTEGRAÇÃO",
+      "titulo": "A pergunta é com qual sistema ele conversa",
+      "texto": "A empresa cita APIs, EDI e MCP. Cabe confirmar se o TMS ou ERP em uso está entre os conectores disponíveis no Brasil."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "O 80% é número do fornecedor",
+      "texto": "Sem período, base de clientes ou volume, a taxa não permite prever o resultado em outra operação."
+    }
+  ],
+  "oQueFazer": [
+    "Antes de aceitar a prova de conceito, defina qual tarefa será testada, quantas por mês, e peça para medir a taxa de resolução e o custo na sua própria operação."
+  ],
+  "fontes": [
+    {
+      "titulo": "Loadsmart traz ao Brasil 11 agentes de IA que resolvem 80% das tarefas do frete, diz empresa",
+      "origem": "Exame · reportagem · 24 nov 2026",
+      "url": "https://exame.com/tecnologia/loadsmart-agentes-ia-transporte-brasil/"
+    },
+    {
+      "titulo": "Agentes de IA para Logística",
+      "origem": "Loadsmart · página no Brasil",
+      "url": "https://loadsmart.com/pt-br/"
+    }
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem mediu",
+      "valor": "Loadsmart (número da própria empresa)"
+    },
+    {
+      "rotulo": "Divulgação",
+      "valor": "24 nov 2026"
+    }
+  ]
+}
