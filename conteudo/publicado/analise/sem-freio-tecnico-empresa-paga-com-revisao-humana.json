@@ -1,0 +1,77 @@
+{
+  "id": "sem-freio-tecnico-empresa-paga-com-revisao-humana",
+  "publicado_em": "2026-11-27T07:00:00-03:00",
+  "tema": "OPERAÇÃO",
+  "titulo": "Sem freio técnico, a empresa paga o controle do agente com revisão humana, e o agente não escala",
+  "linhaFina": "Quase 42% das empresas brasileiras não têm política para agentes e 36,5% exigem que uma pessoa aprove 100% das ações. Só 17,5% conseguem parar um agente automaticamente. Autonomia depende do freio que age antes da ação.",
+  "frase": "Quem não tem como limitar e parar o agente por regra acaba pondo uma pessoa para aprovar cada ação, e esse arranjo tem teto.",
+  "leitura": 5,
+  "tese": [
+    "Na falta de controle técnico, a empresa média usa a revisão humana como freio principal do agente. Isso mantém o risco baixo e mantém a escala baixa.",
+    "A revisão humana atua depois que o agente decidiu e, em muitos casos, depois que a chamada saiu. O que protege antes da ação é identidade com permissão mínima, limite por transação e um jeito de interromper.",
+    "Antes de ampliar a autonomia de qualquer agente, a empresa deve conseguir responder se sabe limitar o que ele faz e pará-lo sem derrubar a aplicação."
+  ],
+  "p1": "A Zappts, no Panorama da IA no Brasil 2026, encontrou 41,9% das organizações sem política, framework ou regra de governança para agentes de IA. Perguntadas pela primeira vez sobre um AI Gateway, o ponto único de passagem entre agentes e modelos, 55,2% disseram que não têm: 27,9% não procuram e 27,3% não sabem o que é.",
+  "p2": "O que as empresas fizeram no lugar é o que me interessa. Segundo a mesma pesquisa, 36,5% exigem que um profissional revise e aprove 100% das ações geradas pelos agentes, e só 3,6% autorizam um agente a concluir um processo crítico de ponta a ponta. A revisão humana virou o substituto do controle técnico. A pergunta é se ela consegue fazer esse papel.",
+  "h1": "A revisão humana tem teto e chega tarde",
+  "p3": "O primeiro limite é de escala. Na pesquisa da Zappts, 32,1% das empresas têm agentes autônomos em teste, mas só 13,8% chegaram ao uso regular. Não afirmo que a revisão obrigatória seja a causa dessa distância, porque a pesquisa não mede isso. Mas é difícil escalar um agente cujo trabalho todo precisa de uma pessoa ao lado.",
+  "p4": "O segundo limite é de alcance. A própria Zappts observa que a revisão humana não impede que dado sensível já tenha sido enviado a um modelo externo, porque a validação ocorre depois que a chamada foi feita. Aprovar a saída de um agente é diferente de impedir a ação que ele já executou no meio do caminho.",
+  "destaque": "Aprovar o resultado do agente não impede a ação que ele já executou no meio do caminho.",
+  "h2": "O que os incidentes mostram sobre onde o controle falha",
+  "p5": "A Salt Security, em pesquisa com mais de 380 profissionais de segurança e tecnologia, perguntou se, nos últimos 12 meses, um agente tomou uma ação que a organização não pretendia, não esperava ou não autorizou explicitamente. Segundo o relatório, 25,3% confirmaram e 24,5% suspeitam, o que dá 49,8%. Entre esses casos, 53,9% envolveram chamada externa de API ou transação, 49,7% mudança de configuração ou permissão e 41,9% alteração ou exclusão de dados.",
+  "p6": "São ações que acontecem na conexão do agente com os sistemas, onde uma pessoa que lê o resultado depois não está. E o freio automático é raro: só 17,5% dizem conseguir parar um agente automaticamente em produção. 56,1% conseguem parar manualmente em minutos, 12% só derrubando a aplicação e 3,1% não conseguem. A Postman, em pesquisa com mais de 8,9 mil profissionais de API, encontrou o mesmo vazio do lado da identidade: 40% não trataram credenciais e identidade de agentes, e só 25% têm controles de segurança específicos para agentes.",
+  "h3": "O freio que escala age antes, e já tem fornecedor",
+  "p7": "O desenho que a própria Salt recomenda é em camadas: permissão mínima na identidade do agente, política explícita na fronteira da ferramenta ou da API, aprovação humana para operações sensíveis, limite por transação, registro das ações e revogação rápida de credencial ou sessão. A Google anunciou em 20 de novembro, em Preview, políticas em linguagem natural que checam cada chamada de ferramenta do agente antes de ela rodar, com o veredito registrado em log. Quem julga é outro modelo de linguagem, que a própria Google diz ser probabilístico e cujos vereditos podem variar, e por isso recomenda testar em modo de simulação antes de bloquear. É um exemplo de como o controle antes da ação está sendo vendido, não um selo de que resolve. Nesse desenho a pessoa deixa de ser o único controle e passa a decidir só o que é sensível.",
+  "contra": "As três fontes principais vendem o remédio. A Zappts vende transformação agêntica para grandes corporações e tem interesse em que a ausência de gateway pareça um problema; a Salt vende segurança de API e a Google vende o gateway e a política que descrevi. Todas as pesquisas são autodeclaradas e a da Salt tem pouco mais de 380 respostas, de empresas de 1 a mais de 10 mil funcionários, o que não permite dizer nada preciso sobre a empresa média brasileira. O número de 49,8% soma casos confirmados e apenas suspeitos. Também é possível que a revisão humana total seja a escolha certa para a maioria das empresas hoje: um agente que só prepara e uma pessoa que aprova podem render muito, e controle técnico mal configurado cria uma falsa sensação de segurança, sobretudo quando o juiz é outro modelo. Se for assim, o problema não seria excesso de revisão, e sim tratá-la como solução permanente.",
+  "fechamento": "Antes de ampliar a autonomia de um agente, eu faria três perguntas ao fornecedor e à equipe de TI. Com qual identidade e permissões ele age. Qual limite por transação existe fora do próprio agente. E quem consegue interromper, em quanto tempo e sem tirar o sistema do ar. Se a resposta às três for \"uma pessoa revisa\", o agente pode continuar assim, mas a empresa deve parar de esperar que ele escale.",
+  "pontos": [
+    {
+      "rotulo": "01 · IDENTIDADE",
+      "titulo": "Que acesso o agente tem",
+      "texto": "Cada agente deve agir com credencial própria e a menor permissão que o trabalho exige. Se ele usa o login de uma pessoa, o limite é o da pessoa."
+    },
+    {
+      "rotulo": "02 · LIMITE",
+      "titulo": "Quanto ele pode fazer sozinho",
+      "texto": "Valor máximo por transação, tipo de dado que pode sair e ferramentas liberadas, definidos fora do agente, para que ele não consiga renegociar a regra."
+    },
+    {
+      "rotulo": "03 · PARADA",
+      "titulo": "Como se interrompe",
+      "texto": "Teste uma vez: peça a quem opera que pare um agente no meio de uma tarefa e cronometre. Se a resposta é derrubar a aplicação, o freio ainda não existe."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Governança de IA no Brasil é defasada em quase metade das empresas",
+      "origem": "IT Forum · Panorama da IA no Brasil 2026, Zappts · 23 nov 2026",
+      "url": "https://itforum.com.br/noticias/governanca-agentes-ia-empresas-brasil/"
+    },
+    {
+      "titulo": "State of Agentic AI and API Security, 2H 2026",
+      "origem": "Salt Security · relatório, mais de 380 respostas · 2026",
+      "url": "https://content.salt.security/rs/352-UXR-417/images/Salt-Security-State-of-Agentic-AI-API-2H-2026.pdf"
+    },
+    {
+      "titulo": "Survey: Half of Companies Confirm Unauthorized AI Agent Actions",
+      "origem": "Campus Technology · 18 nov 2026",
+      "url": "https://campustechnology.com/articles/2026/11/18/survey-half-of-companies-confirm-unauthorized-ai-agent-actions.aspx"
+    },
+    {
+      "titulo": "One in Four Organizations Now Run AI Agents on APIs in Production, Postman's 2026 State of the API Report Finds",
+      "origem": "Postman · comunicado, mais de 8,9 mil respondentes · 18 nov 2026",
+      "url": "https://www.businesswire.com/news/home/20261118374573/en/One-in-Four-Organizations-Now-Run-AI-Agents-on-APIs-in-Production-Postmans-2026-State-of-the-API-Report-Finds"
+    },
+    {
+      "titulo": "Check what your AI agents do before they do it with semantic governance policies",
+      "origem": "Google Developers Blog · 20 nov 2026",
+      "url": "https://developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/"
+    }
+  ],
+  "baseadoEm": [
+    "zappts-panorama-ia-42-sem-politica-agentes",
+    "salt-security-50-agente-acao-nao-autorizada",
+    "postman-25-agentes-producao-13-apis-prontas",
+    "google-semantic-governance-policies-agentes-preview"
+  ]
+}
