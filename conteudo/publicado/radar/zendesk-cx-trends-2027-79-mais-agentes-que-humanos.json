@@ -1,0 +1,59 @@
+{
+  "id": "zendesk-cx-trends-2027-79-mais-agentes-que-humanos",
+  "publicado_em": "2026-11-27T07:20:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "Zendesk: 79% dos líderes no Brasil esperam mais agentes de IA que humanos no atendimento em até dois anos, e 90% dos consumidores querem uma pessoa disponível",
+  "linha": "O CX Trends 2027, da Zendesk, ouviu mais de 4,4 mil representantes de empresas e mais de 3,1 mil consumidores em dez países. No Brasil, 86% dos líderes defendem cobrança por resultado verificado.",
+  "linhaFina": "Relatório da Zendesk, fornecedora de software de atendimento, divulgado em 17 de novembro. Os números do Brasil foram detalhados pela Exame em 27 de novembro.",
+  "fontePrimaria": "Zendesk, via Exame",
+  "leitura": 3,
+  "resumo": [
+    "79% dos líderes empresariais ouvidos no Brasil esperam ter mais agentes de IA do que atendentes humanos em até dois anos; na média dos dez países, são 74%. É uma expectativa declarada, não uma projeção de demissões.",
+    "90% dos consumidores brasileiros dizem ser importante ter uma pessoa disponível quando necessário, e 85% preferem esperar por uma solução a receber uma resposta imediata que não resolva.",
+    "86% das lideranças brasileiras defendem que fornecedores de IA cobrem por resultados verificados, como demandas resolvidas, e 88% esperam acompanhar o custo por resolução em tempo real."
+  ],
+  "corpo": [
+    "O Zendesk CX Trends 2027 reúne duas pesquisas feitas em julho e agosto de 2026: uma com mais de 3,1 mil consumidores e outra com mais de 4,4 mil representantes de empresas de diferentes portes. Participaram Austrália, Brasil, Colômbia, França, Alemanha, Japão, México, Singapura, Reino Unido e Estados Unidos. Segundo a Zendesk, os resultados foram ponderados para reduzir vieses. A edição foi divulgada em 17 de novembro; a Exame publicou o recorte brasileiro em 27 de novembro, a partir da planilha de dados fornecida pela empresa.",
+    "Do lado dos consumidores brasileiros, 90% consideram importante ter uma pessoa disponível quando necessário (88% na média global), 85% preferem esperar pela resolução a receber uma resposta instantânea sem solução (81% global), e 79% dizem que a IA tornou o atendimento mais rápido, mas não necessariamente melhor (70% global). Além disso, 83% dizem que trocariam de marca depois de uma experiência ruim de atendimento, ante 64% no conjunto dos países. A Exame observa que esse último dado mede intenção declarada, não abandono efetivo.",
+    "Do lado das empresas, 80% dos líderes brasileiros dizem que coordenar vários agentes especializados numa mesma demanda já é um desafio importante, e o mesmo percentual considera urgente criar funções formais de supervisão. Outros 84% afirmam que suas empresas requalificam profissionais de atendimento para orquestrar agentes mais rapidamente do que contratam pessoas de fora para isso.",
+    "O relatório também aponta que 69% dos brasileiros entrevistados usam mais IA para pesquisar, comparar e decidir compras do que um ano antes (49% na média global), e que 58% consideram importante pedir a um assistente pessoal de IA que resolva um problema de atendimento sem contatar a empresa. Segundo a reportagem, a Zendesk defende que essas interações tenham permissões claras, ações rastreáveis e aprovação humana em etapas críticas."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · ESCALA",
+      "titulo": "Mais agentes que atendentes é expectativa, não plano medido",
+      "texto": "Os 79% descrevem o que líderes esperam de suas operações. A própria reportagem ressalta que o estudo não projeta demissões nem substituição equivalente de trabalhadores."
+    },
+    {
+      "rotulo": "02 · MEDIDA",
+      "titulo": "Resolução, não volume, vira a unidade de cobrança",
+      "texto": "Com 86% defendendo pagamento por resultado verificado e 88% querendo ver o custo por resolução em tempo real, vale perguntar a qualquer fornecedor como ele define uma demanda resolvida e quem audita essa contagem."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem publica vende a plataforma",
+      "texto": "A Zendesk vende software de atendimento com agentes de IA. Os números podem estar corretos e ainda assim favorecer a tese de quem os divulgou."
+    }
+  ],
+  "oQueFazer": [
+    "Para quem opera atendimento, os dados sugerem manter uma saída para uma pessoa em todo fluxo automatizado e medir resolução, não só tempo de resposta. Antes de contratar, peça ao fornecedor a definição de resolução usada na cobrança."
+  ],
+  "fontes": [
+    {
+      "titulo": "79% dos líderes no Brasil esperam mais agentes de IA que humanos no atendimento",
+      "origem": "Exame · reportagem · 27 nov 2026",
+      "url": "https://exame.com/tecnologia/zendesk-agentes-ia-atendimento-brasil/"
+    },
+    {
+      "titulo": "CX Trends 2027",
+      "origem": "Zendesk · página do relatório",
+      "url": "https://www.zendesk.fr/company/events/cx-trends-2027/"
+    }
+  ],
+  "ficha": [
+    {"rotulo": "Quem mediu", "valor": "Zendesk"},
+    {"rotulo": "Amostra", "valor": "mais de 4,4 mil representantes de empresas e mais de 3,1 mil consumidores, em 10 países"},
+    {"rotulo": "Campo", "valor": "julho e agosto de 2026"},
+    {"rotulo": "Divulgação", "valor": "17 nov 2026"}
+  ]
+}

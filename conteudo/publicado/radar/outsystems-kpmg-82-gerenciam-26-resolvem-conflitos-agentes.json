@@ -1,0 +1,56 @@
+{
+  "id": "outsystems-kpmg-82-gerenciam-26-resolvem-conflitos-agentes",
+  "publicado_em": "2026-11-27T07:20:00-03:00",
+  "tema": "PESQUISA",
+  "titulo": "OutSystems, com CIO Dive e KPMG: 82% dos executivos dizem acompanhar a gestão de agentes, mas só 26% dizem resolver conflitos entre eles",
+  "linha": "Pesquisa com 858 executivos de TI, feita em junho de 2026: só 5% têm controles automatizados, trilha de auditoria e momentos documentados de revisão humana.",
+  "linhaFina": "Levantamento encomendado pela OutSystems, fornecedora de plataforma, e conduzido pela CIO Dive, com comentário da KPMG. A amostra é global e vem da base de contatos da própria CIO Dive.",
+  "fontePrimaria": "OutSystems / CIO Dive / KPMG",
+  "leitura": 3,
+  "resumo": [
+    "82% dos executivos dizem que sua organização consegue acompanhar a governança, a integração e o monitoramento de agentes em produção, mas só 26% dizem estar bem preparados para resolver conflitos entre agentes.",
+    "83% usam processos existentes de TI, segurança ou conformidade para supervisionar agentes; só 5% têm controles automatizados, trilhas de auditoria e momentos de revisão humana documentados.",
+    "74% citam a integração com aplicações e sistemas existentes como prioridade, 63% a orquestração de agentes entre sistemas e 62% a possibilidade de trocar de modelo, fornecedor ou plataforma."
+  ],
+  "corpo": [
+    "A OutSystems divulgou o relatório feito em parceria com a CIO Dive e a KPMG. A pesquisa foi uma enquete online da CIO Dive em junho de 2026, com 858 executivos, selecionados da base de contatos da própria CIO Dive. A OutSystems se descreve como plataforma de sistemas agênticos e usa o relatório para apresentar novas funções da plataforma. O comunicado não traz data nas páginas lidas; a cobertura do WINMAG Pro é de 26 de novembro.",
+    "O contraste central é entre confiança e preparo: 82% dizem acompanhar a gestão de agentes em produção, enquanto 26% dizem estar bem preparados para tratar problemas e conflitos entre agentes, sistemas e fluxos automatizados. Segundo a OutSystems, a supervisão ainda depende muito de intervenção humana e procedimentos manuais.",
+    "Sobre o que as empresas priorizam ao escolher plataformas, 81% consideram muito importante testar, avaliar e validar o comportamento dos agentes. 35% citam consistência de dados e compartilhamento de contexto como obstáculo importante na orquestração. Como medida de sucesso, a redução de erros lidera, com 64%; só 12% dizem que agentes aceleraram o lançamento de novos produtos, serviços ou experiências.",
+    "O recorte regional da pesquisa é de Europa, América do Norte e Ásia-Pacífico; o comunicado não traz dados do Brasil."
+  ],
+  "consequencias": [
+    {
+      "rotulo": "01 · CONFIANÇA",
+      "titulo": "Dizer que gerencia não é o mesmo que saber resolver conflitos",
+      "texto": "A distância entre 82% e 26% sugere perguntar, antes de ampliar o número de agentes, quem decide quando dois agentes ou sistemas se contradizem."
+    },
+    {
+      "rotulo": "02 · CONTROLE",
+      "titulo": "Revisão manual não escala com mais agentes",
+      "texto": "Só 5% têm controles automatizados, auditoria e revisão humana documentada. O que está documentado é o que se consegue mostrar a um auditor."
+    },
+    {
+      "rotulo": "03 · FONTE",
+      "titulo": "Quem publica vende a plataforma de controle",
+      "texto": "A OutSystems vende plataforma para orquestrar agentes e apresenta o relatório junto de novas funções. A amostra vem da base de uma publicação de TI, não de uma seleção aleatória."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Report finds just 26% of enterprises are well prepared to manage AI agent conflicts as adoption moves into production",
+      "origem": "OutSystems · comunicado",
+      "url": "https://www.outsystems.com/news/outsystems-research-agentic-ai-enterprise-readiness"
+    },
+    {
+      "titulo": "Research reveals that companies are not ready for the challenges of the agentic era",
+      "origem": "WINMAG Pro · 26 nov 2026",
+      "url": "https://www.winmagpro.nl/en/research-reveals-that-companies-are-not-ready-for-the-challenges-of-the-agentic-ai-era"
+    }
+  ],
+  "ficha": [
+    {"rotulo": "Quem mediu", "valor": "CIO Dive, para a OutSystems"},
+    {"rotulo": "Amostra", "valor": "858 executivos, da base de contatos da CIO Dive"},
+    {"rotulo": "Campo", "valor": "junho de 2026"},
+    {"rotulo": "Divulgação", "valor": "26 nov 2026 (data da cobertura do WINMAG Pro)"}
+  ]
+}
